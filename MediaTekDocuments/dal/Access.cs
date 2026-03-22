@@ -84,6 +84,7 @@ namespace MediaTekDocuments.dal
         public List<Categorie> GetAllGenres()
         {
             IEnumerable<Genre> lesGenres = TraitementRecup<Genre>(GET, "genre", null);
+            Console.WriteLine("Liste : " + (lesGenres != null ? "Success" : "Failed"));
             return new List<Categorie>(lesGenres);
         }
 
@@ -105,6 +106,16 @@ namespace MediaTekDocuments.dal
         {
             IEnumerable<Public> lesPublics = TraitementRecup<Public>(GET, "public", null);
             return new List<Categorie>(lesPublics);
+        }
+
+        /// <summary>
+        /// Retourne tous les documents enregistrés dans la BDD
+        /// </summary>
+        /// <returns></returns>
+        public List<Document> GetAllDocuments()
+        {
+            List<Document> lesDoc = TraitementRecup<Document>(GET, "document", null);
+            return lesDoc;
         }
 
         /// <summary>
@@ -137,6 +148,45 @@ namespace MediaTekDocuments.dal
             return lesRevues;
         }
 
+        /// <summary>
+        /// Retourne toutes les commandes à partir de la BDD 
+        /// </summary>
+        /// <returns>Liste d'objets Commande</returns>
+        public List<Commande> GetAllCommandes()
+        {
+            List<Commande> lesCommandes = TraitementRecup<Commande>(GET, "commande", null);
+            return lesCommandes;
+        }
+
+        /// <summary>
+        /// Retourne tous les abonnements à partir de la BDD
+        /// </summary>
+        /// <returns></returns>
+        public List<Abonnement> GetAllAbonnements()
+        {
+            List<Abonnement> lesAbonnements = TraitementRecup<Abonnement>(GET, "abonnement", null);
+            return lesAbonnements;
+        }
+
+        /// <summary>
+        /// Retourne tous les suivis à partir de la BDD
+        /// </summary>
+        /// <returns>List d'objets suivi</returns>
+        public List<Suivi> GetAllSuivis()
+        {
+            List<Suivi> lesSuivis = TraitementRecup<Suivi>(GET, "suivi", null);
+            return lesSuivis;
+        }
+
+        /// <summary>
+        /// Retourne les abonnements arrivant à échéance
+        /// </summary>
+        /// <returns></returns>
+        public List<Abonnement> GetAbonnementsEcheance()
+        {
+            List<Abonnement> lesAbonnementsEcheance = TraitementRecup<Abonnement>(GET, "abonnementecheance", null);
+            return lesAbonnementsEcheance;
+        }
 
         /// <summary>
         /// Retourne les exemplaires d'une revue
@@ -157,7 +207,7 @@ namespace MediaTekDocuments.dal
         /// <returns>Liste d'objets Exemplaire</returns>
         public List<Exemplaire> GetExemplairesDocument(string idDocument)
         {
-            String jsonIdDocument = "{\"id\":\"" + idDocument + "\"}";
+            String jsonIdDocument = convertToJson("id", idDocument);
             List<Exemplaire> lesExemplairesDocument = TraitementRecup<Exemplaire>(GET, "exemplaire/" + jsonIdDocument, null);
             return lesExemplairesDocument;
         }
@@ -169,10 +219,23 @@ namespace MediaTekDocuments.dal
         /// <returns>Liste d'objets CommandeDocument</returns>
         public List<CommandeDocument> GetCommandesDocument(string idDocument)
         {
-            String jsonIdDocument = "{\"id\":\"" + idDocument + "\"}";
+            String jsonIdDocument = convertToJson("id", idDocument);
             List<CommandeDocument> lesCommandesDocument = TraitementRecup<CommandeDocument>(GET, "commandedocument/" + jsonIdDocument, null);
             return lesCommandesDocument;
         }
+
+        /// <summary>
+        /// Retourne les abonnements d'une revue
+        /// </summary>
+        /// <param name="idDocument"></param>
+        /// <returns></returns>
+        public List<Abonnement> GetAbonnementsRevue(string idDocument)
+        {
+            String jsonIdDocument = convertToJson("id", idDocument);
+            List<Abonnement> lesAbonnementsRevue = TraitementRecup<Abonnement>(GET, "abonnementrevue/" + jsonIdDocument, null);
+            return lesAbonnementsRevue;
+        }
+
 
         /// <summary>
         /// ecriture d'un exemplaire en base de données
@@ -226,33 +289,6 @@ namespace MediaTekDocuments.dal
             return false;
         }
 
-        /// <summary>
-        /// ecriture d'un livre en base de données
-        /// </summary>
-        /// <param name="id">id du livre</param>
-        /// <param name="Isbn">isbn du livre</param>
-        /// <param name="auteur">auteur du livre</param>
-        /// <param name="collection">collection du livre</param>
-        /// <returns>true si l'insertion a pu se faire</returns>
-        public bool CreerLivre(string id, string Isbn, string auteur, string collection)
-        {
-            String jsonLivre = "{ \"id\" : \"" + id + "\", " +
-                "                 \"isbn\" : \"" + Isbn + "\", " +
-                "                 \"auteur\" : \"" + auteur + "\", " +
-                "                 \"collection\" : \"" + collection + "\"}";
-            Console.WriteLine("JSON Livre: " + jsonLivre);
-            try
-            {
-                List<Livre> liste = TraitementRecup<Livre>(POST, "livre", "champs=" + jsonLivre);
-                Console.WriteLine("Liste Livres: " + (liste != null ? "Success" : "Failed"));
-                return (liste != null);
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
-            return false;
-        }
 
         /// <summary>
         /// Modification d'un document en base de données
@@ -285,6 +321,35 @@ namespace MediaTekDocuments.dal
             }
             return false;
         }
+
+        /// <summary>
+        /// ecriture d'un livre en base de données
+        /// </summary>
+        /// <param name="id">id du livre</param>
+        /// <param name="Isbn">isbn du livre</param>
+        /// <param name="auteur">auteur du livre</param>
+        /// <param name="collection">collection du livre</param>
+        /// <returns>true si l'insertion a pu se faire</returns>
+        public bool CreerLivre(string id, string Isbn, string auteur, string collection)
+        {
+            String jsonLivre = "{ \"id\" : \"" + id + "\", " +
+                "                 \"isbn\" : \"" + Isbn + "\", " +
+                "                 \"auteur\" : \"" + auteur + "\", " +
+                "                 \"collection\" : \"" + collection + "\"}";
+            Console.WriteLine("JSON Livre: " + jsonLivre);
+            try
+            {
+                List<Livre> liste = TraitementRecup<Livre>(POST, "livre", "champs=" + jsonLivre);
+                Console.WriteLine("Liste Livres: " + (liste != null ? "Success" : "Failed"));
+                return (liste != null);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            return false;
+        }
+
 
         /// <summary>
         /// Modification d'un livre en base de données
@@ -336,6 +401,306 @@ namespace MediaTekDocuments.dal
             }
             return false;
         }
+
+        /// <summary>
+        /// Ecriture d'un dvd en base de données
+        /// </summary>
+        /// <param name="id">id du dvd</param>
+        /// <param name="synopsis">synopsis du dvd</param>
+        /// <param name="realisateur">realisateur du dvd</param>
+        /// <param name="duree">duree du dvd</param>
+        /// <returns>true si la création a pu se faire</returns>
+        public bool CreerDvd(string id, string synopsis, string realisateur, int duree)
+        {
+            String jsonDvd = "{ \"id\" : \"" + id +  "\", " +
+                "              \"synopsis\" : \"" + synopsis + "\", " +
+                "              \"realisateur\" : \"" + realisateur + "\", " +
+                "              \"duree\" : \"" + duree + "\"} ";
+            Console.WriteLine("Json Dvd: " + jsonDvd);
+            try
+            {
+                List<Dvd> liste = TraitementRecup<Dvd>(POST, "dvd", "champs=" + jsonDvd);
+                Console.WriteLine("Liste Dvd: " + (liste != null ? "Success" : "Failed"));
+                return (liste != null);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            return false;
+        }
+
+
+        /// <summary>
+        /// Modification d'un dvd en base de données
+        /// </summary>
+        /// <param name="id">id du dvd</param>
+        /// <param name="synopsis">synopsis du dvd</param>
+        /// <param name="realisateur">realisateur du dvd</param>
+        /// <param name="duree">duree du dvd</param>
+        /// <returns>true si la modification a pu se faire</returns>
+        public bool ModifierDvd(string id, string synopsis, string realisateur, int duree)
+        {
+            String jsonDvd = "{ \"id\" : \"" + id + "\", " +
+                "              \"synopsis\" : \"" + synopsis + "\", " +
+                "              \"realisateur\" : \"" + realisateur + "\", " +
+                "              \"duree\" : \"" + duree + "\"} ";
+            Console.WriteLine("Json Dvd: " + jsonDvd);
+            try
+            {
+                List<Dvd> liste = TraitementRecup<Dvd>(PUT, "dvd", "id=" + id + "&champs=" + jsonDvd);
+                Console.WriteLine("Liste Dvd: " + (liste != null ? "Success" : "Failed"));
+                return (liste != null);
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            return false;
+        }
+
+        /// <summary>
+        /// Suppression d'un dvd en base de données
+        /// </summary>
+        /// <param name="id">id du dvd</param>
+        /// <returns>true si la suppression a pu se faire</returns>
+        public bool SupprimerDvd(string id)
+        {
+            String jsonIdDvd = "{\"id\":\"" + id + "\"}";
+            Console.WriteLine("Json id Dvd : " + jsonIdDvd);
+            try
+            {
+                List<Dvd> liste = TraitementRecup<Dvd>(DELETE, "dvd/" + jsonIdDvd, null);
+                return (liste != null);
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            return false;
+        }
+
+        /// <summary>
+        /// Ecriture d'une revue en base de données
+        /// </summary>
+        /// <param name="id">id de la revue</param>
+        /// <param name="periodicite">periodicité de la revue</param>
+        /// <param name="delaiMiseADispo">delai de mise à dispo de la revue</param>
+        /// <returns>true si l'insertion a pu se faire</returns>
+        public bool CreerRevue(string id, string periodicite, int delaiMiseADispo)
+        {
+            String jsonRevue = "{ \"id\" : \"" + id + "\", " +
+                "              \"periodicite\" : \"" + periodicite + "\", " +
+                "              \"delaiMiseADispo\" : \"" + delaiMiseADispo + "\"} ";
+            Console.WriteLine("Json Revue " + jsonRevue);
+            try
+            {
+                List<Revue> liste = TraitementRecup<Revue>(POST, "revue", "champs=" + jsonRevue);
+                Console.WriteLine("Liste Revue: " + (liste != null ? "Success" : "Failed"));
+                return (liste != null);
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            return false;
+        }
+        
+        /// <summary>
+        /// Modification d'une revue en base de données
+        /// </summary>
+        /// <param name="id">id de la revue</param>
+        /// <param name="periodicite">periodicite de la revue</param>
+        /// <param name="delaiMiseADispo">delai de mise à dispo de la revue</param>
+        /// <returns>true si la modification a pu se faire</returns>
+        public bool ModifierRevue(string id, string periodicite, int delaiMiseADispo)
+        {
+            String jsonRevue = "{ \"id\" : \"" + id + "\", " +
+                "              \"periodicite\" : \"" + periodicite + "\", " +
+                "              \"delaiMiseADispo\" : \"" + delaiMiseADispo + "\"} ";
+            Console.WriteLine("Json Revue " + jsonRevue);
+            try
+            {
+                List<Revue> liste = TraitementRecup<Revue>(PUT, "revue", "id=" + id + "&champs=" + jsonRevue);
+                Console.WriteLine("Liste Revue: " + (liste != null ? "Success" : "Failed"));
+                return (liste != null);
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            return false;
+        }
+
+        /// <summary>
+        /// Suppression d'une revue en base de données
+        /// </summary>
+        /// <param name="id">id de la revue</param>
+        /// <returns>true si la suppression a pu se faire</returns>
+        public bool SupprimerRevue(string id)
+        {
+            String jsonIdRevue = "{\"id\":\"" + id + "\"}";
+            Console.WriteLine("Json id revue : " + jsonIdRevue);
+            try
+            {
+                List<Revue> liste = TraitementRecup<Revue>(DELETE, "revue/" + jsonIdRevue, null);
+                return (liste != null);
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            return false;
+        }
+
+        /// <summary>
+        /// Ecriture d'une commande en base de données
+        /// </summary>
+        /// <param name="commande">Commande à insérer</param>
+        /// <returns>true si l'insertion a pu se faire</returns>
+        public bool CreerCommande(Commande commande)
+        {
+            String jsonCommande = JsonConvert.SerializeObject(commande, new CustomDateTimeConverter());
+            try
+            {
+                List<Commande> liste = TraitementRecup<Commande>(POST, "commande", "champs=" + jsonCommande);
+                return (liste != null);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            return false;
+        }
+
+        /// <summary>
+        /// Ecriture d'une commande d'un document en base de données
+        /// </summary>
+        /// <param name="id">id de la commande</param>
+        /// <param name="nbExemplaire">nb d'exemplaires de la commande</param>
+        /// <param name="idLivreDvd">id du livreDVD de la commande</param>
+        /// <param name="idSuivi">id du suivi de la commande </param>
+        /// <returns>true si l'insertion a pu se faire</returns>
+        public bool CreerCommandeDocument(string id, int nbExemplaire, string idLivreDvd, string idSuivi)
+        {
+            String jsonCommandeDocument = "{ \"id\" : \"" + id + "\", " +
+                        "                    \"nbExemplaire\" : \"" + nbExemplaire + "\", " +
+                        "                    \"idLivreDvd\" : \"" + idLivreDvd + "\", " +
+                        "                    \"idSuivi\" : \"" + idSuivi + "\"}";
+            Console.WriteLine(jsonCommandeDocument);
+            try
+            {
+                List<CommandeDocument> liste = TraitementRecup<CommandeDocument>(POST, "commandedocument", "champs=" + jsonCommandeDocument);
+                return (liste != null);
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            return false;
+        }
+
+        /// <summary>
+        /// Modification du suivi d'une commande dans la bdd
+        /// </summary>
+        /// <param name="id">id du nouveau suivi</param>
+        /// <returns>true si la modification a pu se faire</returns>
+        public bool ModifierSuiviCommandeDocument(string id, string idSuivi)
+        {
+            String jsonCommandeDocument = "{ \"id\" : \"" + id + "\", " +
+                        "                    \"idSuivi\" : \"" + idSuivi + "\"}";
+            Console.WriteLine(jsonCommandeDocument);
+            try
+            {
+                List<CommandeDocument> liste = TraitementRecup<CommandeDocument>(PUT, "commandedocument", "id=" + id + "&champs=" + jsonCommandeDocument);
+                return (liste != null);
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            return false;
+        }
+        
+        /// <summary>
+        /// Suppression d'une commande d'un document en base de données
+        /// </summary>
+        /// <param name="id">id de la commande</param>
+        /// <returns>true si la suppression a pu se faire</returns>
+        public bool SupprimerCommandeDocument(string id)
+        {
+            String jsonIdCommande = "{\"id\":\"" + id + "\"}";
+            Console.WriteLine(jsonIdCommande);
+            try
+            {
+                List<CommandeDocument> liste = TraitementRecup<CommandeDocument>(DELETE, "commandedocument/" + jsonIdCommande, null);
+                return (liste != null);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            return false;
+        }
+
+        /// <summary>
+        /// Ecriture d'un abonnement d'une revue en base de données
+        /// </summary>
+        /// <param name="abonnement">Abonnement à insérer</param>
+        /// <returns>true si l'insertion a pu se faire</returns>
+        public bool CreerAbonnementRevue(string id, DateTime dateFinAbonnement, string idRevue)
+        {
+            String jsonDateFinAbonnement = JsonConvert.SerializeObject(dateFinAbonnement, new CustomDateTimeConverter());
+            String jsonAbonnementRevue = "{ \"id\" : \"" + id + "\", " +
+            "                    \"dateFinAbonnement\" : " + jsonDateFinAbonnement + ", " +
+            "                    \"idRevue\" : \"" + idRevue + "\"}";
+            Console.WriteLine(jsonAbonnementRevue);
+            try
+            {
+                List<Abonnement> liste = TraitementRecup<Abonnement>(POST, "abonnement", "champs=" + jsonAbonnementRevue);
+                return (liste != null);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            return false;
+        }
+
+        /// <summary>
+        /// Suppression d'un abonnement d'une revue en base de données
+        /// </summary>
+        /// <param name="id">id de l'abonnement</param>
+        /// <returns>true si la suppression a pu se faire</returns>
+        public bool SupprimerAbonnementRevue(string id)
+        {
+            String jsonIdAbonnement = "{\"id\":\"" + id + "\"}";
+            Console.WriteLine(jsonIdAbonnement);
+            try
+            {
+                List<Abonnement> liste = TraitementRecup<Abonnement>(DELETE, "abonnement/" + jsonIdAbonnement, null);
+                return (liste != null);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            return false;
+        }
+
+        /// <summary>
+        /// Vérifier si une parution est associée à une commande donnée
+        /// </summary>
+        /// <param name="dateCommande">date de la commande</param>
+        /// <param name="dateFinAbonnement">date de fin de l'abonnement</param>
+        /// <param name="dateParution">date de parution de la revue</param>
+        /// <returns>true si la date de parution est entre les 2 autres dates</returns>
+        public bool ParutionDansAbonnement(DateTime dateCommande, DateTime dateFinAbonnement, DateTime dateParution)
+        {
+            return (DateTime.Compare(dateCommande, dateParution) < 0
+                 && DateTime.Compare(dateParution, dateFinAbonnement) < 0);
+        }
+
 
         /// <summary>
         /// Traitement de la récupération du retour de l'api, avec conversion du json en liste pour les select (GET)
