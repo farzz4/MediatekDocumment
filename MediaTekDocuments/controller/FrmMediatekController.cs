@@ -110,7 +110,16 @@ namespace MediaTekDocuments.controller
         }
 
         /// <summary>
-        /// Récupère les abonnements arrivant à échéance
+        /// getter sur les états 
+        /// </summary>
+        /// <returns>Liste d'objets Etat</returns>
+        public List<Etat> GetAllEtats()
+        {
+            return access.GetAllEtats();
+        }
+
+        /// <summary>
+        /// getter les abonnements arrivant à échéance
         /// </summary>
         /// <returns></returns>
         public List<Abonnement> GetAbonnementsEcheance()
@@ -119,7 +128,7 @@ namespace MediaTekDocuments.controller
         }
 
         /// <summary>
-        /// récupère les exemplaires d'une revue
+        /// getter sur les exemplaires d'une revue
         /// </summary>
         /// <param name="idDocuement">id de la revue concernée</param>
         /// <returns>Liste d'objets Exemplaire</returns>
@@ -129,30 +138,30 @@ namespace MediaTekDocuments.controller
         }
 
         /// <summary>
-        /// Recupère les exemplaires d'un document
+        /// getter sur les exemplaires d'un document
         /// </summary>
         /// <param name="idDocument">id du document concerné</param>
-        /// <returns></returns>
+        /// <returns>Liste d'objet Exemplaire</returns>
         public List<Exemplaire> GetExemplairesDocument(string idDocument)
         {
             return access.GetExemplairesDocument(idDocument);
         }
 
         /// <summary>
-        /// Récupère les commandes d'un document
+        /// getter sur les commandes d'un document
         /// </summary>
-        /// <param name="idDocument"></param>
-        /// <returns></returns>
+        /// <param name="idDocument">id du document concerné</param>
+        /// <returns>List d'objets CommandeDocument</returns>
         public List<CommandeDocument> GetCommandeDocuments(string idDocument)
         {
             return access.GetCommandesDocument(idDocument);
         }
 
         /// <summary>
-        /// Récupère les abonnements d'une revue
+        /// getter sur les abonnements d'une revue
         /// </summary>
-        /// <param name="idDocument"></param>
-        /// <returns></returns>
+        /// <param name="idDocument">id du document concerné</param>
+        /// <returns>Liste d'objets Abonnement</returns>
         public List<Abonnement> GetAbonnementsRevue(string idDocument)
         {
             return access.GetAbonnementsRevue(idDocument);
@@ -383,6 +392,27 @@ namespace MediaTekDocuments.controller
             return access.ParutionDansAbonnement(dateCommande, dateFinAbonnement, dateParution);
         }
 
+
+        /// <summary>
+        /// Modifie l'état d'un exemplaire d'un document
+        /// </summary>
+        /// <param name="numero">numéro de l'exemplaire</param>
+        /// <param name="idEtat">id de l'état à modifier</param>
+        /// <returns>true si la modification a pu se faire</returns>
+        public bool ModifierEtatExemplaireDocument(Exemplaire exemplaire)
+        {
+            return access.ModifierEtatExemplaireDocument(exemplaire);
+        }
+
+        /// <summary>
+        /// Supprime un exemplaire d'un document dans la bdd
+        /// </summary>
+        /// <param name="exemplaire">Exemplaire à supprimer</param>
+        /// <returns>true si la suppression a pu se faire </returns>
+        public bool SupprimerExemplaireDocument(Exemplaire exemplaire)
+        {
+            return access.SupprimerExemplaireDocument(exemplaire);
+        }
     }
 
 }
