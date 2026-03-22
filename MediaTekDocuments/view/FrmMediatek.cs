@@ -360,6 +360,383 @@ namespace MediaTekDocuments.view
             }
             RemplirLivresListe(sortedList);
         }
+
+        /// <summary>
+        /// Préparation de l'interface pour l'ajout d'un livre
+        /// </summary>
+        private void encoursAjout(bool valeur)
+        {
+            VideLivresInfos();
+            grpLivresRecherche.Enabled = !valeur;
+            txbLivresNumero.ReadOnly = !valeur;
+            txbLivresIsbn.ReadOnly = !valeur;
+            txbLivresTitre.ReadOnly = !valeur;
+            txbLivresAuteur.ReadOnly = !valeur;
+            txbLivresCollection.ReadOnly = !valeur;
+            txbLivresGenre.Visible = !valeur;
+            cbxLivresGenre.Visible = valeur;
+            cbxLivresGenre.Enabled = valeur;
+            txbLivresPublic.Visible = !valeur;
+            cbxLivresPublic.Visible = valeur;
+            cbxLivresPublic.Enabled = valeur;
+            txbLivresRayon.Visible = !valeur;
+            cbxLivresRayon.Visible = valeur;
+            cbxLivresRayon.Enabled = valeur;
+            txbLivresImage.ReadOnly = !valeur;
+            btnValModLivre.Visible = false;
+            btnValAjLivre.Visible = valeur;
+            btnAnnLivre.Visible = valeur;
+            btnValAjLivre.Enabled = valeur;
+            btnAnnLivre.Enabled = valeur;
+            btnAjoutLivre.Enabled = !valeur;
+            btnModifLivre.Enabled = !valeur;
+            btnSupprLivre.Enabled = !valeur;
+            if (valeur)
+            {
+                RemplirCbxLivresGenre();
+                RemplirCbxLivresPublic();
+                RemplirCbxLivresRayon();
+            }
+        }
+
+
+        /// <summary>
+        /// Remplir le combo avec les genres
+        /// </summary>
+        private void RemplirCbxLivresGenre()
+        {
+            List<Categorie> lesGenres = controller.GetAllGenres();
+            foreach(Categorie unGenre in lesGenres)
+            {
+                cbxLivresGenre.Items.Add(unGenre.Libelle);
+            }
+            if (cbxLivresGenre.Items.Count > 0)
+            {
+                cbxLivresGenre.SelectedIndex = 0;
+            }
+        }
+
+        /// <summary>
+        /// Remplir le combo avec les publics 
+        /// </summary>
+        private void RemplirCbxLivresPublic()
+        {
+            List<Categorie> lesPublics = controller.GetAllPublics();
+            foreach(Categorie unPublic in lesPublics)
+            {
+                cbxLivresPublic.Items.Add(unPublic.Libelle);
+            }
+            if (cbxLivresPublic.Items.Count > 0)
+            {
+                cbxLivresPublic.SelectedIndex = 0;
+            }
+        }
+
+        /// <summary>
+        /// Remplir le combo avec les rayons
+        /// </summary>
+        private void RemplirCbxLivresRayon()
+        {
+            List<Categorie> lesRayons = controller.GetAllRayons();
+            foreach(Categorie unRayon in lesRayons)
+            {
+                cbxLivresRayon.Items.Add(unRayon.Libelle);
+            }
+            if (cbxLivresRayon.Items.Count > 0)
+            {
+                cbxLivresRayon.SelectedIndex = 0;
+            }
+        }        
+
+        /// <summary>
+        /// Evenement au clic du bouton "ajouter"
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void btnAjoutLivre_Click(object sender, EventArgs e)
+        {
+            encoursAjout(true);
+        }
+
+        /// <summary>
+        /// Annuler l'insertion d'un nouveau livre
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void btnAnnLivre_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Êtes-vous sûr(e) de vouloir annuler l'action ? ",
+                                "Demande de confirmation", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            {
+                encoursAjout(false);
+                encoursModif(false);
+            }
+        }
+
+        /// <summary>
+        /// Obtenir l'id d'un genre sélectionné
+        /// </summary>
+        /// <param name="genre"></param>
+        /// <returns></returns>
+        private string getIdGenreDoc(string genre)
+        {
+            List<Categorie> lesGenres = controller.GetAllGenres();
+            foreach(Categorie unGenre in lesGenres)
+            {
+                if(unGenre.Libelle == genre)
+                {
+                    return unGenre.Id;
+                }
+            }
+            return null;
+        }
+
+        /// <summary>
+        /// Obtenir l'id d'un public sélectionné
+        /// </summary>
+        /// <param name="lepublic"></param>
+        /// <returns></returns>
+        private string getIdPublicDoc(string lepublic)
+        {
+            List<Categorie> lesPublics = controller.GetAllPublics();
+            foreach(Categorie unPublic in lesPublics)
+            {
+                if(unPublic.Libelle == lepublic)
+                {
+                    return unPublic.Id;
+                }
+            }
+            return null;
+        }
+
+        /// <summary>
+        /// Obtenir l'id d'un rayon sélectionné 
+        /// </summary>
+        /// <param name="rayon"></param>
+        /// <returns></returns>
+        private string getIdRayonDoc(string rayon)
+        {
+            List<Categorie> lesRayons = controller.GetAllRayons();
+            foreach(Categorie unRayon in lesRayons)
+            {
+                if (unRayon.Libelle == rayon)
+                {
+                    return unRayon.Id;
+                }
+            }
+            return null;
+        }
+
+        /// <summary>
+        /// Test si un livre existe déjà avec le même id dans la bdd 
+        /// </summary>
+        /// <param name="idLivre"></param>
+        /// <returns></returns>
+        private bool livreExiste(string idLivre)
+        {
+            List<Livre> lesLivres = controller.GetAllLivres();
+            foreach(Livre unLivre in lesLivres)
+            {
+                if (unLivre.Id == idLivre)
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        /// <summary>
+        /// Ajouer un livre dans la base de données
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void btnValAjLivre_Click(object sender, EventArgs e)
+        {
+            // Test si les champs nécessaires ont été renseignés 
+            if (!txbLivresNumero.Text.Equals("") && !txbLivresTitre.Text.Equals("") 
+                && !cbxLivresGenre.Text.Equals("") && !cbxLivresPublic.Text.Equals("") 
+                && !cbxLivresRayon.Text.Equals("")){
+                try
+                {
+                    // Récupérer les informations saisies 
+                    string id = txbLivresNumero.Text;
+                    string isbn = txbLivresIsbn.Text;
+                    string titre = txbLivresTitre.Text;
+                    string auteur = txbLivresAuteur.Text;
+                    string collection = txbLivresCollection.Text;
+                    string genre = cbxLivresGenre.Text;
+                    string idGenre = getIdGenreDoc(genre);
+                    string Public = cbxLivresPublic.Text;
+                    string idPublic = getIdPublicDoc(Public);
+                    string rayon = cbxLivresRayon.Text;
+                    string idRayon = getIdRayonDoc(rayon);
+                    string image = txbLivresImage.Text;
+
+                    // Créer le document et le livre 
+                    Document document = new Document(id, titre, image, idGenre, genre, idPublic, Public, idRayon, rayon);
+                    Livre livre = new Livre(id, titre, image, isbn, auteur, collection, idGenre, genre, idPublic, Public, idRayon, rayon);
+
+                    // si le livre n'existe pas déjà dans la base de données
+                    if (!livreExiste(id))
+                    {
+                        // si les créations de document + livres fonctionnent 
+                        if (controller.CreerDocument(document.Id, document.Titre, document.Image, document.IdRayon, document.IdPublic, document.IdGenre)
+                             && controller.CreerLivre(livre.Id, livre.Isbn, livre.Auteur, livre.Collection))
+                        {
+                            // recharger le datagridview avec les nouvelles informations
+                            lesLivres = controller.GetAllLivres();
+                            RemplirLivresListeComplete();
+                            encoursAjout(false);
+                            MessageBox.Show("Le livre nommé " + titre + " a bien été ajouté", "Infomation");
+                        }
+                    }
+                    else{MessageBox.Show("Un document existe déjà avec ce numéro dans la base de données, veuillez en saisir un autre", "Information");}
+                }
+                catch{MessageBox.Show("Une erreur est survenue lors de la récupération des données", "Information");}
+            }
+            else{MessageBox.Show("Les champs 'numero', 'titre', 'genre', 'public' et 'rayon' sont obligatoires", "Information");}
+        }
+
+        /// <summary>
+        /// Préparation de l'interface pour la modification d'un livre
+        /// </summary>
+        /// <param name="valeur">booléen indiquant si encoursModif est vrai ou non</param>
+        private void encoursModif(bool valeur)
+        {
+            grpLivresRecherche.Enabled = !valeur;
+            txbLivresIsbn.ReadOnly = !valeur;
+            txbLivresTitre.ReadOnly = !valeur;
+            txbLivresAuteur.ReadOnly = !valeur;
+            txbLivresCollection.ReadOnly = !valeur;
+            txbLivresGenre.Visible = !valeur;
+            cbxLivresGenre.Visible = valeur;
+            cbxLivresGenre.Enabled = valeur;
+            txbLivresPublic.Visible = !valeur;
+            cbxLivresPublic.Visible = valeur;
+            cbxLivresPublic.Enabled = valeur;
+            txbLivresRayon.Visible = !valeur;
+            cbxLivresRayon.Visible = valeur;
+            cbxLivresRayon.Enabled = valeur;
+            txbLivresImage.ReadOnly = !valeur;
+            btnValAjLivre.Visible = false;
+            btnValModLivre.Visible = valeur;
+            btnAnnLivre.Visible = valeur;
+            btnValModLivre.Enabled = valeur;
+            btnAnnLivre.Enabled = valeur;
+            btnAjoutLivre.Enabled = !valeur;
+            btnModifLivre.Enabled = !valeur;
+            btnSupprLivre.Enabled = !valeur;
+            if (valeur)
+            {
+                RemplirCbxLivresGenre();
+                RemplirCbxLivresPublic();
+                RemplirCbxLivresRayon();
+                cbxLivresGenre.SelectedItem = txbLivresGenre.Text;
+                cbxLivresPublic.SelectedItem = txbLivresPublic.Text;
+                cbxLivresRayon.SelectedItem = txbLivresRayon.Text;
+            }
+        }
+
+        /// <summary>
+        /// Evenement au clic du bouton "modifier" un livre
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void btnModifLivre_Click(object sender, EventArgs e)
+        {
+            if (txbLivresNumero.Text != "")
+            {
+                encoursModif(true);
+            }
+            else
+            {
+                MessageBox.Show("Un livre doit être sélectionné pour être modifié", "Infomation");
+            }
+        }
+
+        /// <summary>
+        /// Modifier un livre dans la base de données
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void btnValModLivre_Click(object sender, EventArgs e)
+        {
+            // Test si les champs nécessaires ont été renseignés 
+            if (!txbLivresNumero.Text.Equals("") && !txbLivresTitre.Text.Equals("")
+                && !cbxLivresGenre.Text.Equals("") && !cbxLivresPublic.Text.Equals("")
+                && !cbxLivresRayon.Text.Equals(""))
+            {
+                try
+                {
+                    // Récupérer les informations saisies 
+                    string id = txbLivresNumero.Text;
+                    string isbn = txbLivresIsbn.Text;
+                    string titre = txbLivresTitre.Text;
+                    string auteur = txbLivresAuteur.Text;
+                    string collection = txbLivresCollection.Text;
+                    string genre = cbxLivresGenre.Text;
+                    string idGenre = getIdGenreDoc(genre);
+                    string Public = cbxLivresPublic.Text;
+                    string idPublic = getIdPublicDoc(Public);
+                    string rayon = cbxLivresRayon.Text;
+                    string idRayon = getIdRayonDoc(rayon);
+                    string image = txbLivresImage.Text;
+
+                    // si les créations de document + livres fonctionnent 
+                    if (controller.ModifierDocument(id, titre, image, idRayon, idPublic, idGenre)
+                        && controller.ModifierLivre(id, isbn, auteur, collection))
+                    {
+                        // recharger le datagridview avec les nouvelles informations
+                        lesLivres = controller.GetAllLivres();
+                        RemplirLivresListeComplete();
+                        encoursAjout(false);
+                        MessageBox.Show("Le livre nommé " + titre + " a bien été modifié", "Infomation");
+                    }
+                    else { MessageBox.Show("Une erreur est survenue lors de la modification", "Erreur"); }
+                }
+                catch { MessageBox.Show("Une erreur est survenue lors de la récupération des données", "Erreur"); }
+            }
+            else { MessageBox.Show("Les champs 'numero', 'titre', 'genre', 'public' et 'rayon' sont obligatoires", "Information"); }
+        }
+
+        /// <summary>
+        /// Supprimer un livre dans la base de données
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+
+        private void btnSupprLivre_Click(object sender, EventArgs e)
+        {
+            Livre livre = (Livre)bdgLivresListe.Current;
+            if (MessageBox.Show("Êtes-vous sûr(e) de vouloir supprimer le livre " + livre.Titre + "  ? ",
+                                "Demande de confirmation", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            {
+                var exemplaires = controller.GetExemplairesDocument(livre.Id);
+                var commandes = controller.GetCommandeDocuments(livre.Id);
+                if (!exemplaires.Any() && !commandes.Any())
+                {
+                    if (controller.SupprimerLivre(livre.Id))
+                    {
+                        lesLivres = controller.GetAllLivres();
+                        RemplirLivresListeComplete();
+                        MessageBox.Show("Le livre nommé " + livre.Titre + " a bien été supprimé", "Information");
+                    }
+                    else { MessageBox.Show("Une erreur est survenue lors de la suppression", "Erreur"); }
+            }
+            else
+            {
+                if (!exemplaires.Any())
+                {
+                    MessageBox.Show("Le livre est rattaché à un ou plusieurs exemplaire(s)");
+                }
+                else if (!commandes.Any())
+                {
+                    MessageBox.Show("Le livre est rattaché à une ou plusieurs commande(s)");
+                }
+            }
+        }
+        }
+
         #endregion
 
         #region Onglet Dvd
@@ -1238,6 +1615,12 @@ namespace MediaTekDocuments.view
                 pcbReceptionExemplaireRevueImage.Image = null;
             }
         }
+
+
+
+
+
         #endregion
+
     }
 }

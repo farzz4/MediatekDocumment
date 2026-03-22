@@ -13,7 +13,7 @@ namespace MediaTekDocuments.controller
         /// Objet d'accès aux données
         /// </summary>
         private readonly Access access;
-
+ 
         /// <summary>
         /// Récupération de l'instance unique d'accès aux données
         /// </summary>
@@ -82,9 +82,29 @@ namespace MediaTekDocuments.controller
         /// </summary>
         /// <param name="idDocuement">id de la revue concernée</param>
         /// <returns>Liste d'objets Exemplaire</returns>
-        public List<Exemplaire> GetExemplairesRevue(string idDocuement)
+        public List<Exemplaire> GetExemplairesRevue(string idDocument)
         {
-            return access.GetExemplairesRevue(idDocuement);
+            return access.GetExemplairesRevue(idDocument);
+        }
+
+        /// <summary>
+        /// Recupère les exemplaires d'un document
+        /// </summary>
+        /// <param name="idDocument">id du document concerné</param>
+        /// <returns></returns>
+        public List<Exemplaire> GetExemplairesDocument(string idDocument)
+        {
+            return access.GetExemplairesDocument(idDocument);
+        }
+
+        /// <summary>
+        /// Récupère les commandes d'un document
+        /// </summary>
+        /// <param name="idDocument"></param>
+        /// <returns></returns>
+        public List<CommandeDocument> GetCommandeDocuments(string idDocument)
+        {
+            return access.GetCommandesDocument(idDocument);
         }
 
         /// <summary>
@@ -95,6 +115,72 @@ namespace MediaTekDocuments.controller
         public bool CreerExemplaire(Exemplaire exemplaire)
         {
             return access.CreerExemplaire(exemplaire);
+        }
+
+        /// <summary>
+        /// Créé un document dans la bdd
+        /// </summary>
+        /// <param name="id">id du document</param>
+        /// <param name="titre">titre du document</param>
+        /// <param name="image">image du document</param>
+        /// <param name="idRayon">id du rayon du document</param>
+        /// <param name="idPublic">id du public du document</param>
+        /// <param name="idGenre">id du genre du document</param>
+        /// <returns>True si la création a pu se faire</returns>
+        public bool CreerDocument(string id, string titre, string image, string idRayon, string idPublic, string idGenre)
+        {
+            return access.CreerDocument(id, titre, image, idRayon, idPublic, idGenre);
+        }
+
+        /// <summary>
+        /// Créé un livre dans la bdd
+        /// </summary>
+        /// <param name="id">id du livre</param>
+        /// <param name="isbn">isbn du livre</param>
+        /// <param name="auteur">auteur du livre</param>
+        /// <param name="collection">collection du livre</param>
+        /// <returns>True si la création a pu se faire</returns>
+        public bool CreerLivre(string id, string Isbn, string auteur, string collection)
+        {
+            return access.CreerLivre(id, Isbn, auteur, collection);
+        }
+
+        /// <summary>
+        /// Modifie un document dans la bdd
+        /// </summary>
+        /// <param name="id">id du document</param>
+        /// <param name="titre">titre du document</param>
+        /// <param name="image">image du document</param>
+        /// <param name="idRayon">id du rayon du document</param>
+        /// <param name="idPublic">id du public du document</param>
+        /// <param name="idGenre">id du genre du document</param>
+        /// <returns>True si la modification a pu se faire</returns>
+        public bool ModifierDocument(string id, string titre, string image, string idRayon, string idPublic, string idGenre)
+        {
+            return access.ModifierDocument(id, titre, image, idRayon, idPublic, idGenre);
+        }
+
+        /// <summary>
+        /// Modifie un livre dans la bdd
+        /// </summary>
+        /// <param name="id">id du livre</param>
+        /// <param name="Isbn">isbn du livre</param>
+        /// <param name="auteur">auteur du livre</param>
+        /// <param name="collection">collection du livre</param>
+        /// <returns>true si la suppression a pu se faire</returns>
+        public bool ModifierLivre(string id, string Isbn, string auteur, string collection)
+        {
+            return access.ModifierLivre(id, Isbn, auteur, collection);
+        }
+
+        /// <summary>
+        /// Supprime un livre dans la bdd
+        /// </summary>
+        /// <param name="id">id du livre</param>
+        /// <returns>true si la suppression a pu se faire</returns>
+        public bool SupprimerLivre(string id)
+        {
+            return access.SupprimerLivre(id);
         }
     }
 }
