@@ -20,14 +20,16 @@ namespace MediaTekDocuments.view
         private readonly BindingSource bdgGenres = new BindingSource();
         private readonly BindingSource bdgPublics = new BindingSource();
         private readonly BindingSource bdgRayons = new BindingSource();
+        private readonly String service = null;
 
         /// <summary>
         /// Constructeur : création du contrôleur lié à ce formulaire
         /// </summary>
-        internal FrmMediatek()
+        internal FrmMediatek(string service)
         {
             InitializeComponent();
             this.controller = new FrmMediatekController();
+            this.service = service;
         }
 
         /// <summary>
@@ -37,18 +39,44 @@ namespace MediaTekDocuments.view
         /// <param name="e"></param>
         private void FrmMediatek_Load(object sender, EventArgs e)
         {
-            List<Abonnement> lesAbonnementsEcheance = controller.GetAbonnementsEcheance();
-            if (lesAbonnementsEcheance.Count() != 0)
+            if (this.service == "administratif" || this.service == "administrateur")
             {
-                String liste = "Attention, les abonnements suivants se terminent dans moins de 30 jours ! \n \n ";
-                foreach (Abonnement unAbonnement in lesAbonnementsEcheance)
+                List<Abonnement> lesAbonnementsEcheance = controller.GetAbonnementsEcheance();
+                if (lesAbonnementsEcheance.Count() != 0)
                 {
-                    String infoAbonnement = "Revue \"" + unAbonnement.Titre + "\" : " +
-                                            "expiration le " + unAbonnement.DateFinAbonnement.ToString("dd/MM/yyyy"); 
-                    liste += "• " + infoAbonnement + "\n";
+                    String liste = "Attention, les abonnements suivants se terminent dans moins de 30 jours ! \n \n ";
+                    foreach (Abonnement unAbonnement in lesAbonnementsEcheance)
+                    {
+                        String infoAbonnement = "Revue \"" + unAbonnement.Titre + "\" : " +
+                                                "expiration le " + unAbonnement.DateFinAbonnement.ToString("dd/MM/yyyy");
+                        liste += "• " + infoAbonnement + "\n";
+                    }
+                    MessageBox.Show(liste, "Alerte de fin d'abonnement", MessageBoxButtons.OK);
                 }
-                MessageBox.Show(liste, "Alerte de fin d'abonnement", MessageBoxButtons.OK);
             }
+            else if (this.service == "prets")
+            {
+                AccesRestreint();
+            }
+        }
+
+        /// <summary>
+        /// Restreindre l'accès à la seule consultation du catalogue
+        /// </summary>
+        private void AccesRestreint()
+        {
+            tabOngletsApplication.TabPages.Remove(tabCommandeLivre);
+            tabOngletsApplication.TabPages.Remove(tabCommandeDvd);
+            tabOngletsApplication.TabPages.Remove(tabCommandeRevue);
+            grpLivresInfos.Enabled = false;
+            grpInfosExemplairesLivre.Enabled = false;
+
+            grpDvdInfos.Enabled = false;
+            grpInfosExemplairesDvd.Enabled = false;
+
+            grpRevuesInfos.Enabled = false;
+            grpReceptionExemplaire.Enabled = false;
+            grpInfoExemplaireRevue.Enabled = false;
         }
 
         /// <summary>
