@@ -22,6 +22,10 @@ namespace MediaTekDocuments.dal
         /// </summary>
         private static readonly string uriApi = "http://localhost/rest3/";
         /// <summary>
+        /// nom de connexion à la bdd
+        /// </summary>
+        private static readonly string connectionName = "MediaTekDocuments.Properties.Settings.mediatek86ConnectionString";
+        /// <summary>
         /// instance unique de la classe
         /// </summary>
         private static Access instance = null;
@@ -54,7 +58,7 @@ namespace MediaTekDocuments.dal
             String authenticationString;
             try
             {
-                authenticationString = "admin:adminpwd";
+                authenticationString = GetConnectionStringByName(connectionName);
                 api = ApiRest.GetInstance(uriApi, authenticationString);
             }
             catch (Exception e)
@@ -76,6 +80,21 @@ namespace MediaTekDocuments.dal
             }
             return instance;
         }
+
+        /// <summary>
+        /// Récupération de la chaîne de connexion
+        /// </summary>
+        /// <param name="name"></param>
+        /// <returns></returns>
+        static string GetConnectionStringByName(string name)
+        {
+            string returnValue = null;
+            ConnectionStringSettings settings = ConfigurationManager.ConnectionStrings[name];
+            if (settings != null)
+                returnValue = settings.ConnectionString;
+            return returnValue;
+        }
+
 
         /// <summary>
         /// Retourne tous les genres à partir de la BDD
@@ -254,28 +273,17 @@ namespace MediaTekDocuments.dal
         /// <returns>Objet utilisateur</returns>
         public Utilisateur GetUtilisateur(string login, string password)
         {
-            // Construire le JSON avec "login" comme clé, pas "id"
             String jsonLoginUser = convertToJson("login", login);
-
-            // Appel de l'API pour récupérer l'utilisateur
             List<Utilisateur> liste = TraitementRecup<Utilisateur>(GET, "utilisateur/" + jsonLoginUser, null);
-
-            // Si aucun résultat, retourne null
             if (liste == null || liste.Count == 0)
             {
                 return null;
             }
-
-            // Prendre le premier utilisateur (il doit être unique)
             Utilisateur utilisateur = liste[0];
-
-            // Vérifier le mot de passe
             if (utilisateur.Password.Equals(password))
             {
                 return utilisateur;
             }
-
-            // Mot de passe incorrect
             return null;
         }
 

@@ -41,19 +41,17 @@ namespace MediaTekDocuments.view
             // 
             this.label51.AutoSize = true;
             this.label51.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label51.ForeColor = System.Drawing.Color.IndianRed;
-            this.label51.Location = new System.Drawing.Point(136, 9);
+            this.label51.Location = new System.Drawing.Point(60, 9);
             this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(117, 17);
+            this.label51.Size = new System.Drawing.Size(121, 17);
             this.label51.TabIndex = 34;
-            this.label51.Text = "Athentification ";
+            this.label51.Text = "Authentification";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.RosyBrown;
-            this.label1.Location = new System.Drawing.Point(27, 70);
+            this.label1.Location = new System.Drawing.Point(15, 41);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(90, 13);
             this.label1.TabIndex = 35;
@@ -63,8 +61,7 @@ namespace MediaTekDocuments.view
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.RosyBrown;
-            this.label2.Location = new System.Drawing.Point(40, 127);
+            this.label2.Location = new System.Drawing.Point(28, 70);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(77, 13);
             this.label2.TabIndex = 36;
@@ -72,23 +69,23 @@ namespace MediaTekDocuments.view
             // 
             // txbLogin
             // 
-            this.txbLogin.Location = new System.Drawing.Point(139, 70);
+            this.txbLogin.Location = new System.Drawing.Point(122, 38);
             this.txbLogin.Name = "txbLogin";
-            this.txbLogin.Size = new System.Drawing.Size(222, 20);
+            this.txbLogin.Size = new System.Drawing.Size(100, 20);
             this.txbLogin.TabIndex = 37;
             // 
             // txbPwd
             // 
-            this.txbPwd.Location = new System.Drawing.Point(139, 127);
+            this.txbPwd.Location = new System.Drawing.Point(122, 67);
             this.txbPwd.Name = "txbPwd";
             this.txbPwd.PasswordChar = '*';
-            this.txbPwd.Size = new System.Drawing.Size(222, 20);
+            this.txbPwd.Size = new System.Drawing.Size(100, 20);
             this.txbPwd.TabIndex = 38;
             // 
             // btnConnexion
             // 
             this.btnConnexion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnConnexion.Location = new System.Drawing.Point(85, 205);
+            this.btnConnexion.Location = new System.Drawing.Point(12, 104);
             this.btnConnexion.Name = "btnConnexion";
             this.btnConnexion.Size = new System.Drawing.Size(222, 33);
             this.btnConnexion.TabIndex = 39;
@@ -100,8 +97,7 @@ namespace MediaTekDocuments.view
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.ClientSize = new System.Drawing.Size(376, 268);
+            this.ClientSize = new System.Drawing.Size(249, 149);
             this.Controls.Add(this.btnConnexion);
             this.Controls.Add(this.txbPwd);
             this.Controls.Add(this.txbLogin);

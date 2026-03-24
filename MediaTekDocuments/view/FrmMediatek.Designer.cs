@@ -196,10 +196,20 @@ namespace MediaTekDocuments.view
             this.label34 = new System.Windows.Forms.Label();
             this.txbRevuesTitreRecherche = new System.Windows.Forms.TextBox();
             this.tabReceptionRevue = new System.Windows.Forms.TabPage();
-            this.grpReceptionExemplaire = new System.Windows.Forms.GroupBox();
             this.label55 = new System.Windows.Forms.Label();
+            this.grpInfoExemplaireRevue = new System.Windows.Forms.GroupBox();
+            this.label110 = new System.Windows.Forms.Label();
+            this.cbxNvEtatExemplaireRevue = new System.Windows.Forms.ComboBox();
+            this.btnSupprExRevue = new System.Windows.Forms.Button();
+            this.btnModifEtatExRevue = new System.Windows.Forms.Button();
+            this.dtpAchatExemplaireRevue = new System.Windows.Forms.DateTimePicker();
+            this.txbEtatExemplaireRevue = new System.Windows.Forms.TextBox();
+            this.txbNumExemplaireRevue = new System.Windows.Forms.TextBox();
+            this.label111 = new System.Windows.Forms.Label();
+            this.label112 = new System.Windows.Forms.Label();
+            this.label113 = new System.Windows.Forms.Label();
+            this.grpReceptionExemplaire = new System.Windows.Forms.GroupBox();
             this.btnReceptionExemplaireImage = new System.Windows.Forms.Button();
-            this.pcbReceptionExemplaireImage = new System.Windows.Forms.PictureBox();
             this.btnReceptionExemplaireValider = new System.Windows.Forms.Button();
             this.txbReceptionExemplaireImage = new System.Windows.Forms.TextBox();
             this.label18 = new System.Windows.Forms.Label();
@@ -207,6 +217,7 @@ namespace MediaTekDocuments.view
             this.label17 = new System.Windows.Forms.Label();
             this.dtpReceptionExemplaireDate = new System.Windows.Forms.DateTimePicker();
             this.label16 = new System.Windows.Forms.Label();
+            this.pcbReceptionExemplaireImage = new System.Windows.Forms.PictureBox();
             this.grpReceptionRevue = new System.Windows.Forms.GroupBox();
             this.label48 = new System.Windows.Forms.Label();
             this.label56 = new System.Windows.Forms.Label();
@@ -356,17 +367,6 @@ namespace MediaTekDocuments.view
             this.label96 = new System.Windows.Forms.Label();
             this.label97 = new System.Windows.Forms.Label();
             this.label98 = new System.Windows.Forms.Label();
-            this.grpInfoExemplaireRevue = new System.Windows.Forms.GroupBox();
-            this.label110 = new System.Windows.Forms.Label();
-            this.cbxNvEtatExemplaireRevue = new System.Windows.Forms.ComboBox();
-            this.btnSupprExRevue = new System.Windows.Forms.Button();
-            this.btnModifEtatExRevue = new System.Windows.Forms.Button();
-            this.dtpAchatExemplaireRevue = new System.Windows.Forms.DateTimePicker();
-            this.txbEtatExemplaireRevue = new System.Windows.Forms.TextBox();
-            this.txbNumExemplaireRevue = new System.Windows.Forms.TextBox();
-            this.label111 = new System.Windows.Forms.Label();
-            this.label112 = new System.Windows.Forms.Label();
-            this.label113 = new System.Windows.Forms.Label();
             this.tabOngletsApplication.SuspendLayout();
             this.tabLivres.SuspendLayout();
             this.grpInfosExemplairesLivre.SuspendLayout();
@@ -390,6 +390,7 @@ namespace MediaTekDocuments.view
             this.grpRevuesRecherche.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvRevuesListe)).BeginInit();
             this.tabReceptionRevue.SuspendLayout();
+            this.grpInfoExemplaireRevue.SuspendLayout();
             this.grpReceptionExemplaire.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pcbReceptionExemplaireImage)).BeginInit();
             this.grpReceptionRevue.SuspendLayout();
@@ -413,7 +414,6 @@ namespace MediaTekDocuments.view
             ((System.ComponentModel.ISupportInitialize)(this.dgvAbonnementsRevue)).BeginInit();
             this.grpInfosRevue.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbRevueImage)).BeginInit();
-            this.grpInfoExemplaireRevue.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabOngletsApplication
@@ -430,7 +430,7 @@ namespace MediaTekDocuments.view
             this.tabOngletsApplication.Location = new System.Drawing.Point(0, 0);
             this.tabOngletsApplication.Name = "tabOngletsApplication";
             this.tabOngletsApplication.SelectedIndex = 0;
-            this.tabOngletsApplication.Size = new System.Drawing.Size(883, 873);
+            this.tabOngletsApplication.Size = new System.Drawing.Size(866, 1000);
             this.tabOngletsApplication.TabIndex = 0;
             // 
             // tabLivres
@@ -441,7 +441,7 @@ namespace MediaTekDocuments.view
             this.tabLivres.Controls.Add(this.grpLivresRecherche);
             this.tabLivres.Location = new System.Drawing.Point(4, 22);
             this.tabLivres.Name = "tabLivres";
-            this.tabLivres.Size = new System.Drawing.Size(875, 847);
+            this.tabLivres.Size = new System.Drawing.Size(858, 974);
             this.tabLivres.TabIndex = 2;
             this.tabLivres.Text = "Livres";
             this.tabLivres.UseVisualStyleBackColor = true;
@@ -1086,7 +1086,7 @@ namespace MediaTekDocuments.view
             this.tabDvd.Controls.Add(this.grpDvdRecherche);
             this.tabDvd.Location = new System.Drawing.Point(4, 22);
             this.tabDvd.Name = "tabDvd";
-            this.tabDvd.Size = new System.Drawing.Size(875, 847);
+            this.tabDvd.Size = new System.Drawing.Size(858, 974);
             this.tabDvd.TabIndex = 3;
             this.tabDvd.Text = "DVD";
             this.tabDvd.UseVisualStyleBackColor = true;
@@ -1733,7 +1733,7 @@ namespace MediaTekDocuments.view
             this.tabRevues.Location = new System.Drawing.Point(4, 22);
             this.tabRevues.Name = "tabRevues";
             this.tabRevues.Padding = new System.Windows.Forms.Padding(3);
-            this.tabRevues.Size = new System.Drawing.Size(875, 847);
+            this.tabRevues.Size = new System.Drawing.Size(858, 974);
             this.tabRevues.TabIndex = 1;
             this.tabRevues.Text = "Revues";
             this.tabRevues.UseVisualStyleBackColor = true;
@@ -2219,11 +2219,133 @@ namespace MediaTekDocuments.view
             this.tabReceptionRevue.Controls.Add(this.grpReceptionRevue);
             this.tabReceptionRevue.Location = new System.Drawing.Point(4, 22);
             this.tabReceptionRevue.Name = "tabReceptionRevue";
-            this.tabReceptionRevue.Size = new System.Drawing.Size(875, 847);
+            this.tabReceptionRevue.Size = new System.Drawing.Size(858, 974);
             this.tabReceptionRevue.TabIndex = 4;
             this.tabReceptionRevue.Text = "Parutions des revues";
             this.tabReceptionRevue.UseVisualStyleBackColor = true;
             this.tabReceptionRevue.Enter += new System.EventHandler(this.tabReceptionRevue_Enter);
+            // 
+            // label55
+            // 
+            this.label55.AutoSize = true;
+            this.label55.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label55.Location = new System.Drawing.Point(580, 384);
+            this.label55.Name = "label55";
+            this.label55.Size = new System.Drawing.Size(113, 13);
+            this.label55.TabIndex = 57;
+            this.label55.Text = "Image exemplaire :";
+            // 
+            // grpInfoExemplaireRevue
+            // 
+            this.grpInfoExemplaireRevue.Controls.Add(this.label110);
+            this.grpInfoExemplaireRevue.Controls.Add(this.cbxNvEtatExemplaireRevue);
+            this.grpInfoExemplaireRevue.Controls.Add(this.btnSupprExRevue);
+            this.grpInfoExemplaireRevue.Controls.Add(this.btnModifEtatExRevue);
+            this.grpInfoExemplaireRevue.Controls.Add(this.dtpAchatExemplaireRevue);
+            this.grpInfoExemplaireRevue.Controls.Add(this.txbEtatExemplaireRevue);
+            this.grpInfoExemplaireRevue.Controls.Add(this.txbNumExemplaireRevue);
+            this.grpInfoExemplaireRevue.Controls.Add(this.label111);
+            this.grpInfoExemplaireRevue.Controls.Add(this.label112);
+            this.grpInfoExemplaireRevue.Controls.Add(this.label113);
+            this.grpInfoExemplaireRevue.Location = new System.Drawing.Point(8, 517);
+            this.grpInfoExemplaireRevue.Name = "grpInfoExemplaireRevue";
+            this.grpInfoExemplaireRevue.Size = new System.Drawing.Size(565, 113);
+            this.grpInfoExemplaireRevue.TabIndex = 58;
+            this.grpInfoExemplaireRevue.TabStop = false;
+            this.grpInfoExemplaireRevue.Text = "Informations sur l\'exemplaire";
+            // 
+            // label110
+            // 
+            this.label110.AutoSize = true;
+            this.label110.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label110.Location = new System.Drawing.Point(354, 50);
+            this.label110.Name = "label110";
+            this.label110.Size = new System.Drawing.Size(68, 13);
+            this.label110.TabIndex = 51;
+            this.label110.Text = "Nouvel état :";
+            // 
+            // cbxNvEtatExemplaireRevue
+            // 
+            this.cbxNvEtatExemplaireRevue.FormattingEnabled = true;
+            this.cbxNvEtatExemplaireRevue.Location = new System.Drawing.Point(435, 47);
+            this.cbxNvEtatExemplaireRevue.Name = "cbxNvEtatExemplaireRevue";
+            this.cbxNvEtatExemplaireRevue.Size = new System.Drawing.Size(101, 21);
+            this.cbxNvEtatExemplaireRevue.TabIndex = 50;
+            // 
+            // btnSupprExRevue
+            // 
+            this.btnSupprExRevue.Location = new System.Drawing.Point(290, 79);
+            this.btnSupprExRevue.Name = "btnSupprExRevue";
+            this.btnSupprExRevue.Size = new System.Drawing.Size(187, 23);
+            this.btnSupprExRevue.TabIndex = 49;
+            this.btnSupprExRevue.Text = "Supprimer l\'exemplaire";
+            this.btnSupprExRevue.UseVisualStyleBackColor = true;
+            this.btnSupprExRevue.Click += new System.EventHandler(this.btnSupprExRevue_Click);
+            // 
+            // btnModifEtatExRevue
+            // 
+            this.btnModifEtatExRevue.Location = new System.Drawing.Point(94, 79);
+            this.btnModifEtatExRevue.Name = "btnModifEtatExRevue";
+            this.btnModifEtatExRevue.Size = new System.Drawing.Size(190, 23);
+            this.btnModifEtatExRevue.TabIndex = 48;
+            this.btnModifEtatExRevue.Text = "Modifier l\'état de l\'exemplaire";
+            this.btnModifEtatExRevue.UseVisualStyleBackColor = true;
+            this.btnModifEtatExRevue.Click += new System.EventHandler(this.btnModifEtatExRevue_Click);
+            // 
+            // dtpAchatExemplaireRevue
+            // 
+            this.dtpAchatExemplaireRevue.Enabled = false;
+            this.dtpAchatExemplaireRevue.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtpAchatExemplaireRevue.Location = new System.Drawing.Point(190, 49);
+            this.dtpAchatExemplaireRevue.Name = "dtpAchatExemplaireRevue";
+            this.dtpAchatExemplaireRevue.Size = new System.Drawing.Size(100, 20);
+            this.dtpAchatExemplaireRevue.TabIndex = 47;
+            // 
+            // txbEtatExemplaireRevue
+            // 
+            this.txbEtatExemplaireRevue.Location = new System.Drawing.Point(435, 21);
+            this.txbEtatExemplaireRevue.Name = "txbEtatExemplaireRevue";
+            this.txbEtatExemplaireRevue.ReadOnly = true;
+            this.txbEtatExemplaireRevue.Size = new System.Drawing.Size(100, 20);
+            this.txbEtatExemplaireRevue.TabIndex = 46;
+            // 
+            // txbNumExemplaireRevue
+            // 
+            this.txbNumExemplaireRevue.Location = new System.Drawing.Point(190, 19);
+            this.txbNumExemplaireRevue.Name = "txbNumExemplaireRevue";
+            this.txbNumExemplaireRevue.ReadOnly = true;
+            this.txbNumExemplaireRevue.Size = new System.Drawing.Size(100, 20);
+            this.txbNumExemplaireRevue.TabIndex = 43;
+            // 
+            // label111
+            // 
+            this.label111.AutoSize = true;
+            this.label111.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label111.Location = new System.Drawing.Point(338, 24);
+            this.label111.Name = "label111";
+            this.label111.Size = new System.Drawing.Size(38, 13);
+            this.label111.TabIndex = 45;
+            this.label111.Text = "Etat :";
+            // 
+            // label112
+            // 
+            this.label112.AutoSize = true;
+            this.label112.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label112.Location = new System.Drawing.Point(28, 50);
+            this.label112.Name = "label112";
+            this.label112.Size = new System.Drawing.Size(88, 13);
+            this.label112.TabIndex = 44;
+            this.label112.Text = "Date d\'achat :";
+            // 
+            // label113
+            // 
+            this.label113.AutoSize = true;
+            this.label113.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label113.Location = new System.Drawing.Point(28, 22);
+            this.label113.Name = "label113";
+            this.label113.Size = new System.Drawing.Size(146, 13);
+            this.label113.TabIndex = 43;
+            this.label113.Text = "Numéro de l\'exemplaire :";
             // 
             // grpReceptionExemplaire
             // 
@@ -2242,16 +2364,6 @@ namespace MediaTekDocuments.view
             this.grpReceptionExemplaire.TabStop = false;
             this.grpReceptionExemplaire.Text = "Nouvelle parution réceptionnée pour cette revue";
             // 
-            // label55
-            // 
-            this.label55.AutoSize = true;
-            this.label55.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label55.Location = new System.Drawing.Point(580, 384);
-            this.label55.Name = "label55";
-            this.label55.Size = new System.Drawing.Size(113, 13);
-            this.label55.TabIndex = 57;
-            this.label55.Text = "Image exemplaire :";
-            // 
             // btnReceptionExemplaireImage
             // 
             this.btnReceptionExemplaireImage.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -2262,16 +2374,6 @@ namespace MediaTekDocuments.view
             this.btnReceptionExemplaireImage.Text = "Rechercher";
             this.btnReceptionExemplaireImage.UseVisualStyleBackColor = true;
             this.btnReceptionExemplaireImage.Click += new System.EventHandler(this.btnReceptionExemplaireImage_Click);
-            // 
-            // pcbReceptionExemplaireImage
-            // 
-            this.pcbReceptionExemplaireImage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pcbReceptionExemplaireImage.Location = new System.Drawing.Point(583, 400);
-            this.pcbReceptionExemplaireImage.Name = "pcbReceptionExemplaireImage";
-            this.pcbReceptionExemplaireImage.Size = new System.Drawing.Size(284, 230);
-            this.pcbReceptionExemplaireImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pcbReceptionExemplaireImage.TabIndex = 42;
-            this.pcbReceptionExemplaireImage.TabStop = false;
             // 
             // btnReceptionExemplaireValider
             // 
@@ -2336,6 +2438,16 @@ namespace MediaTekDocuments.view
             this.label16.Size = new System.Drawing.Size(129, 13);
             this.label16.TabIndex = 0;
             this.label16.Text = "Numéro réceptionné :";
+            // 
+            // pcbReceptionExemplaireImage
+            // 
+            this.pcbReceptionExemplaireImage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pcbReceptionExemplaireImage.Location = new System.Drawing.Point(583, 400);
+            this.pcbReceptionExemplaireImage.Name = "pcbReceptionExemplaireImage";
+            this.pcbReceptionExemplaireImage.Size = new System.Drawing.Size(284, 230);
+            this.pcbReceptionExemplaireImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pcbReceptionExemplaireImage.TabIndex = 42;
+            this.pcbReceptionExemplaireImage.TabStop = false;
             // 
             // grpReceptionRevue
             // 
@@ -2604,7 +2716,7 @@ namespace MediaTekDocuments.view
             this.tabCommandeLivre.Location = new System.Drawing.Point(4, 22);
             this.tabCommandeLivre.Name = "tabCommandeLivre";
             this.tabCommandeLivre.Padding = new System.Windows.Forms.Padding(3);
-            this.tabCommandeLivre.Size = new System.Drawing.Size(875, 847);
+            this.tabCommandeLivre.Size = new System.Drawing.Size(858, 974);
             this.tabCommandeLivre.TabIndex = 5;
             this.tabCommandeLivre.Text = "Commandes de livres";
             this.tabCommandeLivre.UseVisualStyleBackColor = true;
@@ -3076,7 +3188,7 @@ namespace MediaTekDocuments.view
             this.tabCommandeDvd.Location = new System.Drawing.Point(4, 22);
             this.tabCommandeDvd.Name = "tabCommandeDvd";
             this.tabCommandeDvd.Padding = new System.Windows.Forms.Padding(3);
-            this.tabCommandeDvd.Size = new System.Drawing.Size(875, 847);
+            this.tabCommandeDvd.Size = new System.Drawing.Size(858, 974);
             this.tabCommandeDvd.TabIndex = 6;
             this.tabCommandeDvd.Text = "Commandes de dvd";
             this.tabCommandeDvd.UseVisualStyleBackColor = true;
@@ -3550,7 +3662,7 @@ namespace MediaTekDocuments.view
             this.tabCommandeRevue.Location = new System.Drawing.Point(4, 22);
             this.tabCommandeRevue.Name = "tabCommandeRevue";
             this.tabCommandeRevue.Padding = new System.Windows.Forms.Padding(3);
-            this.tabCommandeRevue.Size = new System.Drawing.Size(875, 847);
+            this.tabCommandeRevue.Size = new System.Drawing.Size(858, 974);
             this.tabCommandeRevue.TabIndex = 7;
             this.tabCommandeRevue.Text = "Commandes de revue";
             this.tabCommandeRevue.UseVisualStyleBackColor = true;
@@ -3908,124 +4020,15 @@ namespace MediaTekDocuments.view
             this.label98.TabIndex = 10;
             this.label98.Text = "Délai mise à dispo :";
             // 
-            // grpInfoExemplaireRevue
-            // 
-            this.grpInfoExemplaireRevue.Controls.Add(this.label110);
-            this.grpInfoExemplaireRevue.Controls.Add(this.cbxNvEtatExemplaireRevue);
-            this.grpInfoExemplaireRevue.Controls.Add(this.btnSupprExRevue);
-            this.grpInfoExemplaireRevue.Controls.Add(this.btnModifEtatExRevue);
-            this.grpInfoExemplaireRevue.Controls.Add(this.dtpAchatExemplaireRevue);
-            this.grpInfoExemplaireRevue.Controls.Add(this.txbEtatExemplaireRevue);
-            this.grpInfoExemplaireRevue.Controls.Add(this.txbNumExemplaireRevue);
-            this.grpInfoExemplaireRevue.Controls.Add(this.label111);
-            this.grpInfoExemplaireRevue.Controls.Add(this.label112);
-            this.grpInfoExemplaireRevue.Controls.Add(this.label113);
-            this.grpInfoExemplaireRevue.Location = new System.Drawing.Point(8, 517);
-            this.grpInfoExemplaireRevue.Name = "grpInfoExemplaireRevue";
-            this.grpInfoExemplaireRevue.Size = new System.Drawing.Size(565, 113);
-            this.grpInfoExemplaireRevue.TabIndex = 58;
-            this.grpInfoExemplaireRevue.TabStop = false;
-            this.grpInfoExemplaireRevue.Text = "Informations sur l\'exemplaire";
-            // 
-            // label110
-            // 
-            this.label110.AutoSize = true;
-            this.label110.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label110.Location = new System.Drawing.Point(354, 50);
-            this.label110.Name = "label110";
-            this.label110.Size = new System.Drawing.Size(68, 13);
-            this.label110.TabIndex = 51;
-            this.label110.Text = "Nouvel état :";
-            // 
-            // cbxNvEtatExemplaireRevue
-            // 
-            this.cbxNvEtatExemplaireRevue.FormattingEnabled = true;
-            this.cbxNvEtatExemplaireRevue.Location = new System.Drawing.Point(435, 47);
-            this.cbxNvEtatExemplaireRevue.Name = "cbxNvEtatExemplaireRevue";
-            this.cbxNvEtatExemplaireRevue.Size = new System.Drawing.Size(101, 21);
-            this.cbxNvEtatExemplaireRevue.TabIndex = 50;
-            // 
-            // btnSupprExRevue
-            // 
-            this.btnSupprExRevue.Location = new System.Drawing.Point(290, 79);
-            this.btnSupprExRevue.Name = "btnSupprExRevue";
-            this.btnSupprExRevue.Size = new System.Drawing.Size(187, 23);
-            this.btnSupprExRevue.TabIndex = 49;
-            this.btnSupprExRevue.Text = "Supprimer l\'exemplaire";
-            this.btnSupprExRevue.UseVisualStyleBackColor = true;
-            this.btnSupprExRevue.Click += new System.EventHandler(this.btnSupprExRevue_Click);
-            // 
-            // btnModifEtatExRevue
-            // 
-            this.btnModifEtatExRevue.Location = new System.Drawing.Point(94, 79);
-            this.btnModifEtatExRevue.Name = "btnModifEtatExRevue";
-            this.btnModifEtatExRevue.Size = new System.Drawing.Size(190, 23);
-            this.btnModifEtatExRevue.TabIndex = 48;
-            this.btnModifEtatExRevue.Text = "Modifier l\'état de l\'exemplaire";
-            this.btnModifEtatExRevue.UseVisualStyleBackColor = true;
-            this.btnModifEtatExRevue.Click += new System.EventHandler(this.btnModifEtatExRevue_Click);
-            // 
-            // dtpAchatExemplaireRevue
-            // 
-            this.dtpAchatExemplaireRevue.Enabled = false;
-            this.dtpAchatExemplaireRevue.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpAchatExemplaireRevue.Location = new System.Drawing.Point(190, 49);
-            this.dtpAchatExemplaireRevue.Name = "dtpAchatExemplaireRevue";
-            this.dtpAchatExemplaireRevue.Size = new System.Drawing.Size(100, 20);
-            this.dtpAchatExemplaireRevue.TabIndex = 47;
-            // 
-            // txbEtatExemplaireRevue
-            // 
-            this.txbEtatExemplaireRevue.Location = new System.Drawing.Point(435, 21);
-            this.txbEtatExemplaireRevue.Name = "txbEtatExemplaireRevue";
-            this.txbEtatExemplaireRevue.ReadOnly = true;
-            this.txbEtatExemplaireRevue.Size = new System.Drawing.Size(100, 20);
-            this.txbEtatExemplaireRevue.TabIndex = 46;
-            // 
-            // txbNumExemplaireRevue
-            // 
-            this.txbNumExemplaireRevue.Location = new System.Drawing.Point(190, 19);
-            this.txbNumExemplaireRevue.Name = "txbNumExemplaireRevue";
-            this.txbNumExemplaireRevue.ReadOnly = true;
-            this.txbNumExemplaireRevue.Size = new System.Drawing.Size(100, 20);
-            this.txbNumExemplaireRevue.TabIndex = 43;
-            // 
-            // label111
-            // 
-            this.label111.AutoSize = true;
-            this.label111.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label111.Location = new System.Drawing.Point(338, 24);
-            this.label111.Name = "label111";
-            this.label111.Size = new System.Drawing.Size(38, 13);
-            this.label111.TabIndex = 45;
-            this.label111.Text = "Etat :";
-            // 
-            // label112
-            // 
-            this.label112.AutoSize = true;
-            this.label112.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label112.Location = new System.Drawing.Point(28, 50);
-            this.label112.Name = "label112";
-            this.label112.Size = new System.Drawing.Size(88, 13);
-            this.label112.TabIndex = 44;
-            this.label112.Text = "Date d\'achat :";
-            // 
-            // label113
-            // 
-            this.label113.AutoSize = true;
-            this.label113.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label113.Location = new System.Drawing.Point(28, 22);
-            this.label113.Name = "label113";
-            this.label113.Size = new System.Drawing.Size(146, 13);
-            this.label113.TabIndex = 43;
-            this.label113.Text = "Numéro de l\'exemplaire :";
-            // 
             // FrmMediatek
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(883, 873);
+            this.AutoScroll = true;
+            this.AutoScrollMinSize = new System.Drawing.Size(0, 1000);
+            this.ClientSize = new System.Drawing.Size(883, 749);
             this.Controls.Add(this.tabOngletsApplication);
+            this.MinimumSize = new System.Drawing.Size(16, 736);
             this.Name = "FrmMediatek";
             this.Text = "Gestion des documents de la médiathèque";
             this.Load += new System.EventHandler(this.FrmMediatek_Load);
@@ -4061,6 +4064,8 @@ namespace MediaTekDocuments.view
             ((System.ComponentModel.ISupportInitialize)(this.dgvRevuesListe)).EndInit();
             this.tabReceptionRevue.ResumeLayout(false);
             this.tabReceptionRevue.PerformLayout();
+            this.grpInfoExemplaireRevue.ResumeLayout(false);
+            this.grpInfoExemplaireRevue.PerformLayout();
             this.grpReceptionExemplaire.ResumeLayout(false);
             this.grpReceptionExemplaire.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pcbReceptionExemplaireImage)).EndInit();
@@ -4097,8 +4102,6 @@ namespace MediaTekDocuments.view
             this.grpInfosRevue.ResumeLayout(false);
             this.grpInfosRevue.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbRevueImage)).EndInit();
-            this.grpInfoExemplaireRevue.ResumeLayout(false);
-            this.grpInfoExemplaireRevue.PerformLayout();
             this.ResumeLayout(false);
 
         }
