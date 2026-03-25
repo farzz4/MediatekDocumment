@@ -41,7 +41,8 @@ namespace MediaTekDocuments.view
             // 
             this.label51.AutoSize = true;
             this.label51.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label51.Location = new System.Drawing.Point(60, 9);
+            this.label51.ForeColor = System.Drawing.Color.LightCoral;
+            this.label51.Location = new System.Drawing.Point(140, 9);
             this.label51.Name = "label51";
             this.label51.Size = new System.Drawing.Size(121, 17);
             this.label51.TabIndex = 34;
@@ -51,7 +52,7 @@ namespace MediaTekDocuments.view
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(15, 41);
+            this.label1.Location = new System.Drawing.Point(47, 77);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(90, 13);
             this.label1.TabIndex = 35;
@@ -61,7 +62,7 @@ namespace MediaTekDocuments.view
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(28, 70);
+            this.label2.Location = new System.Drawing.Point(47, 120);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(77, 13);
             this.label2.TabIndex = 36;
@@ -69,35 +70,39 @@ namespace MediaTekDocuments.view
             // 
             // txbLogin
             // 
-            this.txbLogin.Location = new System.Drawing.Point(122, 38);
+            this.txbLogin.BackColor = System.Drawing.Color.IndianRed;
+            this.txbLogin.Location = new System.Drawing.Point(143, 70);
             this.txbLogin.Name = "txbLogin";
-            this.txbLogin.Size = new System.Drawing.Size(100, 20);
+            this.txbLogin.Size = new System.Drawing.Size(228, 20);
             this.txbLogin.TabIndex = 37;
             // 
             // txbPwd
             // 
-            this.txbPwd.Location = new System.Drawing.Point(122, 67);
+            this.txbPwd.BackColor = System.Drawing.Color.IndianRed;
+            this.txbPwd.Location = new System.Drawing.Point(143, 113);
             this.txbPwd.Name = "txbPwd";
             this.txbPwd.PasswordChar = '*';
-            this.txbPwd.Size = new System.Drawing.Size(100, 20);
+            this.txbPwd.Size = new System.Drawing.Size(228, 20);
             this.txbPwd.TabIndex = 38;
             // 
             // btnConnexion
             // 
+            this.btnConnexion.BackColor = System.Drawing.Color.RosyBrown;
             this.btnConnexion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnConnexion.Location = new System.Drawing.Point(12, 104);
+            this.btnConnexion.Location = new System.Drawing.Point(95, 194);
             this.btnConnexion.Name = "btnConnexion";
             this.btnConnexion.Size = new System.Drawing.Size(222, 33);
             this.btnConnexion.TabIndex = 39;
             this.btnConnexion.Text = "Se connecter";
-            this.btnConnexion.UseVisualStyleBackColor = true;
+            this.btnConnexion.UseVisualStyleBackColor = false;
             this.btnConnexion.Click += new System.EventHandler(this.btnConnexion_Click);
             // 
             // FrmAuthentification
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(249, 149);
+            this.BackColor = System.Drawing.Color.LightGray;
+            this.ClientSize = new System.Drawing.Size(448, 273);
             this.Controls.Add(this.btnConnexion);
             this.Controls.Add(this.txbPwd);
             this.Controls.Add(this.txbLogin);
