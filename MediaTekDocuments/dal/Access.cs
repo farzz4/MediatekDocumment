@@ -50,6 +50,7 @@ namespace MediaTekDocuments.dal
         /// méthode HTTP pour delete
         /// </summary>
         private const string DELETE = "DELETE";
+
         /// <summary>
         /// Méthode privée pour créer un singleton
         /// initialise l'accès à l'API
@@ -278,7 +279,7 @@ namespace MediaTekDocuments.dal
         /// <returns>Objet utilisateur</returns>
         public Utilisateur GetUtilisateur(string login, string password)
         {
-            String jsonLoginUser = convertToJson("login", login);
+            String jsonLoginUser = convertToJson("id", login);
             List<Utilisateur> liste = TraitementRecup<Utilisateur>(GET, "utilisateur/" + jsonLoginUser, null);
             if (liste == null || liste.Count == 0)
             {
@@ -426,7 +427,7 @@ namespace MediaTekDocuments.dal
             }
             catch (Exception ex)
             {
-                Log.Error("Access.ModifierLivre catch jsonLivre={0} erreur={1}", jsonLivre, ex.Message);
+                Log.Error("Access.ModifierLivre catch jsonLivre={0} erreur={1}", jsonLivre, ex.Message); 
             }
             return false;
         }
@@ -808,10 +809,12 @@ namespace MediaTekDocuments.dal
                 else
                 {
                     Log.Error("code erreur = " + code + " message = " + (String)retour["message"]);
+                    //Console.WriteLine("code erreur = " + code + " message = " + (String)retour["message"]);
                 }
             }catch(Exception e)
             {
                 Log.Error("Erreur lors de l'accès à l'API : " + e.Message);
+                //Console.WriteLine("Erreur lors de l'accès à l'API : "+e.Message);
                 Environment.Exit(0);
             }
             return liste;

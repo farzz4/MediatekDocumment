@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32413.511
+# Visual Studio Version 18
+VisualStudioVersion = 18.3.11527.330 d18.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaTekDocuments", "MediaTekDocuments\MediaTekDocuments.csproj", "{75DE903D-6147-4E14-BBE0-FA20CD1F9840}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaTekDocumentsTests", "MediaTekDocumentsTests\MediaTekDocumentsTests.csproj", "{8655BF75-9348-484E-848A-6CBC3C9C7DCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaTekDocumentstest", "MediaTekDocumentstest\MediaTekDocumentstest.csproj", "{5BD2CF47-260C-4EF0-AFCE-ACD2518EB721}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{8655BF75-9348-484E-848A-6CBC3C9C7DCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8655BF75-9348-484E-848A-6CBC3C9C7DCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8655BF75-9348-484E-848A-6CBC3C9C7DCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BD2CF47-260C-4EF0-AFCE-ACD2518EB721}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BD2CF47-260C-4EF0-AFCE-ACD2518EB721}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BD2CF47-260C-4EF0-AFCE-ACD2518EB721}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BD2CF47-260C-4EF0-AFCE-ACD2518EB721}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
