@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="fr">
+  <compounddef id="_livre_8cs" kind="file" language="C#">
+    <compoundname>Livre.cs</compoundname>
+    <innerclass refid="class_media_tek_documents_1_1model_1_1_livre" prot="public">MediaTekDocuments::model::Livre</innerclass>
+    <innernamespace refid="namespace_media_tek_documents">MediaTekDocuments</innernamespace>
+    <innernamespace refid="namespace_media_tek_documents_1_1model">MediaTekDocuments::model</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_media_tek_documents_1_1model" kindref="compound">MediaTekDocuments.model</ref></highlight></codeline>
+<codeline lineno="3"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7" refid="class_media_tek_documents_1_1model_1_1_livre" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_media_tek_documents_1_1model_1_1_livre_1a3fb135cf6d8d29cd63e01e7338272c90" kindref="member">Livre</ref><sp/>:<sp/><ref refid="class_media_tek_documents_1_1model_1_1_livre_dvd_1ab41f0842266a294cf06d19027b585b5a" kindref="member">LivreDvd</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_media_tek_documents_1_1model_1_1_livre_1a5d7958c2e3a7ab7eb2cab4b16588c2b5" kindref="member">Isbn</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_media_tek_documents_1_1model_1_1_livre_1aa5d497fea14dfb1a926e0d797b8a2d30" kindref="member">Auteur</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_media_tek_documents_1_1model_1_1_livre_1abd7c061ae119c6eac0e181062551f5bf" kindref="member">Collection</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_media_tek_documents_1_1model_1_1_livre_1a3fb135cf6d8d29cd63e01e7338272c90" kindref="member">Livre</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>titre,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>image,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>isbn,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>auteur,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>collection,</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>idGenre,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>genre,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>idPublic,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>lePublic,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>idRayon,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>rayon)</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>base(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/>titre,<sp/>image,<sp/>idGenre,<sp/>genre,<sp/>idPublic,<sp/>lePublic,<sp/>idRayon,<sp/>rayon)</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.Isbn<sp/>=<sp/>isbn;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.Auteur<sp/>=<sp/>auteur;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.Collection<sp/>=<sp/>collection;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="model/Livre.cs"/>
+  </compounddef>
+</doxygen>

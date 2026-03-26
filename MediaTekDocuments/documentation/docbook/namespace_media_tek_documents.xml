@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespace_media_tek_documents" xml:lang="fr">
+<title>Référence de l&apos;espace de nommage MediaTekDocuments</title>
+<indexterm><primary>MediaTekDocuments</primary></indexterm>
+<simplesect>
+    <title>Espaces de nommage    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespace_media_tek_documents_1_1controller">controller</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespace_media_tek_documents_1_1dal">dal</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespace_media_tek_documents_1_1manager">manager</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespace_media_tek_documents_1_1model">model</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespace_media_tek_documents_1_1_properties">Properties</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespace_media_tek_documents_1_1view">view</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_media_tek_documents_1_1_program">Program</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

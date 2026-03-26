@@ -1,0 +1,203 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_media_tek_documents_1_1view_1_1_frm_authentification" xml:lang="fr">
+<title>Référence de la classe MediaTekDocuments.view.FrmAuthentification</title>
+<indexterm><primary>MediaTekDocuments.view.FrmAuthentification</primary></indexterm>
+<para>Graphe d&apos;héritage de MediaTekDocuments.view.FrmAuthentification:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_media_tek_documents_1_1view_1_1_frm_authentification.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Fonctions membres publiques    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_media_tek_documents_1_1view_1_1_frm_authentification_1a88241d51d11d468175347f9b2f8e0ed6">FrmAuthentification</link> ()</para>
+
+<para>Constructeur : création du contrôleur lié à ce formulaire. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Fonctions membres protégées    </title>
+        <itemizedlist>
+            <listitem><para>override void <link linkend="_class_media_tek_documents_1_1view_1_1_frm_authentification_1ae69e5c2aa98cbd0b4ccf52110c69a20a">Dispose</link> (bool disposing)</para>
+
+<para>Clean up any resources being used. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Fonctions membres privées    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_media_tek_documents_1_1view_1_1_frm_authentification_1aa4273a756218fd720512ca3ce71535ea">btnConnexion_Click</link> (object sender, EventArgs e)</para>
+
+<para>Connexion à l&apos;application. </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_media_tek_documents_1_1view_1_1_frm_authentification_1ae43306bdab1af8c0948362a2347fff7e">InitializeComponent</link> ()</para>
+
+<para>Required method for Designer support - do not modify the contents of this method with the code editor. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Attributs privés    </title>
+        <itemizedlist>
+            <listitem><para>readonly <link linkend="_class_media_tek_documents_1_1controller_1_1_frm_authentification_controller">FrmAuthentificationController</link> <link linkend="_class_media_tek_documents_1_1view_1_1_frm_authentification_1afa79da57f77de8513224ac71f06a47e7">controller</link></para>
+</listitem>
+            <listitem><para>System.ComponentModel.IContainer <link linkend="_class_media_tek_documents_1_1view_1_1_frm_authentification_1ae059d3f44b8b06e1056b16ee33742b86">components</link> = null</para>
+
+<para>Required designer variable. </para>
+</listitem>
+            <listitem><para>System.Windows.Forms.Label <link linkend="_class_media_tek_documents_1_1view_1_1_frm_authentification_1a21aaeba0b5582056924765e46769a9e3">label51</link></para>
+</listitem>
+            <listitem><para>System.Windows.Forms.Label <link linkend="_class_media_tek_documents_1_1view_1_1_frm_authentification_1ab4fa9e610b0f6a8164c10d17890a4d3d">label1</link></para>
+</listitem>
+            <listitem><para>System.Windows.Forms.Label <link linkend="_class_media_tek_documents_1_1view_1_1_frm_authentification_1ae5fde57c4f6a44f484c3867eafaf19a8">label2</link></para>
+</listitem>
+            <listitem><para>System.Windows.Forms.TextBox <link linkend="_class_media_tek_documents_1_1view_1_1_frm_authentification_1aaa29e42e8d980855138b299ee90f6eeb">txbLogin</link></para>
+</listitem>
+            <listitem><para>System.Windows.Forms.TextBox <link linkend="_class_media_tek_documents_1_1view_1_1_frm_authentification_1ac221886a76a9b1aca4837210144ecd33">txbPwd</link></para>
+</listitem>
+            <listitem><para>System.Windows.Forms.Button <link linkend="_class_media_tek_documents_1_1view_1_1_frm_authentification_1ac837dc0b73d16a0f425092db3343b5fe">btnConnexion</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Documentation des constructeurs et destructeur</title>
+<anchor xml:id="_class_media_tek_documents_1_1view_1_1_frm_authentification_1a88241d51d11d468175347f9b2f8e0ed6"/><section>
+    <title>FrmAuthentification()</title>
+<indexterm><primary>FrmAuthentification</primary><secondary>MediaTekDocuments.view.FrmAuthentification</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.view.FrmAuthentification</primary><secondary>FrmAuthentification</secondary></indexterm>
+<para><computeroutput>MediaTekDocuments.view.FrmAuthentification.FrmAuthentification ( )</computeroutput></para><para>
+
+<para>Constructeur : création du contrôleur lié à ce formulaire. </para>
+</para>
+</section>
+</section>
+<section>
+<title>Documentation des fonctions membres</title>
+<anchor xml:id="_class_media_tek_documents_1_1view_1_1_frm_authentification_1aa4273a756218fd720512ca3ce71535ea"/><section>
+    <title>btnConnexion_Click()</title>
+<indexterm><primary>btnConnexion_Click</primary><secondary>MediaTekDocuments.view.FrmAuthentification</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.view.FrmAuthentification</primary><secondary>btnConnexion_Click</secondary></indexterm>
+<para><computeroutput>void MediaTekDocuments.view.FrmAuthentification.btnConnexion_Click (object sender, EventArgs e)<computeroutput>[private]</computeroutput></computeroutput></para><para>
+
+<para>Connexion à l&apos;application. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>sender</entry><entry></entry>
+                            </row>
+                            <row>
+<entry>e</entry><entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1view_1_1_frm_authentification_1ae69e5c2aa98cbd0b4ccf52110c69a20a"/><section>
+    <title>Dispose()</title>
+<indexterm><primary>Dispose</primary><secondary>MediaTekDocuments.view.FrmAuthentification</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.view.FrmAuthentification</primary><secondary>Dispose</secondary></indexterm>
+<para><computeroutput>override void MediaTekDocuments.view.FrmAuthentification.Dispose (bool disposing)<computeroutput>[protected]</computeroutput></computeroutput></para><para>
+
+<para>Clean up any resources being used. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>disposing</entry><entry>
+<para>true if managed resources should be disposed; otherwise, false.</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1view_1_1_frm_authentification_1ae43306bdab1af8c0948362a2347fff7e"/><section>
+    <title>InitializeComponent()</title>
+<indexterm><primary>InitializeComponent</primary><secondary>MediaTekDocuments.view.FrmAuthentification</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.view.FrmAuthentification</primary><secondary>InitializeComponent</secondary></indexterm>
+<para><computeroutput>void MediaTekDocuments.view.FrmAuthentification.InitializeComponent ( )<computeroutput>[private]</computeroutput></computeroutput></para><para>
+
+<para>Required method for Designer support - do not modify the contents of this method with the code editor. </para>
+</para>
+</section>
+</section>
+<section>
+<title>Documentation des données membres</title>
+<anchor xml:id="_class_media_tek_documents_1_1view_1_1_frm_authentification_1ac837dc0b73d16a0f425092db3343b5fe"/><section>
+    <title>btnConnexion</title>
+<indexterm><primary>btnConnexion</primary><secondary>MediaTekDocuments.view.FrmAuthentification</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.view.FrmAuthentification</primary><secondary>btnConnexion</secondary></indexterm>
+<para><computeroutput>System.Windows.Forms.Button MediaTekDocuments.view.FrmAuthentification.btnConnexion<computeroutput>[private]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_media_tek_documents_1_1view_1_1_frm_authentification_1ae059d3f44b8b06e1056b16ee33742b86"/><section>
+    <title>components</title>
+<indexterm><primary>components</primary><secondary>MediaTekDocuments.view.FrmAuthentification</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.view.FrmAuthentification</primary><secondary>components</secondary></indexterm>
+<para><computeroutput>System.ComponentModel.IContainer MediaTekDocuments.view.FrmAuthentification.components = null<computeroutput>[private]</computeroutput></computeroutput></para><para>
+
+<para>Required designer variable. </para>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1view_1_1_frm_authentification_1afa79da57f77de8513224ac71f06a47e7"/><section>
+    <title>controller</title>
+<indexterm><primary>controller</primary><secondary>MediaTekDocuments.view.FrmAuthentification</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.view.FrmAuthentification</primary><secondary>controller</secondary></indexterm>
+<para><computeroutput>readonly <link linkend="_class_media_tek_documents_1_1controller_1_1_frm_authentification_controller">FrmAuthentificationController</link> MediaTekDocuments.view.FrmAuthentification.controller<computeroutput>[private]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_media_tek_documents_1_1view_1_1_frm_authentification_1ab4fa9e610b0f6a8164c10d17890a4d3d"/><section>
+    <title>label1</title>
+<indexterm><primary>label1</primary><secondary>MediaTekDocuments.view.FrmAuthentification</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.view.FrmAuthentification</primary><secondary>label1</secondary></indexterm>
+<para><computeroutput>System.Windows.Forms.Label MediaTekDocuments.view.FrmAuthentification.label1<computeroutput>[private]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_media_tek_documents_1_1view_1_1_frm_authentification_1ae5fde57c4f6a44f484c3867eafaf19a8"/><section>
+    <title>label2</title>
+<indexterm><primary>label2</primary><secondary>MediaTekDocuments.view.FrmAuthentification</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.view.FrmAuthentification</primary><secondary>label2</secondary></indexterm>
+<para><computeroutput>System.Windows.Forms.Label MediaTekDocuments.view.FrmAuthentification.label2<computeroutput>[private]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_media_tek_documents_1_1view_1_1_frm_authentification_1a21aaeba0b5582056924765e46769a9e3"/><section>
+    <title>label51</title>
+<indexterm><primary>label51</primary><secondary>MediaTekDocuments.view.FrmAuthentification</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.view.FrmAuthentification</primary><secondary>label51</secondary></indexterm>
+<para><computeroutput>System.Windows.Forms.Label MediaTekDocuments.view.FrmAuthentification.label51<computeroutput>[private]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_media_tek_documents_1_1view_1_1_frm_authentification_1aaa29e42e8d980855138b299ee90f6eeb"/><section>
+    <title>txbLogin</title>
+<indexterm><primary>txbLogin</primary><secondary>MediaTekDocuments.view.FrmAuthentification</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.view.FrmAuthentification</primary><secondary>txbLogin</secondary></indexterm>
+<para><computeroutput>System.Windows.Forms.TextBox MediaTekDocuments.view.FrmAuthentification.txbLogin<computeroutput>[private]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_media_tek_documents_1_1view_1_1_frm_authentification_1ac221886a76a9b1aca4837210144ecd33"/><section>
+    <title>txbPwd</title>
+<indexterm><primary>txbPwd</primary><secondary>MediaTekDocuments.view.FrmAuthentification</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.view.FrmAuthentification</primary><secondary>txbPwd</secondary></indexterm>
+<para><computeroutput>System.Windows.Forms.TextBox MediaTekDocuments.view.FrmAuthentification.txbPwd<computeroutput>[private]</computeroutput></computeroutput></para></section>
+<para>
+La documentation de cette classe a été générée à partir des fichiers suivants :</para>
+view/<link linkend="__frm_authentification_8cs">FrmAuthentification.cs</link>view/<link linkend="__frm_authentification_8_designer_8cs">FrmAuthentification.Designer.cs</link></section>
+</section>

@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_media_tek_documents_1_1model_1_1_revue" xml:lang="fr">
+<title>Référence de la classe MediaTekDocuments.model.Revue</title>
+<indexterm><primary>MediaTekDocuments.model.Revue</primary></indexterm>
+<para>
+
+<para>Classe métier <link linkend="_class_media_tek_documents_1_1model_1_1_revue">Revue</link> hérite de <link linkend="_class_media_tek_documents_1_1model_1_1_document">Document</link> : contient des propriétés spécifiques aux revues. </para>
+ 
+</para>
+<para>Graphe d&apos;héritage de MediaTekDocuments.model.Revue:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_media_tek_documents_1_1model_1_1_revue.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Fonctions membres publiques    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_media_tek_documents_1_1model_1_1_revue_1a06b370061a9678cfd27344d51ef5d65c">Revue</link> (string id, string titre, string image, string idGenre, string genre, string idPublic, string lePublic, string idRayon, string rayon, string periodicite, int delaiMiseADispo)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+Fonctions membres publiques hérités de <link linkend="_class_media_tek_documents_1_1model_1_1_document">MediaTekDocuments.model.Document</link>        <itemizedlist>
+            <listitem><para><link linkend="_class_media_tek_documents_1_1model_1_1_document_1a4ec37162b38adb672e52e7504130f6c5">Document</link> (string id, string titre, string image, string idGenre, string genre, string idPublic, string lePublic, string idRayon, string rayon)</para>
+</listitem>
+        </itemizedlist>
+<simplesect>
+    <title>Propriétés    </title>
+        <itemizedlist>
+            <listitem><para>string <link linkend="_class_media_tek_documents_1_1model_1_1_revue_1a21b586c701761a897d07ee7ae0f0bcf4">Periodicite</link><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>int <link linkend="_class_media_tek_documents_1_1model_1_1_revue_1a33950905753e6fb1380d9aa332e73917">DelaiMiseADispo</link><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+Propriétés hérités de <link linkend="_class_media_tek_documents_1_1model_1_1_document">MediaTekDocuments.model.Document</link>        <itemizedlist>
+            <listitem><para>string <link linkend="_class_media_tek_documents_1_1model_1_1_document_1a3e5b4dabdbc9c81e0c92ed23d0f67b5e">Id</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_media_tek_documents_1_1model_1_1_document_1a5fd612083fc4adfe686e3ff622807c80">Titre</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_media_tek_documents_1_1model_1_1_document_1a139cf009cede8ea414926f897505a594">Image</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_media_tek_documents_1_1model_1_1_document_1a0661e5c1e7b6a8b3efc06e628241f788">IdGenre</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_media_tek_documents_1_1model_1_1_document_1a902cd2dcaf95a7de23061e0450912690">Genre</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_media_tek_documents_1_1model_1_1_document_1a4cd9368bb5e38891c835268ba4f5f427">IdPublic</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_media_tek_documents_1_1model_1_1_document_1af696a751a2fe992484506f59269fe550">Public</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_media_tek_documents_1_1model_1_1_document_1aae91a6dcc4fe8d9f0c70748e6f3d402b">IdRayon</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_media_tek_documents_1_1model_1_1_document_1a4a42cf0f9be94e2316008250bc903be3">Rayon</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+<section>
+<title>Description détaillée</title>
+
+<para>Classe métier <link linkend="_class_media_tek_documents_1_1model_1_1_revue">Revue</link> hérite de <link linkend="_class_media_tek_documents_1_1model_1_1_document">Document</link> : contient des propriétés spécifiques aux revues. </para>
+</section>
+<section>
+<title>Documentation des constructeurs et destructeur</title>
+<anchor xml:id="_class_media_tek_documents_1_1model_1_1_revue_1a06b370061a9678cfd27344d51ef5d65c"/><section>
+    <title>Revue()</title>
+<indexterm><primary>Revue</primary><secondary>MediaTekDocuments.model.Revue</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.model.Revue</primary><secondary>Revue</secondary></indexterm>
+<para><computeroutput>MediaTekDocuments.model.Revue.Revue (string id, string titre, string image, string idGenre, string genre, string idPublic, string lePublic, string idRayon, string rayon, string periodicite, int delaiMiseADispo)</computeroutput></para></section>
+</section>
+<section>
+<title>Documentation des propriétés</title>
+<anchor xml:id="_class_media_tek_documents_1_1model_1_1_revue_1a33950905753e6fb1380d9aa332e73917"/><section>
+    <title>DelaiMiseADispo</title>
+<indexterm><primary>DelaiMiseADispo</primary><secondary>MediaTekDocuments.model.Revue</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.model.Revue</primary><secondary>DelaiMiseADispo</secondary></indexterm>
+<para><computeroutput>int MediaTekDocuments.model.Revue.DelaiMiseADispo<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_media_tek_documents_1_1model_1_1_revue_1a21b586c701761a897d07ee7ae0f0bcf4"/><section>
+    <title>Periodicite</title>
+<indexterm><primary>Periodicite</primary><secondary>MediaTekDocuments.model.Revue</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.model.Revue</primary><secondary>Periodicite</secondary></indexterm>
+<para><computeroutput>string MediaTekDocuments.model.Revue.Periodicite<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<para>
+La documentation de cette classe a été générée à partir du fichier suivant :</para>
+model/<link linkend="__revue_8cs">Revue.cs</link></section>
+</section>

@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_annotated" xml:lang="fr">
+<title>Liste des classes</title>
+Liste des classes, structures, unions et interfaces avec une brève description :<link linkend="_class_media_tek_documents_1_1model_1_1_abonnement">MediaTekDocuments.model.Abonnement</link><link linkend="_class_media_tek_documents_1_1dal_1_1_access">MediaTekDocuments.dal.Access</link>
+<para>Classe d&apos;accès aux données </para>
+<link linkend="_class_media_tek_documents_1_1manager_1_1_api_rest">MediaTekDocuments.manager.ApiRest</link>
+<para>Classe indépendante d&apos;accès à une api rest avec éventuellement une &quot;basic authorization&quot; </para>
+<link linkend="_class_media_tek_documents_1_1model_1_1_categorie">MediaTekDocuments.model.Categorie</link>
+<para>Classe métier <link linkend="_class_media_tek_documents_1_1model_1_1_categorie">Categorie</link> (réunit les informations des classes <link linkend="_class_media_tek_documents_1_1model_1_1_public">Public</link>, <link linkend="_class_media_tek_documents_1_1model_1_1_genre">Genre</link> et <link linkend="_class_media_tek_documents_1_1model_1_1_rayon">Rayon</link>) </para>
+<link linkend="_class_media_tek_documents_1_1model_1_1_commande">MediaTekDocuments.model.Commande</link>
+<para>Classe métier <link linkend="_class_media_tek_documents_1_1model_1_1_commande">Commande</link> </para>
+<link linkend="_class_media_tek_documents_1_1model_1_1_commande_document">MediaTekDocuments.model.CommandeDocument</link>
+<para>Classe métier <link linkend="_class_media_tek_documents_1_1model_1_1_commande_document">CommandeDocument</link> </para>
+<link linkend="_class_media_tek_documents_1_1dal_1_1_access_1_1_custom_boolean_json_converter">MediaTekDocuments.dal.Access.CustomBooleanJsonConverter</link>
+<para>Modification du convertisseur Json pour prendre en compte les booléens classe trouvée sur le site : <link xlink:href="https://www.thecodebuzz.com/newtonsoft-jsonreaderexception-could-not-convert-string-to-boolean/">https://www.thecodebuzz.com/newtonsoft-jsonreaderexception-could-not-convert-string-to-boolean/</link> </para>
+<link linkend="_class_media_tek_documents_1_1dal_1_1_access_1_1_custom_date_time_converter">MediaTekDocuments.dal.Access.CustomDateTimeConverter</link>
+<para>Modification du convertisseur Json pour gérer le format de date </para>
+<link linkend="_class_media_tek_documents_1_1model_1_1_document">MediaTekDocuments.model.Document</link>
+<para>Classe métier <link linkend="_class_media_tek_documents_1_1model_1_1_document">Document</link> (réunit les infomations communes à tous les documents : <link linkend="_class_media_tek_documents_1_1model_1_1_livre">Livre</link>, <link linkend="_class_media_tek_documents_1_1model_1_1_revue">Revue</link>, <link linkend="_class_media_tek_documents_1_1model_1_1_dvd">Dvd</link>) </para>
+<link linkend="_class_media_tek_documents_1_1model_1_1_dvd">MediaTekDocuments.model.Dvd</link>
+<para>Classe métier <link linkend="_class_media_tek_documents_1_1model_1_1_dvd">Dvd</link> hérite de <link linkend="_class_media_tek_documents_1_1model_1_1_livre_dvd">LivreDvd</link> : contient des propriétés spécifiques aux dvd </para>
+<link linkend="_class_media_tek_documents_1_1model_1_1_etat">MediaTekDocuments.model.Etat</link>
+<para>Classe métier <link linkend="_class_media_tek_documents_1_1model_1_1_etat">Etat</link> (état d&apos;usure d&apos;un document) </para>
+<link linkend="_class_media_tek_documents_1_1model_1_1_exemplaire">MediaTekDocuments.model.Exemplaire</link>
+<para>Classe métier <link linkend="_class_media_tek_documents_1_1model_1_1_exemplaire">Exemplaire</link> (exemplaire d&apos;une revue) </para>
+<link linkend="_class_media_tek_documents_1_1view_1_1_frm_authentification">MediaTekDocuments.view.FrmAuthentification</link><link linkend="_class_media_tek_documents_1_1controller_1_1_frm_authentification_controller">MediaTekDocuments.controller.FrmAuthentificationController</link>
+<para>Contrôleur lié à FrmAuthentification </para>
+<link linkend="_class_media_tek_documents_1_1view_1_1_frm_mediatek">MediaTekDocuments.view.FrmMediatek</link>
+<para>Classe d&apos;affichage </para>
+<link linkend="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller">MediaTekDocuments.controller.FrmMediatekController</link>
+<para>Contrôleur lié à FrmMediatek </para>
+<link linkend="_class_media_tek_documents_1_1model_1_1_genre">MediaTekDocuments.model.Genre</link>
+<para>Classe métier <link linkend="_class_media_tek_documents_1_1model_1_1_genre">Genre</link> : hérite de <link linkend="_class_media_tek_documents_1_1model_1_1_categorie">Categorie</link> </para>
+<link linkend="_class_media_tek_documents_1_1model_1_1_livre">MediaTekDocuments.model.Livre</link>
+<para>Classe métier <link linkend="_class_media_tek_documents_1_1model_1_1_livre">Livre</link> hérite de <link linkend="_class_media_tek_documents_1_1model_1_1_livre_dvd">LivreDvd</link> : contient des propriétés spécifiques aux livres </para>
+<link linkend="_class_media_tek_documents_1_1model_1_1_livre_dvd">MediaTekDocuments.model.LivreDvd</link>
+<para>Classe métier <link linkend="_class_media_tek_documents_1_1model_1_1_livre_dvd">LivreDvd</link> hérite de <link linkend="_class_media_tek_documents_1_1model_1_1_document">Document</link> </para>
+<link linkend="_class_media_tek_documents_1_1_program">MediaTekDocuments.Program</link><link linkend="_class_media_tek_documents_1_1model_1_1_public">MediaTekDocuments.model.Public</link>
+<para>Classe métier <link linkend="_class_media_tek_documents_1_1model_1_1_public">Public</link> (public concerné par le document) hérite de <link linkend="_class_media_tek_documents_1_1model_1_1_categorie">Categorie</link> </para>
+<link linkend="_class_media_tek_documents_1_1model_1_1_rayon">MediaTekDocuments.model.Rayon</link>
+<para>Classe métier <link linkend="_class_media_tek_documents_1_1model_1_1_rayon">Rayon</link> (rayon de classement du document) hérite de <link linkend="_class_media_tek_documents_1_1model_1_1_categorie">Categorie</link> </para>
+<link linkend="_class_media_tek_documents_1_1_properties_1_1_resources">MediaTekDocuments.Properties.Resources</link>
+<para>Une classe de ressource fortement typée destinée, entre autres, à la consultation des chaînes localisées </para>
+<link linkend="_class_media_tek_documents_1_1model_1_1_revue">MediaTekDocuments.model.Revue</link>
+<para>Classe métier <link linkend="_class_media_tek_documents_1_1model_1_1_revue">Revue</link> hérite de <link linkend="_class_media_tek_documents_1_1model_1_1_document">Document</link> : contient des propriétés spécifiques aux revues </para>
+<link linkend="_class_media_tek_documents_1_1model_1_1_service">MediaTekDocuments.model.Service</link>
+<para>Classe métier <link linkend="_class_media_tek_documents_1_1model_1_1_service">Service</link> </para>
+<link linkend="_class_media_tek_documents_1_1_properties_1_1_settings">MediaTekDocuments.Properties.Settings</link><link linkend="_class_media_tek_documents_1_1model_1_1_suivi">MediaTekDocuments.model.Suivi</link>
+<para>Classe métier <link linkend="_class_media_tek_documents_1_1model_1_1_suivi">Suivi</link> </para>
+<link linkend="_class_media_tek_documents_1_1model_1_1_utilisateur">MediaTekDocuments.model.Utilisateur</link>
+<para>Classe métier <link linkend="_class_media_tek_documents_1_1model_1_1_utilisateur">Utilisateur</link> </para>
+</section>

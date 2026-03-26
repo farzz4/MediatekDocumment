@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="fr">
+  <compounddef id="class_media_tek_documents_1_1model_1_1_livre_dvd" kind="class" language="C#" prot="public" abstract="yes">
+    <compoundname>MediaTekDocuments::model::LivreDvd</compoundname>
+    <basecompoundref refid="class_media_tek_documents_1_1model_1_1_document" prot="public" virt="non-virtual">MediaTekDocuments.model.Document</basecompoundref>
+    <derivedcompoundref refid="class_media_tek_documents_1_1model_1_1_dvd" prot="public" virt="non-virtual">MediaTekDocuments.model.Dvd</derivedcompoundref>
+    <derivedcompoundref refid="class_media_tek_documents_1_1model_1_1_livre" prot="public" virt="non-virtual">MediaTekDocuments.model.Livre</derivedcompoundref>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_media_tek_documents_1_1model_1_1_livre_dvd_1ab41f0842266a294cf06d19027b585b5a" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MediaTekDocuments.model.LivreDvd.LivreDvd</definition>
+        <argsstring>(string id, string titre, string image, string idGenre, string genre, string idPublic, string lePublic, string idRayon, string rayon)</argsstring>
+        <name>LivreDvd</name>
+        <qualifiedname>MediaTekDocuments.model.LivreDvd.LivreDvd</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>titre</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>idGenre</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>genre</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>idPublic</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>lePublic</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>idRayon</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>rayon</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="model/LivreDvd.cs" line="9" column="19" bodyfile="model/LivreDvd.cs" bodystart="9" bodyend="13"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Classe métier <ref refid="class_media_tek_documents_1_1model_1_1_livre_dvd" kindref="compound">LivreDvd</ref> hérite de <ref refid="class_media_tek_documents_1_1model_1_1_document" kindref="compound">Document</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MediaTekDocuments.model.LivreDvd</label>
+        <link refid="class_media_tek_documents_1_1model_1_1_livre_dvd"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MediaTekDocuments.model.Document</label>
+        <link refid="class_media_tek_documents_1_1model_1_1_document"/>
+      </node>
+      <node id="3">
+        <label>MediaTekDocuments.model.Dvd</label>
+        <link refid="class_media_tek_documents_1_1model_1_1_dvd"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MediaTekDocuments.model.Livre</label>
+        <link refid="class_media_tek_documents_1_1model_1_1_livre"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MediaTekDocuments.model.LivreDvd</label>
+        <link refid="class_media_tek_documents_1_1model_1_1_livre_dvd"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MediaTekDocuments.model.Document</label>
+        <link refid="class_media_tek_documents_1_1model_1_1_document"/>
+      </node>
+    </collaborationgraph>
+    <location file="model/LivreDvd.cs" line="7" column="21" bodyfile="model/LivreDvd.cs" bodystart="8" bodyend="15"/>
+    <listofallmembers>
+      <member refid="class_media_tek_documents_1_1model_1_1_document_1a4ec37162b38adb672e52e7504130f6c5" prot="public" virt="non-virtual"><scope>MediaTekDocuments::model::LivreDvd</scope><name>Document</name></member>
+      <member refid="class_media_tek_documents_1_1model_1_1_document_1a902cd2dcaf95a7de23061e0450912690" prot="public" virt="non-virtual"><scope>MediaTekDocuments::model::LivreDvd</scope><name>Genre</name></member>
+      <member refid="class_media_tek_documents_1_1model_1_1_document_1a3e5b4dabdbc9c81e0c92ed23d0f67b5e" prot="public" virt="non-virtual"><scope>MediaTekDocuments::model::LivreDvd</scope><name>Id</name></member>
+      <member refid="class_media_tek_documents_1_1model_1_1_document_1a0661e5c1e7b6a8b3efc06e628241f788" prot="public" virt="non-virtual"><scope>MediaTekDocuments::model::LivreDvd</scope><name>IdGenre</name></member>
+      <member refid="class_media_tek_documents_1_1model_1_1_document_1a4cd9368bb5e38891c835268ba4f5f427" prot="public" virt="non-virtual"><scope>MediaTekDocuments::model::LivreDvd</scope><name>IdPublic</name></member>
+      <member refid="class_media_tek_documents_1_1model_1_1_document_1aae91a6dcc4fe8d9f0c70748e6f3d402b" prot="public" virt="non-virtual"><scope>MediaTekDocuments::model::LivreDvd</scope><name>IdRayon</name></member>
+      <member refid="class_media_tek_documents_1_1model_1_1_document_1a139cf009cede8ea414926f897505a594" prot="public" virt="non-virtual"><scope>MediaTekDocuments::model::LivreDvd</scope><name>Image</name></member>
+      <member refid="class_media_tek_documents_1_1model_1_1_livre_dvd_1ab41f0842266a294cf06d19027b585b5a" prot="protected" virt="non-virtual"><scope>MediaTekDocuments::model::LivreDvd</scope><name>LivreDvd</name></member>
+      <member refid="class_media_tek_documents_1_1model_1_1_document_1af696a751a2fe992484506f59269fe550" prot="public" virt="non-virtual"><scope>MediaTekDocuments::model::LivreDvd</scope><name>Public</name></member>
+      <member refid="class_media_tek_documents_1_1model_1_1_document_1a4a42cf0f9be94e2316008250bc903be3" prot="public" virt="non-virtual"><scope>MediaTekDocuments::model::LivreDvd</scope><name>Rayon</name></member>
+      <member refid="class_media_tek_documents_1_1model_1_1_document_1a5fd612083fc4adfe686e3ff622807c80" prot="public" virt="non-virtual"><scope>MediaTekDocuments::model::LivreDvd</scope><name>Titre</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

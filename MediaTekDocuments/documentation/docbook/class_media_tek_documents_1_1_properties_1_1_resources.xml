@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_media_tek_documents_1_1_properties_1_1_resources" xml:lang="fr">
+<title>Référence de la classe MediaTekDocuments.Properties.Resources</title>
+<indexterm><primary>MediaTekDocuments.Properties.Resources</primary></indexterm>
+<para>
+
+<para>Une classe de ressource fortement typée destinée, entre autres, à la consultation des chaînes localisées. </para>
+ 
+</para>
+<simplesect>
+    <title>Fonctions de paquetage    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_media_tek_documents_1_1_properties_1_1_resources_1af0108930037910ce912f1c4b6254e12c">Resources</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Propriétés    </title>
+        <itemizedlist>
+            <listitem><para>static global::System.Resources.ResourceManager <link linkend="_class_media_tek_documents_1_1_properties_1_1_resources_1ad15bdb930f633c164a03249e425fc521">ResourceManager</link><computeroutput> [get]</computeroutput>
+</para>
+
+<para>Retourne l&apos;instance ResourceManager mise en cache utilisée par cette classe. </para>
+</listitem>
+            <listitem><para>static global::System.Globalization.CultureInfo <link linkend="_class_media_tek_documents_1_1_properties_1_1_resources_1a99f8246d24578e790579667f8f9c2341">Culture</link><computeroutput> [get, set]</computeroutput>
+</para>
+
+<para>Remplace la propriété CurrentUICulture du thread actuel pour toutes les recherches de ressources à l&apos;aide de cette classe de ressource fortement typée. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Attributs privés statiques    </title>
+        <itemizedlist>
+            <listitem><para>static global::System.Resources.ResourceManager <link linkend="_class_media_tek_documents_1_1_properties_1_1_resources_1a9d13cb8894dbd2ed60778fcbd429d49f">resourceMan</link></para>
+</listitem>
+            <listitem><para>static global::System.Globalization.CultureInfo <link linkend="_class_media_tek_documents_1_1_properties_1_1_resources_1a7e36cf03cc1f8acc5fbe6bb8f610bdc1">resourceCulture</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Description détaillée</title>
+
+<para>Une classe de ressource fortement typée destinée, entre autres, à la consultation des chaînes localisées. </para>
+</section>
+<section>
+<title>Documentation des constructeurs et destructeur</title>
+<anchor xml:id="_class_media_tek_documents_1_1_properties_1_1_resources_1af0108930037910ce912f1c4b6254e12c"/><section>
+    <title>Resources()</title>
+<indexterm><primary>Resources</primary><secondary>MediaTekDocuments.Properties.Resources</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.Properties.Resources</primary><secondary>Resources</secondary></indexterm>
+<para><computeroutput>MediaTekDocuments.Properties.Resources.Resources ( )<computeroutput>[package]</computeroutput></computeroutput></para></section>
+</section>
+<section>
+<title>Documentation des données membres</title>
+<anchor xml:id="_class_media_tek_documents_1_1_properties_1_1_resources_1a7e36cf03cc1f8acc5fbe6bb8f610bdc1"/><section>
+    <title>resourceCulture</title>
+<indexterm><primary>resourceCulture</primary><secondary>MediaTekDocuments.Properties.Resources</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.Properties.Resources</primary><secondary>resourceCulture</secondary></indexterm>
+<para><computeroutput>global.System.Globalization.CultureInfo MediaTekDocuments.Properties.Resources.resourceCulture<computeroutput>[static]</computeroutput>, <computeroutput>[private]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_media_tek_documents_1_1_properties_1_1_resources_1a9d13cb8894dbd2ed60778fcbd429d49f"/><section>
+    <title>resourceMan</title>
+<indexterm><primary>resourceMan</primary><secondary>MediaTekDocuments.Properties.Resources</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.Properties.Resources</primary><secondary>resourceMan</secondary></indexterm>
+<para><computeroutput>global.System.Resources.ResourceManager MediaTekDocuments.Properties.Resources.resourceMan<computeroutput>[static]</computeroutput>, <computeroutput>[private]</computeroutput></computeroutput></para></section>
+</section>
+<section>
+<title>Documentation des propriétés</title>
+<anchor xml:id="_class_media_tek_documents_1_1_properties_1_1_resources_1a99f8246d24578e790579667f8f9c2341"/><section>
+    <title>Culture</title>
+<indexterm><primary>Culture</primary><secondary>MediaTekDocuments.Properties.Resources</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.Properties.Resources</primary><secondary>Culture</secondary></indexterm>
+<para><computeroutput>global.System.Globalization.CultureInfo MediaTekDocuments.Properties.Resources.Culture<computeroutput>[static]</computeroutput>, <computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput>, <computeroutput>[package]</computeroutput></computeroutput></para><para>
+
+<para>Remplace la propriété CurrentUICulture du thread actuel pour toutes les recherches de ressources à l&apos;aide de cette classe de ressource fortement typée. </para>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1_properties_1_1_resources_1ad15bdb930f633c164a03249e425fc521"/><section>
+    <title>ResourceManager</title>
+<indexterm><primary>ResourceManager</primary><secondary>MediaTekDocuments.Properties.Resources</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.Properties.Resources</primary><secondary>ResourceManager</secondary></indexterm>
+<para><computeroutput>global.System.Resources.ResourceManager MediaTekDocuments.Properties.Resources.ResourceManager<computeroutput>[static]</computeroutput>, <computeroutput>[get]</computeroutput>, <computeroutput>[package]</computeroutput></computeroutput></para><para>
+
+<para>Retourne l&apos;instance ResourceManager mise en cache utilisée par cette classe. </para>
+</para>
+</section>
+<para>
+La documentation de cette classe a été générée à partir du fichier suivant :</para>
+Properties/<link linkend="__resources_8_designer_8cs">Resources.Designer.cs</link></section>
+</section>

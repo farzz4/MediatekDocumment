@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_media_tek_documents_1_1_properties_1_1_settings" xml:lang="fr">
+<title>Référence de la classe MediaTekDocuments.Properties.Settings</title>
+<indexterm><primary>MediaTekDocuments.Properties.Settings</primary></indexterm>
+<para>Graphe d&apos;héritage de MediaTekDocuments.Properties.Settings:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_media_tek_documents_1_1_properties_1_1_settings.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Propriétés    </title>
+        <itemizedlist>
+            <listitem><para>static <link linkend="_class_media_tek_documents_1_1_properties_1_1_settings">Settings</link> <link linkend="_class_media_tek_documents_1_1_properties_1_1_settings_1a44ad9858eb332dd91a966e4c2a18c9b9">Default</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_media_tek_documents_1_1_properties_1_1_settings_1aef2ed410e22af7c8e86d0f63f94e743b">mediatek86ConnectionString</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Attributs privés statiques    </title>
+        <itemizedlist>
+            <listitem><para>static <link linkend="_class_media_tek_documents_1_1_properties_1_1_settings">Settings</link> <link linkend="_class_media_tek_documents_1_1_properties_1_1_settings_1aebfd9755aace3c8156e80bcfc82e826d">defaultInstance</link> = ((<link linkend="_class_media_tek_documents_1_1_properties_1_1_settings">Settings</link>)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new <link linkend="_class_media_tek_documents_1_1_properties_1_1_settings">Settings</link>())))</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Documentation des données membres</title>
+<anchor xml:id="_class_media_tek_documents_1_1_properties_1_1_settings_1aebfd9755aace3c8156e80bcfc82e826d"/><section>
+    <title>defaultInstance</title>
+<indexterm><primary>defaultInstance</primary><secondary>MediaTekDocuments.Properties.Settings</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.Properties.Settings</primary><secondary>defaultInstance</secondary></indexterm>
+<para><computeroutput><link linkend="_class_media_tek_documents_1_1_properties_1_1_settings">Settings</link> MediaTekDocuments.Properties.Settings.defaultInstance = ((<link linkend="_class_media_tek_documents_1_1_properties_1_1_settings">Settings</link>)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new <link linkend="_class_media_tek_documents_1_1_properties_1_1_settings">Settings</link>())))<computeroutput>[static]</computeroutput>, <computeroutput>[private]</computeroutput></computeroutput></para></section>
+</section>
+<section>
+<title>Documentation des propriétés</title>
+<anchor xml:id="_class_media_tek_documents_1_1_properties_1_1_settings_1a44ad9858eb332dd91a966e4c2a18c9b9"/><section>
+    <title>Default</title>
+<indexterm><primary>Default</primary><secondary>MediaTekDocuments.Properties.Settings</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.Properties.Settings</primary><secondary>Default</secondary></indexterm>
+<para><computeroutput><link linkend="_class_media_tek_documents_1_1_properties_1_1_settings">Settings</link> MediaTekDocuments.Properties.Settings.Default<computeroutput>[static]</computeroutput>, <computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_media_tek_documents_1_1_properties_1_1_settings_1aef2ed410e22af7c8e86d0f63f94e743b"/><section>
+    <title>mediatek86ConnectionString</title>
+<indexterm><primary>mediatek86ConnectionString</primary><secondary>MediaTekDocuments.Properties.Settings</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.Properties.Settings</primary><secondary>mediatek86ConnectionString</secondary></indexterm>
+<para><computeroutput>string MediaTekDocuments.Properties.Settings.mediatek86ConnectionString<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<para>
+La documentation de cette classe a été générée à partir du fichier suivant :</para>
+Properties/<link linkend="__settings_8_designer_8cs">Settings.Designer.cs</link></section>
+</section>

@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_media_tek_documents_1_1model_1_1_utilisateur" xml:lang="fr">
+<title>Référence de la classe MediaTekDocuments.model.Utilisateur</title>
+<indexterm><primary>MediaTekDocuments.model.Utilisateur</primary></indexterm>
+<para>
+
+<para>Classe métier <link linkend="_class_media_tek_documents_1_1model_1_1_utilisateur">Utilisateur</link>. </para>
+ 
+</para>
+<simplesect>
+    <title>Fonctions membres publiques    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_media_tek_documents_1_1model_1_1_utilisateur_1a404f8e79d4d7bb1fd3946b49ed899dc8">Utilisateur</link> (string login, string password, string idService, string libelle)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Propriétés    </title>
+        <itemizedlist>
+            <listitem><para>string <link linkend="_class_media_tek_documents_1_1model_1_1_utilisateur_1a6be7649c30c8268db5af08c9bfebe4b7">Login</link><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_media_tek_documents_1_1model_1_1_utilisateur_1a157180f664809a12f4b148a83a2a44da">Password</link><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_media_tek_documents_1_1model_1_1_utilisateur_1af899efb8d89c0c6593ead2a52f931d17">IdService</link><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_media_tek_documents_1_1model_1_1_utilisateur_1a705edee0d41873826a8cc024e48ff160">Libelle</link><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Description détaillée</title>
+
+<para>Classe métier <link linkend="_class_media_tek_documents_1_1model_1_1_utilisateur">Utilisateur</link>. </para>
+</section>
+<section>
+<title>Documentation des constructeurs et destructeur</title>
+<anchor xml:id="_class_media_tek_documents_1_1model_1_1_utilisateur_1a404f8e79d4d7bb1fd3946b49ed899dc8"/><section>
+    <title>Utilisateur()</title>
+<indexterm><primary>Utilisateur</primary><secondary>MediaTekDocuments.model.Utilisateur</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.model.Utilisateur</primary><secondary>Utilisateur</secondary></indexterm>
+<para><computeroutput>MediaTekDocuments.model.Utilisateur.Utilisateur (string login, string password, string idService, string libelle)</computeroutput></para></section>
+</section>
+<section>
+<title>Documentation des propriétés</title>
+<anchor xml:id="_class_media_tek_documents_1_1model_1_1_utilisateur_1af899efb8d89c0c6593ead2a52f931d17"/><section>
+    <title>IdService</title>
+<indexterm><primary>IdService</primary><secondary>MediaTekDocuments.model.Utilisateur</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.model.Utilisateur</primary><secondary>IdService</secondary></indexterm>
+<para><computeroutput>string MediaTekDocuments.model.Utilisateur.IdService<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_media_tek_documents_1_1model_1_1_utilisateur_1a705edee0d41873826a8cc024e48ff160"/><section>
+    <title>Libelle</title>
+<indexterm><primary>Libelle</primary><secondary>MediaTekDocuments.model.Utilisateur</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.model.Utilisateur</primary><secondary>Libelle</secondary></indexterm>
+<para><computeroutput>string MediaTekDocuments.model.Utilisateur.Libelle<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_media_tek_documents_1_1model_1_1_utilisateur_1a6be7649c30c8268db5af08c9bfebe4b7"/><section>
+    <title>Login</title>
+<indexterm><primary>Login</primary><secondary>MediaTekDocuments.model.Utilisateur</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.model.Utilisateur</primary><secondary>Login</secondary></indexterm>
+<para><computeroutput>string MediaTekDocuments.model.Utilisateur.Login<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_media_tek_documents_1_1model_1_1_utilisateur_1a157180f664809a12f4b148a83a2a44da"/><section>
+    <title>Password</title>
+<indexterm><primary>Password</primary><secondary>MediaTekDocuments.model.Utilisateur</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.model.Utilisateur</primary><secondary>Password</secondary></indexterm>
+<para><computeroutput>string MediaTekDocuments.model.Utilisateur.Password<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<para>
+La documentation de cette classe a été générée à partir du fichier suivant :</para>
+model/<link linkend="__utilisateur_8cs">Utilisateur.cs</link></section>
+</section>

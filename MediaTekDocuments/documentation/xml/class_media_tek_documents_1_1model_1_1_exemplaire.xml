@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="fr">
+  <compounddef id="class_media_tek_documents_1_1model_1_1_exemplaire" kind="class" language="C#" prot="public">
+    <compoundname>MediaTekDocuments::model::Exemplaire</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_media_tek_documents_1_1model_1_1_exemplaire_1a872d095e0392d6179e60fe5439a1d0e6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int MediaTekDocuments.model.Exemplaire.Numero</definition>
+        <argsstring></argsstring>
+        <name>Numero</name>
+        <qualifiedname>MediaTekDocuments.model.Exemplaire.Numero</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="model/Exemplaire.cs" line="10" column="20" bodyfile="model/Exemplaire.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="property" id="class_media_tek_documents_1_1model_1_1_exemplaire_1a16f5973f92b03fece7606d0e80653a66" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string MediaTekDocuments.model.Exemplaire.Photo</definition>
+        <argsstring></argsstring>
+        <name>Photo</name>
+        <qualifiedname>MediaTekDocuments.model.Exemplaire.Photo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="model/Exemplaire.cs" line="11" column="23" bodyfile="model/Exemplaire.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="property" id="class_media_tek_documents_1_1model_1_1_exemplaire_1ae0fac8f68bf0cbd9a28cb1d15160e36c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime MediaTekDocuments.model.Exemplaire.DateAchat</definition>
+        <argsstring></argsstring>
+        <name>DateAchat</name>
+        <qualifiedname>MediaTekDocuments.model.Exemplaire.DateAchat</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="model/Exemplaire.cs" line="12" column="25" bodyfile="model/Exemplaire.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="property" id="class_media_tek_documents_1_1model_1_1_exemplaire_1a28e9cb8508501f2913dc86ee11087545" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string MediaTekDocuments.model.Exemplaire.IdEtat</definition>
+        <argsstring></argsstring>
+        <name>IdEtat</name>
+        <qualifiedname>MediaTekDocuments.model.Exemplaire.IdEtat</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="model/Exemplaire.cs" line="13" column="23" bodyfile="model/Exemplaire.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="property" id="class_media_tek_documents_1_1model_1_1_exemplaire_1ad4e6e91065237707446cc2a5d1418d67" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string MediaTekDocuments.model.Exemplaire.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <qualifiedname>MediaTekDocuments.model.Exemplaire.Id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="model/Exemplaire.cs" line="14" column="23" bodyfile="model/Exemplaire.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="property" id="class_media_tek_documents_1_1model_1_1_exemplaire_1accb9d572c7de25b4512f13abf504e5ee" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string MediaTekDocuments.model.Exemplaire.Libelle</definition>
+        <argsstring></argsstring>
+        <name>Libelle</name>
+        <qualifiedname>MediaTekDocuments.model.Exemplaire.Libelle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="model/Exemplaire.cs" line="15" column="23" bodyfile="model/Exemplaire.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_media_tek_documents_1_1model_1_1_exemplaire_1a2e475fc73ab63e5dc8e88221f7d07bf3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MediaTekDocuments.model.Exemplaire.Exemplaire</definition>
+        <argsstring>(int numero, DateTime dateAchat, string photo, string idEtat, string idDocument, string libelle)</argsstring>
+        <name>Exemplaire</name>
+        <qualifiedname>MediaTekDocuments.model.Exemplaire.Exemplaire</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>numero</declname>
+        </param>
+        <param>
+          <type>DateTime</type>
+          <declname>dateAchat</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>photo</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>idEtat</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>idDocument</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>libelle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="model/Exemplaire.cs" line="17" column="16" bodyfile="model/Exemplaire.cs" bodystart="17" bodyend="25"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Classe métier <ref refid="class_media_tek_documents_1_1model_1_1_exemplaire" kindref="compound">Exemplaire</ref> (exemplaire d&apos;une revue). </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="model/Exemplaire.cs" line="8" column="11" bodyfile="model/Exemplaire.cs" bodystart="9" bodyend="27"/>
+    <listofallmembers>
+      <member refid="class_media_tek_documents_1_1model_1_1_exemplaire_1ae0fac8f68bf0cbd9a28cb1d15160e36c" prot="public" virt="non-virtual"><scope>MediaTekDocuments::model::Exemplaire</scope><name>DateAchat</name></member>
+      <member refid="class_media_tek_documents_1_1model_1_1_exemplaire_1a2e475fc73ab63e5dc8e88221f7d07bf3" prot="public" virt="non-virtual"><scope>MediaTekDocuments::model::Exemplaire</scope><name>Exemplaire</name></member>
+      <member refid="class_media_tek_documents_1_1model_1_1_exemplaire_1ad4e6e91065237707446cc2a5d1418d67" prot="public" virt="non-virtual"><scope>MediaTekDocuments::model::Exemplaire</scope><name>Id</name></member>
+      <member refid="class_media_tek_documents_1_1model_1_1_exemplaire_1a28e9cb8508501f2913dc86ee11087545" prot="public" virt="non-virtual"><scope>MediaTekDocuments::model::Exemplaire</scope><name>IdEtat</name></member>
+      <member refid="class_media_tek_documents_1_1model_1_1_exemplaire_1accb9d572c7de25b4512f13abf504e5ee" prot="public" virt="non-virtual"><scope>MediaTekDocuments::model::Exemplaire</scope><name>Libelle</name></member>
+      <member refid="class_media_tek_documents_1_1model_1_1_exemplaire_1a872d095e0392d6179e60fe5439a1d0e6" prot="public" virt="non-virtual"><scope>MediaTekDocuments::model::Exemplaire</scope><name>Numero</name></member>
+      <member refid="class_media_tek_documents_1_1model_1_1_exemplaire_1a16f5973f92b03fece7606d0e80653a66" prot="public" virt="non-virtual"><scope>MediaTekDocuments::model::Exemplaire</scope><name>Photo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__access_8cs" xml:lang="fr">
+<title>Référence du fichier dal/Access.cs</title>
+<indexterm><primary>dal/Access.cs</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_media_tek_documents_1_1dal_1_1_access">MediaTekDocuments.dal.Access</link></para>
+
+<para>Classe d&apos;accès aux données. </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_media_tek_documents_1_1dal_1_1_access_1_1_custom_date_time_converter">MediaTekDocuments.dal.Access.CustomDateTimeConverter</link></para>
+
+<para>Modification du convertisseur Json pour gérer le format de date. </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_media_tek_documents_1_1dal_1_1_access_1_1_custom_boolean_json_converter">MediaTekDocuments.dal.Access.CustomBooleanJsonConverter</link></para>
+
+<para>Modification du convertisseur Json pour prendre en compte les booléens classe trouvée sur le site : <link xlink:href="https://www.thecodebuzz.com/newtonsoft-jsonreaderexception-could-not-convert-string-to-boolean/">https://www.thecodebuzz.com/newtonsoft-jsonreaderexception-could-not-convert-string-to-boolean/</link>. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Espaces de nommage    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespace_media_tek_documents">MediaTekDocuments</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespace_media_tek_documents_1_1dal">MediaTekDocuments.dal</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

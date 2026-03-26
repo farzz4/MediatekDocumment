@@ -1,0 +1,1516 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="fr">
+  <compounddef id="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller" kind="class" language="C#" prot="public">
+    <compoundname>MediaTekDocuments::controller::FrmMediatekController</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a3d7ce7f4a99f5748b8380ace06f6221a" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_media_tek_documents_1_1dal_1_1_access" kindref="compound">Access</ref></type>
+        <definition>readonly Access MediaTekDocuments.controller.FrmMediatekController.access</definition>
+        <argsstring></argsstring>
+        <name>access</name>
+        <qualifiedname>MediaTekDocuments.controller.FrmMediatekController.access</qualifiedname>
+        <briefdescription>
+<para>Objet d&apos;accès aux données. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="controller/FrmMediatekController.cs" line="16" column="33" bodyfile="controller/FrmMediatekController.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a72ed2400f576d1bef7c7b4621421c8a7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MediaTekDocuments.controller.FrmMediatekController.FrmMediatekController</definition>
+        <argsstring>()</argsstring>
+        <name>FrmMediatekController</name>
+        <qualifiedname>MediaTekDocuments.controller.FrmMediatekController.FrmMediatekController</qualifiedname>
+        <briefdescription>
+<para>Récupération de l&apos;instance unique d&apos;accès aux données. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="controller/FrmMediatekController.cs" line="21" column="16" bodyfile="controller/FrmMediatekController.cs" bodystart="21" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1ac9f6171c5f481a949bea961a54b4d260" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_media_tek_documents_1_1model_1_1_categorie" kindref="compound">Categorie</ref> &gt;</type>
+        <definition>List&lt; Categorie &gt; MediaTekDocuments.controller.FrmMediatekController.GetAllGenres</definition>
+        <argsstring>()</argsstring>
+        <name>GetAllGenres</name>
+        <qualifiedname>MediaTekDocuments.controller.FrmMediatekController.GetAllGenres</qualifiedname>
+        <briefdescription>
+<para>getter sur la liste des genres </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Liste d&apos;objets <ref refid="class_media_tek_documents_1_1model_1_1_genre" kindref="compound">Genre</ref></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="controller/FrmMediatekController.cs" line="30" column="21" bodyfile="controller/FrmMediatekController.cs" bodystart="30" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1ae13b977e2f01bada5086a0127792d03d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_media_tek_documents_1_1model_1_1_document" kindref="compound">Document</ref> &gt;</type>
+        <definition>List&lt; Document &gt; MediaTekDocuments.controller.FrmMediatekController.GetAllDocuments</definition>
+        <argsstring>()</argsstring>
+        <name>GetAllDocuments</name>
+        <qualifiedname>MediaTekDocuments.controller.FrmMediatekController.GetAllDocuments</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="controller/FrmMediatekController.cs" line="35" column="21" bodyfile="controller/FrmMediatekController.cs" bodystart="35" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a31259a00ffb53bd05653dc1b5d2d041b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_media_tek_documents_1_1model_1_1_livre" kindref="compound">Livre</ref> &gt;</type>
+        <definition>List&lt; Livre &gt; MediaTekDocuments.controller.FrmMediatekController.GetAllLivres</definition>
+        <argsstring>()</argsstring>
+        <name>GetAllLivres</name>
+        <qualifiedname>MediaTekDocuments.controller.FrmMediatekController.GetAllLivres</qualifiedname>
+        <briefdescription>
+<para>getter sur la liste des livres </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Liste d&apos;objets <ref refid="class_media_tek_documents_1_1model_1_1_livre" kindref="compound">Livre</ref></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="controller/FrmMediatekController.cs" line="44" column="21" bodyfile="controller/FrmMediatekController.cs" bodystart="44" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1aff6798b4a3a7fb18d9515fdb0f8807c9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_media_tek_documents_1_1model_1_1_dvd" kindref="compound">Dvd</ref> &gt;</type>
+        <definition>List&lt; Dvd &gt; MediaTekDocuments.controller.FrmMediatekController.GetAllDvd</definition>
+        <argsstring>()</argsstring>
+        <name>GetAllDvd</name>
+        <qualifiedname>MediaTekDocuments.controller.FrmMediatekController.GetAllDvd</qualifiedname>
+        <briefdescription>
+<para>getter sur la liste des <ref refid="class_media_tek_documents_1_1model_1_1_dvd" kindref="compound">Dvd</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Liste d&apos;objets dvd</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="controller/FrmMediatekController.cs" line="53" column="21" bodyfile="controller/FrmMediatekController.cs" bodystart="53" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a3e54e8336581d07c393569ee4625c80c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_media_tek_documents_1_1model_1_1_revue" kindref="compound">Revue</ref> &gt;</type>
+        <definition>List&lt; Revue &gt; MediaTekDocuments.controller.FrmMediatekController.GetAllRevues</definition>
+        <argsstring>()</argsstring>
+        <name>GetAllRevues</name>
+        <qualifiedname>MediaTekDocuments.controller.FrmMediatekController.GetAllRevues</qualifiedname>
+        <briefdescription>
+<para>getter sur la liste des revues </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Liste d&apos;objets <ref refid="class_media_tek_documents_1_1model_1_1_revue" kindref="compound">Revue</ref></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="controller/FrmMediatekController.cs" line="62" column="21" bodyfile="controller/FrmMediatekController.cs" bodystart="62" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1aa080a5d10b7b7da29e376ce0057629cf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_media_tek_documents_1_1model_1_1_categorie" kindref="compound">Categorie</ref> &gt;</type>
+        <definition>List&lt; Categorie &gt; MediaTekDocuments.controller.FrmMediatekController.GetAllRayons</definition>
+        <argsstring>()</argsstring>
+        <name>GetAllRayons</name>
+        <qualifiedname>MediaTekDocuments.controller.FrmMediatekController.GetAllRayons</qualifiedname>
+        <briefdescription>
+<para>getter sur les rayons </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Liste d&apos;objets <ref refid="class_media_tek_documents_1_1model_1_1_rayon" kindref="compound">Rayon</ref></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="controller/FrmMediatekController.cs" line="71" column="21" bodyfile="controller/FrmMediatekController.cs" bodystart="71" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1abab41748fe20336499dd3fc8bd29c3a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_media_tek_documents_1_1model_1_1_categorie" kindref="compound">Categorie</ref> &gt;</type>
+        <definition>List&lt; Categorie &gt; MediaTekDocuments.controller.FrmMediatekController.GetAllPublics</definition>
+        <argsstring>()</argsstring>
+        <name>GetAllPublics</name>
+        <qualifiedname>MediaTekDocuments.controller.FrmMediatekController.GetAllPublics</qualifiedname>
+        <briefdescription>
+<para>getter sur les publics </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Liste d&apos;objets <ref refid="class_media_tek_documents_1_1model_1_1_public" kindref="compound">Public</ref></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="controller/FrmMediatekController.cs" line="80" column="21" bodyfile="controller/FrmMediatekController.cs" bodystart="80" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a259fa9bff3caa7f40d83748729e18d1a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_media_tek_documents_1_1model_1_1_commande" kindref="compound">Commande</ref> &gt;</type>
+        <definition>List&lt; Commande &gt; MediaTekDocuments.controller.FrmMediatekController.GetAllCommandes</definition>
+        <argsstring>()</argsstring>
+        <name>GetAllCommandes</name>
+        <qualifiedname>MediaTekDocuments.controller.FrmMediatekController.GetAllCommandes</qualifiedname>
+        <briefdescription>
+<para>getter sur les commandes </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Liste d&apos;objets Commandes</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="controller/FrmMediatekController.cs" line="89" column="21" bodyfile="controller/FrmMediatekController.cs" bodystart="89" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1ac6252666f48aa3baa9cdb08852925eb8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_media_tek_documents_1_1model_1_1_abonnement" kindref="compound">Abonnement</ref> &gt;</type>
+        <definition>List&lt; Abonnement &gt; MediaTekDocuments.controller.FrmMediatekController.GetAllAbonnements</definition>
+        <argsstring>()</argsstring>
+        <name>GetAllAbonnements</name>
+        <qualifiedname>MediaTekDocuments.controller.FrmMediatekController.GetAllAbonnements</qualifiedname>
+        <briefdescription>
+<para>getter sur les abonnements </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="controller/FrmMediatekController.cs" line="98" column="21" bodyfile="controller/FrmMediatekController.cs" bodystart="98" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1ab5471e58f2e6ed78d298ab05db685daa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_media_tek_documents_1_1model_1_1_suivi" kindref="compound">Suivi</ref> &gt;</type>
+        <definition>List&lt; Suivi &gt; MediaTekDocuments.controller.FrmMediatekController.GetAllSuivis</definition>
+        <argsstring>()</argsstring>
+        <name>GetAllSuivis</name>
+        <qualifiedname>MediaTekDocuments.controller.FrmMediatekController.GetAllSuivis</qualifiedname>
+        <briefdescription>
+<para>getter sur les suivis </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Liste d&apos;objets Suivis</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="controller/FrmMediatekController.cs" line="107" column="21" bodyfile="controller/FrmMediatekController.cs" bodystart="107" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a6eac49e2bb328dd68b0b736e0a717bdd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_media_tek_documents_1_1model_1_1_etat" kindref="compound">Etat</ref> &gt;</type>
+        <definition>List&lt; Etat &gt; MediaTekDocuments.controller.FrmMediatekController.GetAllEtats</definition>
+        <argsstring>()</argsstring>
+        <name>GetAllEtats</name>
+        <qualifiedname>MediaTekDocuments.controller.FrmMediatekController.GetAllEtats</qualifiedname>
+        <briefdescription>
+<para>getter sur les états </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Liste d&apos;objets <ref refid="class_media_tek_documents_1_1model_1_1_etat" kindref="compound">Etat</ref></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="controller/FrmMediatekController.cs" line="116" column="21" bodyfile="controller/FrmMediatekController.cs" bodystart="116" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a176241828bfd21eca7f5572770cb63ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_media_tek_documents_1_1model_1_1_abonnement" kindref="compound">Abonnement</ref> &gt;</type>
+        <definition>List&lt; Abonnement &gt; MediaTekDocuments.controller.FrmMediatekController.GetAbonnementsEcheance</definition>
+        <argsstring>()</argsstring>
+        <name>GetAbonnementsEcheance</name>
+        <qualifiedname>MediaTekDocuments.controller.FrmMediatekController.GetAbonnementsEcheance</qualifiedname>
+        <briefdescription>
+<para>getter les abonnements arrivant à échéance </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="controller/FrmMediatekController.cs" line="125" column="21" bodyfile="controller/FrmMediatekController.cs" bodystart="125" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a5f242368a3552d8e072d31cd4ecc6d5f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_media_tek_documents_1_1model_1_1_exemplaire" kindref="compound">Exemplaire</ref> &gt;</type>
+        <definition>List&lt; Exemplaire &gt; MediaTekDocuments.controller.FrmMediatekController.GetExemplairesRevue</definition>
+        <argsstring>(string idDocument)</argsstring>
+        <name>GetExemplairesRevue</name>
+        <qualifiedname>MediaTekDocuments.controller.FrmMediatekController.GetExemplairesRevue</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>idDocument</declname>
+        </param>
+        <briefdescription>
+<para>getter sur les exemplaires d&apos;une revue </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>idDocuement</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id de la revue concernée</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Liste d&apos;objets <ref refid="class_media_tek_documents_1_1model_1_1_exemplaire" kindref="compound">Exemplaire</ref></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="controller/FrmMediatekController.cs" line="135" column="21" bodyfile="controller/FrmMediatekController.cs" bodystart="135" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a13c4d05274842980a646e9065acbdafa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_media_tek_documents_1_1model_1_1_exemplaire" kindref="compound">Exemplaire</ref> &gt;</type>
+        <definition>List&lt; Exemplaire &gt; MediaTekDocuments.controller.FrmMediatekController.GetExemplairesDocument</definition>
+        <argsstring>(string idDocument)</argsstring>
+        <name>GetExemplairesDocument</name>
+        <qualifiedname>MediaTekDocuments.controller.FrmMediatekController.GetExemplairesDocument</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>idDocument</declname>
+        </param>
+        <briefdescription>
+<para>getter sur les exemplaires d&apos;un document </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>idDocument</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id du document concerné</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Liste d&apos;objet <ref refid="class_media_tek_documents_1_1model_1_1_exemplaire" kindref="compound">Exemplaire</ref></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="controller/FrmMediatekController.cs" line="145" column="21" bodyfile="controller/FrmMediatekController.cs" bodystart="145" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a827939bca67394e3a25f753b36162de4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_media_tek_documents_1_1model_1_1_commande_document" kindref="compound">CommandeDocument</ref> &gt;</type>
+        <definition>List&lt; CommandeDocument &gt; MediaTekDocuments.controller.FrmMediatekController.GetCommandeDocuments</definition>
+        <argsstring>(string idDocument)</argsstring>
+        <name>GetCommandeDocuments</name>
+        <qualifiedname>MediaTekDocuments.controller.FrmMediatekController.GetCommandeDocuments</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>idDocument</declname>
+        </param>
+        <briefdescription>
+<para>getter sur les commandes d&apos;un document </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>idDocument</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id du document concerné</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>List d&apos;objets <ref refid="class_media_tek_documents_1_1model_1_1_commande_document" kindref="compound">CommandeDocument</ref></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="controller/FrmMediatekController.cs" line="155" column="21" bodyfile="controller/FrmMediatekController.cs" bodystart="155" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a919388a569c2fc715e83997eb6b76bfc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_media_tek_documents_1_1model_1_1_abonnement" kindref="compound">Abonnement</ref> &gt;</type>
+        <definition>List&lt; Abonnement &gt; MediaTekDocuments.controller.FrmMediatekController.GetAbonnementsRevue</definition>
+        <argsstring>(string idDocument)</argsstring>
+        <name>GetAbonnementsRevue</name>
+        <qualifiedname>MediaTekDocuments.controller.FrmMediatekController.GetAbonnementsRevue</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>idDocument</declname>
+        </param>
+        <briefdescription>
+<para>getter sur les abonnements d&apos;une revue </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>idDocument</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id du document concerné</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Liste d&apos;objets <ref refid="class_media_tek_documents_1_1model_1_1_abonnement" kindref="compound">Abonnement</ref></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="controller/FrmMediatekController.cs" line="165" column="21" bodyfile="controller/FrmMediatekController.cs" bodystart="165" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a38b26e0f8357c7b9539e974fb0496c4f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MediaTekDocuments.controller.FrmMediatekController.CreerExemplaire</definition>
+        <argsstring>(Exemplaire exemplaire)</argsstring>
+        <name>CreerExemplaire</name>
+        <qualifiedname>MediaTekDocuments.controller.FrmMediatekController.CreerExemplaire</qualifiedname>
+        <param>
+          <type><ref refid="class_media_tek_documents_1_1model_1_1_exemplaire" kindref="compound">Exemplaire</ref></type>
+          <declname>exemplaire</declname>
+        </param>
+        <briefdescription>
+<para>Crée un exemplaire d&apos;une revue dans la bdd. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>exemplaire</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>L&apos;objet <ref refid="class_media_tek_documents_1_1model_1_1_exemplaire" kindref="compound">Exemplaire</ref> concerné</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>True si la création a pu se faire</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="controller/FrmMediatekController.cs" line="175" column="21" bodyfile="controller/FrmMediatekController.cs" bodystart="175" bodyend="178"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a16694ed85a8a49520b1ada114f4c2d2d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MediaTekDocuments.controller.FrmMediatekController.CreerDocument</definition>
+        <argsstring>(string id, string titre, string image, string idRayon, string idPublic, string idGenre)</argsstring>
+        <name>CreerDocument</name>
+        <qualifiedname>MediaTekDocuments.controller.FrmMediatekController.CreerDocument</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>titre</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>idRayon</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>idPublic</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>idGenre</declname>
+        </param>
+        <briefdescription>
+<para>Créé un document dans la bdd. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id du document</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>titre</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>titre du document</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>image</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>image du document</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>idRayon</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id du rayon du document</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>idPublic</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id du public du document</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>idGenre</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id du genre du document</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>True si la création a pu se faire</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="controller/FrmMediatekController.cs" line="190" column="21" bodyfile="controller/FrmMediatekController.cs" bodystart="190" bodyend="193"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a372ce9e03b169df807696fb919a2cd29" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MediaTekDocuments.controller.FrmMediatekController.ModifierDocument</definition>
+        <argsstring>(string id, string titre, string image, string idRayon, string idPublic, string idGenre)</argsstring>
+        <name>ModifierDocument</name>
+        <qualifiedname>MediaTekDocuments.controller.FrmMediatekController.ModifierDocument</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>titre</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>idRayon</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>idPublic</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>idGenre</declname>
+        </param>
+        <briefdescription>
+<para>Modifie un document dans la bdd. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id du document</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>titre</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>titre du document</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>image</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>image du document</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>idRayon</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id du rayon du document</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>idPublic</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id du public du document</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>idGenre</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id du genre du document</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>True si la modification a pu se faire</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="controller/FrmMediatekController.cs" line="205" column="21" bodyfile="controller/FrmMediatekController.cs" bodystart="205" bodyend="208"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a0ef398223ef3d96301f99baff78b689b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MediaTekDocuments.controller.FrmMediatekController.CreerLivre</definition>
+        <argsstring>(string id, string Isbn, string auteur, string collection)</argsstring>
+        <name>CreerLivre</name>
+        <qualifiedname>MediaTekDocuments.controller.FrmMediatekController.CreerLivre</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>Isbn</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>auteur</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>collection</declname>
+        </param>
+        <briefdescription>
+<para>Créé un livre dans la bdd. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id du livre</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>isbn</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>isbn du livre</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>auteur</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>auteur du livre</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>collection</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>collection du livre</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>True si la création a pu se faire</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="controller/FrmMediatekController.cs" line="219" column="21" bodyfile="controller/FrmMediatekController.cs" bodystart="219" bodyend="222"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a599b50e55fdd6eb3eb4027e1e9754e2b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MediaTekDocuments.controller.FrmMediatekController.ModifierLivre</definition>
+        <argsstring>(string id, string Isbn, string auteur, string collection)</argsstring>
+        <name>ModifierLivre</name>
+        <qualifiedname>MediaTekDocuments.controller.FrmMediatekController.ModifierLivre</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>Isbn</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>auteur</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>collection</declname>
+        </param>
+        <briefdescription>
+<para>Modifie un livre dans la bdd. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id du livre</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Isbn</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>isbn du livre</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>auteur</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>auteur du livre</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>collection</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>collection du livre</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true si la suppression a pu se faire</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="controller/FrmMediatekController.cs" line="232" column="21" bodyfile="controller/FrmMediatekController.cs" bodystart="232" bodyend="235"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1af0b47ae755941421df98ac1fdabb8019" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MediaTekDocuments.controller.FrmMediatekController.SupprimerLivre</definition>
+        <argsstring>(string id)</argsstring>
+        <name>SupprimerLivre</name>
+        <qualifiedname>MediaTekDocuments.controller.FrmMediatekController.SupprimerLivre</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Supprime un livre dans la bdd. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id du livre</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true si la suppression a pu se faire</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="controller/FrmMediatekController.cs" line="242" column="21" bodyfile="controller/FrmMediatekController.cs" bodystart="242" bodyend="245"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a154c78a44d0f9ca71a982a333a549563" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MediaTekDocuments.controller.FrmMediatekController.CreerDvd</definition>
+        <argsstring>(string id, string synopsis, string realisateur, int duree)</argsstring>
+        <name>CreerDvd</name>
+        <qualifiedname>MediaTekDocuments.controller.FrmMediatekController.CreerDvd</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>synopsis</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>realisateur</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>duree</declname>
+        </param>
+        <briefdescription>
+<para>Cree un dvd dans la bdd. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id du dvd</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>synopsis</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>synopsis du dvd</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>realisateur</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>realisateur du dvd</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>duree</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>duree du dvd</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true si la création a pu se faire</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="controller/FrmMediatekController.cs" line="255" column="21" bodyfile="controller/FrmMediatekController.cs" bodystart="255" bodyend="258"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a922873643191d921f64cc8ca3e95081c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MediaTekDocuments.controller.FrmMediatekController.ModifierDvd</definition>
+        <argsstring>(string id, string synopsis, string realisateur, int duree)</argsstring>
+        <name>ModifierDvd</name>
+        <qualifiedname>MediaTekDocuments.controller.FrmMediatekController.ModifierDvd</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>synopsis</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>realisateur</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>duree</declname>
+        </param>
+        <briefdescription>
+<para>Modifie un dvd dans la bdd. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id du dvd</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>synopsis</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>synopsis du dvd</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>realisateur</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>realisateur du dvd</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>duree</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>duree du dvd</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true si la modification a pu se faire</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="controller/FrmMediatekController.cs" line="268" column="21" bodyfile="controller/FrmMediatekController.cs" bodystart="268" bodyend="271"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1ae2952711892fe015122a88d251652f01" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MediaTekDocuments.controller.FrmMediatekController.SupprimerDvd</definition>
+        <argsstring>(string id)</argsstring>
+        <name>SupprimerDvd</name>
+        <qualifiedname>MediaTekDocuments.controller.FrmMediatekController.SupprimerDvd</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Supprime un dvd dans la bdd. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id du dvd</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true si la suppression a pu se faire</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="controller/FrmMediatekController.cs" line="278" column="21" bodyfile="controller/FrmMediatekController.cs" bodystart="278" bodyend="281"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a6f3f0045e3c2368c70ec7f1ccbc48e9d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MediaTekDocuments.controller.FrmMediatekController.CreerRevue</definition>
+        <argsstring>(string id, string periodicite, int delaiMiseADispo)</argsstring>
+        <name>CreerRevue</name>
+        <qualifiedname>MediaTekDocuments.controller.FrmMediatekController.CreerRevue</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>periodicite</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>delaiMiseADispo</declname>
+        </param>
+        <briefdescription>
+<para>Cree une revue dans la bdd. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id de la revue</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>periodicite</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>periodicite de la revue</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>delaiMiseADispo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>delai de mise à dispo de la revue</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="controller/FrmMediatekController.cs" line="290" column="21" bodyfile="controller/FrmMediatekController.cs" bodystart="290" bodyend="293"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a0d6def7cc8c3673fac7a02f1c7cf67e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MediaTekDocuments.controller.FrmMediatekController.ModifierRevue</definition>
+        <argsstring>(string id, string periodicite, int delaiMiseADispo)</argsstring>
+        <name>ModifierRevue</name>
+        <qualifiedname>MediaTekDocuments.controller.FrmMediatekController.ModifierRevue</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>periodicite</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>delaiMiseADispo</declname>
+        </param>
+        <briefdescription>
+<para>Modifie une revue dans la bdd. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id de la revue</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>periodicite</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>periodicite de la revue</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>delaiMiseADispo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>delai de mise à dispo de la revue</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true si la modification a pu se faire</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="controller/FrmMediatekController.cs" line="302" column="21" bodyfile="controller/FrmMediatekController.cs" bodystart="302" bodyend="305"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a765f15d68753d89413d2065f0deb6315" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MediaTekDocuments.controller.FrmMediatekController.SupprimerRevue</definition>
+        <argsstring>(string id)</argsstring>
+        <name>SupprimerRevue</name>
+        <qualifiedname>MediaTekDocuments.controller.FrmMediatekController.SupprimerRevue</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Supprime une revue dans la bdd. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id de la revue</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true si la suppression a pu se faire</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="controller/FrmMediatekController.cs" line="312" column="21" bodyfile="controller/FrmMediatekController.cs" bodystart="312" bodyend="315"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a9e1f79c36958bd1800bb20145631606d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MediaTekDocuments.controller.FrmMediatekController.CreerCommande</definition>
+        <argsstring>(Commande commande)</argsstring>
+        <name>CreerCommande</name>
+        <qualifiedname>MediaTekDocuments.controller.FrmMediatekController.CreerCommande</qualifiedname>
+        <param>
+          <type><ref refid="class_media_tek_documents_1_1model_1_1_commande" kindref="compound">Commande</ref></type>
+          <declname>commande</declname>
+        </param>
+        <briefdescription>
+<para>Créé une commande dans la bdd. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>commande</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>objet commande</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true si l&apos;insertion a pu se faire</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="controller/FrmMediatekController.cs" line="322" column="21" bodyfile="controller/FrmMediatekController.cs" bodystart="322" bodyend="325"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a049dc45494461081866270775c70cc02" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MediaTekDocuments.controller.FrmMediatekController.CreerCommandeDocument</definition>
+        <argsstring>(string id, int nbExemplaire, string idLivreDvd, string idSuivi)</argsstring>
+        <name>CreerCommandeDocument</name>
+        <qualifiedname>MediaTekDocuments.controller.FrmMediatekController.CreerCommandeDocument</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nbExemplaire</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>idLivreDvd</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>idSuivi</declname>
+        </param>
+        <briefdescription>
+<para>Créé une commande d&apos;un document dans la bdd. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id de la commande</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nbExemplaire</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nb d&apos;exemplaire dans la commande</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>idLivreDvd</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id du livreDvd de la commande</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>idSuivi</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id du suivi de la commande</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true si l&apos;insertion a pu se faire</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="controller/FrmMediatekController.cs" line="335" column="21" bodyfile="controller/FrmMediatekController.cs" bodystart="335" bodyend="338"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1acdc5825d8d86dc1819ed4f1c3ad5482a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MediaTekDocuments.controller.FrmMediatekController.ModifierSuiviCommandeDocument</definition>
+        <argsstring>(string id, string idSuivi)</argsstring>
+        <name>ModifierSuiviCommandeDocument</name>
+        <qualifiedname>MediaTekDocuments.controller.FrmMediatekController.ModifierSuiviCommandeDocument</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>idSuivi</declname>
+        </param>
+        <briefdescription>
+<para>Modifie le suivi d&apos;une commande d&apos;un document dans la bdd. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id de la commande</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nbExemplaire</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nb d&apos;exemplaires dans la commande</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>idLivreDvd</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id du livreDvd de la commande</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>idSuivi</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id du suivi de la commande</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true si la modification a pu se faire</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="controller/FrmMediatekController.cs" line="348" column="21" bodyfile="controller/FrmMediatekController.cs" bodystart="348" bodyend="351"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a9090bd1380ad4378fc4da52f28829738" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MediaTekDocuments.controller.FrmMediatekController.SupprimerCommandeDocument</definition>
+        <argsstring>(string id)</argsstring>
+        <name>SupprimerCommandeDocument</name>
+        <qualifiedname>MediaTekDocuments.controller.FrmMediatekController.SupprimerCommandeDocument</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Supprime une commande d&apos;un document dans la bdd. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id de la commande</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true si la suppression a pu se faire</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="controller/FrmMediatekController.cs" line="358" column="21" bodyfile="controller/FrmMediatekController.cs" bodystart="358" bodyend="361"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a61be60749967c533463ffcbc23e4738f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MediaTekDocuments.controller.FrmMediatekController.CreerAbonnementRevue</definition>
+        <argsstring>(string id, DateTime dateFinAbonnement, string idRevue)</argsstring>
+        <name>CreerAbonnementRevue</name>
+        <qualifiedname>MediaTekDocuments.controller.FrmMediatekController.CreerAbonnementRevue</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>DateTime</type>
+          <declname>dateFinAbonnement</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>idRevue</declname>
+        </param>
+        <briefdescription>
+<para>Créé un abonnement d&apos;une revue dans la bdd. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>abonnement</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>objet abonnement</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true si l&apos;insertion a pu se faire</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="controller/FrmMediatekController.cs" line="368" column="21" bodyfile="controller/FrmMediatekController.cs" bodystart="368" bodyend="371"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a9e09a243e382acd67f3e364bbfad5478" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MediaTekDocuments.controller.FrmMediatekController.SupprimerAbonnementRevue</definition>
+        <argsstring>(string id)</argsstring>
+        <name>SupprimerAbonnementRevue</name>
+        <qualifiedname>MediaTekDocuments.controller.FrmMediatekController.SupprimerAbonnementRevue</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Supprime un abonnement d&apos;une revue dans la bdd. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id de l&apos;abonnement</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true si la suppression a pu se faire</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="controller/FrmMediatekController.cs" line="378" column="21" bodyfile="controller/FrmMediatekController.cs" bodystart="378" bodyend="381"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a980fde13f957bbb517cb732df29f9c6f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MediaTekDocuments.controller.FrmMediatekController.ParutionDansAbonnement</definition>
+        <argsstring>(DateTime dateCommande, DateTime dateFinAbonnement, DateTime dateParution)</argsstring>
+        <name>ParutionDansAbonnement</name>
+        <qualifiedname>MediaTekDocuments.controller.FrmMediatekController.ParutionDansAbonnement</qualifiedname>
+        <param>
+          <type>DateTime</type>
+          <declname>dateCommande</declname>
+        </param>
+        <param>
+          <type>DateTime</type>
+          <declname>dateFinAbonnement</declname>
+        </param>
+        <param>
+          <type>DateTime</type>
+          <declname>dateParution</declname>
+        </param>
+        <briefdescription>
+<para>Vérifier si une parution est associée à une commande donnée. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dateCommande</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>date de la commande</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dateFinAbonnement</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>date de fin de l&apos;abonnement</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dateParution</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>date de parution de la revue</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true si la date de parution est entre les 2 autres dates</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="controller/FrmMediatekController.cs" line="390" column="21" bodyfile="controller/FrmMediatekController.cs" bodystart="390" bodyend="393"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1aeb6938e241e26ba555f3f71ad5a2b867" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MediaTekDocuments.controller.FrmMediatekController.ModifierEtatExemplaireDocument</definition>
+        <argsstring>(Exemplaire exemplaire)</argsstring>
+        <name>ModifierEtatExemplaireDocument</name>
+        <qualifiedname>MediaTekDocuments.controller.FrmMediatekController.ModifierEtatExemplaireDocument</qualifiedname>
+        <param>
+          <type><ref refid="class_media_tek_documents_1_1model_1_1_exemplaire" kindref="compound">Exemplaire</ref></type>
+          <declname>exemplaire</declname>
+        </param>
+        <briefdescription>
+<para>Modifie l&apos;état d&apos;un exemplaire d&apos;un document. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>numero</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>numéro de l&apos;exemplaire</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>idEtat</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id de l&apos;état à modifier</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true si la modification a pu se faire</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="controller/FrmMediatekController.cs" line="402" column="21" bodyfile="controller/FrmMediatekController.cs" bodystart="402" bodyend="405"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1afebed9427833259fda459f8fdb446f85" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MediaTekDocuments.controller.FrmMediatekController.SupprimerExemplaireDocument</definition>
+        <argsstring>(Exemplaire exemplaire)</argsstring>
+        <name>SupprimerExemplaireDocument</name>
+        <qualifiedname>MediaTekDocuments.controller.FrmMediatekController.SupprimerExemplaireDocument</qualifiedname>
+        <param>
+          <type><ref refid="class_media_tek_documents_1_1model_1_1_exemplaire" kindref="compound">Exemplaire</ref></type>
+          <declname>exemplaire</declname>
+        </param>
+        <briefdescription>
+<para>Supprime un exemplaire d&apos;un document dans la bdd. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>exemplaire</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="class_media_tek_documents_1_1model_1_1_exemplaire" kindref="compound">Exemplaire</ref> à supprimer</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true si la suppression a pu se faire </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="controller/FrmMediatekController.cs" line="412" column="21" bodyfile="controller/FrmMediatekController.cs" bodystart="412" bodyend="415"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Contrôleur lié à FrmMediatek. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>MediaTekDocuments.controller.FrmMediatekController</label>
+        <link refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>access</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MediaTekDocuments.dal.Access</label>
+        <link refid="class_media_tek_documents_1_1dal_1_1_access"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>instance</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>api</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MediaTekDocuments.manager.ApiRest</label>
+        <link refid="class_media_tek_documents_1_1manager_1_1_api_rest"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>instance</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="controller/FrmMediatekController.cs" line="11" column="5" bodyfile="controller/FrmMediatekController.cs" bodystart="12" bodyend="416"/>
+    <listofallmembers>
+      <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a3d7ce7f4a99f5748b8380ace06f6221a" prot="private" virt="non-virtual"><scope>MediaTekDocuments::controller::FrmMediatekController</scope><name>access</name></member>
+      <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a61be60749967c533463ffcbc23e4738f" prot="public" virt="non-virtual"><scope>MediaTekDocuments::controller::FrmMediatekController</scope><name>CreerAbonnementRevue</name></member>
+      <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a9e1f79c36958bd1800bb20145631606d" prot="public" virt="non-virtual"><scope>MediaTekDocuments::controller::FrmMediatekController</scope><name>CreerCommande</name></member>
+      <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a049dc45494461081866270775c70cc02" prot="public" virt="non-virtual"><scope>MediaTekDocuments::controller::FrmMediatekController</scope><name>CreerCommandeDocument</name></member>
+      <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a16694ed85a8a49520b1ada114f4c2d2d" prot="public" virt="non-virtual"><scope>MediaTekDocuments::controller::FrmMediatekController</scope><name>CreerDocument</name></member>
+      <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a154c78a44d0f9ca71a982a333a549563" prot="public" virt="non-virtual"><scope>MediaTekDocuments::controller::FrmMediatekController</scope><name>CreerDvd</name></member>
+      <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a38b26e0f8357c7b9539e974fb0496c4f" prot="public" virt="non-virtual"><scope>MediaTekDocuments::controller::FrmMediatekController</scope><name>CreerExemplaire</name></member>
+      <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a0ef398223ef3d96301f99baff78b689b" prot="public" virt="non-virtual"><scope>MediaTekDocuments::controller::FrmMediatekController</scope><name>CreerLivre</name></member>
+      <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a6f3f0045e3c2368c70ec7f1ccbc48e9d" prot="public" virt="non-virtual"><scope>MediaTekDocuments::controller::FrmMediatekController</scope><name>CreerRevue</name></member>
+      <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a72ed2400f576d1bef7c7b4621421c8a7" prot="public" virt="non-virtual"><scope>MediaTekDocuments::controller::FrmMediatekController</scope><name>FrmMediatekController</name></member>
+      <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a176241828bfd21eca7f5572770cb63ae" prot="public" virt="non-virtual"><scope>MediaTekDocuments::controller::FrmMediatekController</scope><name>GetAbonnementsEcheance</name></member>
+      <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a919388a569c2fc715e83997eb6b76bfc" prot="public" virt="non-virtual"><scope>MediaTekDocuments::controller::FrmMediatekController</scope><name>GetAbonnementsRevue</name></member>
+      <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1ac6252666f48aa3baa9cdb08852925eb8" prot="public" virt="non-virtual"><scope>MediaTekDocuments::controller::FrmMediatekController</scope><name>GetAllAbonnements</name></member>
+      <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a259fa9bff3caa7f40d83748729e18d1a" prot="public" virt="non-virtual"><scope>MediaTekDocuments::controller::FrmMediatekController</scope><name>GetAllCommandes</name></member>
+      <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1ae13b977e2f01bada5086a0127792d03d" prot="public" virt="non-virtual"><scope>MediaTekDocuments::controller::FrmMediatekController</scope><name>GetAllDocuments</name></member>
+      <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1aff6798b4a3a7fb18d9515fdb0f8807c9" prot="public" virt="non-virtual"><scope>MediaTekDocuments::controller::FrmMediatekController</scope><name>GetAllDvd</name></member>
+      <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a6eac49e2bb328dd68b0b736e0a717bdd" prot="public" virt="non-virtual"><scope>MediaTekDocuments::controller::FrmMediatekController</scope><name>GetAllEtats</name></member>
+      <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1ac9f6171c5f481a949bea961a54b4d260" prot="public" virt="non-virtual"><scope>MediaTekDocuments::controller::FrmMediatekController</scope><name>GetAllGenres</name></member>
+      <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a31259a00ffb53bd05653dc1b5d2d041b" prot="public" virt="non-virtual"><scope>MediaTekDocuments::controller::FrmMediatekController</scope><name>GetAllLivres</name></member>
+      <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1abab41748fe20336499dd3fc8bd29c3a2" prot="public" virt="non-virtual"><scope>MediaTekDocuments::controller::FrmMediatekController</scope><name>GetAllPublics</name></member>
+      <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1aa080a5d10b7b7da29e376ce0057629cf" prot="public" virt="non-virtual"><scope>MediaTekDocuments::controller::FrmMediatekController</scope><name>GetAllRayons</name></member>
+      <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a3e54e8336581d07c393569ee4625c80c" prot="public" virt="non-virtual"><scope>MediaTekDocuments::controller::FrmMediatekController</scope><name>GetAllRevues</name></member>
+      <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1ab5471e58f2e6ed78d298ab05db685daa" prot="public" virt="non-virtual"><scope>MediaTekDocuments::controller::FrmMediatekController</scope><name>GetAllSuivis</name></member>
+      <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a827939bca67394e3a25f753b36162de4" prot="public" virt="non-virtual"><scope>MediaTekDocuments::controller::FrmMediatekController</scope><name>GetCommandeDocuments</name></member>
+      <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a13c4d05274842980a646e9065acbdafa" prot="public" virt="non-virtual"><scope>MediaTekDocuments::controller::FrmMediatekController</scope><name>GetExemplairesDocument</name></member>
+      <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a5f242368a3552d8e072d31cd4ecc6d5f" prot="public" virt="non-virtual"><scope>MediaTekDocuments::controller::FrmMediatekController</scope><name>GetExemplairesRevue</name></member>
+      <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a372ce9e03b169df807696fb919a2cd29" prot="public" virt="non-virtual"><scope>MediaTekDocuments::controller::FrmMediatekController</scope><name>ModifierDocument</name></member>
+      <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a922873643191d921f64cc8ca3e95081c" prot="public" virt="non-virtual"><scope>MediaTekDocuments::controller::FrmMediatekController</scope><name>ModifierDvd</name></member>
+      <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1aeb6938e241e26ba555f3f71ad5a2b867" prot="public" virt="non-virtual"><scope>MediaTekDocuments::controller::FrmMediatekController</scope><name>ModifierEtatExemplaireDocument</name></member>
+      <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a599b50e55fdd6eb3eb4027e1e9754e2b" prot="public" virt="non-virtual"><scope>MediaTekDocuments::controller::FrmMediatekController</scope><name>ModifierLivre</name></member>
+      <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a0d6def7cc8c3673fac7a02f1c7cf67e2" prot="public" virt="non-virtual"><scope>MediaTekDocuments::controller::FrmMediatekController</scope><name>ModifierRevue</name></member>
+      <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1acdc5825d8d86dc1819ed4f1c3ad5482a" prot="public" virt="non-virtual"><scope>MediaTekDocuments::controller::FrmMediatekController</scope><name>ModifierSuiviCommandeDocument</name></member>
+      <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a980fde13f957bbb517cb732df29f9c6f" prot="public" virt="non-virtual"><scope>MediaTekDocuments::controller::FrmMediatekController</scope><name>ParutionDansAbonnement</name></member>
+      <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a9e09a243e382acd67f3e364bbfad5478" prot="public" virt="non-virtual"><scope>MediaTekDocuments::controller::FrmMediatekController</scope><name>SupprimerAbonnementRevue</name></member>
+      <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a9090bd1380ad4378fc4da52f28829738" prot="public" virt="non-virtual"><scope>MediaTekDocuments::controller::FrmMediatekController</scope><name>SupprimerCommandeDocument</name></member>
+      <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1ae2952711892fe015122a88d251652f01" prot="public" virt="non-virtual"><scope>MediaTekDocuments::controller::FrmMediatekController</scope><name>SupprimerDvd</name></member>
+      <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1afebed9427833259fda459f8fdb446f85" prot="public" virt="non-virtual"><scope>MediaTekDocuments::controller::FrmMediatekController</scope><name>SupprimerExemplaireDocument</name></member>
+      <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1af0b47ae755941421df98ac1fdabb8019" prot="public" virt="non-virtual"><scope>MediaTekDocuments::controller::FrmMediatekController</scope><name>SupprimerLivre</name></member>
+      <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a765f15d68753d89413d2065f0deb6315" prot="public" virt="non-virtual"><scope>MediaTekDocuments::controller::FrmMediatekController</scope><name>SupprimerRevue</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

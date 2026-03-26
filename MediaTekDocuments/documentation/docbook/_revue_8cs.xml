@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__revue_8cs" xml:lang="fr">
+<title>Référence du fichier model/Revue.cs</title>
+<indexterm><primary>model/Revue.cs</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_media_tek_documents_1_1model_1_1_revue">MediaTekDocuments.model.Revue</link></para>
+
+<para>Classe métier <link linkend="_class_media_tek_documents_1_1model_1_1_revue">Revue</link> hérite de <link linkend="_class_media_tek_documents_1_1model_1_1_document">Document</link> : contient des propriétés spécifiques aux revues. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Espaces de nommage    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespace_media_tek_documents">MediaTekDocuments</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespace_media_tek_documents_1_1model">MediaTekDocuments.model</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

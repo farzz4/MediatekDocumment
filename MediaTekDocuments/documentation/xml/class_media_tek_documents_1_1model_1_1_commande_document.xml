@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="fr">
+  <compounddef id="class_media_tek_documents_1_1model_1_1_commande_document" kind="class" language="C#" prot="public">
+    <compoundname>MediaTekDocuments::model::CommandeDocument</compoundname>
+    <basecompoundref refid="class_media_tek_documents_1_1model_1_1_commande" prot="public" virt="non-virtual">MediaTekDocuments.model.Commande</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_media_tek_documents_1_1model_1_1_commande_document_1a9c7fea5a10d02c32b2c6de200e9c4c29" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int MediaTekDocuments.model.CommandeDocument.NbExemplaire</definition>
+        <argsstring></argsstring>
+        <name>NbExemplaire</name>
+        <qualifiedname>MediaTekDocuments.model.CommandeDocument.NbExemplaire</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="model/CommandeDocument.cs" line="14" column="20" bodyfile="model/CommandeDocument.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="property" id="class_media_tek_documents_1_1model_1_1_commande_document_1a5b614cdc0404c0abb53da5570bbc33bf" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string MediaTekDocuments.model.CommandeDocument.IdLivreDvd</definition>
+        <argsstring></argsstring>
+        <name>IdLivreDvd</name>
+        <qualifiedname>MediaTekDocuments.model.CommandeDocument.IdLivreDvd</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="model/CommandeDocument.cs" line="16" column="23" bodyfile="model/CommandeDocument.cs" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="property" id="class_media_tek_documents_1_1model_1_1_commande_document_1a0f47db6bf8c02e2b3ae6840ccbcd9530" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string MediaTekDocuments.model.CommandeDocument.IdSuivi</definition>
+        <argsstring></argsstring>
+        <name>IdSuivi</name>
+        <qualifiedname>MediaTekDocuments.model.CommandeDocument.IdSuivi</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="model/CommandeDocument.cs" line="18" column="23" bodyfile="model/CommandeDocument.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="property" id="class_media_tek_documents_1_1model_1_1_commande_document_1a393dadf2237a96220619f8648496f2ec" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string MediaTekDocuments.model.CommandeDocument.Libelle</definition>
+        <argsstring></argsstring>
+        <name>Libelle</name>
+        <qualifiedname>MediaTekDocuments.model.CommandeDocument.Libelle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="model/CommandeDocument.cs" line="20" column="23" bodyfile="model/CommandeDocument.cs" bodystart="20" bodyend="20"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_media_tek_documents_1_1model_1_1_commande_document_1a1192272583c1b05dcddab2a2d2606264" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MediaTekDocuments.model.CommandeDocument.CommandeDocument</definition>
+        <argsstring>(string id, DateTime dateCommande, double montant, int nbExemplaire, string idLivreDvd, string idSuivi, string libelle)</argsstring>
+        <name>CommandeDocument</name>
+        <qualifiedname>MediaTekDocuments.model.CommandeDocument.CommandeDocument</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>DateTime</type>
+          <declname>dateCommande</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>montant</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nbExemplaire</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>idLivreDvd</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>idSuivi</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>libelle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="model/CommandeDocument.cs" line="22" column="16" bodyfile="model/CommandeDocument.cs" bodystart="22" bodyend="30"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Classe métier <ref refid="class_media_tek_documents_1_1model_1_1_commande_document" kindref="compound">CommandeDocument</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MediaTekDocuments.model.CommandeDocument</label>
+        <link refid="class_media_tek_documents_1_1model_1_1_commande_document"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MediaTekDocuments.model.Commande</label>
+        <link refid="class_media_tek_documents_1_1model_1_1_commande"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MediaTekDocuments.model.CommandeDocument</label>
+        <link refid="class_media_tek_documents_1_1model_1_1_commande_document"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MediaTekDocuments.model.Commande</label>
+        <link refid="class_media_tek_documents_1_1model_1_1_commande"/>
+      </node>
+    </collaborationgraph>
+    <location file="model/CommandeDocument.cs" line="12" column="11" bodyfile="model/CommandeDocument.cs" bodystart="13" bodyend="31"/>
+    <listofallmembers>
+      <member refid="class_media_tek_documents_1_1model_1_1_commande_1ad7abbd5d27307c467b75e4e3f41097e6" prot="public" virt="non-virtual"><scope>MediaTekDocuments::model::CommandeDocument</scope><name>Commande</name></member>
+      <member refid="class_media_tek_documents_1_1model_1_1_commande_document_1a1192272583c1b05dcddab2a2d2606264" prot="public" virt="non-virtual"><scope>MediaTekDocuments::model::CommandeDocument</scope><name>CommandeDocument</name></member>
+      <member refid="class_media_tek_documents_1_1model_1_1_commande_1ac0d0f36c146895da4ba30a1a03c72ff3" prot="public" virt="non-virtual"><scope>MediaTekDocuments::model::CommandeDocument</scope><name>DateCommande</name></member>
+      <member refid="class_media_tek_documents_1_1model_1_1_commande_1af40f3cebd61db3b07c5a67cfaab6a543" prot="public" virt="non-virtual"><scope>MediaTekDocuments::model::CommandeDocument</scope><name>Id</name></member>
+      <member refid="class_media_tek_documents_1_1model_1_1_commande_document_1a5b614cdc0404c0abb53da5570bbc33bf" prot="public" virt="non-virtual"><scope>MediaTekDocuments::model::CommandeDocument</scope><name>IdLivreDvd</name></member>
+      <member refid="class_media_tek_documents_1_1model_1_1_commande_document_1a0f47db6bf8c02e2b3ae6840ccbcd9530" prot="public" virt="non-virtual"><scope>MediaTekDocuments::model::CommandeDocument</scope><name>IdSuivi</name></member>
+      <member refid="class_media_tek_documents_1_1model_1_1_commande_document_1a393dadf2237a96220619f8648496f2ec" prot="public" virt="non-virtual"><scope>MediaTekDocuments::model::CommandeDocument</scope><name>Libelle</name></member>
+      <member refid="class_media_tek_documents_1_1model_1_1_commande_1ab960542350c24d0df2987072c9d547a8" prot="public" virt="non-virtual"><scope>MediaTekDocuments::model::CommandeDocument</scope><name>Montant</name></member>
+      <member refid="class_media_tek_documents_1_1model_1_1_commande_document_1a9c7fea5a10d02c32b2c6de200e9c4c29" prot="public" virt="non-virtual"><scope>MediaTekDocuments::model::CommandeDocument</scope><name>NbExemplaire</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

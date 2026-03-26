@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_media_tek_documents_1_1model_1_1_dvd" xml:lang="fr">
+<title>Référence de la classe MediaTekDocuments.model.Dvd</title>
+<indexterm><primary>MediaTekDocuments.model.Dvd</primary></indexterm>
+<para>
+
+<para>Classe métier <link linkend="_class_media_tek_documents_1_1model_1_1_dvd">Dvd</link> hérite de <link linkend="_class_media_tek_documents_1_1model_1_1_livre_dvd">LivreDvd</link> : contient des propriétés spécifiques aux dvd. </para>
+ 
+</para>
+<para>Graphe d&apos;héritage de MediaTekDocuments.model.Dvd:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_media_tek_documents_1_1model_1_1_dvd.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Fonctions membres publiques    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_media_tek_documents_1_1model_1_1_dvd_1af7cf7aa9fce1c55683c9d418fa755a51">Dvd</link> (string id, string titre, string image, int duree, string realisateur, string synopsis, string idGenre, string genre, string idPublic, string lePublic, string idRayon, string rayon)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+Fonctions membres publiques hérités de <link linkend="_class_media_tek_documents_1_1model_1_1_document">MediaTekDocuments.model.Document</link>        <itemizedlist>
+            <listitem><para><link linkend="_class_media_tek_documents_1_1model_1_1_document_1a4ec37162b38adb672e52e7504130f6c5">Document</link> (string id, string titre, string image, string idGenre, string genre, string idPublic, string lePublic, string idRayon, string rayon)</para>
+</listitem>
+        </itemizedlist>
+<simplesect>
+    <title>Propriétés    </title>
+        <itemizedlist>
+            <listitem><para>int <link linkend="_class_media_tek_documents_1_1model_1_1_dvd_1a3d53bb81cc5e9b97c1f876858de720ce">Duree</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_media_tek_documents_1_1model_1_1_dvd_1a6884c7ee331fa463ff280840078b9378">Realisateur</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_media_tek_documents_1_1model_1_1_dvd_1a24203cc16b89c6a085cb5de5fc65a9c1">Synopsis</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+Propriétés hérités de <link linkend="_class_media_tek_documents_1_1model_1_1_document">MediaTekDocuments.model.Document</link>        <itemizedlist>
+            <listitem><para>string <link linkend="_class_media_tek_documents_1_1model_1_1_document_1a3e5b4dabdbc9c81e0c92ed23d0f67b5e">Id</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_media_tek_documents_1_1model_1_1_document_1a5fd612083fc4adfe686e3ff622807c80">Titre</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_media_tek_documents_1_1model_1_1_document_1a139cf009cede8ea414926f897505a594">Image</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_media_tek_documents_1_1model_1_1_document_1a0661e5c1e7b6a8b3efc06e628241f788">IdGenre</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_media_tek_documents_1_1model_1_1_document_1a902cd2dcaf95a7de23061e0450912690">Genre</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_media_tek_documents_1_1model_1_1_document_1a4cd9368bb5e38891c835268ba4f5f427">IdPublic</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_media_tek_documents_1_1model_1_1_document_1af696a751a2fe992484506f59269fe550">Public</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_media_tek_documents_1_1model_1_1_document_1aae91a6dcc4fe8d9f0c70748e6f3d402b">IdRayon</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_media_tek_documents_1_1model_1_1_document_1a4a42cf0f9be94e2316008250bc903be3">Rayon</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+<simplesect>
+    <title>Membres hérités additionnels    </title>
+Fonctions membres protégées hérités de <link linkend="_class_media_tek_documents_1_1model_1_1_livre_dvd">MediaTekDocuments.model.LivreDvd</link>        <itemizedlist>
+            <listitem><para><link linkend="_class_media_tek_documents_1_1model_1_1_livre_dvd_1ab41f0842266a294cf06d19027b585b5a">LivreDvd</link> (string id, string titre, string image, string idGenre, string genre, string idPublic, string lePublic, string idRayon, string rayon)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Description détaillée</title>
+
+<para>Classe métier <link linkend="_class_media_tek_documents_1_1model_1_1_dvd">Dvd</link> hérite de <link linkend="_class_media_tek_documents_1_1model_1_1_livre_dvd">LivreDvd</link> : contient des propriétés spécifiques aux dvd. </para>
+</section>
+<section>
+<title>Documentation des constructeurs et destructeur</title>
+<anchor xml:id="_class_media_tek_documents_1_1model_1_1_dvd_1af7cf7aa9fce1c55683c9d418fa755a51"/><section>
+    <title>Dvd()</title>
+<indexterm><primary>Dvd</primary><secondary>MediaTekDocuments.model.Dvd</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.model.Dvd</primary><secondary>Dvd</secondary></indexterm>
+<para><computeroutput>MediaTekDocuments.model.Dvd.Dvd (string id, string titre, string image, int duree, string realisateur, string synopsis, string idGenre, string genre, string idPublic, string lePublic, string idRayon, string rayon)</computeroutput></para></section>
+</section>
+<section>
+<title>Documentation des propriétés</title>
+<anchor xml:id="_class_media_tek_documents_1_1model_1_1_dvd_1a3d53bb81cc5e9b97c1f876858de720ce"/><section>
+    <title>Duree</title>
+<indexterm><primary>Duree</primary><secondary>MediaTekDocuments.model.Dvd</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.model.Dvd</primary><secondary>Duree</secondary></indexterm>
+<para><computeroutput>int MediaTekDocuments.model.Dvd.Duree<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_media_tek_documents_1_1model_1_1_dvd_1a6884c7ee331fa463ff280840078b9378"/><section>
+    <title>Realisateur</title>
+<indexterm><primary>Realisateur</primary><secondary>MediaTekDocuments.model.Dvd</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.model.Dvd</primary><secondary>Realisateur</secondary></indexterm>
+<para><computeroutput>string MediaTekDocuments.model.Dvd.Realisateur<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_media_tek_documents_1_1model_1_1_dvd_1a24203cc16b89c6a085cb5de5fc65a9c1"/><section>
+    <title>Synopsis</title>
+<indexterm><primary>Synopsis</primary><secondary>MediaTekDocuments.model.Dvd</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.model.Dvd</primary><secondary>Synopsis</secondary></indexterm>
+<para><computeroutput>string MediaTekDocuments.model.Dvd.Synopsis<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<para>
+La documentation de cette classe a été générée à partir du fichier suivant :</para>
+model/<link linkend="__dvd_8cs">Dvd.cs</link></section>
+</section>

@@ -1,0 +1,1428 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller" xml:lang="fr">
+<title>Référence de la classe MediaTekDocuments.controller.FrmMediatekController</title>
+<indexterm><primary>MediaTekDocuments.controller.FrmMediatekController</primary></indexterm>
+<para>
+
+<para>Contrôleur lié à FrmMediatek. </para>
+ 
+</para>
+<simplesect>
+    <title>Fonctions membres publiques    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a72ed2400f576d1bef7c7b4621421c8a7">FrmMediatekController</link> ()</para>
+
+<para>Récupération de l&apos;instance unique d&apos;accès aux données. </para>
+</listitem>
+            <listitem><para>List&lt; <link linkend="_class_media_tek_documents_1_1model_1_1_categorie">Categorie</link> &gt; <link linkend="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1ac9f6171c5f481a949bea961a54b4d260">GetAllGenres</link> ()</para>
+
+<para>getter sur la liste des genres </para>
+</listitem>
+            <listitem><para>List&lt; <link linkend="_class_media_tek_documents_1_1model_1_1_document">Document</link> &gt; <link linkend="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1ae13b977e2f01bada5086a0127792d03d">GetAllDocuments</link> ()</para>
+</listitem>
+            <listitem><para>List&lt; <link linkend="_class_media_tek_documents_1_1model_1_1_livre">Livre</link> &gt; <link linkend="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a31259a00ffb53bd05653dc1b5d2d041b">GetAllLivres</link> ()</para>
+
+<para>getter sur la liste des livres </para>
+</listitem>
+            <listitem><para>List&lt; <link linkend="_class_media_tek_documents_1_1model_1_1_dvd">Dvd</link> &gt; <link linkend="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1aff6798b4a3a7fb18d9515fdb0f8807c9">GetAllDvd</link> ()</para>
+
+<para>getter sur la liste des <link linkend="_class_media_tek_documents_1_1model_1_1_dvd">Dvd</link> </para>
+</listitem>
+            <listitem><para>List&lt; <link linkend="_class_media_tek_documents_1_1model_1_1_revue">Revue</link> &gt; <link linkend="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a3e54e8336581d07c393569ee4625c80c">GetAllRevues</link> ()</para>
+
+<para>getter sur la liste des revues </para>
+</listitem>
+            <listitem><para>List&lt; <link linkend="_class_media_tek_documents_1_1model_1_1_categorie">Categorie</link> &gt; <link linkend="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1aa080a5d10b7b7da29e376ce0057629cf">GetAllRayons</link> ()</para>
+
+<para>getter sur les rayons </para>
+</listitem>
+            <listitem><para>List&lt; <link linkend="_class_media_tek_documents_1_1model_1_1_categorie">Categorie</link> &gt; <link linkend="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1abab41748fe20336499dd3fc8bd29c3a2">GetAllPublics</link> ()</para>
+
+<para>getter sur les publics </para>
+</listitem>
+            <listitem><para>List&lt; <link linkend="_class_media_tek_documents_1_1model_1_1_commande">Commande</link> &gt; <link linkend="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a259fa9bff3caa7f40d83748729e18d1a">GetAllCommandes</link> ()</para>
+
+<para>getter sur les commandes </para>
+</listitem>
+            <listitem><para>List&lt; <link linkend="_class_media_tek_documents_1_1model_1_1_abonnement">Abonnement</link> &gt; <link linkend="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1ac6252666f48aa3baa9cdb08852925eb8">GetAllAbonnements</link> ()</para>
+
+<para>getter sur les abonnements </para>
+</listitem>
+            <listitem><para>List&lt; <link linkend="_class_media_tek_documents_1_1model_1_1_suivi">Suivi</link> &gt; <link linkend="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1ab5471e58f2e6ed78d298ab05db685daa">GetAllSuivis</link> ()</para>
+
+<para>getter sur les suivis </para>
+</listitem>
+            <listitem><para>List&lt; <link linkend="_class_media_tek_documents_1_1model_1_1_etat">Etat</link> &gt; <link linkend="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a6eac49e2bb328dd68b0b736e0a717bdd">GetAllEtats</link> ()</para>
+
+<para>getter sur les états </para>
+</listitem>
+            <listitem><para>List&lt; <link linkend="_class_media_tek_documents_1_1model_1_1_abonnement">Abonnement</link> &gt; <link linkend="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a176241828bfd21eca7f5572770cb63ae">GetAbonnementsEcheance</link> ()</para>
+
+<para>getter les abonnements arrivant à échéance </para>
+</listitem>
+            <listitem><para>List&lt; <link linkend="_class_media_tek_documents_1_1model_1_1_exemplaire">Exemplaire</link> &gt; <link linkend="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a5f242368a3552d8e072d31cd4ecc6d5f">GetExemplairesRevue</link> (string idDocument)</para>
+
+<para>getter sur les exemplaires d&apos;une revue </para>
+</listitem>
+            <listitem><para>List&lt; <link linkend="_class_media_tek_documents_1_1model_1_1_exemplaire">Exemplaire</link> &gt; <link linkend="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a13c4d05274842980a646e9065acbdafa">GetExemplairesDocument</link> (string idDocument)</para>
+
+<para>getter sur les exemplaires d&apos;un document </para>
+</listitem>
+            <listitem><para>List&lt; <link linkend="_class_media_tek_documents_1_1model_1_1_commande_document">CommandeDocument</link> &gt; <link linkend="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a827939bca67394e3a25f753b36162de4">GetCommandeDocuments</link> (string idDocument)</para>
+
+<para>getter sur les commandes d&apos;un document </para>
+</listitem>
+            <listitem><para>List&lt; <link linkend="_class_media_tek_documents_1_1model_1_1_abonnement">Abonnement</link> &gt; <link linkend="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a919388a569c2fc715e83997eb6b76bfc">GetAbonnementsRevue</link> (string idDocument)</para>
+
+<para>getter sur les abonnements d&apos;une revue </para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a38b26e0f8357c7b9539e974fb0496c4f">CreerExemplaire</link> (<link linkend="_class_media_tek_documents_1_1model_1_1_exemplaire">Exemplaire</link> exemplaire)</para>
+
+<para>Crée un exemplaire d&apos;une revue dans la bdd. </para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a16694ed85a8a49520b1ada114f4c2d2d">CreerDocument</link> (string id, string titre, string image, string idRayon, string idPublic, string idGenre)</para>
+
+<para>Créé un document dans la bdd. </para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a372ce9e03b169df807696fb919a2cd29">ModifierDocument</link> (string id, string titre, string image, string idRayon, string idPublic, string idGenre)</para>
+
+<para>Modifie un document dans la bdd. </para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a0ef398223ef3d96301f99baff78b689b">CreerLivre</link> (string id, string Isbn, string auteur, string collection)</para>
+
+<para>Créé un livre dans la bdd. </para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a599b50e55fdd6eb3eb4027e1e9754e2b">ModifierLivre</link> (string id, string Isbn, string auteur, string collection)</para>
+
+<para>Modifie un livre dans la bdd. </para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1af0b47ae755941421df98ac1fdabb8019">SupprimerLivre</link> (string id)</para>
+
+<para>Supprime un livre dans la bdd. </para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a154c78a44d0f9ca71a982a333a549563">CreerDvd</link> (string id, string synopsis, string realisateur, int duree)</para>
+
+<para>Cree un dvd dans la bdd. </para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a922873643191d921f64cc8ca3e95081c">ModifierDvd</link> (string id, string synopsis, string realisateur, int duree)</para>
+
+<para>Modifie un dvd dans la bdd. </para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1ae2952711892fe015122a88d251652f01">SupprimerDvd</link> (string id)</para>
+
+<para>Supprime un dvd dans la bdd. </para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a6f3f0045e3c2368c70ec7f1ccbc48e9d">CreerRevue</link> (string id, string periodicite, int delaiMiseADispo)</para>
+
+<para>Cree une revue dans la bdd. </para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a0d6def7cc8c3673fac7a02f1c7cf67e2">ModifierRevue</link> (string id, string periodicite, int delaiMiseADispo)</para>
+
+<para>Modifie une revue dans la bdd. </para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a765f15d68753d89413d2065f0deb6315">SupprimerRevue</link> (string id)</para>
+
+<para>Supprime une revue dans la bdd. </para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a9e1f79c36958bd1800bb20145631606d">CreerCommande</link> (<link linkend="_class_media_tek_documents_1_1model_1_1_commande">Commande</link> commande)</para>
+
+<para>Créé une commande dans la bdd. </para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a049dc45494461081866270775c70cc02">CreerCommandeDocument</link> (string id, int nbExemplaire, string idLivreDvd, string idSuivi)</para>
+
+<para>Créé une commande d&apos;un document dans la bdd. </para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1acdc5825d8d86dc1819ed4f1c3ad5482a">ModifierSuiviCommandeDocument</link> (string id, string idSuivi)</para>
+
+<para>Modifie le suivi d&apos;une commande d&apos;un document dans la bdd. </para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a9090bd1380ad4378fc4da52f28829738">SupprimerCommandeDocument</link> (string id)</para>
+
+<para>Supprime une commande d&apos;un document dans la bdd. </para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a61be60749967c533463ffcbc23e4738f">CreerAbonnementRevue</link> (string id, DateTime dateFinAbonnement, string idRevue)</para>
+
+<para>Créé un abonnement d&apos;une revue dans la bdd. </para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a9e09a243e382acd67f3e364bbfad5478">SupprimerAbonnementRevue</link> (string id)</para>
+
+<para>Supprime un abonnement d&apos;une revue dans la bdd. </para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a980fde13f957bbb517cb732df29f9c6f">ParutionDansAbonnement</link> (DateTime dateCommande, DateTime dateFinAbonnement, DateTime dateParution)</para>
+
+<para>Vérifier si une parution est associée à une commande donnée. </para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1aeb6938e241e26ba555f3f71ad5a2b867">ModifierEtatExemplaireDocument</link> (<link linkend="_class_media_tek_documents_1_1model_1_1_exemplaire">Exemplaire</link> exemplaire)</para>
+
+<para>Modifie l&apos;état d&apos;un exemplaire d&apos;un document. </para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1afebed9427833259fda459f8fdb446f85">SupprimerExemplaireDocument</link> (<link linkend="_class_media_tek_documents_1_1model_1_1_exemplaire">Exemplaire</link> exemplaire)</para>
+
+<para>Supprime un exemplaire d&apos;un document dans la bdd. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Attributs privés    </title>
+        <itemizedlist>
+            <listitem><para>readonly <link linkend="_class_media_tek_documents_1_1dal_1_1_access">Access</link> <link linkend="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a3d7ce7f4a99f5748b8380ace06f6221a">access</link></para>
+
+<para>Objet d&apos;accès aux données. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Description détaillée</title>
+
+<para>Contrôleur lié à FrmMediatek. </para>
+</section>
+<section>
+<title>Documentation des constructeurs et destructeur</title>
+<anchor xml:id="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a72ed2400f576d1bef7c7b4621421c8a7"/><section>
+    <title>FrmMediatekController()</title>
+<indexterm><primary>FrmMediatekController</primary><secondary>MediaTekDocuments.controller.FrmMediatekController</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.controller.FrmMediatekController</primary><secondary>FrmMediatekController</secondary></indexterm>
+<para><computeroutput>MediaTekDocuments.controller.FrmMediatekController.FrmMediatekController ( )</computeroutput></para><para>
+
+<para>Récupération de l&apos;instance unique d&apos;accès aux données. </para>
+</para>
+</section>
+</section>
+<section>
+<title>Documentation des fonctions membres</title>
+<anchor xml:id="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a61be60749967c533463ffcbc23e4738f"/><section>
+    <title>CreerAbonnementRevue()</title>
+<indexterm><primary>CreerAbonnementRevue</primary><secondary>MediaTekDocuments.controller.FrmMediatekController</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.controller.FrmMediatekController</primary><secondary>CreerAbonnementRevue</secondary></indexterm>
+<para><computeroutput>bool MediaTekDocuments.controller.FrmMediatekController.CreerAbonnementRevue (string id, DateTime dateFinAbonnement, string idRevue)</computeroutput></para><para>
+
+<para>Créé un abonnement d&apos;une revue dans la bdd. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>abonnement</entry><entry>
+<para>objet abonnement</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Renvoie</title>
+
+<para>true si l&apos;insertion a pu se faire</para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a9e1f79c36958bd1800bb20145631606d"/><section>
+    <title>CreerCommande()</title>
+<indexterm><primary>CreerCommande</primary><secondary>MediaTekDocuments.controller.FrmMediatekController</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.controller.FrmMediatekController</primary><secondary>CreerCommande</secondary></indexterm>
+<para><computeroutput>bool MediaTekDocuments.controller.FrmMediatekController.CreerCommande (<link linkend="_class_media_tek_documents_1_1model_1_1_commande">Commande</link> commande)</computeroutput></para><para>
+
+<para>Créé une commande dans la bdd. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>commande</entry><entry>
+<para>objet commande</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Renvoie</title>
+
+<para>true si l&apos;insertion a pu se faire</para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a049dc45494461081866270775c70cc02"/><section>
+    <title>CreerCommandeDocument()</title>
+<indexterm><primary>CreerCommandeDocument</primary><secondary>MediaTekDocuments.controller.FrmMediatekController</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.controller.FrmMediatekController</primary><secondary>CreerCommandeDocument</secondary></indexterm>
+<para><computeroutput>bool MediaTekDocuments.controller.FrmMediatekController.CreerCommandeDocument (string id, int nbExemplaire, string idLivreDvd, string idSuivi)</computeroutput></para><para>
+
+<para>Créé une commande d&apos;un document dans la bdd. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>id</entry><entry>
+<para>id de la commande</para>
+</entry>
+                            </row>
+                            <row>
+<entry>nbExemplaire</entry><entry>
+<para>nb d&apos;exemplaire dans la commande</para>
+</entry>
+                            </row>
+                            <row>
+<entry>idLivreDvd</entry><entry>
+<para>id du livreDvd de la commande</para>
+</entry>
+                            </row>
+                            <row>
+<entry>idSuivi</entry><entry>
+<para>id du suivi de la commande</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Renvoie</title>
+
+<para>true si l&apos;insertion a pu se faire</para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a16694ed85a8a49520b1ada114f4c2d2d"/><section>
+    <title>CreerDocument()</title>
+<indexterm><primary>CreerDocument</primary><secondary>MediaTekDocuments.controller.FrmMediatekController</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.controller.FrmMediatekController</primary><secondary>CreerDocument</secondary></indexterm>
+<para><computeroutput>bool MediaTekDocuments.controller.FrmMediatekController.CreerDocument (string id, string titre, string image, string idRayon, string idPublic, string idGenre)</computeroutput></para><para>
+
+<para>Créé un document dans la bdd. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>id</entry><entry>
+<para>id du document</para>
+</entry>
+                            </row>
+                            <row>
+<entry>titre</entry><entry>
+<para>titre du document</para>
+</entry>
+                            </row>
+                            <row>
+<entry>image</entry><entry>
+<para>image du document</para>
+</entry>
+                            </row>
+                            <row>
+<entry>idRayon</entry><entry>
+<para>id du rayon du document</para>
+</entry>
+                            </row>
+                            <row>
+<entry>idPublic</entry><entry>
+<para>id du public du document</para>
+</entry>
+                            </row>
+                            <row>
+<entry>idGenre</entry><entry>
+<para>id du genre du document</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Renvoie</title>
+
+<para>True si la création a pu se faire</para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a154c78a44d0f9ca71a982a333a549563"/><section>
+    <title>CreerDvd()</title>
+<indexterm><primary>CreerDvd</primary><secondary>MediaTekDocuments.controller.FrmMediatekController</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.controller.FrmMediatekController</primary><secondary>CreerDvd</secondary></indexterm>
+<para><computeroutput>bool MediaTekDocuments.controller.FrmMediatekController.CreerDvd (string id, string synopsis, string realisateur, int duree)</computeroutput></para><para>
+
+<para>Cree un dvd dans la bdd. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>id</entry><entry>
+<para>id du dvd</para>
+</entry>
+                            </row>
+                            <row>
+<entry>synopsis</entry><entry>
+<para>synopsis du dvd</para>
+</entry>
+                            </row>
+                            <row>
+<entry>realisateur</entry><entry>
+<para>realisateur du dvd</para>
+</entry>
+                            </row>
+                            <row>
+<entry>duree</entry><entry>
+<para>duree du dvd</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Renvoie</title>
+
+<para>true si la création a pu se faire</para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a38b26e0f8357c7b9539e974fb0496c4f"/><section>
+    <title>CreerExemplaire()</title>
+<indexterm><primary>CreerExemplaire</primary><secondary>MediaTekDocuments.controller.FrmMediatekController</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.controller.FrmMediatekController</primary><secondary>CreerExemplaire</secondary></indexterm>
+<para><computeroutput>bool MediaTekDocuments.controller.FrmMediatekController.CreerExemplaire (<link linkend="_class_media_tek_documents_1_1model_1_1_exemplaire">Exemplaire</link> exemplaire)</computeroutput></para><para>
+
+<para>Crée un exemplaire d&apos;une revue dans la bdd. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>exemplaire</entry><entry>
+<para>L&apos;objet <link linkend="_class_media_tek_documents_1_1model_1_1_exemplaire">Exemplaire</link> concerné</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Renvoie</title>
+
+<para>True si la création a pu se faire</para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a0ef398223ef3d96301f99baff78b689b"/><section>
+    <title>CreerLivre()</title>
+<indexterm><primary>CreerLivre</primary><secondary>MediaTekDocuments.controller.FrmMediatekController</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.controller.FrmMediatekController</primary><secondary>CreerLivre</secondary></indexterm>
+<para><computeroutput>bool MediaTekDocuments.controller.FrmMediatekController.CreerLivre (string id, string Isbn, string auteur, string collection)</computeroutput></para><para>
+
+<para>Créé un livre dans la bdd. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>id</entry><entry>
+<para>id du livre</para>
+</entry>
+                            </row>
+                            <row>
+<entry>isbn</entry><entry>
+<para>isbn du livre</para>
+</entry>
+                            </row>
+                            <row>
+<entry>auteur</entry><entry>
+<para>auteur du livre</para>
+</entry>
+                            </row>
+                            <row>
+<entry>collection</entry><entry>
+<para>collection du livre</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Renvoie</title>
+
+<para>True si la création a pu se faire</para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a6f3f0045e3c2368c70ec7f1ccbc48e9d"/><section>
+    <title>CreerRevue()</title>
+<indexterm><primary>CreerRevue</primary><secondary>MediaTekDocuments.controller.FrmMediatekController</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.controller.FrmMediatekController</primary><secondary>CreerRevue</secondary></indexterm>
+<para><computeroutput>bool MediaTekDocuments.controller.FrmMediatekController.CreerRevue (string id, string periodicite, int delaiMiseADispo)</computeroutput></para><para>
+
+<para>Cree une revue dans la bdd. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>id</entry><entry>
+<para>id de la revue</para>
+</entry>
+                            </row>
+                            <row>
+<entry>periodicite</entry><entry>
+<para>periodicite de la revue</para>
+</entry>
+                            </row>
+                            <row>
+<entry>delaiMiseADispo</entry><entry>
+<para>delai de mise à dispo de la revue</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Renvoie</title>
+
+<para></para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a176241828bfd21eca7f5572770cb63ae"/><section>
+    <title>GetAbonnementsEcheance()</title>
+<indexterm><primary>GetAbonnementsEcheance</primary><secondary>MediaTekDocuments.controller.FrmMediatekController</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.controller.FrmMediatekController</primary><secondary>GetAbonnementsEcheance</secondary></indexterm>
+<para><computeroutput>List&lt; <link linkend="_class_media_tek_documents_1_1model_1_1_abonnement">Abonnement</link> &gt; MediaTekDocuments.controller.FrmMediatekController.GetAbonnementsEcheance ( )</computeroutput></para><para>
+
+<para>getter les abonnements arrivant à échéance </para>
+</para>
+
+<para><formalpara><title>Renvoie</title>
+
+<para></para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a919388a569c2fc715e83997eb6b76bfc"/><section>
+    <title>GetAbonnementsRevue()</title>
+<indexterm><primary>GetAbonnementsRevue</primary><secondary>MediaTekDocuments.controller.FrmMediatekController</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.controller.FrmMediatekController</primary><secondary>GetAbonnementsRevue</secondary></indexterm>
+<para><computeroutput>List&lt; <link linkend="_class_media_tek_documents_1_1model_1_1_abonnement">Abonnement</link> &gt; MediaTekDocuments.controller.FrmMediatekController.GetAbonnementsRevue (string idDocument)</computeroutput></para><para>
+
+<para>getter sur les abonnements d&apos;une revue </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>idDocument</entry><entry>
+<para>id du document concerné</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Renvoie</title>
+
+<para>Liste d&apos;objets <link linkend="_class_media_tek_documents_1_1model_1_1_abonnement">Abonnement</link></para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1ac6252666f48aa3baa9cdb08852925eb8"/><section>
+    <title>GetAllAbonnements()</title>
+<indexterm><primary>GetAllAbonnements</primary><secondary>MediaTekDocuments.controller.FrmMediatekController</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.controller.FrmMediatekController</primary><secondary>GetAllAbonnements</secondary></indexterm>
+<para><computeroutput>List&lt; <link linkend="_class_media_tek_documents_1_1model_1_1_abonnement">Abonnement</link> &gt; MediaTekDocuments.controller.FrmMediatekController.GetAllAbonnements ( )</computeroutput></para><para>
+
+<para>getter sur les abonnements </para>
+</para>
+
+<para><formalpara><title>Renvoie</title>
+
+<para></para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a259fa9bff3caa7f40d83748729e18d1a"/><section>
+    <title>GetAllCommandes()</title>
+<indexterm><primary>GetAllCommandes</primary><secondary>MediaTekDocuments.controller.FrmMediatekController</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.controller.FrmMediatekController</primary><secondary>GetAllCommandes</secondary></indexterm>
+<para><computeroutput>List&lt; <link linkend="_class_media_tek_documents_1_1model_1_1_commande">Commande</link> &gt; MediaTekDocuments.controller.FrmMediatekController.GetAllCommandes ( )</computeroutput></para><para>
+
+<para>getter sur les commandes </para>
+</para>
+
+<para><formalpara><title>Renvoie</title>
+
+<para>Liste d&apos;objets Commandes</para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1ae13b977e2f01bada5086a0127792d03d"/><section>
+    <title>GetAllDocuments()</title>
+<indexterm><primary>GetAllDocuments</primary><secondary>MediaTekDocuments.controller.FrmMediatekController</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.controller.FrmMediatekController</primary><secondary>GetAllDocuments</secondary></indexterm>
+<para><computeroutput>List&lt; <link linkend="_class_media_tek_documents_1_1model_1_1_document">Document</link> &gt; MediaTekDocuments.controller.FrmMediatekController.GetAllDocuments ( )</computeroutput></para></section>
+<anchor xml:id="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1aff6798b4a3a7fb18d9515fdb0f8807c9"/><section>
+    <title>GetAllDvd()</title>
+<indexterm><primary>GetAllDvd</primary><secondary>MediaTekDocuments.controller.FrmMediatekController</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.controller.FrmMediatekController</primary><secondary>GetAllDvd</secondary></indexterm>
+<para><computeroutput>List&lt; <link linkend="_class_media_tek_documents_1_1model_1_1_dvd">Dvd</link> &gt; MediaTekDocuments.controller.FrmMediatekController.GetAllDvd ( )</computeroutput></para><para>
+
+<para>getter sur la liste des <link linkend="_class_media_tek_documents_1_1model_1_1_dvd">Dvd</link> </para>
+</para>
+
+<para><formalpara><title>Renvoie</title>
+
+<para>Liste d&apos;objets dvd</para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a6eac49e2bb328dd68b0b736e0a717bdd"/><section>
+    <title>GetAllEtats()</title>
+<indexterm><primary>GetAllEtats</primary><secondary>MediaTekDocuments.controller.FrmMediatekController</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.controller.FrmMediatekController</primary><secondary>GetAllEtats</secondary></indexterm>
+<para><computeroutput>List&lt; <link linkend="_class_media_tek_documents_1_1model_1_1_etat">Etat</link> &gt; MediaTekDocuments.controller.FrmMediatekController.GetAllEtats ( )</computeroutput></para><para>
+
+<para>getter sur les états </para>
+</para>
+
+<para><formalpara><title>Renvoie</title>
+
+<para>Liste d&apos;objets <link linkend="_class_media_tek_documents_1_1model_1_1_etat">Etat</link></para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1ac9f6171c5f481a949bea961a54b4d260"/><section>
+    <title>GetAllGenres()</title>
+<indexterm><primary>GetAllGenres</primary><secondary>MediaTekDocuments.controller.FrmMediatekController</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.controller.FrmMediatekController</primary><secondary>GetAllGenres</secondary></indexterm>
+<para><computeroutput>List&lt; <link linkend="_class_media_tek_documents_1_1model_1_1_categorie">Categorie</link> &gt; MediaTekDocuments.controller.FrmMediatekController.GetAllGenres ( )</computeroutput></para><para>
+
+<para>getter sur la liste des genres </para>
+</para>
+
+<para><formalpara><title>Renvoie</title>
+
+<para>Liste d&apos;objets <link linkend="_class_media_tek_documents_1_1model_1_1_genre">Genre</link></para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a31259a00ffb53bd05653dc1b5d2d041b"/><section>
+    <title>GetAllLivres()</title>
+<indexterm><primary>GetAllLivres</primary><secondary>MediaTekDocuments.controller.FrmMediatekController</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.controller.FrmMediatekController</primary><secondary>GetAllLivres</secondary></indexterm>
+<para><computeroutput>List&lt; <link linkend="_class_media_tek_documents_1_1model_1_1_livre">Livre</link> &gt; MediaTekDocuments.controller.FrmMediatekController.GetAllLivres ( )</computeroutput></para><para>
+
+<para>getter sur la liste des livres </para>
+</para>
+
+<para><formalpara><title>Renvoie</title>
+
+<para>Liste d&apos;objets <link linkend="_class_media_tek_documents_1_1model_1_1_livre">Livre</link></para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1abab41748fe20336499dd3fc8bd29c3a2"/><section>
+    <title>GetAllPublics()</title>
+<indexterm><primary>GetAllPublics</primary><secondary>MediaTekDocuments.controller.FrmMediatekController</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.controller.FrmMediatekController</primary><secondary>GetAllPublics</secondary></indexterm>
+<para><computeroutput>List&lt; <link linkend="_class_media_tek_documents_1_1model_1_1_categorie">Categorie</link> &gt; MediaTekDocuments.controller.FrmMediatekController.GetAllPublics ( )</computeroutput></para><para>
+
+<para>getter sur les publics </para>
+</para>
+
+<para><formalpara><title>Renvoie</title>
+
+<para>Liste d&apos;objets <link linkend="_class_media_tek_documents_1_1model_1_1_public">Public</link></para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1aa080a5d10b7b7da29e376ce0057629cf"/><section>
+    <title>GetAllRayons()</title>
+<indexterm><primary>GetAllRayons</primary><secondary>MediaTekDocuments.controller.FrmMediatekController</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.controller.FrmMediatekController</primary><secondary>GetAllRayons</secondary></indexterm>
+<para><computeroutput>List&lt; <link linkend="_class_media_tek_documents_1_1model_1_1_categorie">Categorie</link> &gt; MediaTekDocuments.controller.FrmMediatekController.GetAllRayons ( )</computeroutput></para><para>
+
+<para>getter sur les rayons </para>
+</para>
+
+<para><formalpara><title>Renvoie</title>
+
+<para>Liste d&apos;objets <link linkend="_class_media_tek_documents_1_1model_1_1_rayon">Rayon</link></para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a3e54e8336581d07c393569ee4625c80c"/><section>
+    <title>GetAllRevues()</title>
+<indexterm><primary>GetAllRevues</primary><secondary>MediaTekDocuments.controller.FrmMediatekController</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.controller.FrmMediatekController</primary><secondary>GetAllRevues</secondary></indexterm>
+<para><computeroutput>List&lt; <link linkend="_class_media_tek_documents_1_1model_1_1_revue">Revue</link> &gt; MediaTekDocuments.controller.FrmMediatekController.GetAllRevues ( )</computeroutput></para><para>
+
+<para>getter sur la liste des revues </para>
+</para>
+
+<para><formalpara><title>Renvoie</title>
+
+<para>Liste d&apos;objets <link linkend="_class_media_tek_documents_1_1model_1_1_revue">Revue</link></para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1ab5471e58f2e6ed78d298ab05db685daa"/><section>
+    <title>GetAllSuivis()</title>
+<indexterm><primary>GetAllSuivis</primary><secondary>MediaTekDocuments.controller.FrmMediatekController</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.controller.FrmMediatekController</primary><secondary>GetAllSuivis</secondary></indexterm>
+<para><computeroutput>List&lt; <link linkend="_class_media_tek_documents_1_1model_1_1_suivi">Suivi</link> &gt; MediaTekDocuments.controller.FrmMediatekController.GetAllSuivis ( )</computeroutput></para><para>
+
+<para>getter sur les suivis </para>
+</para>
+
+<para><formalpara><title>Renvoie</title>
+
+<para>Liste d&apos;objets Suivis</para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a827939bca67394e3a25f753b36162de4"/><section>
+    <title>GetCommandeDocuments()</title>
+<indexterm><primary>GetCommandeDocuments</primary><secondary>MediaTekDocuments.controller.FrmMediatekController</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.controller.FrmMediatekController</primary><secondary>GetCommandeDocuments</secondary></indexterm>
+<para><computeroutput>List&lt; <link linkend="_class_media_tek_documents_1_1model_1_1_commande_document">CommandeDocument</link> &gt; MediaTekDocuments.controller.FrmMediatekController.GetCommandeDocuments (string idDocument)</computeroutput></para><para>
+
+<para>getter sur les commandes d&apos;un document </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>idDocument</entry><entry>
+<para>id du document concerné</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Renvoie</title>
+
+<para>List d&apos;objets <link linkend="_class_media_tek_documents_1_1model_1_1_commande_document">CommandeDocument</link></para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a13c4d05274842980a646e9065acbdafa"/><section>
+    <title>GetExemplairesDocument()</title>
+<indexterm><primary>GetExemplairesDocument</primary><secondary>MediaTekDocuments.controller.FrmMediatekController</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.controller.FrmMediatekController</primary><secondary>GetExemplairesDocument</secondary></indexterm>
+<para><computeroutput>List&lt; <link linkend="_class_media_tek_documents_1_1model_1_1_exemplaire">Exemplaire</link> &gt; MediaTekDocuments.controller.FrmMediatekController.GetExemplairesDocument (string idDocument)</computeroutput></para><para>
+
+<para>getter sur les exemplaires d&apos;un document </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>idDocument</entry><entry>
+<para>id du document concerné</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Renvoie</title>
+
+<para>Liste d&apos;objet <link linkend="_class_media_tek_documents_1_1model_1_1_exemplaire">Exemplaire</link></para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a5f242368a3552d8e072d31cd4ecc6d5f"/><section>
+    <title>GetExemplairesRevue()</title>
+<indexterm><primary>GetExemplairesRevue</primary><secondary>MediaTekDocuments.controller.FrmMediatekController</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.controller.FrmMediatekController</primary><secondary>GetExemplairesRevue</secondary></indexterm>
+<para><computeroutput>List&lt; <link linkend="_class_media_tek_documents_1_1model_1_1_exemplaire">Exemplaire</link> &gt; MediaTekDocuments.controller.FrmMediatekController.GetExemplairesRevue (string idDocument)</computeroutput></para><para>
+
+<para>getter sur les exemplaires d&apos;une revue </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>idDocuement</entry><entry>
+<para>id de la revue concernée</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Renvoie</title>
+
+<para>Liste d&apos;objets <link linkend="_class_media_tek_documents_1_1model_1_1_exemplaire">Exemplaire</link></para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a372ce9e03b169df807696fb919a2cd29"/><section>
+    <title>ModifierDocument()</title>
+<indexterm><primary>ModifierDocument</primary><secondary>MediaTekDocuments.controller.FrmMediatekController</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.controller.FrmMediatekController</primary><secondary>ModifierDocument</secondary></indexterm>
+<para><computeroutput>bool MediaTekDocuments.controller.FrmMediatekController.ModifierDocument (string id, string titre, string image, string idRayon, string idPublic, string idGenre)</computeroutput></para><para>
+
+<para>Modifie un document dans la bdd. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>id</entry><entry>
+<para>id du document</para>
+</entry>
+                            </row>
+                            <row>
+<entry>titre</entry><entry>
+<para>titre du document</para>
+</entry>
+                            </row>
+                            <row>
+<entry>image</entry><entry>
+<para>image du document</para>
+</entry>
+                            </row>
+                            <row>
+<entry>idRayon</entry><entry>
+<para>id du rayon du document</para>
+</entry>
+                            </row>
+                            <row>
+<entry>idPublic</entry><entry>
+<para>id du public du document</para>
+</entry>
+                            </row>
+                            <row>
+<entry>idGenre</entry><entry>
+<para>id du genre du document</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Renvoie</title>
+
+<para>True si la modification a pu se faire</para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a922873643191d921f64cc8ca3e95081c"/><section>
+    <title>ModifierDvd()</title>
+<indexterm><primary>ModifierDvd</primary><secondary>MediaTekDocuments.controller.FrmMediatekController</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.controller.FrmMediatekController</primary><secondary>ModifierDvd</secondary></indexterm>
+<para><computeroutput>bool MediaTekDocuments.controller.FrmMediatekController.ModifierDvd (string id, string synopsis, string realisateur, int duree)</computeroutput></para><para>
+
+<para>Modifie un dvd dans la bdd. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>id</entry><entry>
+<para>id du dvd</para>
+</entry>
+                            </row>
+                            <row>
+<entry>synopsis</entry><entry>
+<para>synopsis du dvd</para>
+</entry>
+                            </row>
+                            <row>
+<entry>realisateur</entry><entry>
+<para>realisateur du dvd</para>
+</entry>
+                            </row>
+                            <row>
+<entry>duree</entry><entry>
+<para>duree du dvd</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Renvoie</title>
+
+<para>true si la modification a pu se faire</para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1aeb6938e241e26ba555f3f71ad5a2b867"/><section>
+    <title>ModifierEtatExemplaireDocument()</title>
+<indexterm><primary>ModifierEtatExemplaireDocument</primary><secondary>MediaTekDocuments.controller.FrmMediatekController</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.controller.FrmMediatekController</primary><secondary>ModifierEtatExemplaireDocument</secondary></indexterm>
+<para><computeroutput>bool MediaTekDocuments.controller.FrmMediatekController.ModifierEtatExemplaireDocument (<link linkend="_class_media_tek_documents_1_1model_1_1_exemplaire">Exemplaire</link> exemplaire)</computeroutput></para><para>
+
+<para>Modifie l&apos;état d&apos;un exemplaire d&apos;un document. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>numero</entry><entry>
+<para>numéro de l&apos;exemplaire</para>
+</entry>
+                            </row>
+                            <row>
+<entry>idEtat</entry><entry>
+<para>id de l&apos;état à modifier</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Renvoie</title>
+
+<para>true si la modification a pu se faire</para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a599b50e55fdd6eb3eb4027e1e9754e2b"/><section>
+    <title>ModifierLivre()</title>
+<indexterm><primary>ModifierLivre</primary><secondary>MediaTekDocuments.controller.FrmMediatekController</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.controller.FrmMediatekController</primary><secondary>ModifierLivre</secondary></indexterm>
+<para><computeroutput>bool MediaTekDocuments.controller.FrmMediatekController.ModifierLivre (string id, string Isbn, string auteur, string collection)</computeroutput></para><para>
+
+<para>Modifie un livre dans la bdd. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>id</entry><entry>
+<para>id du livre</para>
+</entry>
+                            </row>
+                            <row>
+<entry>Isbn</entry><entry>
+<para>isbn du livre</para>
+</entry>
+                            </row>
+                            <row>
+<entry>auteur</entry><entry>
+<para>auteur du livre</para>
+</entry>
+                            </row>
+                            <row>
+<entry>collection</entry><entry>
+<para>collection du livre</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Renvoie</title>
+
+<para>true si la suppression a pu se faire</para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a0d6def7cc8c3673fac7a02f1c7cf67e2"/><section>
+    <title>ModifierRevue()</title>
+<indexterm><primary>ModifierRevue</primary><secondary>MediaTekDocuments.controller.FrmMediatekController</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.controller.FrmMediatekController</primary><secondary>ModifierRevue</secondary></indexterm>
+<para><computeroutput>bool MediaTekDocuments.controller.FrmMediatekController.ModifierRevue (string id, string periodicite, int delaiMiseADispo)</computeroutput></para><para>
+
+<para>Modifie une revue dans la bdd. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>id</entry><entry>
+<para>id de la revue</para>
+</entry>
+                            </row>
+                            <row>
+<entry>periodicite</entry><entry>
+<para>periodicite de la revue</para>
+</entry>
+                            </row>
+                            <row>
+<entry>delaiMiseADispo</entry><entry>
+<para>delai de mise à dispo de la revue</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Renvoie</title>
+
+<para>true si la modification a pu se faire</para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1acdc5825d8d86dc1819ed4f1c3ad5482a"/><section>
+    <title>ModifierSuiviCommandeDocument()</title>
+<indexterm><primary>ModifierSuiviCommandeDocument</primary><secondary>MediaTekDocuments.controller.FrmMediatekController</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.controller.FrmMediatekController</primary><secondary>ModifierSuiviCommandeDocument</secondary></indexterm>
+<para><computeroutput>bool MediaTekDocuments.controller.FrmMediatekController.ModifierSuiviCommandeDocument (string id, string idSuivi)</computeroutput></para><para>
+
+<para>Modifie le suivi d&apos;une commande d&apos;un document dans la bdd. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>id</entry><entry>
+<para>id de la commande</para>
+</entry>
+                            </row>
+                            <row>
+<entry>nbExemplaire</entry><entry>
+<para>nb d&apos;exemplaires dans la commande</para>
+</entry>
+                            </row>
+                            <row>
+<entry>idLivreDvd</entry><entry>
+<para>id du livreDvd de la commande</para>
+</entry>
+                            </row>
+                            <row>
+<entry>idSuivi</entry><entry>
+<para>id du suivi de la commande</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Renvoie</title>
+
+<para>true si la modification a pu se faire</para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a980fde13f957bbb517cb732df29f9c6f"/><section>
+    <title>ParutionDansAbonnement()</title>
+<indexterm><primary>ParutionDansAbonnement</primary><secondary>MediaTekDocuments.controller.FrmMediatekController</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.controller.FrmMediatekController</primary><secondary>ParutionDansAbonnement</secondary></indexterm>
+<para><computeroutput>bool MediaTekDocuments.controller.FrmMediatekController.ParutionDansAbonnement (DateTime dateCommande, DateTime dateFinAbonnement, DateTime dateParution)</computeroutput></para><para>
+
+<para>Vérifier si une parution est associée à une commande donnée. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>dateCommande</entry><entry>
+<para>date de la commande</para>
+</entry>
+                            </row>
+                            <row>
+<entry>dateFinAbonnement</entry><entry>
+<para>date de fin de l&apos;abonnement</para>
+</entry>
+                            </row>
+                            <row>
+<entry>dateParution</entry><entry>
+<para>date de parution de la revue</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Renvoie</title>
+
+<para>true si la date de parution est entre les 2 autres dates</para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a9e09a243e382acd67f3e364bbfad5478"/><section>
+    <title>SupprimerAbonnementRevue()</title>
+<indexterm><primary>SupprimerAbonnementRevue</primary><secondary>MediaTekDocuments.controller.FrmMediatekController</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.controller.FrmMediatekController</primary><secondary>SupprimerAbonnementRevue</secondary></indexterm>
+<para><computeroutput>bool MediaTekDocuments.controller.FrmMediatekController.SupprimerAbonnementRevue (string id)</computeroutput></para><para>
+
+<para>Supprime un abonnement d&apos;une revue dans la bdd. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>id</entry><entry>
+<para>id de l&apos;abonnement</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Renvoie</title>
+
+<para>true si la suppression a pu se faire</para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a9090bd1380ad4378fc4da52f28829738"/><section>
+    <title>SupprimerCommandeDocument()</title>
+<indexterm><primary>SupprimerCommandeDocument</primary><secondary>MediaTekDocuments.controller.FrmMediatekController</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.controller.FrmMediatekController</primary><secondary>SupprimerCommandeDocument</secondary></indexterm>
+<para><computeroutput>bool MediaTekDocuments.controller.FrmMediatekController.SupprimerCommandeDocument (string id)</computeroutput></para><para>
+
+<para>Supprime une commande d&apos;un document dans la bdd. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>id</entry><entry>
+<para>id de la commande</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Renvoie</title>
+
+<para>true si la suppression a pu se faire</para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1ae2952711892fe015122a88d251652f01"/><section>
+    <title>SupprimerDvd()</title>
+<indexterm><primary>SupprimerDvd</primary><secondary>MediaTekDocuments.controller.FrmMediatekController</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.controller.FrmMediatekController</primary><secondary>SupprimerDvd</secondary></indexterm>
+<para><computeroutput>bool MediaTekDocuments.controller.FrmMediatekController.SupprimerDvd (string id)</computeroutput></para><para>
+
+<para>Supprime un dvd dans la bdd. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>id</entry><entry>
+<para>id du dvd</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Renvoie</title>
+
+<para>true si la suppression a pu se faire</para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1afebed9427833259fda459f8fdb446f85"/><section>
+    <title>SupprimerExemplaireDocument()</title>
+<indexterm><primary>SupprimerExemplaireDocument</primary><secondary>MediaTekDocuments.controller.FrmMediatekController</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.controller.FrmMediatekController</primary><secondary>SupprimerExemplaireDocument</secondary></indexterm>
+<para><computeroutput>bool MediaTekDocuments.controller.FrmMediatekController.SupprimerExemplaireDocument (<link linkend="_class_media_tek_documents_1_1model_1_1_exemplaire">Exemplaire</link> exemplaire)</computeroutput></para><para>
+
+<para>Supprime un exemplaire d&apos;un document dans la bdd. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>exemplaire</entry><entry>
+<para><link linkend="_class_media_tek_documents_1_1model_1_1_exemplaire">Exemplaire</link> à supprimer</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Renvoie</title>
+
+<para>true si la suppression a pu se faire </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1af0b47ae755941421df98ac1fdabb8019"/><section>
+    <title>SupprimerLivre()</title>
+<indexterm><primary>SupprimerLivre</primary><secondary>MediaTekDocuments.controller.FrmMediatekController</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.controller.FrmMediatekController</primary><secondary>SupprimerLivre</secondary></indexterm>
+<para><computeroutput>bool MediaTekDocuments.controller.FrmMediatekController.SupprimerLivre (string id)</computeroutput></para><para>
+
+<para>Supprime un livre dans la bdd. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>id</entry><entry>
+<para>id du livre</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Renvoie</title>
+
+<para>true si la suppression a pu se faire</para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a765f15d68753d89413d2065f0deb6315"/><section>
+    <title>SupprimerRevue()</title>
+<indexterm><primary>SupprimerRevue</primary><secondary>MediaTekDocuments.controller.FrmMediatekController</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.controller.FrmMediatekController</primary><secondary>SupprimerRevue</secondary></indexterm>
+<para><computeroutput>bool MediaTekDocuments.controller.FrmMediatekController.SupprimerRevue (string id)</computeroutput></para><para>
+
+<para>Supprime une revue dans la bdd. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>id</entry><entry>
+<para>id de la revue</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Renvoie</title>
+
+<para>true si la suppression a pu se faire</para>
+</formalpara>
+</para>
+</section>
+</section>
+<section>
+<title>Documentation des données membres</title>
+<anchor xml:id="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a3d7ce7f4a99f5748b8380ace06f6221a"/><section>
+    <title>access</title>
+<indexterm><primary>access</primary><secondary>MediaTekDocuments.controller.FrmMediatekController</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.controller.FrmMediatekController</primary><secondary>access</secondary></indexterm>
+<para><computeroutput>readonly <link linkend="_class_media_tek_documents_1_1dal_1_1_access">Access</link> MediaTekDocuments.controller.FrmMediatekController.access<computeroutput>[private]</computeroutput></computeroutput></para><para>
+
+<para>Objet d&apos;accès aux données. </para>
+</para>
+</section>
+<para>
+La documentation de cette classe a été générée à partir du fichier suivant :</para>
+controller/<link linkend="__frm_mediatek_controller_8cs">FrmMediatekController.cs</link></section>
+</section>

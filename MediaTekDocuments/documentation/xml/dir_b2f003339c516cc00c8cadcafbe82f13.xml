@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="fr">
+  <compounddef id="dir_b2f003339c516cc00c8cadcafbe82f13" kind="dir">
+    <compoundname>view</compoundname>
+    <innerfile refid="_frm_authentification_8cs">FrmAuthentification.cs</innerfile>
+    <innerfile refid="_frm_authentification_8_designer_8cs">FrmAuthentification.Designer.cs</innerfile>
+    <innerfile refid="_frm_mediatek_8cs">FrmMediatek.cs</innerfile>
+    <innerfile refid="_frm_mediatek_8_designer_8cs">FrmMediatek.Designer.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="view/"/>
+  </compounddef>
+</doxygen>

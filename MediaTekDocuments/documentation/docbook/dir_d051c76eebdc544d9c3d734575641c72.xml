@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_d051c76eebdc544d9c3d734575641c72" xml:lang="fr">
+<title>Répertoire de référence de Properties</title>
+<indexterm><primary>Répertoire de référence de Properties</primary></indexterm>
+<simplesect>
+    <title>Fichiers    </title>
+        <itemizedlist>
+            <listitem><para>fichier <link linkend="__assembly_info_8cs">AssemblyInfo.cs</link></para>
+</listitem>
+            <listitem><para>fichier <link linkend="__resources_8_designer_8cs">Resources.Designer.cs</link></para>
+</listitem>
+            <listitem><para>fichier <link linkend="__settings_8_designer_8cs">Settings.Designer.cs</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

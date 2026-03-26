@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="fr">
+  <compounddef id="class_media_tek_documents_1_1dal_1_1_access_1_1_custom_boolean_json_converter" kind="class" language="C#" prot="private" sealed="yes">
+    <compoundname>MediaTekDocuments::dal::Access::CustomBooleanJsonConverter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">JsonConverter</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_media_tek_documents_1_1dal_1_1_access_1_1_custom_boolean_json_converter_1a723875807be3389b080e04f2923f4198" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool MediaTekDocuments.dal.Access.CustomBooleanJsonConverter.ReadJson</definition>
+        <argsstring>(JsonReader reader, Type objectType, bool existingValue, bool hasExistingValue, JsonSerializer serializer)</argsstring>
+        <name>ReadJson</name>
+        <qualifiedname>MediaTekDocuments.dal.Access.CustomBooleanJsonConverter.ReadJson</qualifiedname>
+        <param>
+          <type>JsonReader</type>
+          <declname>reader</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>objectType</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>existingValue</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>hasExistingValue</declname>
+        </param>
+        <param>
+          <type>JsonSerializer</type>
+          <declname>serializer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dal/Access.cs" line="854" column="34" bodyfile="dal/Access.cs" bodystart="854" bodyend="857"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1dal_1_1_access_1_1_custom_boolean_json_converter_1a37bc8f62fc81cd4c6c8b02966772b5af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void MediaTekDocuments.dal.Access.CustomBooleanJsonConverter.WriteJson</definition>
+        <argsstring>(JsonWriter writer, bool value, JsonSerializer serializer)</argsstring>
+        <name>WriteJson</name>
+        <qualifiedname>MediaTekDocuments.dal.Access.CustomBooleanJsonConverter.WriteJson</qualifiedname>
+        <param>
+          <type>JsonWriter</type>
+          <declname>writer</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>JsonSerializer</type>
+          <declname>serializer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dal/Access.cs" line="859" column="34" bodyfile="dal/Access.cs" bodystart="859" bodyend="862"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Modification du convertisseur Json pour prendre en compte les booléens classe trouvée sur le site : <ulink url="https://www.thecodebuzz.com/newtonsoft-jsonreaderexception-could-not-convert-string-to-boolean/">https://www.thecodebuzz.com/newtonsoft-jsonreaderexception-could-not-convert-string-to-boolean/</ulink>. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>JsonConverter&lt; bool &gt;</label>
+      </node>
+      <node id="1">
+        <label>MediaTekDocuments.dal.Access.CustomBooleanJsonConverter</label>
+        <link refid="class_media_tek_documents_1_1dal_1_1_access_1_1_custom_boolean_json_converter"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>JsonConverter&lt; bool &gt;</label>
+      </node>
+      <node id="1">
+        <label>MediaTekDocuments.dal.Access.CustomBooleanJsonConverter</label>
+        <link refid="class_media_tek_documents_1_1dal_1_1_access_1_1_custom_boolean_json_converter"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="dal/Access.cs" line="852" column="16" bodyfile="dal/Access.cs" bodystart="853" bodyend="863"/>
+    <listofallmembers>
+      <member refid="class_media_tek_documents_1_1dal_1_1_access_1_1_custom_boolean_json_converter_1a723875807be3389b080e04f2923f4198" prot="public" virt="non-virtual"><scope>MediaTekDocuments::dal::Access::CustomBooleanJsonConverter</scope><name>ReadJson</name></member>
+      <member refid="class_media_tek_documents_1_1dal_1_1_access_1_1_custom_boolean_json_converter_1a37bc8f62fc81cd4c6c8b02966772b5af" prot="public" virt="non-virtual"><scope>MediaTekDocuments::dal::Access::CustomBooleanJsonConverter</scope><name>WriteJson</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_media_tek_documents_1_1model_1_1_suivi" xml:lang="fr">
+<title>Référence de la classe MediaTekDocuments.model.Suivi</title>
+<indexterm><primary>MediaTekDocuments.model.Suivi</primary></indexterm>
+<para>
+
+<para>Classe métier <link linkend="_class_media_tek_documents_1_1model_1_1_suivi">Suivi</link>. </para>
+ 
+</para>
+<simplesect>
+    <title>Fonctions membres publiques    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_media_tek_documents_1_1model_1_1_suivi_1aca4501f53fde42cb4c855f4d7126cfd3">Suivi</link> (string id, string libelle)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Propriétés    </title>
+        <itemizedlist>
+            <listitem><para>string <link linkend="_class_media_tek_documents_1_1model_1_1_suivi_1a509208f0cd509937db9ddbacb49f8f88">Id</link><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_media_tek_documents_1_1model_1_1_suivi_1a5473a466935ed6a040408190e2c757d2">Libelle</link><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Description détaillée</title>
+
+<para>Classe métier <link linkend="_class_media_tek_documents_1_1model_1_1_suivi">Suivi</link>. </para>
+</section>
+<section>
+<title>Documentation des constructeurs et destructeur</title>
+<anchor xml:id="_class_media_tek_documents_1_1model_1_1_suivi_1aca4501f53fde42cb4c855f4d7126cfd3"/><section>
+    <title>Suivi()</title>
+<indexterm><primary>Suivi</primary><secondary>MediaTekDocuments.model.Suivi</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.model.Suivi</primary><secondary>Suivi</secondary></indexterm>
+<para><computeroutput>MediaTekDocuments.model.Suivi.Suivi (string id, string libelle)</computeroutput></para></section>
+</section>
+<section>
+<title>Documentation des propriétés</title>
+<anchor xml:id="_class_media_tek_documents_1_1model_1_1_suivi_1a509208f0cd509937db9ddbacb49f8f88"/><section>
+    <title>Id</title>
+<indexterm><primary>Id</primary><secondary>MediaTekDocuments.model.Suivi</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.model.Suivi</primary><secondary>Id</secondary></indexterm>
+<para><computeroutput>string MediaTekDocuments.model.Suivi.Id<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_media_tek_documents_1_1model_1_1_suivi_1a5473a466935ed6a040408190e2c757d2"/><section>
+    <title>Libelle</title>
+<indexterm><primary>Libelle</primary><secondary>MediaTekDocuments.model.Suivi</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.model.Suivi</primary><secondary>Libelle</secondary></indexterm>
+<para><computeroutput>string MediaTekDocuments.model.Suivi.Libelle<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<para>
+La documentation de cette classe a été générée à partir du fichier suivant :</para>
+model/<link linkend="__suivi_8cs">Suivi.cs</link></section>
+</section>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespace_media_tek_documents_1_1view" xml:lang="fr">
+<title>Référence de l&apos;espace de nommage MediaTekDocuments.view</title>
+<indexterm><primary>MediaTekDocuments.view</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_media_tek_documents_1_1view_1_1_frm_authentification">FrmAuthentification</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_media_tek_documents_1_1view_1_1_frm_mediatek">FrmMediatek</link></para>
+
+<para>Classe d&apos;affichage. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

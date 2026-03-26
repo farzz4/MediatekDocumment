@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_media_tek_documents_1_1controller_1_1_frm_authentification_controller" xml:lang="fr">
+<title>Référence de la classe MediaTekDocuments.controller.FrmAuthentificationController</title>
+<indexterm><primary>MediaTekDocuments.controller.FrmAuthentificationController</primary></indexterm>
+<para>
+
+<para>Contrôleur lié à FrmAuthentification. </para>
+ 
+</para>
+<simplesect>
+    <title>Fonctions membres publiques    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_media_tek_documents_1_1controller_1_1_frm_authentification_controller_1a07077486380e4cc2cf4d7348138c3215">FrmAuthentificationController</link> ()</para>
+
+<para>Récupération de l&apos;instance unique d&apos;accès aux données. </para>
+</listitem>
+            <listitem><para><link linkend="_class_media_tek_documents_1_1model_1_1_utilisateur">Utilisateur</link> <link linkend="_class_media_tek_documents_1_1controller_1_1_frm_authentification_controller_1a3bacc79d18929c8a24b820160353f063">GetUtilisateur</link> (string login, string password)</para>
+
+<para>Retourne l&apos;utilisateur associé au login et password. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Attributs privés    </title>
+        <itemizedlist>
+            <listitem><para>readonly <link linkend="_class_media_tek_documents_1_1dal_1_1_access">Access</link> <link linkend="_class_media_tek_documents_1_1controller_1_1_frm_authentification_controller_1aa8f32f36ba6bce613e5a106024b1c322">access</link></para>
+
+<para>Objet d&apos;accès aux données. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Description détaillée</title>
+
+<para>Contrôleur lié à FrmAuthentification. </para>
+</section>
+<section>
+<title>Documentation des constructeurs et destructeur</title>
+<anchor xml:id="_class_media_tek_documents_1_1controller_1_1_frm_authentification_controller_1a07077486380e4cc2cf4d7348138c3215"/><section>
+    <title>FrmAuthentificationController()</title>
+<indexterm><primary>FrmAuthentificationController</primary><secondary>MediaTekDocuments.controller.FrmAuthentificationController</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.controller.FrmAuthentificationController</primary><secondary>FrmAuthentificationController</secondary></indexterm>
+<para><computeroutput>MediaTekDocuments.controller.FrmAuthentificationController.FrmAuthentificationController ( )</computeroutput></para><para>
+
+<para>Récupération de l&apos;instance unique d&apos;accès aux données. </para>
+</para>
+</section>
+</section>
+<section>
+<title>Documentation des fonctions membres</title>
+<anchor xml:id="_class_media_tek_documents_1_1controller_1_1_frm_authentification_controller_1a3bacc79d18929c8a24b820160353f063"/><section>
+    <title>GetUtilisateur()</title>
+<indexterm><primary>GetUtilisateur</primary><secondary>MediaTekDocuments.controller.FrmAuthentificationController</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.controller.FrmAuthentificationController</primary><secondary>GetUtilisateur</secondary></indexterm>
+<para><computeroutput><link linkend="_class_media_tek_documents_1_1model_1_1_utilisateur">Utilisateur</link> MediaTekDocuments.controller.FrmAuthentificationController.GetUtilisateur (string login, string password)</computeroutput></para><para>
+
+<para>Retourne l&apos;utilisateur associé au login et password. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>login</entry><entry>
+<para>login de l&apos;utilisateur cherché</para>
+</entry>
+                            </row>
+                            <row>
+<entry>password</entry><entry>
+<para>password de l&apos;utilisateur cherché</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Renvoie</title>
+
+<para>Objet utilisateur</para>
+</formalpara>
+</para>
+</section>
+</section>
+<section>
+<title>Documentation des données membres</title>
+<anchor xml:id="_class_media_tek_documents_1_1controller_1_1_frm_authentification_controller_1aa8f32f36ba6bce613e5a106024b1c322"/><section>
+    <title>access</title>
+<indexterm><primary>access</primary><secondary>MediaTekDocuments.controller.FrmAuthentificationController</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.controller.FrmAuthentificationController</primary><secondary>access</secondary></indexterm>
+<para><computeroutput>readonly <link linkend="_class_media_tek_documents_1_1dal_1_1_access">Access</link> MediaTekDocuments.controller.FrmAuthentificationController.access<computeroutput>[private]</computeroutput></computeroutput></para><para>
+
+<para>Objet d&apos;accès aux données. </para>
+</para>
+</section>
+<para>
+La documentation de cette classe a été générée à partir du fichier suivant :</para>
+controller/<link linkend="__frm_authentification_controller_8cs">FrmAuthentificationController.cs</link></section>
+</section>

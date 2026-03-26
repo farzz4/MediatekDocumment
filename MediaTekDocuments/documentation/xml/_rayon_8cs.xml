@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="fr">
+  <compounddef id="_rayon_8cs" kind="file" language="C#">
+    <compoundname>Rayon.cs</compoundname>
+    <innerclass refid="class_media_tek_documents_1_1model_1_1_rayon" prot="public">MediaTekDocuments::model::Rayon</innerclass>
+    <innernamespace refid="namespace_media_tek_documents">MediaTekDocuments</innernamespace>
+    <innernamespace refid="namespace_media_tek_documents_1_1model">MediaTekDocuments::model</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_media_tek_documents_1_1model" kindref="compound">MediaTekDocuments.model</ref></highlight></codeline>
+<codeline lineno="3"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7" refid="class_media_tek_documents_1_1model_1_1_rayon" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_media_tek_documents_1_1model_1_1_rayon_1abd18274198e8e98219213fe3e9793dc5" kindref="member">Rayon</ref><sp/>:<sp/><ref refid="class_media_tek_documents_1_1model_1_1_categorie_1a3f5f73920d44069b9e8f9584a45d2194" kindref="member">Categorie</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_media_tek_documents_1_1model_1_1_rayon_1abd18274198e8e98219213fe3e9793dc5" kindref="member">Rayon</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>libelle)<sp/>:<sp/>base(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/>libelle)</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="model/Rayon.cs"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,232 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="fr">
+  <compounddef id="class_media_tek_documents_1_1manager_1_1_api_rest" kind="class" language="C#" prot="public">
+    <compoundname>MediaTekDocuments::manager::ApiRest</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_media_tek_documents_1_1manager_1_1_api_rest_1a16c8f1c937ce5b69ef7f0cb2aecd8877" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_media_tek_documents_1_1manager_1_1_api_rest_1a0d8b369ef525d796ec57b16f18e765a6" kindref="member">ApiRest</ref></type>
+        <definition>ApiRest MediaTekDocuments.manager.ApiRest.instance</definition>
+        <argsstring></argsstring>
+        <name>instance</name>
+        <qualifiedname>MediaTekDocuments.manager.ApiRest.instance</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>unique instance de la classe </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="manager/ApiRest.cs" line="15" column="32" bodyfile="manager/ApiRest.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_media_tek_documents_1_1manager_1_1_api_rest_1a56b2eeec29782076f17a3c278a542132" prot="private" static="no" mutable="no">
+        <type>readonly HttpClient</type>
+        <definition>readonly HttpClient MediaTekDocuments.manager.ApiRest.httpClient</definition>
+        <argsstring></argsstring>
+        <name>httpClient</name>
+        <qualifiedname>MediaTekDocuments.manager.ApiRest.httpClient</qualifiedname>
+        <briefdescription>
+<para>Objet de connexion à l&apos;api. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="manager/ApiRest.cs" line="19" column="37" bodyfile="manager/ApiRest.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_documents_1_1manager_1_1_api_rest_1a6c1a557b0c275f6a02bc3107a9706b3c" prot="private" static="no" mutable="no">
+        <type>HttpResponseMessage</type>
+        <definition>HttpResponseMessage MediaTekDocuments.manager.ApiRest.httpResponse</definition>
+        <argsstring></argsstring>
+        <name>httpResponse</name>
+        <qualifiedname>MediaTekDocuments.manager.ApiRest.httpResponse</qualifiedname>
+        <briefdescription>
+<para>Canal http pour l&apos;envoi du message et la récupération de la réponse. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="manager/ApiRest.cs" line="23" column="37" bodyfile="manager/ApiRest.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_media_tek_documents_1_1manager_1_1_api_rest_1a0d8b369ef525d796ec57b16f18e765a6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MediaTekDocuments.manager.ApiRest.ApiRest</definition>
+        <argsstring>(String uriApi, String authenticationString=&quot;&quot;)</argsstring>
+        <name>ApiRest</name>
+        <qualifiedname>MediaTekDocuments.manager.ApiRest.ApiRest</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>uriApi</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>authenticationString</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+<para>Constructeur privé pour préparer la connexion (éventuellement sécurisée). </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>uriApi</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>adresse de l&apos;api</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>authenticationString</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>chaîne d&apos;authentification</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="manager/ApiRest.cs" line="30" column="17" bodyfile="manager/ApiRest.cs" bodystart="30" bodyend="39"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_media_tek_documents_1_1manager_1_1_api_rest_1ade84494b4ed3528da480bd5a3c553105" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_media_tek_documents_1_1manager_1_1_api_rest_1a0d8b369ef525d796ec57b16f18e765a6" kindref="member">ApiRest</ref></type>
+        <definition>static ApiRest MediaTekDocuments.manager.ApiRest.GetInstance</definition>
+        <argsstring>(String uriApi, String authenticationString)</argsstring>
+        <name>GetInstance</name>
+        <qualifiedname>MediaTekDocuments.manager.ApiRest.GetInstance</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>uriApi</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>authenticationString</declname>
+        </param>
+        <briefdescription>
+<para>Crée une instance unique de la classe. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>uriApi</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>adresse de l&apos;api</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>authenticationString</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>chaîne d&apos;authentificatio (login:pwd)</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="manager/ApiRest.cs" line="47" column="31" bodyfile="manager/ApiRest.cs" bodystart="47" bodyend="54"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_media_tek_documents_1_1manager_1_1_api_rest_1a24ec9968854932c87e9422b57778396b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>JObject</type>
+        <definition>JObject MediaTekDocuments.manager.ApiRest.RecupDistant</definition>
+        <argsstring>(string methode, string message, String parametres)</argsstring>
+        <name>RecupDistant</name>
+        <qualifiedname>MediaTekDocuments.manager.ApiRest.RecupDistant</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>methode</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>parametres</declname>
+        </param>
+        <briefdescription>
+<para>Envoi une demande à l&apos;API et récupère la réponse. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>methode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>verbe http (GET, POST, PUT, DELETE)</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>message</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>message à envoyer dans l&apos;URL</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>parametres</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>contenu de variables à mettre dans body</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>liste d&apos;objets (select) ou liste vide (ok) ou null si erreur</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="manager/ApiRest.cs" line="63" column="24" bodyfile="manager/ApiRest.cs" bodystart="63" bodyend="92"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Classe indépendante d&apos;accès à une api rest avec éventuellement une &quot;basic authorization&quot;. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>MediaTekDocuments.manager.ApiRest</label>
+        <link refid="class_media_tek_documents_1_1manager_1_1_api_rest"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>instance</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MediaTekDocuments.manager.ApiRest</label>
+        <link refid="class_media_tek_documents_1_1manager_1_1_api_rest"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>instance</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="manager/ApiRest.cs" line="10" column="5" bodyfile="manager/ApiRest.cs" bodystart="11" bodyend="94"/>
+    <listofallmembers>
+      <member refid="class_media_tek_documents_1_1manager_1_1_api_rest_1a0d8b369ef525d796ec57b16f18e765a6" prot="private" virt="non-virtual"><scope>MediaTekDocuments::manager::ApiRest</scope><name>ApiRest</name></member>
+      <member refid="class_media_tek_documents_1_1manager_1_1_api_rest_1ade84494b4ed3528da480bd5a3c553105" prot="public" virt="non-virtual"><scope>MediaTekDocuments::manager::ApiRest</scope><name>GetInstance</name></member>
+      <member refid="class_media_tek_documents_1_1manager_1_1_api_rest_1a56b2eeec29782076f17a3c278a542132" prot="private" virt="non-virtual"><scope>MediaTekDocuments::manager::ApiRest</scope><name>httpClient</name></member>
+      <member refid="class_media_tek_documents_1_1manager_1_1_api_rest_1a6c1a557b0c275f6a02bc3107a9706b3c" prot="private" virt="non-virtual"><scope>MediaTekDocuments::manager::ApiRest</scope><name>httpResponse</name></member>
+      <member refid="class_media_tek_documents_1_1manager_1_1_api_rest_1a16c8f1c937ce5b69ef7f0cb2aecd8877" prot="private" virt="non-virtual"><scope>MediaTekDocuments::manager::ApiRest</scope><name>instance</name></member>
+      <member refid="class_media_tek_documents_1_1manager_1_1_api_rest_1a24ec9968854932c87e9422b57778396b" prot="public" virt="non-virtual"><scope>MediaTekDocuments::manager::ApiRest</scope><name>RecupDistant</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,268 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="fr">
+  <compounddef id="class_media_tek_documents_1_1view_1_1_frm_authentification" kind="class" language="C#" prot="public">
+    <compoundname>MediaTekDocuments::view::FrmAuthentification</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Form</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_media_tek_documents_1_1view_1_1_frm_authentification_1afa79da57f77de8513224ac71f06a47e7" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_media_tek_documents_1_1controller_1_1_frm_authentification_controller" kindref="compound">FrmAuthentificationController</ref></type>
+        <definition>readonly FrmAuthentificationController MediaTekDocuments.view.FrmAuthentification.controller</definition>
+        <argsstring></argsstring>
+        <name>controller</name>
+        <qualifiedname>MediaTekDocuments.view.FrmAuthentification.controller</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="view/FrmAuthentification.cs" line="17" column="56" bodyfile="view/FrmAuthentification.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_documents_1_1view_1_1_frm_authentification_1ae059d3f44b8b06e1056b16ee33742b86" prot="private" static="no" mutable="no">
+        <type>System.ComponentModel.IContainer</type>
+        <definition>System.ComponentModel.IContainer MediaTekDocuments.view.FrmAuthentification.components</definition>
+        <argsstring></argsstring>
+        <name>components</name>
+        <qualifiedname>MediaTekDocuments.view.FrmAuthentification.components</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>Required designer variable. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="view/FrmAuthentification.Designer.cs" line="9" column="48" bodyfile="view/FrmAuthentification.Designer.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_documents_1_1view_1_1_frm_authentification_1a21aaeba0b5582056924765e46769a9e3" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label MediaTekDocuments.view.FrmAuthentification.label51</definition>
+        <argsstring></argsstring>
+        <name>label51</name>
+        <qualifiedname>MediaTekDocuments.view.FrmAuthentification.label51</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="view/FrmAuthentification.Designer.cs" line="121" column="41" bodyfile="view/FrmAuthentification.Designer.cs" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_documents_1_1view_1_1_frm_authentification_1ab4fa9e610b0f6a8164c10d17890a4d3d" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label MediaTekDocuments.view.FrmAuthentification.label1</definition>
+        <argsstring></argsstring>
+        <name>label1</name>
+        <qualifiedname>MediaTekDocuments.view.FrmAuthentification.label1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="view/FrmAuthentification.Designer.cs" line="122" column="41" bodyfile="view/FrmAuthentification.Designer.cs" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_documents_1_1view_1_1_frm_authentification_1ae5fde57c4f6a44f484c3867eafaf19a8" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label MediaTekDocuments.view.FrmAuthentification.label2</definition>
+        <argsstring></argsstring>
+        <name>label2</name>
+        <qualifiedname>MediaTekDocuments.view.FrmAuthentification.label2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="view/FrmAuthentification.Designer.cs" line="123" column="41" bodyfile="view/FrmAuthentification.Designer.cs" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_documents_1_1view_1_1_frm_authentification_1aaa29e42e8d980855138b299ee90f6eeb" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TextBox</type>
+        <definition>System.Windows.Forms.TextBox MediaTekDocuments.view.FrmAuthentification.txbLogin</definition>
+        <argsstring></argsstring>
+        <name>txbLogin</name>
+        <qualifiedname>MediaTekDocuments.view.FrmAuthentification.txbLogin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="view/FrmAuthentification.Designer.cs" line="124" column="43" bodyfile="view/FrmAuthentification.Designer.cs" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_documents_1_1view_1_1_frm_authentification_1ac221886a76a9b1aca4837210144ecd33" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TextBox</type>
+        <definition>System.Windows.Forms.TextBox MediaTekDocuments.view.FrmAuthentification.txbPwd</definition>
+        <argsstring></argsstring>
+        <name>txbPwd</name>
+        <qualifiedname>MediaTekDocuments.view.FrmAuthentification.txbPwd</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="view/FrmAuthentification.Designer.cs" line="125" column="43" bodyfile="view/FrmAuthentification.Designer.cs" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_documents_1_1view_1_1_frm_authentification_1ac837dc0b73d16a0f425092db3343b5fe" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button MediaTekDocuments.view.FrmAuthentification.btnConnexion</definition>
+        <argsstring></argsstring>
+        <name>btnConnexion</name>
+        <qualifiedname>MediaTekDocuments.view.FrmAuthentification.btnConnexion</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="view/FrmAuthentification.Designer.cs" line="126" column="42" bodyfile="view/FrmAuthentification.Designer.cs" bodystart="126" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_media_tek_documents_1_1view_1_1_frm_authentification_1a88241d51d11d468175347f9b2f8e0ed6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MediaTekDocuments.view.FrmAuthentification.FrmAuthentification</definition>
+        <argsstring>()</argsstring>
+        <name>FrmAuthentification</name>
+        <qualifiedname>MediaTekDocuments.view.FrmAuthentification.FrmAuthentification</qualifiedname>
+        <briefdescription>
+<para>Constructeur : création du contrôleur lié à ce formulaire. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="view/FrmAuthentification.cs" line="22" column="16" bodyfile="view/FrmAuthentification.cs" bodystart="22" bodyend="26"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_media_tek_documents_1_1view_1_1_frm_authentification_1aa4273a756218fd720512ca3ce71535ea" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MediaTekDocuments.view.FrmAuthentification.btnConnexion_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>btnConnexion_Click</name>
+        <qualifiedname>MediaTekDocuments.view.FrmAuthentification.btnConnexion_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Connexion à l&apos;application. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="view/FrmAuthentification.cs" line="33" column="22" bodyfile="view/FrmAuthentification.cs" bodystart="33" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1view_1_1_frm_authentification_1ae43306bdab1af8c0948362a2347fff7e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MediaTekDocuments.view.FrmAuthentification.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <qualifiedname>MediaTekDocuments.view.FrmAuthentification.InitializeComponent</qualifiedname>
+        <briefdescription>
+<para>Required method for Designer support - do not modify the contents of this method with the code editor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="view/FrmAuthentification.Designer.cs" line="30" column="22" bodyfile="view/FrmAuthentification.Designer.cs" bodystart="30" bodyend="117"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_media_tek_documents_1_1view_1_1_frm_authentification_1ae69e5c2aa98cbd0b4ccf52110c69a20a" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void MediaTekDocuments.view.FrmAuthentification.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MediaTekDocuments.view.FrmAuthentification.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+<para>Clean up any resources being used. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>disposing</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if managed resources should be disposed; otherwise, false.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="view/FrmAuthentification.Designer.cs" line="15" column="33" bodyfile="view/FrmAuthentification.Designer.cs" bodystart="15" bodyend="22"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Form</label>
+      </node>
+      <node id="1">
+        <label>MediaTekDocuments.view.FrmAuthentification</label>
+        <link refid="class_media_tek_documents_1_1view_1_1_frm_authentification"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Form</label>
+      </node>
+      <node id="1">
+        <label>MediaTekDocuments.view.FrmAuthentification</label>
+        <link refid="class_media_tek_documents_1_1view_1_1_frm_authentification"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="view/FrmAuthentification.cs" line="15" column="19" bodyfile="view/FrmAuthentification.cs" bodystart="16" bodyend="61"/>
+    <listofallmembers>
+      <member refid="class_media_tek_documents_1_1view_1_1_frm_authentification_1ac837dc0b73d16a0f425092db3343b5fe" prot="private" virt="non-virtual"><scope>MediaTekDocuments::view::FrmAuthentification</scope><name>btnConnexion</name></member>
+      <member refid="class_media_tek_documents_1_1view_1_1_frm_authentification_1aa4273a756218fd720512ca3ce71535ea" prot="private" virt="non-virtual"><scope>MediaTekDocuments::view::FrmAuthentification</scope><name>btnConnexion_Click</name></member>
+      <member refid="class_media_tek_documents_1_1view_1_1_frm_authentification_1ae059d3f44b8b06e1056b16ee33742b86" prot="private" virt="non-virtual"><scope>MediaTekDocuments::view::FrmAuthentification</scope><name>components</name></member>
+      <member refid="class_media_tek_documents_1_1view_1_1_frm_authentification_1afa79da57f77de8513224ac71f06a47e7" prot="private" virt="non-virtual"><scope>MediaTekDocuments::view::FrmAuthentification</scope><name>controller</name></member>
+      <member refid="class_media_tek_documents_1_1view_1_1_frm_authentification_1ae69e5c2aa98cbd0b4ccf52110c69a20a" prot="protected" virt="non-virtual"><scope>MediaTekDocuments::view::FrmAuthentification</scope><name>Dispose</name></member>
+      <member refid="class_media_tek_documents_1_1view_1_1_frm_authentification_1a88241d51d11d468175347f9b2f8e0ed6" prot="public" virt="non-virtual"><scope>MediaTekDocuments::view::FrmAuthentification</scope><name>FrmAuthentification</name></member>
+      <member refid="class_media_tek_documents_1_1view_1_1_frm_authentification_1ae43306bdab1af8c0948362a2347fff7e" prot="private" virt="non-virtual"><scope>MediaTekDocuments::view::FrmAuthentification</scope><name>InitializeComponent</name></member>
+      <member refid="class_media_tek_documents_1_1view_1_1_frm_authentification_1ab4fa9e610b0f6a8164c10d17890a4d3d" prot="private" virt="non-virtual"><scope>MediaTekDocuments::view::FrmAuthentification</scope><name>label1</name></member>
+      <member refid="class_media_tek_documents_1_1view_1_1_frm_authentification_1ae5fde57c4f6a44f484c3867eafaf19a8" prot="private" virt="non-virtual"><scope>MediaTekDocuments::view::FrmAuthentification</scope><name>label2</name></member>
+      <member refid="class_media_tek_documents_1_1view_1_1_frm_authentification_1a21aaeba0b5582056924765e46769a9e3" prot="private" virt="non-virtual"><scope>MediaTekDocuments::view::FrmAuthentification</scope><name>label51</name></member>
+      <member refid="class_media_tek_documents_1_1view_1_1_frm_authentification_1aaa29e42e8d980855138b299ee90f6eeb" prot="private" virt="non-virtual"><scope>MediaTekDocuments::view::FrmAuthentification</scope><name>txbLogin</name></member>
+      <member refid="class_media_tek_documents_1_1view_1_1_frm_authentification_1ac221886a76a9b1aca4837210144ecd33" prot="private" virt="non-virtual"><scope>MediaTekDocuments::view::FrmAuthentification</scope><name>txbPwd</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

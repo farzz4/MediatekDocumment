@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dirs" xml:lang="fr">
+<title>Répertoires</title>
+
+<para>controller </para>
+
+<para>FrmAuthentificationController.cs </para>
+
+<para>FrmMediatekController.cs </para>
+
+<para>dal </para>
+
+<para>Access.cs </para>
+
+<para>Debug </para>
+
+<para>.NETFramework,Version=v4.7.2.AssemblyAttributes.cs </para>
+
+<para>manager </para>
+
+<para>ApiRest.cs </para>
+
+<para>model </para>
+
+<para>Abonnement.cs </para>
+
+<para>Categorie.cs </para>
+
+<para>Commande.cs </para>
+
+<para>CommandeDocument.cs </para>
+
+<para>Document.cs </para>
+
+<para>Dvd.cs </para>
+
+<para>Etat.cs </para>
+
+<para>Exemplaire.cs </para>
+
+<para>Genre.cs </para>
+
+<para>Livre.cs </para>
+
+<para>LivreDvd.cs </para>
+
+<para>Public.cs </para>
+
+<para>Rayon.cs </para>
+
+<para>Revue.cs </para>
+
+<para>Service.cs </para>
+
+<para>Suivi.cs </para>
+
+<para>Utilisateur.cs </para>
+
+<para>obj </para>
+
+<para>Debug </para>
+
+<para>.NETFramework,Version=v4.7.2.AssemblyAttributes.cs </para>
+
+<para>Properties </para>
+
+<para>AssemblyInfo.cs </para>
+
+<para>Resources.Designer.cs </para>
+
+<para>Settings.Designer.cs </para>
+
+<para>view </para>
+
+<para>FrmAuthentification.cs </para>
+
+<para>FrmAuthentification.Designer.cs </para>
+
+<para>FrmMediatek.cs </para>
+
+<para>FrmMediatek.Designer.cs </para>
+</section>

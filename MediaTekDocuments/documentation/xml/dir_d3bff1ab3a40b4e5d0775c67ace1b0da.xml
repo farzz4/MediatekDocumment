@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="fr">
+  <compounddef id="dir_d3bff1ab3a40b4e5d0775c67ace1b0da" kind="dir">
+    <compoundname>controller</compoundname>
+    <innerfile refid="_frm_authentification_controller_8cs">FrmAuthentificationController.cs</innerfile>
+    <innerfile refid="_frm_mediatek_controller_8cs">FrmMediatekController.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="controller/"/>
+  </compounddef>
+</doxygen>

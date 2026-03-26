@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_b2f003339c516cc00c8cadcafbe82f13" xml:lang="fr">
+<title>Répertoire de référence de view</title>
+<indexterm><primary>Répertoire de référence de view</primary></indexterm>
+<simplesect>
+    <title>Fichiers    </title>
+        <itemizedlist>
+            <listitem><para>fichier <link linkend="__frm_authentification_8cs">FrmAuthentification.cs</link></para>
+</listitem>
+            <listitem><para>fichier <link linkend="__frm_authentification_8_designer_8cs">FrmAuthentification.Designer.cs</link></para>
+</listitem>
+            <listitem><para>fichier <link linkend="__frm_mediatek_8cs">FrmMediatek.cs</link></para>
+</listitem>
+            <listitem><para>fichier <link linkend="__frm_mediatek_8_designer_8cs">FrmMediatek.Designer.cs</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

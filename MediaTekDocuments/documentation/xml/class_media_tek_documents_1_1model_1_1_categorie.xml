@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="fr">
+  <compounddef id="class_media_tek_documents_1_1model_1_1_categorie" kind="class" language="C#" prot="public">
+    <compoundname>MediaTekDocuments::model::Categorie</compoundname>
+    <derivedcompoundref refid="class_media_tek_documents_1_1model_1_1_genre" prot="public" virt="non-virtual">MediaTekDocuments.model.Genre</derivedcompoundref>
+    <derivedcompoundref refid="class_media_tek_documents_1_1model_1_1_public" prot="public" virt="non-virtual">MediaTekDocuments.model.Public</derivedcompoundref>
+    <derivedcompoundref refid="class_media_tek_documents_1_1model_1_1_rayon" prot="public" virt="non-virtual">MediaTekDocuments.model.Rayon</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_media_tek_documents_1_1model_1_1_categorie_1a53b5c383291606f99c080bdd248e2446" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string MediaTekDocuments.model.Categorie.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <qualifiedname>MediaTekDocuments.model.Categorie.Id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="model/Categorie.cs" line="9" column="23" bodyfile="model/Categorie.cs" bodystart="9" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="property" id="class_media_tek_documents_1_1model_1_1_categorie_1a3921e57e7e2d534f78caeaf373bec49d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string MediaTekDocuments.model.Categorie.Libelle</definition>
+        <argsstring></argsstring>
+        <name>Libelle</name>
+        <qualifiedname>MediaTekDocuments.model.Categorie.Libelle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="model/Categorie.cs" line="10" column="23" bodyfile="model/Categorie.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_media_tek_documents_1_1model_1_1_categorie_1a3f5f73920d44069b9e8f9584a45d2194" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MediaTekDocuments.model.Categorie.Categorie</definition>
+        <argsstring>(string id, string libelle)</argsstring>
+        <name>Categorie</name>
+        <qualifiedname>MediaTekDocuments.model.Categorie.Categorie</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>libelle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="model/Categorie.cs" line="12" column="16" bodyfile="model/Categorie.cs" bodystart="12" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1model_1_1_categorie_1aa127da14b5715971b9f296cfefa105fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string MediaTekDocuments.model.Categorie.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <qualifiedname>MediaTekDocuments.model.Categorie.ToString</qualifiedname>
+        <briefdescription>
+<para>Récupération du libellé pour l&apos;affichage dans les combos. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Libelle</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="model/Categorie.cs" line="22" column="32" bodyfile="model/Categorie.cs" bodystart="22" bodyend="25"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Classe métier <ref refid="class_media_tek_documents_1_1model_1_1_categorie" kindref="compound">Categorie</ref> (réunit les informations des classes <ref refid="class_media_tek_documents_1_1model_1_1_public" kindref="compound">Public</ref>, <ref refid="class_media_tek_documents_1_1model_1_1_genre" kindref="compound">Genre</ref> et <ref refid="class_media_tek_documents_1_1model_1_1_rayon" kindref="compound">Rayon</ref>). </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MediaTekDocuments.model.Categorie</label>
+        <link refid="class_media_tek_documents_1_1model_1_1_categorie"/>
+      </node>
+      <node id="2">
+        <label>MediaTekDocuments.model.Genre</label>
+        <link refid="class_media_tek_documents_1_1model_1_1_genre"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MediaTekDocuments.model.Public</label>
+        <link refid="class_media_tek_documents_1_1model_1_1_public"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MediaTekDocuments.model.Rayon</label>
+        <link refid="class_media_tek_documents_1_1model_1_1_rayon"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="model/Categorie.cs" line="7" column="11" bodyfile="model/Categorie.cs" bodystart="8" bodyend="27"/>
+    <listofallmembers>
+      <member refid="class_media_tek_documents_1_1model_1_1_categorie_1a3f5f73920d44069b9e8f9584a45d2194" prot="public" virt="non-virtual"><scope>MediaTekDocuments::model::Categorie</scope><name>Categorie</name></member>
+      <member refid="class_media_tek_documents_1_1model_1_1_categorie_1a53b5c383291606f99c080bdd248e2446" prot="public" virt="non-virtual"><scope>MediaTekDocuments::model::Categorie</scope><name>Id</name></member>
+      <member refid="class_media_tek_documents_1_1model_1_1_categorie_1a3921e57e7e2d534f78caeaf373bec49d" prot="public" virt="non-virtual"><scope>MediaTekDocuments::model::Categorie</scope><name>Libelle</name></member>
+      <member refid="class_media_tek_documents_1_1model_1_1_categorie_1aa127da14b5715971b9f296cfefa105fb" prot="public" virt="non-virtual"><scope>MediaTekDocuments::model::Categorie</scope><name>ToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

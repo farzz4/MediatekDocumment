@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespace_media_tek_documents_1_1model" xml:lang="fr">
+<title>Référence de l&apos;espace de nommage MediaTekDocuments.model</title>
+<indexterm><primary>MediaTekDocuments.model</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_media_tek_documents_1_1model_1_1_abonnement">Abonnement</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_media_tek_documents_1_1model_1_1_categorie">Categorie</link></para>
+
+<para>Classe métier <link linkend="_class_media_tek_documents_1_1model_1_1_categorie">Categorie</link> (réunit les informations des classes <link linkend="_class_media_tek_documents_1_1model_1_1_public">Public</link>, <link linkend="_class_media_tek_documents_1_1model_1_1_genre">Genre</link> et <link linkend="_class_media_tek_documents_1_1model_1_1_rayon">Rayon</link>). </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_media_tek_documents_1_1model_1_1_commande">Commande</link></para>
+
+<para>Classe métier <link linkend="_class_media_tek_documents_1_1model_1_1_commande">Commande</link>. </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_media_tek_documents_1_1model_1_1_commande_document">CommandeDocument</link></para>
+
+<para>Classe métier <link linkend="_class_media_tek_documents_1_1model_1_1_commande_document">CommandeDocument</link>. </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_media_tek_documents_1_1model_1_1_document">Document</link></para>
+
+<para>Classe métier <link linkend="_class_media_tek_documents_1_1model_1_1_document">Document</link> (réunit les infomations communes à tous les documents : <link linkend="_class_media_tek_documents_1_1model_1_1_livre">Livre</link>, <link linkend="_class_media_tek_documents_1_1model_1_1_revue">Revue</link>, <link linkend="_class_media_tek_documents_1_1model_1_1_dvd">Dvd</link>). </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_media_tek_documents_1_1model_1_1_dvd">Dvd</link></para>
+
+<para>Classe métier <link linkend="_class_media_tek_documents_1_1model_1_1_dvd">Dvd</link> hérite de <link linkend="_class_media_tek_documents_1_1model_1_1_livre_dvd">LivreDvd</link> : contient des propriétés spécifiques aux dvd. </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_media_tek_documents_1_1model_1_1_etat">Etat</link></para>
+
+<para>Classe métier <link linkend="_class_media_tek_documents_1_1model_1_1_etat">Etat</link> (état d&apos;usure d&apos;un document). </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_media_tek_documents_1_1model_1_1_exemplaire">Exemplaire</link></para>
+
+<para>Classe métier <link linkend="_class_media_tek_documents_1_1model_1_1_exemplaire">Exemplaire</link> (exemplaire d&apos;une revue). </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_media_tek_documents_1_1model_1_1_genre">Genre</link></para>
+
+<para>Classe métier <link linkend="_class_media_tek_documents_1_1model_1_1_genre">Genre</link> : hérite de <link linkend="_class_media_tek_documents_1_1model_1_1_categorie">Categorie</link>. </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_media_tek_documents_1_1model_1_1_livre">Livre</link></para>
+
+<para>Classe métier <link linkend="_class_media_tek_documents_1_1model_1_1_livre">Livre</link> hérite de <link linkend="_class_media_tek_documents_1_1model_1_1_livre_dvd">LivreDvd</link> : contient des propriétés spécifiques aux livres. </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_media_tek_documents_1_1model_1_1_livre_dvd">LivreDvd</link></para>
+
+<para>Classe métier <link linkend="_class_media_tek_documents_1_1model_1_1_livre_dvd">LivreDvd</link> hérite de <link linkend="_class_media_tek_documents_1_1model_1_1_document">Document</link>. </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_media_tek_documents_1_1model_1_1_public">Public</link></para>
+
+<para>Classe métier <link linkend="_class_media_tek_documents_1_1model_1_1_public">Public</link> (public concerné par le document) hérite de <link linkend="_class_media_tek_documents_1_1model_1_1_categorie">Categorie</link>. </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_media_tek_documents_1_1model_1_1_rayon">Rayon</link></para>
+
+<para>Classe métier <link linkend="_class_media_tek_documents_1_1model_1_1_rayon">Rayon</link> (rayon de classement du document) hérite de <link linkend="_class_media_tek_documents_1_1model_1_1_categorie">Categorie</link>. </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_media_tek_documents_1_1model_1_1_revue">Revue</link></para>
+
+<para>Classe métier <link linkend="_class_media_tek_documents_1_1model_1_1_revue">Revue</link> hérite de <link linkend="_class_media_tek_documents_1_1model_1_1_document">Document</link> : contient des propriétés spécifiques aux revues. </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_media_tek_documents_1_1model_1_1_service">Service</link></para>
+
+<para>Classe métier <link linkend="_class_media_tek_documents_1_1model_1_1_service">Service</link>. </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_media_tek_documents_1_1model_1_1_suivi">Suivi</link></para>
+
+<para>Classe métier <link linkend="_class_media_tek_documents_1_1model_1_1_suivi">Suivi</link>. </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_media_tek_documents_1_1model_1_1_utilisateur">Utilisateur</link></para>
+
+<para>Classe métier <link linkend="_class_media_tek_documents_1_1model_1_1_utilisateur">Utilisateur</link>. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

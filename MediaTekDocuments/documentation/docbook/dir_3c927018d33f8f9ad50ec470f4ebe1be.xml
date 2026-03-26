@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_3c927018d33f8f9ad50ec470f4ebe1be" xml:lang="fr">
+<title>Répertoire de référence de dal</title>
+<indexterm><primary>Répertoire de référence de dal</primary></indexterm>
+<simplesect>
+    <title>Fichiers    </title>
+        <itemizedlist>
+            <listitem><para>fichier <link linkend="__access_8cs">Access.cs</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

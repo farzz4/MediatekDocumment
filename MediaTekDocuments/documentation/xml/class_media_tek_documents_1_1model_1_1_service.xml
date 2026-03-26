@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="fr">
+  <compounddef id="class_media_tek_documents_1_1model_1_1_service" kind="class" language="C#" prot="public">
+    <compoundname>MediaTekDocuments::model::Service</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_media_tek_documents_1_1model_1_1_service_1a8a4ac37a8e724ba47d696785f3d59ce8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string MediaTekDocuments.model.Service.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <qualifiedname>MediaTekDocuments.model.Service.Id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="model/Service.cs" line="14" column="23" bodyfile="model/Service.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="property" id="class_media_tek_documents_1_1model_1_1_service_1a26d6dec1f39a7dadbe7d76f229aee8ea" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string MediaTekDocuments.model.Service.Libelle</definition>
+        <argsstring></argsstring>
+        <name>Libelle</name>
+        <qualifiedname>MediaTekDocuments.model.Service.Libelle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="model/Service.cs" line="15" column="23" bodyfile="model/Service.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_media_tek_documents_1_1model_1_1_service_1a3531c8e6873cb2c531f592d543b15e12" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MediaTekDocuments.model.Service.Service</definition>
+        <argsstring>(string id, string libelle)</argsstring>
+        <name>Service</name>
+        <qualifiedname>MediaTekDocuments.model.Service.Service</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>libelle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="model/Service.cs" line="17" column="16" bodyfile="model/Service.cs" bodystart="17" bodyend="21"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Classe métier <ref refid="class_media_tek_documents_1_1model_1_1_service" kindref="compound">Service</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="model/Service.cs" line="12" column="11" bodyfile="model/Service.cs" bodystart="13" bodyend="22"/>
+    <listofallmembers>
+      <member refid="class_media_tek_documents_1_1model_1_1_service_1a8a4ac37a8e724ba47d696785f3d59ce8" prot="public" virt="non-virtual"><scope>MediaTekDocuments::model::Service</scope><name>Id</name></member>
+      <member refid="class_media_tek_documents_1_1model_1_1_service_1a26d6dec1f39a7dadbe7d76f229aee8ea" prot="public" virt="non-virtual"><scope>MediaTekDocuments::model::Service</scope><name>Libelle</name></member>
+      <member refid="class_media_tek_documents_1_1model_1_1_service_1a3531c8e6873cb2c531f592d543b15e12" prot="public" virt="non-virtual"><scope>MediaTekDocuments::model::Service</scope><name>Service</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

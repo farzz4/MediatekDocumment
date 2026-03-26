@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="fr">
+  <compounddef id="class_media_tek_documents_1_1controller_1_1_frm_authentification_controller" kind="class" language="C#" prot="public">
+    <compoundname>MediaTekDocuments::controller::FrmAuthentificationController</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_media_tek_documents_1_1controller_1_1_frm_authentification_controller_1aa8f32f36ba6bce613e5a106024b1c322" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_media_tek_documents_1_1dal_1_1_access" kindref="compound">Access</ref></type>
+        <definition>readonly Access MediaTekDocuments.controller.FrmAuthentificationController.access</definition>
+        <argsstring></argsstring>
+        <name>access</name>
+        <qualifiedname>MediaTekDocuments.controller.FrmAuthentificationController.access</qualifiedname>
+        <briefdescription>
+<para>Objet d&apos;accès aux données. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="controller/FrmAuthentificationController.cs" line="19" column="33" bodyfile="controller/FrmAuthentificationController.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_media_tek_documents_1_1controller_1_1_frm_authentification_controller_1a07077486380e4cc2cf4d7348138c3215" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MediaTekDocuments.controller.FrmAuthentificationController.FrmAuthentificationController</definition>
+        <argsstring>()</argsstring>
+        <name>FrmAuthentificationController</name>
+        <qualifiedname>MediaTekDocuments.controller.FrmAuthentificationController.FrmAuthentificationController</qualifiedname>
+        <briefdescription>
+<para>Récupération de l&apos;instance unique d&apos;accès aux données. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="controller/FrmAuthentificationController.cs" line="24" column="16" bodyfile="controller/FrmAuthentificationController.cs" bodystart="24" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1controller_1_1_frm_authentification_controller_1a3bacc79d18929c8a24b820160353f063" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_media_tek_documents_1_1model_1_1_utilisateur" kindref="compound">Utilisateur</ref></type>
+        <definition>Utilisateur MediaTekDocuments.controller.FrmAuthentificationController.GetUtilisateur</definition>
+        <argsstring>(string login, string password)</argsstring>
+        <name>GetUtilisateur</name>
+        <qualifiedname>MediaTekDocuments.controller.FrmAuthentificationController.GetUtilisateur</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>login</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <briefdescription>
+<para>Retourne l&apos;utilisateur associé au login et password. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>login</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>login de l&apos;utilisateur cherché</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>password</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>password de l&apos;utilisateur cherché</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Objet utilisateur</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="controller/FrmAuthentificationController.cs" line="35" column="28" bodyfile="controller/FrmAuthentificationController.cs" bodystart="35" bodyend="43"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Contrôleur lié à FrmAuthentification. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>MediaTekDocuments.controller.FrmAuthentificationController</label>
+        <link refid="class_media_tek_documents_1_1controller_1_1_frm_authentification_controller"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>access</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MediaTekDocuments.dal.Access</label>
+        <link refid="class_media_tek_documents_1_1dal_1_1_access"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>instance</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>api</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MediaTekDocuments.manager.ApiRest</label>
+        <link refid="class_media_tek_documents_1_1manager_1_1_api_rest"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>instance</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="controller/FrmAuthentificationController.cs" line="14" column="5" bodyfile="controller/FrmAuthentificationController.cs" bodystart="15" bodyend="44"/>
+    <listofallmembers>
+      <member refid="class_media_tek_documents_1_1controller_1_1_frm_authentification_controller_1aa8f32f36ba6bce613e5a106024b1c322" prot="private" virt="non-virtual"><scope>MediaTekDocuments::controller::FrmAuthentificationController</scope><name>access</name></member>
+      <member refid="class_media_tek_documents_1_1controller_1_1_frm_authentification_controller_1a07077486380e4cc2cf4d7348138c3215" prot="public" virt="non-virtual"><scope>MediaTekDocuments::controller::FrmAuthentificationController</scope><name>FrmAuthentificationController</name></member>
+      <member refid="class_media_tek_documents_1_1controller_1_1_frm_authentification_controller_1a3bacc79d18929c8a24b820160353f063" prot="public" virt="non-virtual"><scope>MediaTekDocuments::controller::FrmAuthentificationController</scope><name>GetUtilisateur</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

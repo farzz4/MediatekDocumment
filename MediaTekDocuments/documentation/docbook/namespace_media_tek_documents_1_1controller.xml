@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespace_media_tek_documents_1_1controller" xml:lang="fr">
+<title>Référence de l&apos;espace de nommage MediaTekDocuments.controller</title>
+<indexterm><primary>MediaTekDocuments.controller</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_media_tek_documents_1_1controller_1_1_frm_authentification_controller">FrmAuthentificationController</link></para>
+
+<para>Contrôleur lié à FrmAuthentification. </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller">FrmMediatekController</link></para>
+
+<para>Contrôleur lié à FrmMediatek. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

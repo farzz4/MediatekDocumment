@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_media_tek_documents_1_1model_1_1_etat" xml:lang="fr">
+<title>Référence de la classe MediaTekDocuments.model.Etat</title>
+<indexterm><primary>MediaTekDocuments.model.Etat</primary></indexterm>
+<para>
+
+<para>Classe métier <link linkend="_class_media_tek_documents_1_1model_1_1_etat">Etat</link> (état d&apos;usure d&apos;un document). </para>
+ 
+</para>
+<simplesect>
+    <title>Fonctions membres publiques    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_media_tek_documents_1_1model_1_1_etat_1a1ec019121eddab79562aa04350bbb077">Etat</link> (string id, string libelle)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Propriétés    </title>
+        <itemizedlist>
+            <listitem><para>string <link linkend="_class_media_tek_documents_1_1model_1_1_etat_1ae9507944d35ecd312988035c8e6aafba">Id</link><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_media_tek_documents_1_1model_1_1_etat_1a598a195916a28e83aa14538942928be4">Libelle</link><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Description détaillée</title>
+
+<para>Classe métier <link linkend="_class_media_tek_documents_1_1model_1_1_etat">Etat</link> (état d&apos;usure d&apos;un document). </para>
+</section>
+<section>
+<title>Documentation des constructeurs et destructeur</title>
+<anchor xml:id="_class_media_tek_documents_1_1model_1_1_etat_1a1ec019121eddab79562aa04350bbb077"/><section>
+    <title>Etat()</title>
+<indexterm><primary>Etat</primary><secondary>MediaTekDocuments.model.Etat</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.model.Etat</primary><secondary>Etat</secondary></indexterm>
+<para><computeroutput>MediaTekDocuments.model.Etat.Etat (string id, string libelle)</computeroutput></para></section>
+</section>
+<section>
+<title>Documentation des propriétés</title>
+<anchor xml:id="_class_media_tek_documents_1_1model_1_1_etat_1ae9507944d35ecd312988035c8e6aafba"/><section>
+    <title>Id</title>
+<indexterm><primary>Id</primary><secondary>MediaTekDocuments.model.Etat</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.model.Etat</primary><secondary>Id</secondary></indexterm>
+<para><computeroutput>string MediaTekDocuments.model.Etat.Id<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_media_tek_documents_1_1model_1_1_etat_1a598a195916a28e83aa14538942928be4"/><section>
+    <title>Libelle</title>
+<indexterm><primary>Libelle</primary><secondary>MediaTekDocuments.model.Etat</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.model.Etat</primary><secondary>Libelle</secondary></indexterm>
+<para><computeroutput>string MediaTekDocuments.model.Etat.Libelle<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<para>
+La documentation de cette classe a été générée à partir du fichier suivant :</para>
+model/<link linkend="__etat_8cs">Etat.cs</link></section>
+</section>

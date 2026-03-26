@@ -1,0 +1,800 @@
+\doxysection{Référence de la classe Media\+Tek\+Documents.\+controller.\+Frm\+Mediatek\+Controller}
+\label{class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller}\index{MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}}
+
+
+Contrôleur lié à Frm\+Mediatek.  
+
+
+\doxysubsubsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\textbf{ Frm\+Mediatek\+Controller} ()
+\begin{DoxyCompactList}\small\item\em Récupération de l\textquotesingle{}instance unique d\textquotesingle{}accès aux données. \end{DoxyCompactList}\item 
+List$<$ \textbf{ Categorie} $>$ \textbf{ Get\+All\+Genres} ()
+\begin{DoxyCompactList}\small\item\em getter sur la liste des genres \end{DoxyCompactList}\item 
+List$<$ \textbf{ Document} $>$ \textbf{ Get\+All\+Documents} ()
+\item 
+List$<$ \textbf{ Livre} $>$ \textbf{ Get\+All\+Livres} ()
+\begin{DoxyCompactList}\small\item\em getter sur la liste des livres \end{DoxyCompactList}\item 
+List$<$ \textbf{ Dvd} $>$ \textbf{ Get\+All\+Dvd} ()
+\begin{DoxyCompactList}\small\item\em getter sur la liste des \doxyref{Dvd}{p.}{class_media_tek_documents_1_1model_1_1_dvd} \end{DoxyCompactList}\item 
+List$<$ \textbf{ Revue} $>$ \textbf{ Get\+All\+Revues} ()
+\begin{DoxyCompactList}\small\item\em getter sur la liste des revues \end{DoxyCompactList}\item 
+List$<$ \textbf{ Categorie} $>$ \textbf{ Get\+All\+Rayons} ()
+\begin{DoxyCompactList}\small\item\em getter sur les rayons \end{DoxyCompactList}\item 
+List$<$ \textbf{ Categorie} $>$ \textbf{ Get\+All\+Publics} ()
+\begin{DoxyCompactList}\small\item\em getter sur les publics \end{DoxyCompactList}\item 
+List$<$ \textbf{ Commande} $>$ \textbf{ Get\+All\+Commandes} ()
+\begin{DoxyCompactList}\small\item\em getter sur les commandes \end{DoxyCompactList}\item 
+List$<$ \textbf{ Abonnement} $>$ \textbf{ Get\+All\+Abonnements} ()
+\begin{DoxyCompactList}\small\item\em getter sur les abonnements \end{DoxyCompactList}\item 
+List$<$ \textbf{ Suivi} $>$ \textbf{ Get\+All\+Suivis} ()
+\begin{DoxyCompactList}\small\item\em getter sur les suivis \end{DoxyCompactList}\item 
+List$<$ \textbf{ Etat} $>$ \textbf{ Get\+All\+Etats} ()
+\begin{DoxyCompactList}\small\item\em getter sur les états \end{DoxyCompactList}\item 
+List$<$ \textbf{ Abonnement} $>$ \textbf{ Get\+Abonnements\+Echeance} ()
+\begin{DoxyCompactList}\small\item\em getter les abonnements arrivant à échéance \end{DoxyCompactList}\item 
+List$<$ \textbf{ Exemplaire} $>$ \textbf{ Get\+Exemplaires\+Revue} (string id\+Document)
+\begin{DoxyCompactList}\small\item\em getter sur les exemplaires d\textquotesingle{}une revue \end{DoxyCompactList}\item 
+List$<$ \textbf{ Exemplaire} $>$ \textbf{ Get\+Exemplaires\+Document} (string id\+Document)
+\begin{DoxyCompactList}\small\item\em getter sur les exemplaires d\textquotesingle{}un document \end{DoxyCompactList}\item 
+List$<$ \textbf{ Commande\+Document} $>$ \textbf{ Get\+Commande\+Documents} (string id\+Document)
+\begin{DoxyCompactList}\small\item\em getter sur les commandes d\textquotesingle{}un document \end{DoxyCompactList}\item 
+List$<$ \textbf{ Abonnement} $>$ \textbf{ Get\+Abonnements\+Revue} (string id\+Document)
+\begin{DoxyCompactList}\small\item\em getter sur les abonnements d\textquotesingle{}une revue \end{DoxyCompactList}\item 
+bool \textbf{ Creer\+Exemplaire} (\textbf{ Exemplaire} exemplaire)
+\begin{DoxyCompactList}\small\item\em Crée un exemplaire d\textquotesingle{}une revue dans la bdd. \end{DoxyCompactList}\item 
+bool \textbf{ Creer\+Document} (string id, string titre, string image, string id\+Rayon, string id\+Public, string id\+Genre)
+\begin{DoxyCompactList}\small\item\em Créé un document dans la bdd. \end{DoxyCompactList}\item 
+bool \textbf{ Modifier\+Document} (string id, string titre, string image, string id\+Rayon, string id\+Public, string id\+Genre)
+\begin{DoxyCompactList}\small\item\em Modifie un document dans la bdd. \end{DoxyCompactList}\item 
+bool \textbf{ Creer\+Livre} (string id, string Isbn, string auteur, string collection)
+\begin{DoxyCompactList}\small\item\em Créé un livre dans la bdd. \end{DoxyCompactList}\item 
+bool \textbf{ Modifier\+Livre} (string id, string Isbn, string auteur, string collection)
+\begin{DoxyCompactList}\small\item\em Modifie un livre dans la bdd. \end{DoxyCompactList}\item 
+bool \textbf{ Supprimer\+Livre} (string id)
+\begin{DoxyCompactList}\small\item\em Supprime un livre dans la bdd. \end{DoxyCompactList}\item 
+bool \textbf{ Creer\+Dvd} (string id, string synopsis, string realisateur, int duree)
+\begin{DoxyCompactList}\small\item\em Cree un dvd dans la bdd. \end{DoxyCompactList}\item 
+bool \textbf{ Modifier\+Dvd} (string id, string synopsis, string realisateur, int duree)
+\begin{DoxyCompactList}\small\item\em Modifie un dvd dans la bdd. \end{DoxyCompactList}\item 
+bool \textbf{ Supprimer\+Dvd} (string id)
+\begin{DoxyCompactList}\small\item\em Supprime un dvd dans la bdd. \end{DoxyCompactList}\item 
+bool \textbf{ Creer\+Revue} (string id, string periodicite, int delai\+Mise\+ADispo)
+\begin{DoxyCompactList}\small\item\em Cree une revue dans la bdd. \end{DoxyCompactList}\item 
+bool \textbf{ Modifier\+Revue} (string id, string periodicite, int delai\+Mise\+ADispo)
+\begin{DoxyCompactList}\small\item\em Modifie une revue dans la bdd. \end{DoxyCompactList}\item 
+bool \textbf{ Supprimer\+Revue} (string id)
+\begin{DoxyCompactList}\small\item\em Supprime une revue dans la bdd. \end{DoxyCompactList}\item 
+bool \textbf{ Creer\+Commande} (\textbf{ Commande} commande)
+\begin{DoxyCompactList}\small\item\em Créé une commande dans la bdd. \end{DoxyCompactList}\item 
+bool \textbf{ Creer\+Commande\+Document} (string id, int nb\+Exemplaire, string id\+Livre\+Dvd, string id\+Suivi)
+\begin{DoxyCompactList}\small\item\em Créé une commande d\textquotesingle{}un document dans la bdd. \end{DoxyCompactList}\item 
+bool \textbf{ Modifier\+Suivi\+Commande\+Document} (string id, string id\+Suivi)
+\begin{DoxyCompactList}\small\item\em Modifie le suivi d\textquotesingle{}une commande d\textquotesingle{}un document dans la bdd. \end{DoxyCompactList}\item 
+bool \textbf{ Supprimer\+Commande\+Document} (string id)
+\begin{DoxyCompactList}\small\item\em Supprime une commande d\textquotesingle{}un document dans la bdd. \end{DoxyCompactList}\item 
+bool \textbf{ Creer\+Abonnement\+Revue} (string id, Date\+Time date\+Fin\+Abonnement, string id\+Revue)
+\begin{DoxyCompactList}\small\item\em Créé un abonnement d\textquotesingle{}une revue dans la bdd. \end{DoxyCompactList}\item 
+bool \textbf{ Supprimer\+Abonnement\+Revue} (string id)
+\begin{DoxyCompactList}\small\item\em Supprime un abonnement d\textquotesingle{}une revue dans la bdd. \end{DoxyCompactList}\item 
+bool \textbf{ Parution\+Dans\+Abonnement} (Date\+Time date\+Commande, Date\+Time date\+Fin\+Abonnement, Date\+Time date\+Parution)
+\begin{DoxyCompactList}\small\item\em Vérifier si une parution est associée à une commande donnée. \end{DoxyCompactList}\item 
+bool \textbf{ Modifier\+Etat\+Exemplaire\+Document} (\textbf{ Exemplaire} exemplaire)
+\begin{DoxyCompactList}\small\item\em Modifie l\textquotesingle{}état d\textquotesingle{}un exemplaire d\textquotesingle{}un document. \end{DoxyCompactList}\item 
+bool \textbf{ Supprimer\+Exemplaire\+Document} (\textbf{ Exemplaire} exemplaire)
+\begin{DoxyCompactList}\small\item\em Supprime un exemplaire d\textquotesingle{}un document dans la bdd. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Attributs privés}
+\begin{DoxyCompactItemize}
+\item 
+readonly \textbf{ Access} \textbf{ access}
+\begin{DoxyCompactList}\small\item\em Objet d\textquotesingle{}accès aux données. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Description détaillée}
+Contrôleur lié à Frm\+Mediatek. 
+
+\label{doc-constructors}
+\doxysubsection{Documentation des constructeurs et destructeur}
+\index{MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}!FrmMediatekController@{FrmMediatekController}}
+\index{FrmMediatekController@{FrmMediatekController}!MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}}
+\doxysubsubsection{FrmMediatekController()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_a72ed2400f576d1bef7c7b4621421c8a7} 
+Media\+Tek\+Documents.\+controller.\+Frm\+Mediatek\+Controller.\+Frm\+Mediatek\+Controller (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Récupération de l\textquotesingle{}instance unique d\textquotesingle{}accès aux données. 
+
+
+
+\label{doc-func-members}
+\doxysubsection{Documentation des fonctions membres}
+\index{MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}!CreerAbonnementRevue@{CreerAbonnementRevue}}
+\index{CreerAbonnementRevue@{CreerAbonnementRevue}!MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}}
+\doxysubsubsection{CreerAbonnementRevue()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_a61be60749967c533463ffcbc23e4738f} 
+bool Media\+Tek\+Documents.\+controller.\+Frm\+Mediatek\+Controller.\+Creer\+Abonnement\+Revue (\begin{DoxyParamCaption}\item[{string}]{id}{, }\item[{Date\+Time}]{date\+Fin\+Abonnement}{, }\item[{string}]{id\+Revue}{}\end{DoxyParamCaption})}
+
+
+
+Créé un abonnement d\textquotesingle{}une revue dans la bdd. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em abonnement} & objet abonnement\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+true si l\textquotesingle{}insertion a pu se faire
+\end{DoxyReturn}
+\index{MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}!CreerCommande@{CreerCommande}}
+\index{CreerCommande@{CreerCommande}!MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}}
+\doxysubsubsection{CreerCommande()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_a9e1f79c36958bd1800bb20145631606d} 
+bool Media\+Tek\+Documents.\+controller.\+Frm\+Mediatek\+Controller.\+Creer\+Commande (\begin{DoxyParamCaption}\item[{\textbf{ Commande}}]{commande}{}\end{DoxyParamCaption})}
+
+
+
+Créé une commande dans la bdd. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em commande} & objet commande\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+true si l\textquotesingle{}insertion a pu se faire
+\end{DoxyReturn}
+\index{MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}!CreerCommandeDocument@{CreerCommandeDocument}}
+\index{CreerCommandeDocument@{CreerCommandeDocument}!MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}}
+\doxysubsubsection{CreerCommandeDocument()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_a049dc45494461081866270775c70cc02} 
+bool Media\+Tek\+Documents.\+controller.\+Frm\+Mediatek\+Controller.\+Creer\+Commande\+Document (\begin{DoxyParamCaption}\item[{string}]{id}{, }\item[{int}]{nb\+Exemplaire}{, }\item[{string}]{id\+Livre\+Dvd}{, }\item[{string}]{id\+Suivi}{}\end{DoxyParamCaption})}
+
+
+
+Créé une commande d\textquotesingle{}un document dans la bdd. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em id} & id de la commande\\
+\hline
+{\em nb\+Exemplaire} & nb d\textquotesingle{}exemplaire dans la commande\\
+\hline
+{\em id\+Livre\+Dvd} & id du livre\+Dvd de la commande\\
+\hline
+{\em id\+Suivi} & id du suivi de la commande\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+true si l\textquotesingle{}insertion a pu se faire
+\end{DoxyReturn}
+\index{MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}!CreerDocument@{CreerDocument}}
+\index{CreerDocument@{CreerDocument}!MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}}
+\doxysubsubsection{CreerDocument()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_a16694ed85a8a49520b1ada114f4c2d2d} 
+bool Media\+Tek\+Documents.\+controller.\+Frm\+Mediatek\+Controller.\+Creer\+Document (\begin{DoxyParamCaption}\item[{string}]{id}{, }\item[{string}]{titre}{, }\item[{string}]{image}{, }\item[{string}]{id\+Rayon}{, }\item[{string}]{id\+Public}{, }\item[{string}]{id\+Genre}{}\end{DoxyParamCaption})}
+
+
+
+Créé un document dans la bdd. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em id} & id du document\\
+\hline
+{\em titre} & titre du document\\
+\hline
+{\em image} & image du document\\
+\hline
+{\em id\+Rayon} & id du rayon du document\\
+\hline
+{\em id\+Public} & id du public du document\\
+\hline
+{\em id\+Genre} & id du genre du document\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+True si la création a pu se faire
+\end{DoxyReturn}
+\index{MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}!CreerDvd@{CreerDvd}}
+\index{CreerDvd@{CreerDvd}!MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}}
+\doxysubsubsection{CreerDvd()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_a154c78a44d0f9ca71a982a333a549563} 
+bool Media\+Tek\+Documents.\+controller.\+Frm\+Mediatek\+Controller.\+Creer\+Dvd (\begin{DoxyParamCaption}\item[{string}]{id}{, }\item[{string}]{synopsis}{, }\item[{string}]{realisateur}{, }\item[{int}]{duree}{}\end{DoxyParamCaption})}
+
+
+
+Cree un dvd dans la bdd. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em id} & id du dvd\\
+\hline
+{\em synopsis} & synopsis du dvd\\
+\hline
+{\em realisateur} & realisateur du dvd\\
+\hline
+{\em duree} & duree du dvd\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+true si la création a pu se faire
+\end{DoxyReturn}
+\index{MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}!CreerExemplaire@{CreerExemplaire}}
+\index{CreerExemplaire@{CreerExemplaire}!MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}}
+\doxysubsubsection{CreerExemplaire()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_a38b26e0f8357c7b9539e974fb0496c4f} 
+bool Media\+Tek\+Documents.\+controller.\+Frm\+Mediatek\+Controller.\+Creer\+Exemplaire (\begin{DoxyParamCaption}\item[{\textbf{ Exemplaire}}]{exemplaire}{}\end{DoxyParamCaption})}
+
+
+
+Crée un exemplaire d\textquotesingle{}une revue dans la bdd. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em exemplaire} & L\textquotesingle{}objet \doxyref{Exemplaire}{p.}{class_media_tek_documents_1_1model_1_1_exemplaire} concerné\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+True si la création a pu se faire
+\end{DoxyReturn}
+\index{MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}!CreerLivre@{CreerLivre}}
+\index{CreerLivre@{CreerLivre}!MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}}
+\doxysubsubsection{CreerLivre()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_a0ef398223ef3d96301f99baff78b689b} 
+bool Media\+Tek\+Documents.\+controller.\+Frm\+Mediatek\+Controller.\+Creer\+Livre (\begin{DoxyParamCaption}\item[{string}]{id}{, }\item[{string}]{Isbn}{, }\item[{string}]{auteur}{, }\item[{string}]{collection}{}\end{DoxyParamCaption})}
+
+
+
+Créé un livre dans la bdd. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em id} & id du livre\\
+\hline
+{\em isbn} & isbn du livre\\
+\hline
+{\em auteur} & auteur du livre\\
+\hline
+{\em collection} & collection du livre\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+True si la création a pu se faire
+\end{DoxyReturn}
+\index{MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}!CreerRevue@{CreerRevue}}
+\index{CreerRevue@{CreerRevue}!MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}}
+\doxysubsubsection{CreerRevue()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_a6f3f0045e3c2368c70ec7f1ccbc48e9d} 
+bool Media\+Tek\+Documents.\+controller.\+Frm\+Mediatek\+Controller.\+Creer\+Revue (\begin{DoxyParamCaption}\item[{string}]{id}{, }\item[{string}]{periodicite}{, }\item[{int}]{delai\+Mise\+ADispo}{}\end{DoxyParamCaption})}
+
+
+
+Cree une revue dans la bdd. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em id} & id de la revue\\
+\hline
+{\em periodicite} & periodicite de la revue\\
+\hline
+{\em delai\+Mise\+ADispo} & delai de mise à dispo de la revue\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+
+\end{DoxyReturn}
+\index{MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}!GetAbonnementsEcheance@{GetAbonnementsEcheance}}
+\index{GetAbonnementsEcheance@{GetAbonnementsEcheance}!MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}}
+\doxysubsubsection{GetAbonnementsEcheance()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_a176241828bfd21eca7f5572770cb63ae} 
+List$<$ \textbf{ Abonnement} $>$ Media\+Tek\+Documents.\+controller.\+Frm\+Mediatek\+Controller.\+Get\+Abonnements\+Echeance (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+getter les abonnements arrivant à échéance 
+
+\begin{DoxyReturn}{Renvoie}
+
+\end{DoxyReturn}
+\index{MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}!GetAbonnementsRevue@{GetAbonnementsRevue}}
+\index{GetAbonnementsRevue@{GetAbonnementsRevue}!MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}}
+\doxysubsubsection{GetAbonnementsRevue()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_a919388a569c2fc715e83997eb6b76bfc} 
+List$<$ \textbf{ Abonnement} $>$ Media\+Tek\+Documents.\+controller.\+Frm\+Mediatek\+Controller.\+Get\+Abonnements\+Revue (\begin{DoxyParamCaption}\item[{string}]{id\+Document}{}\end{DoxyParamCaption})}
+
+
+
+getter sur les abonnements d\textquotesingle{}une revue 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em id\+Document} & id du document concerné\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+Liste d\textquotesingle{}objets \doxyref{Abonnement}{p.}{class_media_tek_documents_1_1model_1_1_abonnement}
+\end{DoxyReturn}
+\index{MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}!GetAllAbonnements@{GetAllAbonnements}}
+\index{GetAllAbonnements@{GetAllAbonnements}!MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}}
+\doxysubsubsection{GetAllAbonnements()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_ac6252666f48aa3baa9cdb08852925eb8} 
+List$<$ \textbf{ Abonnement} $>$ Media\+Tek\+Documents.\+controller.\+Frm\+Mediatek\+Controller.\+Get\+All\+Abonnements (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+getter sur les abonnements 
+
+\begin{DoxyReturn}{Renvoie}
+
+\end{DoxyReturn}
+\index{MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}!GetAllCommandes@{GetAllCommandes}}
+\index{GetAllCommandes@{GetAllCommandes}!MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}}
+\doxysubsubsection{GetAllCommandes()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_a259fa9bff3caa7f40d83748729e18d1a} 
+List$<$ \textbf{ Commande} $>$ Media\+Tek\+Documents.\+controller.\+Frm\+Mediatek\+Controller.\+Get\+All\+Commandes (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+getter sur les commandes 
+
+\begin{DoxyReturn}{Renvoie}
+Liste d\textquotesingle{}objets Commandes
+\end{DoxyReturn}
+\index{MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}!GetAllDocuments@{GetAllDocuments}}
+\index{GetAllDocuments@{GetAllDocuments}!MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}}
+\doxysubsubsection{GetAllDocuments()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_ae13b977e2f01bada5086a0127792d03d} 
+List$<$ \textbf{ Document} $>$ Media\+Tek\+Documents.\+controller.\+Frm\+Mediatek\+Controller.\+Get\+All\+Documents (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\index{MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}!GetAllDvd@{GetAllDvd}}
+\index{GetAllDvd@{GetAllDvd}!MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}}
+\doxysubsubsection{GetAllDvd()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_aff6798b4a3a7fb18d9515fdb0f8807c9} 
+List$<$ \textbf{ Dvd} $>$ Media\+Tek\+Documents.\+controller.\+Frm\+Mediatek\+Controller.\+Get\+All\+Dvd (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+getter sur la liste des \doxyref{Dvd}{p.}{class_media_tek_documents_1_1model_1_1_dvd} 
+
+\begin{DoxyReturn}{Renvoie}
+Liste d\textquotesingle{}objets dvd
+\end{DoxyReturn}
+\index{MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}!GetAllEtats@{GetAllEtats}}
+\index{GetAllEtats@{GetAllEtats}!MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}}
+\doxysubsubsection{GetAllEtats()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_a6eac49e2bb328dd68b0b736e0a717bdd} 
+List$<$ \textbf{ Etat} $>$ Media\+Tek\+Documents.\+controller.\+Frm\+Mediatek\+Controller.\+Get\+All\+Etats (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+getter sur les états 
+
+\begin{DoxyReturn}{Renvoie}
+Liste d\textquotesingle{}objets \doxyref{Etat}{p.}{class_media_tek_documents_1_1model_1_1_etat}
+\end{DoxyReturn}
+\index{MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}!GetAllGenres@{GetAllGenres}}
+\index{GetAllGenres@{GetAllGenres}!MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}}
+\doxysubsubsection{GetAllGenres()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_ac9f6171c5f481a949bea961a54b4d260} 
+List$<$ \textbf{ Categorie} $>$ Media\+Tek\+Documents.\+controller.\+Frm\+Mediatek\+Controller.\+Get\+All\+Genres (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+getter sur la liste des genres 
+
+\begin{DoxyReturn}{Renvoie}
+Liste d\textquotesingle{}objets \doxyref{Genre}{p.}{class_media_tek_documents_1_1model_1_1_genre}
+\end{DoxyReturn}
+\index{MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}!GetAllLivres@{GetAllLivres}}
+\index{GetAllLivres@{GetAllLivres}!MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}}
+\doxysubsubsection{GetAllLivres()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_a31259a00ffb53bd05653dc1b5d2d041b} 
+List$<$ \textbf{ Livre} $>$ Media\+Tek\+Documents.\+controller.\+Frm\+Mediatek\+Controller.\+Get\+All\+Livres (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+getter sur la liste des livres 
+
+\begin{DoxyReturn}{Renvoie}
+Liste d\textquotesingle{}objets \doxyref{Livre}{p.}{class_media_tek_documents_1_1model_1_1_livre}
+\end{DoxyReturn}
+\index{MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}!GetAllPublics@{GetAllPublics}}
+\index{GetAllPublics@{GetAllPublics}!MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}}
+\doxysubsubsection{GetAllPublics()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_abab41748fe20336499dd3fc8bd29c3a2} 
+List$<$ \textbf{ Categorie} $>$ Media\+Tek\+Documents.\+controller.\+Frm\+Mediatek\+Controller.\+Get\+All\+Publics (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+getter sur les publics 
+
+\begin{DoxyReturn}{Renvoie}
+Liste d\textquotesingle{}objets \doxyref{Public}{p.}{class_media_tek_documents_1_1model_1_1_public}
+\end{DoxyReturn}
+\index{MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}!GetAllRayons@{GetAllRayons}}
+\index{GetAllRayons@{GetAllRayons}!MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}}
+\doxysubsubsection{GetAllRayons()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_aa080a5d10b7b7da29e376ce0057629cf} 
+List$<$ \textbf{ Categorie} $>$ Media\+Tek\+Documents.\+controller.\+Frm\+Mediatek\+Controller.\+Get\+All\+Rayons (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+getter sur les rayons 
+
+\begin{DoxyReturn}{Renvoie}
+Liste d\textquotesingle{}objets \doxyref{Rayon}{p.}{class_media_tek_documents_1_1model_1_1_rayon}
+\end{DoxyReturn}
+\index{MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}!GetAllRevues@{GetAllRevues}}
+\index{GetAllRevues@{GetAllRevues}!MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}}
+\doxysubsubsection{GetAllRevues()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_a3e54e8336581d07c393569ee4625c80c} 
+List$<$ \textbf{ Revue} $>$ Media\+Tek\+Documents.\+controller.\+Frm\+Mediatek\+Controller.\+Get\+All\+Revues (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+getter sur la liste des revues 
+
+\begin{DoxyReturn}{Renvoie}
+Liste d\textquotesingle{}objets \doxyref{Revue}{p.}{class_media_tek_documents_1_1model_1_1_revue}
+\end{DoxyReturn}
+\index{MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}!GetAllSuivis@{GetAllSuivis}}
+\index{GetAllSuivis@{GetAllSuivis}!MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}}
+\doxysubsubsection{GetAllSuivis()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_ab5471e58f2e6ed78d298ab05db685daa} 
+List$<$ \textbf{ Suivi} $>$ Media\+Tek\+Documents.\+controller.\+Frm\+Mediatek\+Controller.\+Get\+All\+Suivis (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+getter sur les suivis 
+
+\begin{DoxyReturn}{Renvoie}
+Liste d\textquotesingle{}objets Suivis
+\end{DoxyReturn}
+\index{MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}!GetCommandeDocuments@{GetCommandeDocuments}}
+\index{GetCommandeDocuments@{GetCommandeDocuments}!MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}}
+\doxysubsubsection{GetCommandeDocuments()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_a827939bca67394e3a25f753b36162de4} 
+List$<$ \textbf{ Commande\+Document} $>$ Media\+Tek\+Documents.\+controller.\+Frm\+Mediatek\+Controller.\+Get\+Commande\+Documents (\begin{DoxyParamCaption}\item[{string}]{id\+Document}{}\end{DoxyParamCaption})}
+
+
+
+getter sur les commandes d\textquotesingle{}un document 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em id\+Document} & id du document concerné\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+List d\textquotesingle{}objets \doxyref{Commande\+Document}{p.}{class_media_tek_documents_1_1model_1_1_commande_document}
+\end{DoxyReturn}
+\index{MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}!GetExemplairesDocument@{GetExemplairesDocument}}
+\index{GetExemplairesDocument@{GetExemplairesDocument}!MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}}
+\doxysubsubsection{GetExemplairesDocument()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_a13c4d05274842980a646e9065acbdafa} 
+List$<$ \textbf{ Exemplaire} $>$ Media\+Tek\+Documents.\+controller.\+Frm\+Mediatek\+Controller.\+Get\+Exemplaires\+Document (\begin{DoxyParamCaption}\item[{string}]{id\+Document}{}\end{DoxyParamCaption})}
+
+
+
+getter sur les exemplaires d\textquotesingle{}un document 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em id\+Document} & id du document concerné\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+Liste d\textquotesingle{}objet \doxyref{Exemplaire}{p.}{class_media_tek_documents_1_1model_1_1_exemplaire}
+\end{DoxyReturn}
+\index{MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}!GetExemplairesRevue@{GetExemplairesRevue}}
+\index{GetExemplairesRevue@{GetExemplairesRevue}!MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}}
+\doxysubsubsection{GetExemplairesRevue()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_a5f242368a3552d8e072d31cd4ecc6d5f} 
+List$<$ \textbf{ Exemplaire} $>$ Media\+Tek\+Documents.\+controller.\+Frm\+Mediatek\+Controller.\+Get\+Exemplaires\+Revue (\begin{DoxyParamCaption}\item[{string}]{id\+Document}{}\end{DoxyParamCaption})}
+
+
+
+getter sur les exemplaires d\textquotesingle{}une revue 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em id\+Docuement} & id de la revue concernée\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+Liste d\textquotesingle{}objets \doxyref{Exemplaire}{p.}{class_media_tek_documents_1_1model_1_1_exemplaire}
+\end{DoxyReturn}
+\index{MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}!ModifierDocument@{ModifierDocument}}
+\index{ModifierDocument@{ModifierDocument}!MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}}
+\doxysubsubsection{ModifierDocument()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_a372ce9e03b169df807696fb919a2cd29} 
+bool Media\+Tek\+Documents.\+controller.\+Frm\+Mediatek\+Controller.\+Modifier\+Document (\begin{DoxyParamCaption}\item[{string}]{id}{, }\item[{string}]{titre}{, }\item[{string}]{image}{, }\item[{string}]{id\+Rayon}{, }\item[{string}]{id\+Public}{, }\item[{string}]{id\+Genre}{}\end{DoxyParamCaption})}
+
+
+
+Modifie un document dans la bdd. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em id} & id du document\\
+\hline
+{\em titre} & titre du document\\
+\hline
+{\em image} & image du document\\
+\hline
+{\em id\+Rayon} & id du rayon du document\\
+\hline
+{\em id\+Public} & id du public du document\\
+\hline
+{\em id\+Genre} & id du genre du document\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+True si la modification a pu se faire
+\end{DoxyReturn}
+\index{MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}!ModifierDvd@{ModifierDvd}}
+\index{ModifierDvd@{ModifierDvd}!MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}}
+\doxysubsubsection{ModifierDvd()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_a922873643191d921f64cc8ca3e95081c} 
+bool Media\+Tek\+Documents.\+controller.\+Frm\+Mediatek\+Controller.\+Modifier\+Dvd (\begin{DoxyParamCaption}\item[{string}]{id}{, }\item[{string}]{synopsis}{, }\item[{string}]{realisateur}{, }\item[{int}]{duree}{}\end{DoxyParamCaption})}
+
+
+
+Modifie un dvd dans la bdd. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em id} & id du dvd\\
+\hline
+{\em synopsis} & synopsis du dvd\\
+\hline
+{\em realisateur} & realisateur du dvd\\
+\hline
+{\em duree} & duree du dvd\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+true si la modification a pu se faire
+\end{DoxyReturn}
+\index{MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}!ModifierEtatExemplaireDocument@{ModifierEtatExemplaireDocument}}
+\index{ModifierEtatExemplaireDocument@{ModifierEtatExemplaireDocument}!MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}}
+\doxysubsubsection{ModifierEtatExemplaireDocument()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_aeb6938e241e26ba555f3f71ad5a2b867} 
+bool Media\+Tek\+Documents.\+controller.\+Frm\+Mediatek\+Controller.\+Modifier\+Etat\+Exemplaire\+Document (\begin{DoxyParamCaption}\item[{\textbf{ Exemplaire}}]{exemplaire}{}\end{DoxyParamCaption})}
+
+
+
+Modifie l\textquotesingle{}état d\textquotesingle{}un exemplaire d\textquotesingle{}un document. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em numero} & numéro de l\textquotesingle{}exemplaire\\
+\hline
+{\em id\+Etat} & id de l\textquotesingle{}état à modifier\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+true si la modification a pu se faire
+\end{DoxyReturn}
+\index{MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}!ModifierLivre@{ModifierLivre}}
+\index{ModifierLivre@{ModifierLivre}!MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}}
+\doxysubsubsection{ModifierLivre()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_a599b50e55fdd6eb3eb4027e1e9754e2b} 
+bool Media\+Tek\+Documents.\+controller.\+Frm\+Mediatek\+Controller.\+Modifier\+Livre (\begin{DoxyParamCaption}\item[{string}]{id}{, }\item[{string}]{Isbn}{, }\item[{string}]{auteur}{, }\item[{string}]{collection}{}\end{DoxyParamCaption})}
+
+
+
+Modifie un livre dans la bdd. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em id} & id du livre\\
+\hline
+{\em Isbn} & isbn du livre\\
+\hline
+{\em auteur} & auteur du livre\\
+\hline
+{\em collection} & collection du livre\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+true si la suppression a pu se faire
+\end{DoxyReturn}
+\index{MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}!ModifierRevue@{ModifierRevue}}
+\index{ModifierRevue@{ModifierRevue}!MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}}
+\doxysubsubsection{ModifierRevue()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_a0d6def7cc8c3673fac7a02f1c7cf67e2} 
+bool Media\+Tek\+Documents.\+controller.\+Frm\+Mediatek\+Controller.\+Modifier\+Revue (\begin{DoxyParamCaption}\item[{string}]{id}{, }\item[{string}]{periodicite}{, }\item[{int}]{delai\+Mise\+ADispo}{}\end{DoxyParamCaption})}
+
+
+
+Modifie une revue dans la bdd. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em id} & id de la revue\\
+\hline
+{\em periodicite} & periodicite de la revue\\
+\hline
+{\em delai\+Mise\+ADispo} & delai de mise à dispo de la revue\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+true si la modification a pu se faire
+\end{DoxyReturn}
+\index{MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}!ModifierSuiviCommandeDocument@{ModifierSuiviCommandeDocument}}
+\index{ModifierSuiviCommandeDocument@{ModifierSuiviCommandeDocument}!MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}}
+\doxysubsubsection{ModifierSuiviCommandeDocument()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_acdc5825d8d86dc1819ed4f1c3ad5482a} 
+bool Media\+Tek\+Documents.\+controller.\+Frm\+Mediatek\+Controller.\+Modifier\+Suivi\+Commande\+Document (\begin{DoxyParamCaption}\item[{string}]{id}{, }\item[{string}]{id\+Suivi}{}\end{DoxyParamCaption})}
+
+
+
+Modifie le suivi d\textquotesingle{}une commande d\textquotesingle{}un document dans la bdd. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em id} & id de la commande\\
+\hline
+{\em nb\+Exemplaire} & nb d\textquotesingle{}exemplaires dans la commande\\
+\hline
+{\em id\+Livre\+Dvd} & id du livre\+Dvd de la commande\\
+\hline
+{\em id\+Suivi} & id du suivi de la commande\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+true si la modification a pu se faire
+\end{DoxyReturn}
+\index{MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}!ParutionDansAbonnement@{ParutionDansAbonnement}}
+\index{ParutionDansAbonnement@{ParutionDansAbonnement}!MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}}
+\doxysubsubsection{ParutionDansAbonnement()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_a980fde13f957bbb517cb732df29f9c6f} 
+bool Media\+Tek\+Documents.\+controller.\+Frm\+Mediatek\+Controller.\+Parution\+Dans\+Abonnement (\begin{DoxyParamCaption}\item[{Date\+Time}]{date\+Commande}{, }\item[{Date\+Time}]{date\+Fin\+Abonnement}{, }\item[{Date\+Time}]{date\+Parution}{}\end{DoxyParamCaption})}
+
+
+
+Vérifier si une parution est associée à une commande donnée. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em date\+Commande} & date de la commande\\
+\hline
+{\em date\+Fin\+Abonnement} & date de fin de l\textquotesingle{}abonnement\\
+\hline
+{\em date\+Parution} & date de parution de la revue\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+true si la date de parution est entre les 2 autres dates
+\end{DoxyReturn}
+\index{MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}!SupprimerAbonnementRevue@{SupprimerAbonnementRevue}}
+\index{SupprimerAbonnementRevue@{SupprimerAbonnementRevue}!MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}}
+\doxysubsubsection{SupprimerAbonnementRevue()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_a9e09a243e382acd67f3e364bbfad5478} 
+bool Media\+Tek\+Documents.\+controller.\+Frm\+Mediatek\+Controller.\+Supprimer\+Abonnement\+Revue (\begin{DoxyParamCaption}\item[{string}]{id}{}\end{DoxyParamCaption})}
+
+
+
+Supprime un abonnement d\textquotesingle{}une revue dans la bdd. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em id} & id de l\textquotesingle{}abonnement\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+true si la suppression a pu se faire
+\end{DoxyReturn}
+\index{MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}!SupprimerCommandeDocument@{SupprimerCommandeDocument}}
+\index{SupprimerCommandeDocument@{SupprimerCommandeDocument}!MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}}
+\doxysubsubsection{SupprimerCommandeDocument()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_a9090bd1380ad4378fc4da52f28829738} 
+bool Media\+Tek\+Documents.\+controller.\+Frm\+Mediatek\+Controller.\+Supprimer\+Commande\+Document (\begin{DoxyParamCaption}\item[{string}]{id}{}\end{DoxyParamCaption})}
+
+
+
+Supprime une commande d\textquotesingle{}un document dans la bdd. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em id} & id de la commande\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+true si la suppression a pu se faire
+\end{DoxyReturn}
+\index{MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}!SupprimerDvd@{SupprimerDvd}}
+\index{SupprimerDvd@{SupprimerDvd}!MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}}
+\doxysubsubsection{SupprimerDvd()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_ae2952711892fe015122a88d251652f01} 
+bool Media\+Tek\+Documents.\+controller.\+Frm\+Mediatek\+Controller.\+Supprimer\+Dvd (\begin{DoxyParamCaption}\item[{string}]{id}{}\end{DoxyParamCaption})}
+
+
+
+Supprime un dvd dans la bdd. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em id} & id du dvd\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+true si la suppression a pu se faire
+\end{DoxyReturn}
+\index{MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}!SupprimerExemplaireDocument@{SupprimerExemplaireDocument}}
+\index{SupprimerExemplaireDocument@{SupprimerExemplaireDocument}!MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}}
+\doxysubsubsection{SupprimerExemplaireDocument()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_afebed9427833259fda459f8fdb446f85} 
+bool Media\+Tek\+Documents.\+controller.\+Frm\+Mediatek\+Controller.\+Supprimer\+Exemplaire\+Document (\begin{DoxyParamCaption}\item[{\textbf{ Exemplaire}}]{exemplaire}{}\end{DoxyParamCaption})}
+
+
+
+Supprime un exemplaire d\textquotesingle{}un document dans la bdd. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em exemplaire} & \doxyref{Exemplaire}{p.}{class_media_tek_documents_1_1model_1_1_exemplaire} à supprimer\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+true si la suppression a pu se faire 
+\end{DoxyReturn}
+\index{MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}!SupprimerLivre@{SupprimerLivre}}
+\index{SupprimerLivre@{SupprimerLivre}!MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}}
+\doxysubsubsection{SupprimerLivre()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_af0b47ae755941421df98ac1fdabb8019} 
+bool Media\+Tek\+Documents.\+controller.\+Frm\+Mediatek\+Controller.\+Supprimer\+Livre (\begin{DoxyParamCaption}\item[{string}]{id}{}\end{DoxyParamCaption})}
+
+
+
+Supprime un livre dans la bdd. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em id} & id du livre\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+true si la suppression a pu se faire
+\end{DoxyReturn}
+\index{MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}!SupprimerRevue@{SupprimerRevue}}
+\index{SupprimerRevue@{SupprimerRevue}!MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}}
+\doxysubsubsection{SupprimerRevue()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_a765f15d68753d89413d2065f0deb6315} 
+bool Media\+Tek\+Documents.\+controller.\+Frm\+Mediatek\+Controller.\+Supprimer\+Revue (\begin{DoxyParamCaption}\item[{string}]{id}{}\end{DoxyParamCaption})}
+
+
+
+Supprime une revue dans la bdd. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em id} & id de la revue\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+true si la suppression a pu se faire
+\end{DoxyReturn}
+
+
+\label{doc-variable-members}
+\doxysubsection{Documentation des données membres}
+\index{MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}!access@{access}}
+\index{access@{access}!MediaTekDocuments.controller.FrmMediatekController@{MediaTekDocuments.controller.FrmMediatekController}}
+\doxysubsubsection{access}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_a3d7ce7f4a99f5748b8380ace06f6221a} 
+readonly \textbf{ Access} Media\+Tek\+Documents.\+controller.\+Frm\+Mediatek\+Controller.\+access\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Objet d\textquotesingle{}accès aux données. 
+
+
+
+La documentation de cette classe a été générée à partir du fichier suivant :\+\begin{DoxyCompactItemize}
+\item 
+controller/\+\textbf{ Frm\+Mediatek\+Controller.\+cs}\end{DoxyCompactItemize}

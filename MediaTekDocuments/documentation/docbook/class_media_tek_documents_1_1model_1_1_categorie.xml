@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_media_tek_documents_1_1model_1_1_categorie" xml:lang="fr">
+<title>Référence de la classe MediaTekDocuments.model.Categorie</title>
+<indexterm><primary>MediaTekDocuments.model.Categorie</primary></indexterm>
+<para>
+
+<para>Classe métier <link linkend="_class_media_tek_documents_1_1model_1_1_categorie">Categorie</link> (réunit les informations des classes <link linkend="_class_media_tek_documents_1_1model_1_1_public">Public</link>, <link linkend="_class_media_tek_documents_1_1model_1_1_genre">Genre</link> et <link linkend="_class_media_tek_documents_1_1model_1_1_rayon">Rayon</link>). </para>
+ 
+</para>
+<para>Graphe d&apos;héritage de MediaTekDocuments.model.Categorie:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_media_tek_documents_1_1model_1_1_categorie.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Fonctions membres publiques    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_media_tek_documents_1_1model_1_1_categorie_1a3f5f73920d44069b9e8f9584a45d2194">Categorie</link> (string id, string libelle)</para>
+</listitem>
+            <listitem><para>override string <link linkend="_class_media_tek_documents_1_1model_1_1_categorie_1aa127da14b5715971b9f296cfefa105fb">ToString</link> ()</para>
+
+<para>Récupération du libellé pour l&apos;affichage dans les combos. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Propriétés    </title>
+        <itemizedlist>
+            <listitem><para>string <link linkend="_class_media_tek_documents_1_1model_1_1_categorie_1a53b5c383291606f99c080bdd248e2446">Id</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_media_tek_documents_1_1model_1_1_categorie_1a3921e57e7e2d534f78caeaf373bec49d">Libelle</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Description détaillée</title>
+
+<para>Classe métier <link linkend="_class_media_tek_documents_1_1model_1_1_categorie">Categorie</link> (réunit les informations des classes <link linkend="_class_media_tek_documents_1_1model_1_1_public">Public</link>, <link linkend="_class_media_tek_documents_1_1model_1_1_genre">Genre</link> et <link linkend="_class_media_tek_documents_1_1model_1_1_rayon">Rayon</link>). </para>
+</section>
+<section>
+<title>Documentation des constructeurs et destructeur</title>
+<anchor xml:id="_class_media_tek_documents_1_1model_1_1_categorie_1a3f5f73920d44069b9e8f9584a45d2194"/><section>
+    <title>Categorie()</title>
+<indexterm><primary>Categorie</primary><secondary>MediaTekDocuments.model.Categorie</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.model.Categorie</primary><secondary>Categorie</secondary></indexterm>
+<para><computeroutput>MediaTekDocuments.model.Categorie.Categorie (string id, string libelle)</computeroutput></para></section>
+</section>
+<section>
+<title>Documentation des fonctions membres</title>
+<anchor xml:id="_class_media_tek_documents_1_1model_1_1_categorie_1aa127da14b5715971b9f296cfefa105fb"/><section>
+    <title>ToString()</title>
+<indexterm><primary>ToString</primary><secondary>MediaTekDocuments.model.Categorie</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.model.Categorie</primary><secondary>ToString</secondary></indexterm>
+<para><computeroutput>override string MediaTekDocuments.model.Categorie.ToString ( )</computeroutput></para><para>
+
+<para>Récupération du libellé pour l&apos;affichage dans les combos. </para>
+</para>
+
+<para><formalpara><title>Renvoie</title>
+
+<para>Libelle</para>
+</formalpara>
+</para>
+</section>
+</section>
+<section>
+<title>Documentation des propriétés</title>
+<anchor xml:id="_class_media_tek_documents_1_1model_1_1_categorie_1a53b5c383291606f99c080bdd248e2446"/><section>
+    <title>Id</title>
+<indexterm><primary>Id</primary><secondary>MediaTekDocuments.model.Categorie</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.model.Categorie</primary><secondary>Id</secondary></indexterm>
+<para><computeroutput>string MediaTekDocuments.model.Categorie.Id<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_media_tek_documents_1_1model_1_1_categorie_1a3921e57e7e2d534f78caeaf373bec49d"/><section>
+    <title>Libelle</title>
+<indexterm><primary>Libelle</primary><secondary>MediaTekDocuments.model.Categorie</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.model.Categorie</primary><secondary>Libelle</secondary></indexterm>
+<para><computeroutput>string MediaTekDocuments.model.Categorie.Libelle<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<para>
+La documentation de cette classe a été générée à partir du fichier suivant :</para>
+model/<link linkend="__categorie_8cs">Categorie.cs</link></section>
+</section>

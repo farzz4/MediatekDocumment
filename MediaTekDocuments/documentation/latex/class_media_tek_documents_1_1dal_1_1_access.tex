@@ -1,0 +1,1012 @@
+\doxysection{Référence de la classe Media\+Tek\+Documents.\+dal.\+Access}
+\label{class_media_tek_documents_1_1dal_1_1_access}\index{MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}}
+
+
+Classe d\textquotesingle{}accès aux données.  
+
+
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \textbf{ Custom\+Date\+Time\+Converter}
+\begin{DoxyCompactList}\small\item\em Modification du convertisseur Json pour gérer le format de date. \end{DoxyCompactList}\item 
+class \textbf{ Custom\+Boolean\+Json\+Converter}
+\begin{DoxyCompactList}\small\item\em Modification du convertisseur Json pour prendre en compte les booléens classe trouvée sur le site :\+ {\texttt{https:\+/\+/\+www.\+thecodebuzz.\+com/\+newtonsoft-\/jsonreaderexception-\/could-\/not-\/convert-\/string-\/to-\/boolean/\+}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ \textbf{ Categorie} $>$ \textbf{ Get\+All\+Genres} ()
+\begin{DoxyCompactList}\small\item\em Retourne tous les genres à partir de la BDD. \end{DoxyCompactList}\item 
+List$<$ \textbf{ Categorie} $>$ \textbf{ Get\+All\+Rayons} ()
+\begin{DoxyCompactList}\small\item\em Retourne tous les rayons à partir de la BDD. \end{DoxyCompactList}\item 
+List$<$ \textbf{ Categorie} $>$ \textbf{ Get\+All\+Publics} ()
+\begin{DoxyCompactList}\small\item\em Retourne toutes les catégories de public à partir de la BDD. \end{DoxyCompactList}\item 
+List$<$ \textbf{ Document} $>$ \textbf{ Get\+All\+Documents} ()
+\begin{DoxyCompactList}\small\item\em Retourne tous les documents enregistrés dans la BDD. \end{DoxyCompactList}\item 
+List$<$ \textbf{ Livre} $>$ \textbf{ Get\+All\+Livres} ()
+\begin{DoxyCompactList}\small\item\em Retourne toutes les livres à partir de la BDD. \end{DoxyCompactList}\item 
+List$<$ \textbf{ Dvd} $>$ \textbf{ Get\+All\+Dvd} ()
+\begin{DoxyCompactList}\small\item\em Retourne toutes les dvd à partir de la BDD. \end{DoxyCompactList}\item 
+List$<$ \textbf{ Revue} $>$ \textbf{ Get\+All\+Revues} ()
+\begin{DoxyCompactList}\small\item\em Retourne toutes les revues à partir de la BDD. \end{DoxyCompactList}\item 
+List$<$ \textbf{ Commande} $>$ \textbf{ Get\+All\+Commandes} ()
+\begin{DoxyCompactList}\small\item\em Retourne toutes les commandes à partir de la BDD. \end{DoxyCompactList}\item 
+List$<$ \textbf{ Abonnement} $>$ \textbf{ Get\+All\+Abonnements} ()
+\begin{DoxyCompactList}\small\item\em Retourne tous les abonnements à partir de la BDD. \end{DoxyCompactList}\item 
+List$<$ \textbf{ Suivi} $>$ \textbf{ Get\+All\+Suivis} ()
+\begin{DoxyCompactList}\small\item\em Retourne tous les suivis à partir de la BDD. \end{DoxyCompactList}\item 
+List$<$ \textbf{ Etat} $>$ \textbf{ Get\+All\+Etats} ()
+\begin{DoxyCompactList}\small\item\em Retourne tous les états à partir de la BDD. \end{DoxyCompactList}\item 
+List$<$ \textbf{ Abonnement} $>$ \textbf{ Get\+Abonnements\+Echeance} ()
+\begin{DoxyCompactList}\small\item\em Retourne les abonnements arrivant à échéance. \end{DoxyCompactList}\item 
+List$<$ \textbf{ Exemplaire} $>$ \textbf{ Get\+Exemplaires\+Revue} (string id\+Document)
+\begin{DoxyCompactList}\small\item\em Retourne les exemplaires d\textquotesingle{}une revue. \end{DoxyCompactList}\item 
+List$<$ \textbf{ Exemplaire} $>$ \textbf{ Get\+Exemplaires\+Document} (string id\+Document)
+\begin{DoxyCompactList}\small\item\em Retourne les exemplaires d\textquotesingle{}un document. \end{DoxyCompactList}\item 
+List$<$ \textbf{ Commande\+Document} $>$ \textbf{ Get\+Commandes\+Document} (string id\+Document)
+\begin{DoxyCompactList}\small\item\em Retourne les commandes d\textquotesingle{}un document. \end{DoxyCompactList}\item 
+List$<$ \textbf{ Abonnement} $>$ \textbf{ Get\+Abonnements\+Revue} (string id\+Document)
+\begin{DoxyCompactList}\small\item\em Retourne les abonnements d\textquotesingle{}une revue. \end{DoxyCompactList}\item 
+\textbf{ Utilisateur} \textbf{ Get\+Utilisateur} (string login, string password)
+\begin{DoxyCompactList}\small\item\em Retourne l\textquotesingle{}utilisateur associé au login et password. \end{DoxyCompactList}\item 
+bool \textbf{ Creer\+Exemplaire} (\textbf{ Exemplaire} exemplaire)
+\begin{DoxyCompactList}\small\item\em ecriture d\textquotesingle{}un exemplaire en base de données \end{DoxyCompactList}\item 
+bool \textbf{ Creer\+Document} (string id, string titre, string image, string id\+Rayon, string id\+Public, string id\+Genre)
+\begin{DoxyCompactList}\small\item\em ecriture d\textquotesingle{}un document en base de données \end{DoxyCompactList}\item 
+bool \textbf{ Modifier\+Document} (string id, string titre, string image, string id\+Rayon, string id\+Public, string id\+Genre)
+\begin{DoxyCompactList}\small\item\em Modification d\textquotesingle{}un document en base de données. \end{DoxyCompactList}\item 
+bool \textbf{ Creer\+Livre} (string id, string Isbn, string auteur, string collection)
+\begin{DoxyCompactList}\small\item\em ecriture d\textquotesingle{}un livre en base de données \end{DoxyCompactList}\item 
+bool \textbf{ Modifier\+Livre} (string id, string Isbn, string auteur, string collection)
+\begin{DoxyCompactList}\small\item\em Modification d\textquotesingle{}un livre en base de données. \end{DoxyCompactList}\item 
+bool \textbf{ Supprimer\+Livre} (string id)
+\begin{DoxyCompactList}\small\item\em Suppression d\textquotesingle{}un livre en base de données. \end{DoxyCompactList}\item 
+bool \textbf{ Creer\+Dvd} (string id, string synopsis, string realisateur, int duree)
+\begin{DoxyCompactList}\small\item\em Ecriture d\textquotesingle{}un dvd en base de données. \end{DoxyCompactList}\item 
+bool \textbf{ Modifier\+Dvd} (string id, string synopsis, string realisateur, int duree)
+\begin{DoxyCompactList}\small\item\em Modification d\textquotesingle{}un dvd en base de données. \end{DoxyCompactList}\item 
+bool \textbf{ Supprimer\+Dvd} (string id)
+\begin{DoxyCompactList}\small\item\em Suppression d\textquotesingle{}un dvd en base de données. \end{DoxyCompactList}\item 
+bool \textbf{ Creer\+Revue} (string id, string periodicite, int delai\+Mise\+ADispo)
+\begin{DoxyCompactList}\small\item\em Ecriture d\textquotesingle{}une revue en base de données. \end{DoxyCompactList}\item 
+bool \textbf{ Modifier\+Revue} (string id, string periodicite, int delai\+Mise\+ADispo)
+\begin{DoxyCompactList}\small\item\em Modification d\textquotesingle{}une revue en base de données. \end{DoxyCompactList}\item 
+bool \textbf{ Supprimer\+Revue} (string id)
+\begin{DoxyCompactList}\small\item\em Suppression d\textquotesingle{}une revue en base de données. \end{DoxyCompactList}\item 
+bool \textbf{ Creer\+Commande} (\textbf{ Commande} commande)
+\begin{DoxyCompactList}\small\item\em Ecriture d\textquotesingle{}une commande en base de données. \end{DoxyCompactList}\item 
+bool \textbf{ Creer\+Commande\+Document} (string id, int nb\+Exemplaire, string id\+Livre\+Dvd, string id\+Suivi)
+\begin{DoxyCompactList}\small\item\em Ecriture d\textquotesingle{}une commande d\textquotesingle{}un document en base de données. \end{DoxyCompactList}\item 
+bool \textbf{ Modifier\+Suivi\+Commande\+Document} (string id, string id\+Suivi)
+\begin{DoxyCompactList}\small\item\em Modification du suivi d\textquotesingle{}une commande dans la bdd. \end{DoxyCompactList}\item 
+bool \textbf{ Supprimer\+Commande\+Document} (string id)
+\begin{DoxyCompactList}\small\item\em Suppression d\textquotesingle{}une commande d\textquotesingle{}un document en base de données. \end{DoxyCompactList}\item 
+bool \textbf{ Creer\+Abonnement\+Revue} (string id, Date\+Time date\+Fin\+Abonnement, string id\+Revue)
+\begin{DoxyCompactList}\small\item\em Ecriture d\textquotesingle{}un abonnement d\textquotesingle{}une revue en base de données. \end{DoxyCompactList}\item 
+bool \textbf{ Supprimer\+Abonnement\+Revue} (string id)
+\begin{DoxyCompactList}\small\item\em Suppression d\textquotesingle{}un abonnement d\textquotesingle{}une revue en base de données. \end{DoxyCompactList}\item 
+bool \textbf{ Parution\+Dans\+Abonnement} (Date\+Time date\+Commande, Date\+Time date\+Fin\+Abonnement, Date\+Time date\+Parution)
+\begin{DoxyCompactList}\small\item\em Vérifier si une parution est associée à une commande donnée. \end{DoxyCompactList}\item 
+bool \textbf{ Modifier\+Etat\+Exemplaire\+Document} (\textbf{ Exemplaire} exemplaire)
+\begin{DoxyCompactList}\small\item\em Modification de l\textquotesingle{}état d\textquotesingle{}un exemplaire d\textquotesingle{}un document dans la bdd. \end{DoxyCompactList}\item 
+bool \textbf{ Supprimer\+Exemplaire\+Document} (\textbf{ Exemplaire} exemplaire)
+\begin{DoxyCompactList}\small\item\em Suppression d\textquotesingle{}un exemplaire d\textquotesingle{}un document en base de données. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Fonctions membres publiques statiques}
+\begin{DoxyCompactItemize}
+\item 
+static \textbf{ Access} \textbf{ Get\+Instance} ()
+\begin{DoxyCompactList}\small\item\em Création et retour de l\textquotesingle{}instance unique de la classe. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Fonctions membres privées}
+\begin{DoxyCompactItemize}
+\item 
+\textbf{ Access} ()
+\begin{DoxyCompactList}\small\item\em Méthode privée pour créer un singleton initialise l\textquotesingle{}accès à l\textquotesingle{}API. \end{DoxyCompactList}\item 
+List$<$ T $>$ \textbf{ Traitement\+Recup$<$ T $>$} (String methode, String message, String parametres)
+\begin{DoxyCompactList}\small\item\em Traitement de la récupération du retour de l\textquotesingle{}api, avec conversion du json en liste pour les select (GET). \end{DoxyCompactList}\item 
+String \textbf{ convert\+To\+Json} (Object nom, Object valeur)
+\begin{DoxyCompactList}\small\item\em Convertit en json un couple nom/\+valeur. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Fonctions membres privées statiques}
+\begin{DoxyCompactItemize}
+\item 
+static string \textbf{ Get\+Connection\+String\+By\+Name} (string name)
+\begin{DoxyCompactList}\small\item\em Récupération de la chaîne de connexion. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Attributs privés}
+\begin{DoxyCompactItemize}
+\item 
+readonly \textbf{ Api\+Rest} \textbf{ api} = null
+\begin{DoxyCompactList}\small\item\em instance de \doxyref{Api\+Rest}{p.}{class_media_tek_documents_1_1manager_1_1_api_rest} pour envoyer des demandes vers l\textquotesingle{}api et recevoir la réponse \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Attributs privés statiques}
+\begin{DoxyCompactItemize}
+\item 
+static readonly string \textbf{ uri\+Api} = "{}http:\+/\+/\+localhost/\+rest3/\+"{}
+\begin{DoxyCompactList}\small\item\em adresse de l\textquotesingle{}API \end{DoxyCompactList}\item 
+static readonly string \textbf{ connection\+Name} = "{}Media\+Tek\+Documents.\+Properties.\+Settings.\+mediatek86\+Connection\+String"{}
+\begin{DoxyCompactList}\small\item\em nom de connexion à la bdd \end{DoxyCompactList}\item 
+static \textbf{ Access} \textbf{ instance} = null
+\begin{DoxyCompactList}\small\item\em instance unique de la classe \end{DoxyCompactList}\item 
+const string \textbf{ GET} = "{}GET"{}
+\begin{DoxyCompactList}\small\item\em méthode HTTP pour select \end{DoxyCompactList}\item 
+const string \textbf{ POST} = "{}POST"{}
+\begin{DoxyCompactList}\small\item\em méthode HTTP pour insert \end{DoxyCompactList}\item 
+const string \textbf{ PUT} = "{}PUT"{}
+\begin{DoxyCompactList}\small\item\em méthode HTTP pour update \end{DoxyCompactList}\item 
+const string \textbf{ DELETE} = "{}DELETE"{}
+\begin{DoxyCompactList}\small\item\em méthode HTTP pour delete \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Description détaillée}
+Classe d\textquotesingle{}accès aux données. 
+
+\label{doc-constructors}
+\doxysubsection{Documentation des constructeurs et destructeur}
+\index{MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}!Access@{Access}}
+\index{Access@{Access}!MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}}
+\doxysubsubsection{Access()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1dal_1_1_access_a188ec6815829c65c91bae6323d4f8f36} 
+Media\+Tek\+Documents.\+dal.\+Access.\+Access (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Méthode privée pour créer un singleton initialise l\textquotesingle{}accès à l\textquotesingle{}API. 
+
+
+
+\label{doc-func-members}
+\doxysubsection{Documentation des fonctions membres}
+\index{MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}!convertToJson@{convertToJson}}
+\index{convertToJson@{convertToJson}!MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}}
+\doxysubsubsection{convertToJson()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1dal_1_1_access_a4f2357261937da12a1eadb5a789ee3d3} 
+String Media\+Tek\+Documents.\+dal.\+Access.\+convert\+To\+Json (\begin{DoxyParamCaption}\item[{Object}]{nom}{, }\item[{Object}]{valeur}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Convertit en json un couple nom/\+valeur. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em nom} & \\
+\hline
+{\em valeur} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+couple au format json
+\end{DoxyReturn}
+\index{MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}!CreerAbonnementRevue@{CreerAbonnementRevue}}
+\index{CreerAbonnementRevue@{CreerAbonnementRevue}!MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}}
+\doxysubsubsection{CreerAbonnementRevue()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1dal_1_1_access_ae681790c71a3495f6dd575507459a2a3} 
+bool Media\+Tek\+Documents.\+dal.\+Access.\+Creer\+Abonnement\+Revue (\begin{DoxyParamCaption}\item[{string}]{id}{, }\item[{Date\+Time}]{date\+Fin\+Abonnement}{, }\item[{string}]{id\+Revue}{}\end{DoxyParamCaption})}
+
+
+
+Ecriture d\textquotesingle{}un abonnement d\textquotesingle{}une revue en base de données. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em abonnement} & \doxyref{Abonnement}{p.}{class_media_tek_documents_1_1model_1_1_abonnement} à insérer\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+true si l\textquotesingle{}insertion a pu se faire
+\end{DoxyReturn}
+\index{MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}!CreerCommande@{CreerCommande}}
+\index{CreerCommande@{CreerCommande}!MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}}
+\doxysubsubsection{CreerCommande()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1dal_1_1_access_a265380d0d35edb4e87c43312c51b72c4} 
+bool Media\+Tek\+Documents.\+dal.\+Access.\+Creer\+Commande (\begin{DoxyParamCaption}\item[{\textbf{ Commande}}]{commande}{}\end{DoxyParamCaption})}
+
+
+
+Ecriture d\textquotesingle{}une commande en base de données. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em commande} & \doxyref{Commande}{p.}{class_media_tek_documents_1_1model_1_1_commande} à insérer\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+true si l\textquotesingle{}insertion a pu se faire
+\end{DoxyReturn}
+\index{MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}!CreerCommandeDocument@{CreerCommandeDocument}}
+\index{CreerCommandeDocument@{CreerCommandeDocument}!MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}}
+\doxysubsubsection{CreerCommandeDocument()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1dal_1_1_access_a46e6ae4d0b2ad59f55273a30fe51cb12} 
+bool Media\+Tek\+Documents.\+dal.\+Access.\+Creer\+Commande\+Document (\begin{DoxyParamCaption}\item[{string}]{id}{, }\item[{int}]{nb\+Exemplaire}{, }\item[{string}]{id\+Livre\+Dvd}{, }\item[{string}]{id\+Suivi}{}\end{DoxyParamCaption})}
+
+
+
+Ecriture d\textquotesingle{}une commande d\textquotesingle{}un document en base de données. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em id} & id de la commande\\
+\hline
+{\em nb\+Exemplaire} & nb d\textquotesingle{}exemplaires de la commande\\
+\hline
+{\em id\+Livre\+Dvd} & id du livre\+DVD de la commande\\
+\hline
+{\em id\+Suivi} & id du suivi de la commande \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+true si l\textquotesingle{}insertion a pu se faire
+\end{DoxyReturn}
+\index{MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}!CreerDocument@{CreerDocument}}
+\index{CreerDocument@{CreerDocument}!MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}}
+\doxysubsubsection{CreerDocument()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1dal_1_1_access_a4198224ab0872f99170794e05c7499cb} 
+bool Media\+Tek\+Documents.\+dal.\+Access.\+Creer\+Document (\begin{DoxyParamCaption}\item[{string}]{id}{, }\item[{string}]{titre}{, }\item[{string}]{image}{, }\item[{string}]{id\+Rayon}{, }\item[{string}]{id\+Public}{, }\item[{string}]{id\+Genre}{}\end{DoxyParamCaption})}
+
+
+
+ecriture d\textquotesingle{}un document en base de données 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em id} & id du documnent\\
+\hline
+{\em titre} & titre du document\\
+\hline
+{\em image} & image du document\\
+\hline
+{\em id\+Rayon} & id du rayon du document\\
+\hline
+{\em id\+Public} & id du public du document\\
+\hline
+{\em id\+Genre} & id du genre du document\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+true si l\textquotesingle{}insertion a pu se faire
+\end{DoxyReturn}
+\index{MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}!CreerDvd@{CreerDvd}}
+\index{CreerDvd@{CreerDvd}!MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}}
+\doxysubsubsection{CreerDvd()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1dal_1_1_access_a179f69f6440bbb96b87ef269e6787f73} 
+bool Media\+Tek\+Documents.\+dal.\+Access.\+Creer\+Dvd (\begin{DoxyParamCaption}\item[{string}]{id}{, }\item[{string}]{synopsis}{, }\item[{string}]{realisateur}{, }\item[{int}]{duree}{}\end{DoxyParamCaption})}
+
+
+
+Ecriture d\textquotesingle{}un dvd en base de données. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em id} & id du dvd\\
+\hline
+{\em synopsis} & synopsis du dvd\\
+\hline
+{\em realisateur} & realisateur du dvd\\
+\hline
+{\em duree} & duree du dvd\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+true si la création a pu se faire
+\end{DoxyReturn}
+\index{MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}!CreerExemplaire@{CreerExemplaire}}
+\index{CreerExemplaire@{CreerExemplaire}!MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}}
+\doxysubsubsection{CreerExemplaire()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1dal_1_1_access_a49b41a152a85598907cd41f50681dbe8} 
+bool Media\+Tek\+Documents.\+dal.\+Access.\+Creer\+Exemplaire (\begin{DoxyParamCaption}\item[{\textbf{ Exemplaire}}]{exemplaire}{}\end{DoxyParamCaption})}
+
+
+
+ecriture d\textquotesingle{}un exemplaire en base de données 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em exemplaire} & exemplaire à insérer\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+true si l\textquotesingle{}insertion a pu se faire (retour != null)
+\end{DoxyReturn}
+\index{MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}!CreerLivre@{CreerLivre}}
+\index{CreerLivre@{CreerLivre}!MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}}
+\doxysubsubsection{CreerLivre()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1dal_1_1_access_a8ae9cf600edccd335f9b62d280116082} 
+bool Media\+Tek\+Documents.\+dal.\+Access.\+Creer\+Livre (\begin{DoxyParamCaption}\item[{string}]{id}{, }\item[{string}]{Isbn}{, }\item[{string}]{auteur}{, }\item[{string}]{collection}{}\end{DoxyParamCaption})}
+
+
+
+ecriture d\textquotesingle{}un livre en base de données 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em id} & id du livre\\
+\hline
+{\em Isbn} & isbn du livre\\
+\hline
+{\em auteur} & auteur du livre\\
+\hline
+{\em collection} & collection du livre\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+true si l\textquotesingle{}insertion a pu se faire
+\end{DoxyReturn}
+\index{MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}!CreerRevue@{CreerRevue}}
+\index{CreerRevue@{CreerRevue}!MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}}
+\doxysubsubsection{CreerRevue()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1dal_1_1_access_a1cc6a284c94538dd3dbc8001f850c440} 
+bool Media\+Tek\+Documents.\+dal.\+Access.\+Creer\+Revue (\begin{DoxyParamCaption}\item[{string}]{id}{, }\item[{string}]{periodicite}{, }\item[{int}]{delai\+Mise\+ADispo}{}\end{DoxyParamCaption})}
+
+
+
+Ecriture d\textquotesingle{}une revue en base de données. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em id} & id de la revue\\
+\hline
+{\em periodicite} & periodicité de la revue\\
+\hline
+{\em delai\+Mise\+ADispo} & delai de mise à dispo de la revue\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+true si l\textquotesingle{}insertion a pu se faire
+\end{DoxyReturn}
+\index{MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}!GetAbonnementsEcheance@{GetAbonnementsEcheance}}
+\index{GetAbonnementsEcheance@{GetAbonnementsEcheance}!MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}}
+\doxysubsubsection{GetAbonnementsEcheance()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1dal_1_1_access_a7a51aad05f2ea9ed89784c6748df62fb} 
+List$<$ \textbf{ Abonnement} $>$ Media\+Tek\+Documents.\+dal.\+Access.\+Get\+Abonnements\+Echeance (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Retourne les abonnements arrivant à échéance. 
+
+\begin{DoxyReturn}{Renvoie}
+
+\end{DoxyReturn}
+\index{MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}!GetAbonnementsRevue@{GetAbonnementsRevue}}
+\index{GetAbonnementsRevue@{GetAbonnementsRevue}!MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}}
+\doxysubsubsection{GetAbonnementsRevue()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1dal_1_1_access_a21a75d6c12400558511db240d9a25f4f} 
+List$<$ \textbf{ Abonnement} $>$ Media\+Tek\+Documents.\+dal.\+Access.\+Get\+Abonnements\+Revue (\begin{DoxyParamCaption}\item[{string}]{id\+Document}{}\end{DoxyParamCaption})}
+
+
+
+Retourne les abonnements d\textquotesingle{}une revue. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em id\+Document} & id du document\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+List d\textquotesingle{}objets \doxyref{Abonnement}{p.}{class_media_tek_documents_1_1model_1_1_abonnement}
+\end{DoxyReturn}
+\index{MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}!GetAllAbonnements@{GetAllAbonnements}}
+\index{GetAllAbonnements@{GetAllAbonnements}!MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}}
+\doxysubsubsection{GetAllAbonnements()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1dal_1_1_access_ac05514ddc62fb86b8bf1619e88799ede} 
+List$<$ \textbf{ Abonnement} $>$ Media\+Tek\+Documents.\+dal.\+Access.\+Get\+All\+Abonnements (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Retourne tous les abonnements à partir de la BDD. 
+
+\begin{DoxyReturn}{Renvoie}
+
+\end{DoxyReturn}
+\index{MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}!GetAllCommandes@{GetAllCommandes}}
+\index{GetAllCommandes@{GetAllCommandes}!MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}}
+\doxysubsubsection{GetAllCommandes()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1dal_1_1_access_ae0968c92e84ab93ca300f64a18cb4ccf} 
+List$<$ \textbf{ Commande} $>$ Media\+Tek\+Documents.\+dal.\+Access.\+Get\+All\+Commandes (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Retourne toutes les commandes à partir de la BDD. 
+
+\begin{DoxyReturn}{Renvoie}
+Liste d\textquotesingle{}objets \doxyref{Commande}{p.}{class_media_tek_documents_1_1model_1_1_commande}
+\end{DoxyReturn}
+\index{MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}!GetAllDocuments@{GetAllDocuments}}
+\index{GetAllDocuments@{GetAllDocuments}!MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}}
+\doxysubsubsection{GetAllDocuments()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1dal_1_1_access_adc618aad24e9f9cdd328068569c268e1} 
+List$<$ \textbf{ Document} $>$ Media\+Tek\+Documents.\+dal.\+Access.\+Get\+All\+Documents (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Retourne tous les documents enregistrés dans la BDD. 
+
+\begin{DoxyReturn}{Renvoie}
+
+\end{DoxyReturn}
+\index{MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}!GetAllDvd@{GetAllDvd}}
+\index{GetAllDvd@{GetAllDvd}!MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}}
+\doxysubsubsection{GetAllDvd()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1dal_1_1_access_ad6e141fb3c8c28d381a62c76807f5f88} 
+List$<$ \textbf{ Dvd} $>$ Media\+Tek\+Documents.\+dal.\+Access.\+Get\+All\+Dvd (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Retourne toutes les dvd à partir de la BDD. 
+
+\begin{DoxyReturn}{Renvoie}
+Liste d\textquotesingle{}objets \doxyref{Dvd}{p.}{class_media_tek_documents_1_1model_1_1_dvd}
+\end{DoxyReturn}
+\index{MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}!GetAllEtats@{GetAllEtats}}
+\index{GetAllEtats@{GetAllEtats}!MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}}
+\doxysubsubsection{GetAllEtats()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1dal_1_1_access_a239e34ff75115e04b088047ee191b227} 
+List$<$ \textbf{ Etat} $>$ Media\+Tek\+Documents.\+dal.\+Access.\+Get\+All\+Etats (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Retourne tous les états à partir de la BDD. 
+
+\begin{DoxyReturn}{Renvoie}
+List d\textquotesingle{}objets etats
+\end{DoxyReturn}
+\index{MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}!GetAllGenres@{GetAllGenres}}
+\index{GetAllGenres@{GetAllGenres}!MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}}
+\doxysubsubsection{GetAllGenres()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1dal_1_1_access_a3c8e1bbfaf3e0332d27a69b3508c795d} 
+List$<$ \textbf{ Categorie} $>$ Media\+Tek\+Documents.\+dal.\+Access.\+Get\+All\+Genres (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Retourne tous les genres à partir de la BDD. 
+
+\begin{DoxyReturn}{Renvoie}
+Liste d\textquotesingle{}objets \doxyref{Genre}{p.}{class_media_tek_documents_1_1model_1_1_genre}
+\end{DoxyReturn}
+\index{MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}!GetAllLivres@{GetAllLivres}}
+\index{GetAllLivres@{GetAllLivres}!MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}}
+\doxysubsubsection{GetAllLivres()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1dal_1_1_access_adb24fd5f8c6c4db3ad86fee64cc95ad1} 
+List$<$ \textbf{ Livre} $>$ Media\+Tek\+Documents.\+dal.\+Access.\+Get\+All\+Livres (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Retourne toutes les livres à partir de la BDD. 
+
+\begin{DoxyReturn}{Renvoie}
+Liste d\textquotesingle{}objets \doxyref{Livre}{p.}{class_media_tek_documents_1_1model_1_1_livre}
+\end{DoxyReturn}
+\index{MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}!GetAllPublics@{GetAllPublics}}
+\index{GetAllPublics@{GetAllPublics}!MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}}
+\doxysubsubsection{GetAllPublics()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1dal_1_1_access_aa666fcd51e2dd4ab7feff1271bc8daf5} 
+List$<$ \textbf{ Categorie} $>$ Media\+Tek\+Documents.\+dal.\+Access.\+Get\+All\+Publics (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Retourne toutes les catégories de public à partir de la BDD. 
+
+\begin{DoxyReturn}{Renvoie}
+Liste d\textquotesingle{}objets \doxyref{Public}{p.}{class_media_tek_documents_1_1model_1_1_public}
+\end{DoxyReturn}
+\index{MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}!GetAllRayons@{GetAllRayons}}
+\index{GetAllRayons@{GetAllRayons}!MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}}
+\doxysubsubsection{GetAllRayons()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1dal_1_1_access_abb34414355a628dd16b5f35876cf39e8} 
+List$<$ \textbf{ Categorie} $>$ Media\+Tek\+Documents.\+dal.\+Access.\+Get\+All\+Rayons (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Retourne tous les rayons à partir de la BDD. 
+
+\begin{DoxyReturn}{Renvoie}
+Liste d\textquotesingle{}objets \doxyref{Rayon}{p.}{class_media_tek_documents_1_1model_1_1_rayon}
+\end{DoxyReturn}
+\index{MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}!GetAllRevues@{GetAllRevues}}
+\index{GetAllRevues@{GetAllRevues}!MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}}
+\doxysubsubsection{GetAllRevues()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1dal_1_1_access_af878e9be72359a411c8c1ca458dedbe6} 
+List$<$ \textbf{ Revue} $>$ Media\+Tek\+Documents.\+dal.\+Access.\+Get\+All\+Revues (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Retourne toutes les revues à partir de la BDD. 
+
+\begin{DoxyReturn}{Renvoie}
+Liste d\textquotesingle{}objets \doxyref{Revue}{p.}{class_media_tek_documents_1_1model_1_1_revue}
+\end{DoxyReturn}
+\index{MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}!GetAllSuivis@{GetAllSuivis}}
+\index{GetAllSuivis@{GetAllSuivis}!MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}}
+\doxysubsubsection{GetAllSuivis()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1dal_1_1_access_a1b492bdba43754305024e14502f2d7e8} 
+List$<$ \textbf{ Suivi} $>$ Media\+Tek\+Documents.\+dal.\+Access.\+Get\+All\+Suivis (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Retourne tous les suivis à partir de la BDD. 
+
+\begin{DoxyReturn}{Renvoie}
+List d\textquotesingle{}objets suivi
+\end{DoxyReturn}
+\index{MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}!GetCommandesDocument@{GetCommandesDocument}}
+\index{GetCommandesDocument@{GetCommandesDocument}!MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}}
+\doxysubsubsection{GetCommandesDocument()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1dal_1_1_access_a90abc126e791e0fd09bc48d2b6b7889b} 
+List$<$ \textbf{ Commande\+Document} $>$ Media\+Tek\+Documents.\+dal.\+Access.\+Get\+Commandes\+Document (\begin{DoxyParamCaption}\item[{string}]{id\+Document}{}\end{DoxyParamCaption})}
+
+
+
+Retourne les commandes d\textquotesingle{}un document. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em id\+Document} & id du document\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+Liste d\textquotesingle{}objets \doxyref{Commande\+Document}{p.}{class_media_tek_documents_1_1model_1_1_commande_document}
+\end{DoxyReturn}
+\index{MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}!GetConnectionStringByName@{GetConnectionStringByName}}
+\index{GetConnectionStringByName@{GetConnectionStringByName}!MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}}
+\doxysubsubsection{GetConnectionStringByName()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1dal_1_1_access_ab28f529d85608a6e1f82789c47d3bfb9} 
+string Media\+Tek\+Documents.\+dal.\+Access.\+Get\+Connection\+String\+By\+Name (\begin{DoxyParamCaption}\item[{string}]{name}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Récupération de la chaîne de connexion. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em name} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+
+\end{DoxyReturn}
+\index{MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}!GetExemplairesDocument@{GetExemplairesDocument}}
+\index{GetExemplairesDocument@{GetExemplairesDocument}!MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}}
+\doxysubsubsection{GetExemplairesDocument()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1dal_1_1_access_aba7f27346c7a08f021d96c47c28f33ce} 
+List$<$ \textbf{ Exemplaire} $>$ Media\+Tek\+Documents.\+dal.\+Access.\+Get\+Exemplaires\+Document (\begin{DoxyParamCaption}\item[{string}]{id\+Document}{}\end{DoxyParamCaption})}
+
+
+
+Retourne les exemplaires d\textquotesingle{}un document. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em id\+Document} & id du document concerné\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+Liste d\textquotesingle{}objets \doxyref{Exemplaire}{p.}{class_media_tek_documents_1_1model_1_1_exemplaire}
+\end{DoxyReturn}
+\index{MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}!GetExemplairesRevue@{GetExemplairesRevue}}
+\index{GetExemplairesRevue@{GetExemplairesRevue}!MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}}
+\doxysubsubsection{GetExemplairesRevue()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1dal_1_1_access_a8a22be0e93431c4462287ad25085e6e3} 
+List$<$ \textbf{ Exemplaire} $>$ Media\+Tek\+Documents.\+dal.\+Access.\+Get\+Exemplaires\+Revue (\begin{DoxyParamCaption}\item[{string}]{id\+Document}{}\end{DoxyParamCaption})}
+
+
+
+Retourne les exemplaires d\textquotesingle{}une revue. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em id\+Document} & id de la revue concernée\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+Liste d\textquotesingle{}objets \doxyref{Exemplaire}{p.}{class_media_tek_documents_1_1model_1_1_exemplaire}
+\end{DoxyReturn}
+\index{MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}!GetInstance@{GetInstance}}
+\index{GetInstance@{GetInstance}!MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}}
+\doxysubsubsection{GetInstance()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1dal_1_1_access_a6d1fed556ce2c0a862d29b60f0d17a8f} 
+\textbf{ Access} Media\+Tek\+Documents.\+dal.\+Access.\+Get\+Instance (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Création et retour de l\textquotesingle{}instance unique de la classe. 
+
+\begin{DoxyReturn}{Renvoie}
+instance unique de la classe
+\end{DoxyReturn}
+\index{MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}!GetUtilisateur@{GetUtilisateur}}
+\index{GetUtilisateur@{GetUtilisateur}!MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}}
+\doxysubsubsection{GetUtilisateur()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1dal_1_1_access_ad07ebc1bcaffb386ab22e6764bdc7a54} 
+\textbf{ Utilisateur} Media\+Tek\+Documents.\+dal.\+Access.\+Get\+Utilisateur (\begin{DoxyParamCaption}\item[{string}]{login}{, }\item[{string}]{password}{}\end{DoxyParamCaption})}
+
+
+
+Retourne l\textquotesingle{}utilisateur associé au login et password. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em login} & login de l\textquotesingle{}utilisateur cherché\\
+\hline
+{\em password} & password de l\textquotesingle{}utilisateur cherché\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+Objet utilisateur
+\end{DoxyReturn}
+\index{MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}!ModifierDocument@{ModifierDocument}}
+\index{ModifierDocument@{ModifierDocument}!MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}}
+\doxysubsubsection{ModifierDocument()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1dal_1_1_access_afa6ce681c5ec2e23f978171f75983404} 
+bool Media\+Tek\+Documents.\+dal.\+Access.\+Modifier\+Document (\begin{DoxyParamCaption}\item[{string}]{id}{, }\item[{string}]{titre}{, }\item[{string}]{image}{, }\item[{string}]{id\+Rayon}{, }\item[{string}]{id\+Public}{, }\item[{string}]{id\+Genre}{}\end{DoxyParamCaption})}
+
+
+
+Modification d\textquotesingle{}un document en base de données. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em id} & id du document\\
+\hline
+{\em titre} & titre du documnent\\
+\hline
+{\em image} & image du document\\
+\hline
+{\em id\+Rayon} & id du rayon du document\\
+\hline
+{\em id\+Public} & id du public du document\\
+\hline
+{\em id\+Genre} & id du genre du document\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+true si la modification a pu se faire
+\end{DoxyReturn}
+\index{MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}!ModifierDvd@{ModifierDvd}}
+\index{ModifierDvd@{ModifierDvd}!MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}}
+\doxysubsubsection{ModifierDvd()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1dal_1_1_access_a24f45e3d99e5d5504afe35936be4ad6f} 
+bool Media\+Tek\+Documents.\+dal.\+Access.\+Modifier\+Dvd (\begin{DoxyParamCaption}\item[{string}]{id}{, }\item[{string}]{synopsis}{, }\item[{string}]{realisateur}{, }\item[{int}]{duree}{}\end{DoxyParamCaption})}
+
+
+
+Modification d\textquotesingle{}un dvd en base de données. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em id} & id du dvd\\
+\hline
+{\em synopsis} & synopsis du dvd\\
+\hline
+{\em realisateur} & realisateur du dvd\\
+\hline
+{\em duree} & duree du dvd\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+true si la modification a pu se faire
+\end{DoxyReturn}
+\index{MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}!ModifierEtatExemplaireDocument@{ModifierEtatExemplaireDocument}}
+\index{ModifierEtatExemplaireDocument@{ModifierEtatExemplaireDocument}!MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}}
+\doxysubsubsection{ModifierEtatExemplaireDocument()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1dal_1_1_access_a035a5b819477ae0fe34e418d28e5fb0b} 
+bool Media\+Tek\+Documents.\+dal.\+Access.\+Modifier\+Etat\+Exemplaire\+Document (\begin{DoxyParamCaption}\item[{\textbf{ Exemplaire}}]{exemplaire}{}\end{DoxyParamCaption})}
+
+
+
+Modification de l\textquotesingle{}état d\textquotesingle{}un exemplaire d\textquotesingle{}un document dans la bdd. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em numero} & numero du document\\
+\hline
+{\em id\+Etat} & id de l\textquotesingle{}état à modifier\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+true si la modification a puse faire
+\end{DoxyReturn}
+\index{MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}!ModifierLivre@{ModifierLivre}}
+\index{ModifierLivre@{ModifierLivre}!MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}}
+\doxysubsubsection{ModifierLivre()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1dal_1_1_access_ad3e38ffbc72e1ba2b5adba77f5bec26d} 
+bool Media\+Tek\+Documents.\+dal.\+Access.\+Modifier\+Livre (\begin{DoxyParamCaption}\item[{string}]{id}{, }\item[{string}]{Isbn}{, }\item[{string}]{auteur}{, }\item[{string}]{collection}{}\end{DoxyParamCaption})}
+
+
+
+Modification d\textquotesingle{}un livre en base de données. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em id} & id du livre\\
+\hline
+{\em Isbn} & isbn du livre\\
+\hline
+{\em auteur} & auteur du livre\\
+\hline
+{\em collection} & collection du livre\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+
+\end{DoxyReturn}
+\index{MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}!ModifierRevue@{ModifierRevue}}
+\index{ModifierRevue@{ModifierRevue}!MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}}
+\doxysubsubsection{ModifierRevue()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1dal_1_1_access_a809c51d6619478841d01226b65205453} 
+bool Media\+Tek\+Documents.\+dal.\+Access.\+Modifier\+Revue (\begin{DoxyParamCaption}\item[{string}]{id}{, }\item[{string}]{periodicite}{, }\item[{int}]{delai\+Mise\+ADispo}{}\end{DoxyParamCaption})}
+
+
+
+Modification d\textquotesingle{}une revue en base de données. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em id} & id de la revue\\
+\hline
+{\em periodicite} & periodicite de la revue\\
+\hline
+{\em delai\+Mise\+ADispo} & delai de mise à dispo de la revue\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+true si la modification a pu se faire
+\end{DoxyReturn}
+\index{MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}!ModifierSuiviCommandeDocument@{ModifierSuiviCommandeDocument}}
+\index{ModifierSuiviCommandeDocument@{ModifierSuiviCommandeDocument}!MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}}
+\doxysubsubsection{ModifierSuiviCommandeDocument()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1dal_1_1_access_a6239f9b068f7b3baf2718871f0437502} 
+bool Media\+Tek\+Documents.\+dal.\+Access.\+Modifier\+Suivi\+Commande\+Document (\begin{DoxyParamCaption}\item[{string}]{id}{, }\item[{string}]{id\+Suivi}{}\end{DoxyParamCaption})}
+
+
+
+Modification du suivi d\textquotesingle{}une commande dans la bdd. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em id} & id du nouveau suivi\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+true si la modification a pu se faire
+\end{DoxyReturn}
+\index{MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}!ParutionDansAbonnement@{ParutionDansAbonnement}}
+\index{ParutionDansAbonnement@{ParutionDansAbonnement}!MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}}
+\doxysubsubsection{ParutionDansAbonnement()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1dal_1_1_access_a76b0a129db8401647275484ffb6ebe4c} 
+bool Media\+Tek\+Documents.\+dal.\+Access.\+Parution\+Dans\+Abonnement (\begin{DoxyParamCaption}\item[{Date\+Time}]{date\+Commande}{, }\item[{Date\+Time}]{date\+Fin\+Abonnement}{, }\item[{Date\+Time}]{date\+Parution}{}\end{DoxyParamCaption})}
+
+
+
+Vérifier si une parution est associée à une commande donnée. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em date\+Commande} & date de la commande\\
+\hline
+{\em date\+Fin\+Abonnement} & date de fin de l\textquotesingle{}abonnement\\
+\hline
+{\em date\+Parution} & date de parution de la revue\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+true si la date de parution est entre les 2 autres dates
+\end{DoxyReturn}
+\index{MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}!SupprimerAbonnementRevue@{SupprimerAbonnementRevue}}
+\index{SupprimerAbonnementRevue@{SupprimerAbonnementRevue}!MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}}
+\doxysubsubsection{SupprimerAbonnementRevue()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1dal_1_1_access_ad20258d06be1d27b91df25da0ebb14be} 
+bool Media\+Tek\+Documents.\+dal.\+Access.\+Supprimer\+Abonnement\+Revue (\begin{DoxyParamCaption}\item[{string}]{id}{}\end{DoxyParamCaption})}
+
+
+
+Suppression d\textquotesingle{}un abonnement d\textquotesingle{}une revue en base de données. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em id} & id de l\textquotesingle{}abonnement\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+true si la suppression a pu se faire
+\end{DoxyReturn}
+\index{MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}!SupprimerCommandeDocument@{SupprimerCommandeDocument}}
+\index{SupprimerCommandeDocument@{SupprimerCommandeDocument}!MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}}
+\doxysubsubsection{SupprimerCommandeDocument()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1dal_1_1_access_a54bdf5ff46f2587904abb6849abd2ff2} 
+bool Media\+Tek\+Documents.\+dal.\+Access.\+Supprimer\+Commande\+Document (\begin{DoxyParamCaption}\item[{string}]{id}{}\end{DoxyParamCaption})}
+
+
+
+Suppression d\textquotesingle{}une commande d\textquotesingle{}un document en base de données. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em id} & id de la commande\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+true si la suppression a pu se faire
+\end{DoxyReturn}
+\index{MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}!SupprimerDvd@{SupprimerDvd}}
+\index{SupprimerDvd@{SupprimerDvd}!MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}}
+\doxysubsubsection{SupprimerDvd()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1dal_1_1_access_a7e6d31445e19ef226700f33c68befbcb} 
+bool Media\+Tek\+Documents.\+dal.\+Access.\+Supprimer\+Dvd (\begin{DoxyParamCaption}\item[{string}]{id}{}\end{DoxyParamCaption})}
+
+
+
+Suppression d\textquotesingle{}un dvd en base de données. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em id} & id du dvd\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+true si la suppression a pu se faire
+\end{DoxyReturn}
+\index{MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}!SupprimerExemplaireDocument@{SupprimerExemplaireDocument}}
+\index{SupprimerExemplaireDocument@{SupprimerExemplaireDocument}!MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}}
+\doxysubsubsection{SupprimerExemplaireDocument()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1dal_1_1_access_a8e4156b13056351bf5de9b89bd3c6140} 
+bool Media\+Tek\+Documents.\+dal.\+Access.\+Supprimer\+Exemplaire\+Document (\begin{DoxyParamCaption}\item[{\textbf{ Exemplaire}}]{exemplaire}{}\end{DoxyParamCaption})}
+
+
+
+Suppression d\textquotesingle{}un exemplaire d\textquotesingle{}un document en base de données. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em exemplaire} & Objet exemplaire à supprimer\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+true si la suppression a pu se faire
+\end{DoxyReturn}
+\index{MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}!SupprimerLivre@{SupprimerLivre}}
+\index{SupprimerLivre@{SupprimerLivre}!MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}}
+\doxysubsubsection{SupprimerLivre()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1dal_1_1_access_a87599fa034591aaf73e6639b5374b8c6} 
+bool Media\+Tek\+Documents.\+dal.\+Access.\+Supprimer\+Livre (\begin{DoxyParamCaption}\item[{string}]{id}{}\end{DoxyParamCaption})}
+
+
+
+Suppression d\textquotesingle{}un livre en base de données. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em id} & id du livre\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+true si la suppression a pu se faire
+\end{DoxyReturn}
+\index{MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}!SupprimerRevue@{SupprimerRevue}}
+\index{SupprimerRevue@{SupprimerRevue}!MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}}
+\doxysubsubsection{SupprimerRevue()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1dal_1_1_access_a3cfc9a7afb50e5c2d5becb54829fa9fb} 
+bool Media\+Tek\+Documents.\+dal.\+Access.\+Supprimer\+Revue (\begin{DoxyParamCaption}\item[{string}]{id}{}\end{DoxyParamCaption})}
+
+
+
+Suppression d\textquotesingle{}une revue en base de données. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em id} & id de la revue\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+true si la suppression a pu se faire
+\end{DoxyReturn}
+\index{MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}!TraitementRecup$<$ T $>$@{TraitementRecup$<$ T $>$}}
+\index{TraitementRecup$<$ T $>$@{TraitementRecup$<$ T $>$}!MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}}
+\doxysubsubsection{TraitementRecup$<$ T $>$()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1dal_1_1_access_ac112326181ed1a7bcc250f772d478899} 
+List$<$ T $>$ Media\+Tek\+Documents.\+dal.\+Access.\+Traitement\+Recup$<$ T $>$ (\begin{DoxyParamCaption}\item[{String}]{methode}{, }\item[{String}]{message}{, }\item[{String}]{parametres}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Traitement de la récupération du retour de l\textquotesingle{}api, avec conversion du json en liste pour les select (GET). 
+
+
+\begin{DoxyTemplParams}{Paramètres du template}
+{\em T} & \\
+\hline
+\end{DoxyTemplParams}
+
+\begin{DoxyParams}{Paramètres}
+{\em methode} & verbe HTTP (GET, POST, PUT, DELETE)\\
+\hline
+{\em message} & information envoyée dans l\textquotesingle{}url\\
+\hline
+{\em parametres} & paramètres à envoyer dans le body, au format "{}chp1=val1\&chp2=val2\&..."{}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+liste d\textquotesingle{}objets récupérés (ou liste vide)
+\end{DoxyReturn}
+
+
+\label{doc-variable-members}
+\doxysubsection{Documentation des données membres}
+\index{MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}!api@{api}}
+\index{api@{api}!MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}}
+\doxysubsubsection{api}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1dal_1_1_access_a4cb677fc77aea66a12b04a0d383b1d17} 
+readonly \textbf{ Api\+Rest} Media\+Tek\+Documents.\+dal.\+Access.\+api = null\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+instance de \doxyref{Api\+Rest}{p.}{class_media_tek_documents_1_1manager_1_1_api_rest} pour envoyer des demandes vers l\textquotesingle{}api et recevoir la réponse 
+
+\index{MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}!connectionName@{connectionName}}
+\index{connectionName@{connectionName}!MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}}
+\doxysubsubsection{connectionName}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1dal_1_1_access_a58c98b8a937a3f9f0a02ae267da65186} 
+readonly string Media\+Tek\+Documents.\+dal.\+Access.\+connection\+Name = "{}Media\+Tek\+Documents.\+Properties.\+Settings.\+mediatek86\+Connection\+String"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+nom de connexion à la bdd 
+
+\index{MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}!DELETE@{DELETE}}
+\index{DELETE@{DELETE}!MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}}
+\doxysubsubsection{DELETE}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1dal_1_1_access_a8ec5d8f374eef617254b3d66008b1805} 
+const string Media\+Tek\+Documents.\+dal.\+Access.\+DELETE = "{}DELETE"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+méthode HTTP pour delete 
+
+\index{MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}!GET@{GET}}
+\index{GET@{GET}!MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}}
+\doxysubsubsection{GET}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1dal_1_1_access_ad6682bb3eac1a5526ccafd32c1dca4ae} 
+const string Media\+Tek\+Documents.\+dal.\+Access.\+GET = "{}GET"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+méthode HTTP pour select 
+
+\index{MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}!instance@{instance}}
+\index{instance@{instance}!MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}}
+\doxysubsubsection{instance}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1dal_1_1_access_ac8c2e602f94b8e0563b0f36f781f8d5e} 
+\textbf{ Access} Media\+Tek\+Documents.\+dal.\+Access.\+instance = null\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+instance unique de la classe 
+
+\index{MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}!POST@{POST}}
+\index{POST@{POST}!MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}}
+\doxysubsubsection{POST}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1dal_1_1_access_a0c8a23f05664f0c0cdcd32b4be54b9ae} 
+const string Media\+Tek\+Documents.\+dal.\+Access.\+POST = "{}POST"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+méthode HTTP pour insert 
+
+\index{MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}!PUT@{PUT}}
+\index{PUT@{PUT}!MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}}
+\doxysubsubsection{PUT}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1dal_1_1_access_a5dfa84c046b6f89ff6fc07a1cab759d0} 
+const string Media\+Tek\+Documents.\+dal.\+Access.\+PUT = "{}PUT"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+méthode HTTP pour update 
+
+\index{MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}!uriApi@{uriApi}}
+\index{uriApi@{uriApi}!MediaTekDocuments.dal.Access@{MediaTekDocuments.dal.Access}}
+\doxysubsubsection{uriApi}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1dal_1_1_access_a4c5146388b3b6f8ce30d127f3c7d9e68} 
+readonly string Media\+Tek\+Documents.\+dal.\+Access.\+uri\+Api = "{}http:\+/\+/\+localhost/\+rest3/\+"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+adresse de l\textquotesingle{}API 
+
+
+
+La documentation de cette classe a été générée à partir du fichier suivant :\+\begin{DoxyCompactItemize}
+\item 
+dal/\+\textbf{ Access.\+cs}\end{DoxyCompactItemize}

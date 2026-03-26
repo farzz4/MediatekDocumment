@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_media_tek_documents_1_1model_1_1_abonnement" xml:lang="fr">
+<title>Référence de la classe MediaTekDocuments.model.Abonnement</title>
+<indexterm><primary>MediaTekDocuments.model.Abonnement</primary></indexterm>
+<para>Graphe d&apos;héritage de MediaTekDocuments.model.Abonnement:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_media_tek_documents_1_1model_1_1_abonnement.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Fonctions membres publiques    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_media_tek_documents_1_1model_1_1_abonnement_1ab976dcdc47d1693386241c6700ce3505">Abonnement</link> (string id, DateTime dateCommande, double montant, DateTime dateFinAbonnement, string idRevue, string titre)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+Fonctions membres publiques hérités de <link linkend="_class_media_tek_documents_1_1model_1_1_commande">MediaTekDocuments.model.Commande</link>        <itemizedlist>
+            <listitem><para><link linkend="_class_media_tek_documents_1_1model_1_1_commande_1ad7abbd5d27307c467b75e4e3f41097e6">Commande</link> (string id, DateTime dateCommande, double montant)</para>
+</listitem>
+        </itemizedlist>
+<simplesect>
+    <title>Propriétés    </title>
+        <itemizedlist>
+            <listitem><para>DateTime <link linkend="_class_media_tek_documents_1_1model_1_1_abonnement_1ac49c5874e976f265dda8f94163629610">DateFinAbonnement</link><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_media_tek_documents_1_1model_1_1_abonnement_1a4323dfc135ad15d91f5f6a3def265f9b">IdRevue</link><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_media_tek_documents_1_1model_1_1_abonnement_1a236ad5f037c90fe9d01ce5a2573e6707">Titre</link><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+Propriétés hérités de <link linkend="_class_media_tek_documents_1_1model_1_1_commande">MediaTekDocuments.model.Commande</link>        <itemizedlist>
+            <listitem><para>string <link linkend="_class_media_tek_documents_1_1model_1_1_commande_1af40f3cebd61db3b07c5a67cfaab6a543">Id</link><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>DateTime <link linkend="_class_media_tek_documents_1_1model_1_1_commande_1ac0d0f36c146895da4ba30a1a03c72ff3">DateCommande</link><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>double <link linkend="_class_media_tek_documents_1_1model_1_1_commande_1ab960542350c24d0df2987072c9d547a8">Montant</link><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+<section>
+<title>Documentation des constructeurs et destructeur</title>
+<anchor xml:id="_class_media_tek_documents_1_1model_1_1_abonnement_1ab976dcdc47d1693386241c6700ce3505"/><section>
+    <title>Abonnement()</title>
+<indexterm><primary>Abonnement</primary><secondary>MediaTekDocuments.model.Abonnement</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.model.Abonnement</primary><secondary>Abonnement</secondary></indexterm>
+<para><computeroutput>MediaTekDocuments.model.Abonnement.Abonnement (string id, DateTime dateCommande, double montant, DateTime dateFinAbonnement, string idRevue, string titre)</computeroutput></para></section>
+</section>
+<section>
+<title>Documentation des propriétés</title>
+<anchor xml:id="_class_media_tek_documents_1_1model_1_1_abonnement_1ac49c5874e976f265dda8f94163629610"/><section>
+    <title>DateFinAbonnement</title>
+<indexterm><primary>DateFinAbonnement</primary><secondary>MediaTekDocuments.model.Abonnement</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.model.Abonnement</primary><secondary>DateFinAbonnement</secondary></indexterm>
+<para><computeroutput>DateTime MediaTekDocuments.model.Abonnement.DateFinAbonnement<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_media_tek_documents_1_1model_1_1_abonnement_1a4323dfc135ad15d91f5f6a3def265f9b"/><section>
+    <title>IdRevue</title>
+<indexterm><primary>IdRevue</primary><secondary>MediaTekDocuments.model.Abonnement</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.model.Abonnement</primary><secondary>IdRevue</secondary></indexterm>
+<para><computeroutput>string MediaTekDocuments.model.Abonnement.IdRevue<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_media_tek_documents_1_1model_1_1_abonnement_1a236ad5f037c90fe9d01ce5a2573e6707"/><section>
+    <title>Titre</title>
+<indexterm><primary>Titre</primary><secondary>MediaTekDocuments.model.Abonnement</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.model.Abonnement</primary><secondary>Titre</secondary></indexterm>
+<para><computeroutput>string MediaTekDocuments.model.Abonnement.Titre<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<para>
+La documentation de cette classe a été générée à partir du fichier suivant :</para>
+model/<link linkend="__abonnement_8cs">Abonnement.cs</link></section>
+</section>

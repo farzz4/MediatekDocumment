@@ -1,0 +1,143 @@
+\doxysection{Référence de la classe Media\+Tek\+Documents.\+manager.\+Api\+Rest}
+\label{class_media_tek_documents_1_1manager_1_1_api_rest}\index{MediaTekDocuments.manager.ApiRest@{MediaTekDocuments.manager.ApiRest}}
+
+
+Classe indépendante d\textquotesingle{}accès à une api rest avec éventuellement une "{}basic authorization"{}.  
+
+
+\doxysubsubsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+JObject \textbf{ Recup\+Distant} (string methode, string message, String parametres)
+\begin{DoxyCompactList}\small\item\em Envoi une demande à l\textquotesingle{}API et récupère la réponse. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Fonctions membres publiques statiques}
+\begin{DoxyCompactItemize}
+\item 
+static \textbf{ Api\+Rest} \textbf{ Get\+Instance} (String uri\+Api, String authentication\+String)
+\begin{DoxyCompactList}\small\item\em Crée une instance unique de la classe. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Fonctions membres privées}
+\begin{DoxyCompactItemize}
+\item 
+\textbf{ Api\+Rest} (String uri\+Api, String authentication\+String="{}"{})
+\begin{DoxyCompactList}\small\item\em Constructeur privé pour préparer la connexion (éventuellement sécurisée). \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Attributs privés}
+\begin{DoxyCompactItemize}
+\item 
+readonly Http\+Client \textbf{ http\+Client}
+\begin{DoxyCompactList}\small\item\em Objet de connexion à l\textquotesingle{}api. \end{DoxyCompactList}\item 
+Http\+Response\+Message \textbf{ http\+Response}
+\begin{DoxyCompactList}\small\item\em Canal http pour l\textquotesingle{}envoi du message et la récupération de la réponse. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Attributs privés statiques}
+\begin{DoxyCompactItemize}
+\item 
+static \textbf{ Api\+Rest} \textbf{ instance} = null
+\begin{DoxyCompactList}\small\item\em unique instance de la classe \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Description détaillée}
+Classe indépendante d\textquotesingle{}accès à une api rest avec éventuellement une "{}basic authorization"{}. 
+
+\label{doc-constructors}
+\doxysubsection{Documentation des constructeurs et destructeur}
+\index{MediaTekDocuments.manager.ApiRest@{MediaTekDocuments.manager.ApiRest}!ApiRest@{ApiRest}}
+\index{ApiRest@{ApiRest}!MediaTekDocuments.manager.ApiRest@{MediaTekDocuments.manager.ApiRest}}
+\doxysubsubsection{ApiRest()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1manager_1_1_api_rest_a0d8b369ef525d796ec57b16f18e765a6} 
+Media\+Tek\+Documents.\+manager.\+Api\+Rest.\+Api\+Rest (\begin{DoxyParamCaption}\item[{String}]{uri\+Api}{, }\item[{String}]{authentication\+String}{ = {\ttfamily "{}"{}}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Constructeur privé pour préparer la connexion (éventuellement sécurisée). 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em uri\+Api} & adresse de l\textquotesingle{}api\\
+\hline
+{\em authentication\+String} & chaîne d\textquotesingle{}authentification\\
+\hline
+\end{DoxyParams}
+
+
+\label{doc-func-members}
+\doxysubsection{Documentation des fonctions membres}
+\index{MediaTekDocuments.manager.ApiRest@{MediaTekDocuments.manager.ApiRest}!GetInstance@{GetInstance}}
+\index{GetInstance@{GetInstance}!MediaTekDocuments.manager.ApiRest@{MediaTekDocuments.manager.ApiRest}}
+\doxysubsubsection{GetInstance()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1manager_1_1_api_rest_ade84494b4ed3528da480bd5a3c553105} 
+\textbf{ Api\+Rest} Media\+Tek\+Documents.\+manager.\+Api\+Rest.\+Get\+Instance (\begin{DoxyParamCaption}\item[{String}]{uri\+Api}{, }\item[{String}]{authentication\+String}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Crée une instance unique de la classe. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em uri\+Api} & adresse de l\textquotesingle{}api\\
+\hline
+{\em authentication\+String} & chaîne d\textquotesingle{}authentificatio (login:\+pwd)\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+
+\end{DoxyReturn}
+\index{MediaTekDocuments.manager.ApiRest@{MediaTekDocuments.manager.ApiRest}!RecupDistant@{RecupDistant}}
+\index{RecupDistant@{RecupDistant}!MediaTekDocuments.manager.ApiRest@{MediaTekDocuments.manager.ApiRest}}
+\doxysubsubsection{RecupDistant()}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1manager_1_1_api_rest_a24ec9968854932c87e9422b57778396b} 
+JObject Media\+Tek\+Documents.\+manager.\+Api\+Rest.\+Recup\+Distant (\begin{DoxyParamCaption}\item[{string}]{methode}{, }\item[{string}]{message}{, }\item[{String}]{parametres}{}\end{DoxyParamCaption})}
+
+
+
+Envoi une demande à l\textquotesingle{}API et récupère la réponse. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em methode} & verbe http (GET, POST, PUT, DELETE)\\
+\hline
+{\em message} & message à envoyer dans l\textquotesingle{}URL\\
+\hline
+{\em parametres} & contenu de variables à mettre dans body\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+liste d\textquotesingle{}objets (select) ou liste vide (ok) ou null si erreur
+\end{DoxyReturn}
+
+
+\label{doc-variable-members}
+\doxysubsection{Documentation des données membres}
+\index{MediaTekDocuments.manager.ApiRest@{MediaTekDocuments.manager.ApiRest}!httpClient@{httpClient}}
+\index{httpClient@{httpClient}!MediaTekDocuments.manager.ApiRest@{MediaTekDocuments.manager.ApiRest}}
+\doxysubsubsection{httpClient}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1manager_1_1_api_rest_a56b2eeec29782076f17a3c278a542132} 
+readonly Http\+Client Media\+Tek\+Documents.\+manager.\+Api\+Rest.\+http\+Client\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Objet de connexion à l\textquotesingle{}api. 
+
+\index{MediaTekDocuments.manager.ApiRest@{MediaTekDocuments.manager.ApiRest}!httpResponse@{httpResponse}}
+\index{httpResponse@{httpResponse}!MediaTekDocuments.manager.ApiRest@{MediaTekDocuments.manager.ApiRest}}
+\doxysubsubsection{httpResponse}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1manager_1_1_api_rest_a6c1a557b0c275f6a02bc3107a9706b3c} 
+Http\+Response\+Message Media\+Tek\+Documents.\+manager.\+Api\+Rest.\+http\+Response\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Canal http pour l\textquotesingle{}envoi du message et la récupération de la réponse. 
+
+\index{MediaTekDocuments.manager.ApiRest@{MediaTekDocuments.manager.ApiRest}!instance@{instance}}
+\index{instance@{instance}!MediaTekDocuments.manager.ApiRest@{MediaTekDocuments.manager.ApiRest}}
+\doxysubsubsection{instance}
+{\footnotesize\ttfamily \label{class_media_tek_documents_1_1manager_1_1_api_rest_a16c8f1c937ce5b69ef7f0cb2aecd8877} 
+\textbf{ Api\+Rest} Media\+Tek\+Documents.\+manager.\+Api\+Rest.\+instance = null\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+unique instance de la classe 
+
+
+
+La documentation de cette classe a été générée à partir du fichier suivant :\+\begin{DoxyCompactItemize}
+\item 
+manager/\+\textbf{ Api\+Rest.\+cs}\end{DoxyCompactItemize}

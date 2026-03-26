@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_media_tek_documents_1_1_program" xml:lang="fr">
+<title>Référence de la classe MediaTekDocuments.Program</title>
+<indexterm><primary>MediaTekDocuments.Program</primary></indexterm>
+<simplesect>
+    <title>Fonctions membres privées statiques    </title>
+        <itemizedlist>
+            <listitem><para>static void <link linkend="_class_media_tek_documents_1_1_program_1a001dfaa5faeba5bf9d10ce45e6ad65cc">Main</link> ()</para>
+
+<para>Point d&apos;entrée principal de l&apos;application. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Documentation des fonctions membres</title>
+<anchor xml:id="_class_media_tek_documents_1_1_program_1a001dfaa5faeba5bf9d10ce45e6ad65cc"/><section>
+    <title>Main()</title>
+<indexterm><primary>Main</primary><secondary>MediaTekDocuments.Program</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.Program</primary><secondary>Main</secondary></indexterm>
+<para><computeroutput>void MediaTekDocuments.Program.Main ( )<computeroutput>[static]</computeroutput>, <computeroutput>[private]</computeroutput></computeroutput></para><para>
+
+<para>Point d&apos;entrée principal de l&apos;application. </para>
+</para>
+</section>
+<para>
+La documentation de cette classe a été générée à partir du fichier suivant :</para>
+<link linkend="__program_8cs">Program.cs</link></section>
+</section>

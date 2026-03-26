@@ -1,0 +1,1829 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="fr">
+  <compounddef id="class_media_tek_documents_1_1dal_1_1_access" kind="class" language="C#" prot="public">
+    <compoundname>MediaTekDocuments::dal::Access</compoundname>
+    <innerclass refid="class_media_tek_documents_1_1dal_1_1_access_1_1_custom_date_time_converter" prot="private">MediaTekDocuments::dal::Access::CustomDateTimeConverter</innerclass>
+    <innerclass refid="class_media_tek_documents_1_1dal_1_1_access_1_1_custom_boolean_json_converter" prot="private">MediaTekDocuments::dal::Access::CustomBooleanJsonConverter</innerclass>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_media_tek_documents_1_1dal_1_1_access_1a4c5146388b3b6f8ce30d127f3c7d9e68" prot="private" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string MediaTekDocuments.dal.Access.uriApi</definition>
+        <argsstring></argsstring>
+        <name>uriApi</name>
+        <qualifiedname>MediaTekDocuments.dal.Access.uriApi</qualifiedname>
+        <initializer>= &quot;http://localhost/rest3/&quot;</initializer>
+        <briefdescription>
+<para>adresse de l&apos;API </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dal/Access.cs" line="24" column="40" bodyfile="dal/Access.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_documents_1_1dal_1_1_access_1a58c98b8a937a3f9f0a02ae267da65186" prot="private" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string MediaTekDocuments.dal.Access.connectionName</definition>
+        <argsstring></argsstring>
+        <name>connectionName</name>
+        <qualifiedname>MediaTekDocuments.dal.Access.connectionName</qualifiedname>
+        <initializer>= &quot;MediaTekDocuments.Properties.Settings.mediatek86ConnectionString&quot;</initializer>
+        <briefdescription>
+<para>nom de connexion à la bdd </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dal/Access.cs" line="28" column="40" bodyfile="dal/Access.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_documents_1_1dal_1_1_access_1ac8c2e602f94b8e0563b0f36f781f8d5e" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_media_tek_documents_1_1dal_1_1_access_1a188ec6815829c65c91bae6323d4f8f36" kindref="member">Access</ref></type>
+        <definition>Access MediaTekDocuments.dal.Access.instance</definition>
+        <argsstring></argsstring>
+        <name>instance</name>
+        <qualifiedname>MediaTekDocuments.dal.Access.instance</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>instance unique de la classe </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dal/Access.cs" line="32" column="31" bodyfile="dal/Access.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_documents_1_1dal_1_1_access_1ad6682bb3eac1a5526ccafd32c1dca4ae" prot="private" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string MediaTekDocuments.dal.Access.GET</definition>
+        <argsstring></argsstring>
+        <name>GET</name>
+        <qualifiedname>MediaTekDocuments.dal.Access.GET</qualifiedname>
+        <initializer>= &quot;GET&quot;</initializer>
+        <briefdescription>
+<para>méthode HTTP pour select </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dal/Access.cs" line="40" column="30" bodyfile="dal/Access.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_documents_1_1dal_1_1_access_1a0c8a23f05664f0c0cdcd32b4be54b9ae" prot="private" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string MediaTekDocuments.dal.Access.POST</definition>
+        <argsstring></argsstring>
+        <name>POST</name>
+        <qualifiedname>MediaTekDocuments.dal.Access.POST</qualifiedname>
+        <initializer>= &quot;POST&quot;</initializer>
+        <briefdescription>
+<para>méthode HTTP pour insert </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dal/Access.cs" line="44" column="30" bodyfile="dal/Access.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_documents_1_1dal_1_1_access_1a5dfa84c046b6f89ff6fc07a1cab759d0" prot="private" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string MediaTekDocuments.dal.Access.PUT</definition>
+        <argsstring></argsstring>
+        <name>PUT</name>
+        <qualifiedname>MediaTekDocuments.dal.Access.PUT</qualifiedname>
+        <initializer>= &quot;PUT&quot;</initializer>
+        <briefdescription>
+<para>méthode HTTP pour update </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dal/Access.cs" line="48" column="30" bodyfile="dal/Access.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_documents_1_1dal_1_1_access_1a8ec5d8f374eef617254b3d66008b1805" prot="private" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string MediaTekDocuments.dal.Access.DELETE</definition>
+        <argsstring></argsstring>
+        <name>DELETE</name>
+        <qualifiedname>MediaTekDocuments.dal.Access.DELETE</qualifiedname>
+        <initializer>= &quot;DELETE&quot;</initializer>
+        <briefdescription>
+<para>méthode HTTP pour delete </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dal/Access.cs" line="52" column="30" bodyfile="dal/Access.cs" bodystart="52" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_media_tek_documents_1_1dal_1_1_access_1a4cb677fc77aea66a12b04a0d383b1d17" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_media_tek_documents_1_1manager_1_1_api_rest" kindref="compound">ApiRest</ref></type>
+        <definition>readonly ApiRest MediaTekDocuments.dal.Access.api</definition>
+        <argsstring></argsstring>
+        <name>api</name>
+        <qualifiedname>MediaTekDocuments.dal.Access.api</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>instance de <ref refid="class_media_tek_documents_1_1manager_1_1_api_rest" kindref="compound">ApiRest</ref> pour envoyer des demandes vers l&apos;api et recevoir la réponse </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dal/Access.cs" line="36" column="34" bodyfile="dal/Access.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_media_tek_documents_1_1dal_1_1_access_1a188ec6815829c65c91bae6323d4f8f36" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MediaTekDocuments.dal.Access.Access</definition>
+        <argsstring>()</argsstring>
+        <name>Access</name>
+        <qualifiedname>MediaTekDocuments.dal.Access.Access</qualifiedname>
+        <briefdescription>
+<para>Méthode privée pour créer un singleton initialise l&apos;accès à l&apos;API. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dal/Access.cs" line="58" column="17" bodyfile="dal/Access.cs" bodystart="58" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1dal_1_1_access_1ac112326181ed1a7bcc250f772d478899" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; T &gt;</type>
+        <definition>List&lt; T &gt; MediaTekDocuments.dal.Access.TraitementRecup&lt; T &gt;</definition>
+        <argsstring>(String methode, String message, String parametres)</argsstring>
+        <name>TraitementRecup&lt; T &gt;</name>
+        <qualifiedname>MediaTekDocuments.dal.Access.TraitementRecup&lt; T &gt;</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>methode</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>message</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>parametres</declname>
+        </param>
+        <briefdescription>
+<para>Traitement de la récupération du retour de l&apos;api, avec conversion du json en liste pour les select (GET). </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>methode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>verbe HTTP (GET, POST, PUT, DELETE)</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>message</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>information envoyée dans l&apos;url</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>parametres</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>paramètres à envoyer dans le body, au format &quot;chp1=val1&amp;chp2=val2&amp;...&quot;</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>liste d&apos;objets récupérés (ou liste vide)</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dal/Access.cs" line="790" column="9" bodyfile="dal/Access.cs" bodystart="790" bodyend="821"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1dal_1_1_access_1a4f2357261937da12a1eadb5a789ee3d3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String MediaTekDocuments.dal.Access.convertToJson</definition>
+        <argsstring>(Object nom, Object valeur)</argsstring>
+        <name>convertToJson</name>
+        <qualifiedname>MediaTekDocuments.dal.Access.convertToJson</qualifiedname>
+        <param>
+          <type>Object</type>
+          <declname>nom</declname>
+        </param>
+        <param>
+          <type>Object</type>
+          <declname>valeur</declname>
+        </param>
+        <briefdescription>
+<para>Convertit en json un couple nom/valeur. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nom</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>valeur</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>couple au format json</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dal/Access.cs" line="829" column="24" bodyfile="dal/Access.cs" bodystart="829" bodyend="834"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_media_tek_documents_1_1dal_1_1_access_1a6d1fed556ce2c0a862d29b60f0d17a8f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_media_tek_documents_1_1dal_1_1_access_1a188ec6815829c65c91bae6323d4f8f36" kindref="member">Access</ref></type>
+        <definition>static Access MediaTekDocuments.dal.Access.GetInstance</definition>
+        <argsstring>()</argsstring>
+        <name>GetInstance</name>
+        <qualifiedname>MediaTekDocuments.dal.Access.GetInstance</qualifiedname>
+        <briefdescription>
+<para>Création et retour de l&apos;instance unique de la classe. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>instance unique de la classe</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dal/Access.cs" line="82" column="30" bodyfile="dal/Access.cs" bodystart="82" bodyend="89"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_media_tek_documents_1_1dal_1_1_access_1ab28f529d85608a6e1f82789c47d3bfb9" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string MediaTekDocuments.dal.Access.GetConnectionStringByName</definition>
+        <argsstring>(string name)</argsstring>
+        <name>GetConnectionStringByName</name>
+        <qualifiedname>MediaTekDocuments.dal.Access.GetConnectionStringByName</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>Récupération de la chaîne de connexion. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dal/Access.cs" line="96" column="23" bodyfile="dal/Access.cs" bodystart="96" bodyend="103"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_media_tek_documents_1_1dal_1_1_access_1a3c8e1bbfaf3e0332d27a69b3508c795d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_media_tek_documents_1_1model_1_1_categorie" kindref="compound">Categorie</ref> &gt;</type>
+        <definition>List&lt; Categorie &gt; MediaTekDocuments.dal.Access.GetAllGenres</definition>
+        <argsstring>()</argsstring>
+        <name>GetAllGenres</name>
+        <qualifiedname>MediaTekDocuments.dal.Access.GetAllGenres</qualifiedname>
+        <briefdescription>
+<para>Retourne tous les genres à partir de la BDD. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Liste d&apos;objets <ref refid="class_media_tek_documents_1_1model_1_1_genre" kindref="compound">Genre</ref></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dal/Access.cs" line="110" column="21" bodyfile="dal/Access.cs" bodystart="110" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1dal_1_1_access_1abb34414355a628dd16b5f35876cf39e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_media_tek_documents_1_1model_1_1_categorie" kindref="compound">Categorie</ref> &gt;</type>
+        <definition>List&lt; Categorie &gt; MediaTekDocuments.dal.Access.GetAllRayons</definition>
+        <argsstring>()</argsstring>
+        <name>GetAllRayons</name>
+        <qualifiedname>MediaTekDocuments.dal.Access.GetAllRayons</qualifiedname>
+        <briefdescription>
+<para>Retourne tous les rayons à partir de la BDD. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Liste d&apos;objets <ref refid="class_media_tek_documents_1_1model_1_1_rayon" kindref="compound">Rayon</ref></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dal/Access.cs" line="120" column="21" bodyfile="dal/Access.cs" bodystart="120" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1dal_1_1_access_1aa666fcd51e2dd4ab7feff1271bc8daf5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_media_tek_documents_1_1model_1_1_categorie" kindref="compound">Categorie</ref> &gt;</type>
+        <definition>List&lt; Categorie &gt; MediaTekDocuments.dal.Access.GetAllPublics</definition>
+        <argsstring>()</argsstring>
+        <name>GetAllPublics</name>
+        <qualifiedname>MediaTekDocuments.dal.Access.GetAllPublics</qualifiedname>
+        <briefdescription>
+<para>Retourne toutes les catégories de public à partir de la BDD. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Liste d&apos;objets <ref refid="class_media_tek_documents_1_1model_1_1_public" kindref="compound">Public</ref></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dal/Access.cs" line="130" column="21" bodyfile="dal/Access.cs" bodystart="130" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1dal_1_1_access_1adc618aad24e9f9cdd328068569c268e1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_media_tek_documents_1_1model_1_1_document" kindref="compound">Document</ref> &gt;</type>
+        <definition>List&lt; Document &gt; MediaTekDocuments.dal.Access.GetAllDocuments</definition>
+        <argsstring>()</argsstring>
+        <name>GetAllDocuments</name>
+        <qualifiedname>MediaTekDocuments.dal.Access.GetAllDocuments</qualifiedname>
+        <briefdescription>
+<para>Retourne tous les documents enregistrés dans la BDD. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dal/Access.cs" line="140" column="21" bodyfile="dal/Access.cs" bodystart="140" bodyend="144"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1dal_1_1_access_1adb24fd5f8c6c4db3ad86fee64cc95ad1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_media_tek_documents_1_1model_1_1_livre" kindref="compound">Livre</ref> &gt;</type>
+        <definition>List&lt; Livre &gt; MediaTekDocuments.dal.Access.GetAllLivres</definition>
+        <argsstring>()</argsstring>
+        <name>GetAllLivres</name>
+        <qualifiedname>MediaTekDocuments.dal.Access.GetAllLivres</qualifiedname>
+        <briefdescription>
+<para>Retourne toutes les livres à partir de la BDD. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Liste d&apos;objets <ref refid="class_media_tek_documents_1_1model_1_1_livre" kindref="compound">Livre</ref></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dal/Access.cs" line="150" column="21" bodyfile="dal/Access.cs" bodystart="150" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1dal_1_1_access_1ad6e141fb3c8c28d381a62c76807f5f88" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_media_tek_documents_1_1model_1_1_dvd" kindref="compound">Dvd</ref> &gt;</type>
+        <definition>List&lt; Dvd &gt; MediaTekDocuments.dal.Access.GetAllDvd</definition>
+        <argsstring>()</argsstring>
+        <name>GetAllDvd</name>
+        <qualifiedname>MediaTekDocuments.dal.Access.GetAllDvd</qualifiedname>
+        <briefdescription>
+<para>Retourne toutes les dvd à partir de la BDD. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Liste d&apos;objets <ref refid="class_media_tek_documents_1_1model_1_1_dvd" kindref="compound">Dvd</ref></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dal/Access.cs" line="160" column="21" bodyfile="dal/Access.cs" bodystart="160" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1dal_1_1_access_1af878e9be72359a411c8c1ca458dedbe6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_media_tek_documents_1_1model_1_1_revue" kindref="compound">Revue</ref> &gt;</type>
+        <definition>List&lt; Revue &gt; MediaTekDocuments.dal.Access.GetAllRevues</definition>
+        <argsstring>()</argsstring>
+        <name>GetAllRevues</name>
+        <qualifiedname>MediaTekDocuments.dal.Access.GetAllRevues</qualifiedname>
+        <briefdescription>
+<para>Retourne toutes les revues à partir de la BDD. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Liste d&apos;objets <ref refid="class_media_tek_documents_1_1model_1_1_revue" kindref="compound">Revue</ref></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dal/Access.cs" line="170" column="21" bodyfile="dal/Access.cs" bodystart="170" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1dal_1_1_access_1ae0968c92e84ab93ca300f64a18cb4ccf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_media_tek_documents_1_1model_1_1_commande" kindref="compound">Commande</ref> &gt;</type>
+        <definition>List&lt; Commande &gt; MediaTekDocuments.dal.Access.GetAllCommandes</definition>
+        <argsstring>()</argsstring>
+        <name>GetAllCommandes</name>
+        <qualifiedname>MediaTekDocuments.dal.Access.GetAllCommandes</qualifiedname>
+        <briefdescription>
+<para>Retourne toutes les commandes à partir de la BDD. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Liste d&apos;objets <ref refid="class_media_tek_documents_1_1model_1_1_commande" kindref="compound">Commande</ref></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dal/Access.cs" line="180" column="21" bodyfile="dal/Access.cs" bodystart="180" bodyend="184"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1dal_1_1_access_1ac05514ddc62fb86b8bf1619e88799ede" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_media_tek_documents_1_1model_1_1_abonnement" kindref="compound">Abonnement</ref> &gt;</type>
+        <definition>List&lt; Abonnement &gt; MediaTekDocuments.dal.Access.GetAllAbonnements</definition>
+        <argsstring>()</argsstring>
+        <name>GetAllAbonnements</name>
+        <qualifiedname>MediaTekDocuments.dal.Access.GetAllAbonnements</qualifiedname>
+        <briefdescription>
+<para>Retourne tous les abonnements à partir de la BDD. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dal/Access.cs" line="190" column="21" bodyfile="dal/Access.cs" bodystart="190" bodyend="194"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1dal_1_1_access_1a1b492bdba43754305024e14502f2d7e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_media_tek_documents_1_1model_1_1_suivi" kindref="compound">Suivi</ref> &gt;</type>
+        <definition>List&lt; Suivi &gt; MediaTekDocuments.dal.Access.GetAllSuivis</definition>
+        <argsstring>()</argsstring>
+        <name>GetAllSuivis</name>
+        <qualifiedname>MediaTekDocuments.dal.Access.GetAllSuivis</qualifiedname>
+        <briefdescription>
+<para>Retourne tous les suivis à partir de la BDD. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>List d&apos;objets suivi</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dal/Access.cs" line="200" column="21" bodyfile="dal/Access.cs" bodystart="200" bodyend="204"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1dal_1_1_access_1a239e34ff75115e04b088047ee191b227" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_media_tek_documents_1_1model_1_1_etat" kindref="compound">Etat</ref> &gt;</type>
+        <definition>List&lt; Etat &gt; MediaTekDocuments.dal.Access.GetAllEtats</definition>
+        <argsstring>()</argsstring>
+        <name>GetAllEtats</name>
+        <qualifiedname>MediaTekDocuments.dal.Access.GetAllEtats</qualifiedname>
+        <briefdescription>
+<para>Retourne tous les états à partir de la BDD. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>List d&apos;objets etats</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dal/Access.cs" line="210" column="21" bodyfile="dal/Access.cs" bodystart="210" bodyend="214"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1dal_1_1_access_1a7a51aad05f2ea9ed89784c6748df62fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_media_tek_documents_1_1model_1_1_abonnement" kindref="compound">Abonnement</ref> &gt;</type>
+        <definition>List&lt; Abonnement &gt; MediaTekDocuments.dal.Access.GetAbonnementsEcheance</definition>
+        <argsstring>()</argsstring>
+        <name>GetAbonnementsEcheance</name>
+        <qualifiedname>MediaTekDocuments.dal.Access.GetAbonnementsEcheance</qualifiedname>
+        <briefdescription>
+<para>Retourne les abonnements arrivant à échéance. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dal/Access.cs" line="220" column="21" bodyfile="dal/Access.cs" bodystart="220" bodyend="224"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1dal_1_1_access_1a8a22be0e93431c4462287ad25085e6e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_media_tek_documents_1_1model_1_1_exemplaire" kindref="compound">Exemplaire</ref> &gt;</type>
+        <definition>List&lt; Exemplaire &gt; MediaTekDocuments.dal.Access.GetExemplairesRevue</definition>
+        <argsstring>(string idDocument)</argsstring>
+        <name>GetExemplairesRevue</name>
+        <qualifiedname>MediaTekDocuments.dal.Access.GetExemplairesRevue</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>idDocument</declname>
+        </param>
+        <briefdescription>
+<para>Retourne les exemplaires d&apos;une revue. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>idDocument</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id de la revue concernée</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Liste d&apos;objets <ref refid="class_media_tek_documents_1_1model_1_1_exemplaire" kindref="compound">Exemplaire</ref></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dal/Access.cs" line="231" column="21" bodyfile="dal/Access.cs" bodystart="231" bodyend="236"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1dal_1_1_access_1aba7f27346c7a08f021d96c47c28f33ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_media_tek_documents_1_1model_1_1_exemplaire" kindref="compound">Exemplaire</ref> &gt;</type>
+        <definition>List&lt; Exemplaire &gt; MediaTekDocuments.dal.Access.GetExemplairesDocument</definition>
+        <argsstring>(string idDocument)</argsstring>
+        <name>GetExemplairesDocument</name>
+        <qualifiedname>MediaTekDocuments.dal.Access.GetExemplairesDocument</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>idDocument</declname>
+        </param>
+        <briefdescription>
+<para>Retourne les exemplaires d&apos;un document. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>idDocument</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id du document concerné</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Liste d&apos;objets <ref refid="class_media_tek_documents_1_1model_1_1_exemplaire" kindref="compound">Exemplaire</ref></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dal/Access.cs" line="243" column="21" bodyfile="dal/Access.cs" bodystart="243" bodyend="248"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1dal_1_1_access_1a90abc126e791e0fd09bc48d2b6b7889b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_media_tek_documents_1_1model_1_1_commande_document" kindref="compound">CommandeDocument</ref> &gt;</type>
+        <definition>List&lt; CommandeDocument &gt; MediaTekDocuments.dal.Access.GetCommandesDocument</definition>
+        <argsstring>(string idDocument)</argsstring>
+        <name>GetCommandesDocument</name>
+        <qualifiedname>MediaTekDocuments.dal.Access.GetCommandesDocument</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>idDocument</declname>
+        </param>
+        <briefdescription>
+<para>Retourne les commandes d&apos;un document. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>idDocument</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id du document</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Liste d&apos;objets <ref refid="class_media_tek_documents_1_1model_1_1_commande_document" kindref="compound">CommandeDocument</ref></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dal/Access.cs" line="255" column="21" bodyfile="dal/Access.cs" bodystart="255" bodyend="260"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1dal_1_1_access_1a21a75d6c12400558511db240d9a25f4f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_media_tek_documents_1_1model_1_1_abonnement" kindref="compound">Abonnement</ref> &gt;</type>
+        <definition>List&lt; Abonnement &gt; MediaTekDocuments.dal.Access.GetAbonnementsRevue</definition>
+        <argsstring>(string idDocument)</argsstring>
+        <name>GetAbonnementsRevue</name>
+        <qualifiedname>MediaTekDocuments.dal.Access.GetAbonnementsRevue</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>idDocument</declname>
+        </param>
+        <briefdescription>
+<para>Retourne les abonnements d&apos;une revue. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>idDocument</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id du document</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>List d&apos;objets <ref refid="class_media_tek_documents_1_1model_1_1_abonnement" kindref="compound">Abonnement</ref></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dal/Access.cs" line="267" column="21" bodyfile="dal/Access.cs" bodystart="267" bodyend="272"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1dal_1_1_access_1ad07ebc1bcaffb386ab22e6764bdc7a54" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_media_tek_documents_1_1model_1_1_utilisateur" kindref="compound">Utilisateur</ref></type>
+        <definition>Utilisateur MediaTekDocuments.dal.Access.GetUtilisateur</definition>
+        <argsstring>(string login, string password)</argsstring>
+        <name>GetUtilisateur</name>
+        <qualifiedname>MediaTekDocuments.dal.Access.GetUtilisateur</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>login</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <briefdescription>
+<para>Retourne l&apos;utilisateur associé au login et password. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>login</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>login de l&apos;utilisateur cherché</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>password</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>password de l&apos;utilisateur cherché</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Objet utilisateur</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dal/Access.cs" line="280" column="28" bodyfile="dal/Access.cs" bodystart="280" bodyend="294"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1dal_1_1_access_1a49b41a152a85598907cd41f50681dbe8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MediaTekDocuments.dal.Access.CreerExemplaire</definition>
+        <argsstring>(Exemplaire exemplaire)</argsstring>
+        <name>CreerExemplaire</name>
+        <qualifiedname>MediaTekDocuments.dal.Access.CreerExemplaire</qualifiedname>
+        <param>
+          <type><ref refid="class_media_tek_documents_1_1model_1_1_exemplaire" kindref="compound">Exemplaire</ref></type>
+          <declname>exemplaire</declname>
+        </param>
+        <briefdescription>
+<para>ecriture d&apos;un exemplaire en base de données </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>exemplaire</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>exemplaire à insérer</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true si l&apos;insertion a pu se faire (retour != null)</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dal/Access.cs" line="301" column="21" bodyfile="dal/Access.cs" bodystart="301" bodyend="319"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1dal_1_1_access_1a4198224ab0872f99170794e05c7499cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MediaTekDocuments.dal.Access.CreerDocument</definition>
+        <argsstring>(string id, string titre, string image, string idRayon, string idPublic, string idGenre)</argsstring>
+        <name>CreerDocument</name>
+        <qualifiedname>MediaTekDocuments.dal.Access.CreerDocument</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>titre</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>idRayon</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>idPublic</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>idGenre</declname>
+        </param>
+        <briefdescription>
+<para>ecriture d&apos;un document en base de données </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id du documnent</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>titre</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>titre du document</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>image</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>image du document</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>idRayon</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id du rayon du document</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>idPublic</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id du public du document</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>idGenre</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id du genre du document</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true si l&apos;insertion a pu se faire</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dal/Access.cs" line="331" column="21" bodyfile="dal/Access.cs" bodystart="331" bodyend="349"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1dal_1_1_access_1afa6ce681c5ec2e23f978171f75983404" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MediaTekDocuments.dal.Access.ModifierDocument</definition>
+        <argsstring>(string id, string titre, string image, string idRayon, string idPublic, string idGenre)</argsstring>
+        <name>ModifierDocument</name>
+        <qualifiedname>MediaTekDocuments.dal.Access.ModifierDocument</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>titre</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>idRayon</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>idPublic</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>idGenre</declname>
+        </param>
+        <briefdescription>
+<para>Modification d&apos;un document en base de données. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id du document</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>titre</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>titre du documnent</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>image</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>image du document</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>idRayon</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id du rayon du document</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>idPublic</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id du public du document</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>idGenre</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id du genre du document</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true si la modification a pu se faire</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dal/Access.cs" line="362" column="21" bodyfile="dal/Access.cs" bodystart="362" bodyend="380"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1dal_1_1_access_1a8ae9cf600edccd335f9b62d280116082" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MediaTekDocuments.dal.Access.CreerLivre</definition>
+        <argsstring>(string id, string Isbn, string auteur, string collection)</argsstring>
+        <name>CreerLivre</name>
+        <qualifiedname>MediaTekDocuments.dal.Access.CreerLivre</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>Isbn</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>auteur</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>collection</declname>
+        </param>
+        <briefdescription>
+<para>ecriture d&apos;un livre en base de données </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id du livre</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Isbn</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>isbn du livre</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>auteur</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>auteur du livre</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>collection</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>collection du livre</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true si l&apos;insertion a pu se faire</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dal/Access.cs" line="390" column="21" bodyfile="dal/Access.cs" bodystart="390" bodyend="406"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1dal_1_1_access_1ad3e38ffbc72e1ba2b5adba77f5bec26d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MediaTekDocuments.dal.Access.ModifierLivre</definition>
+        <argsstring>(string id, string Isbn, string auteur, string collection)</argsstring>
+        <name>ModifierLivre</name>
+        <qualifiedname>MediaTekDocuments.dal.Access.ModifierLivre</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>Isbn</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>auteur</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>collection</declname>
+        </param>
+        <briefdescription>
+<para>Modification d&apos;un livre en base de données. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id du livre</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Isbn</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>isbn du livre</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>auteur</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>auteur du livre</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>collection</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>collection du livre</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dal/Access.cs" line="417" column="21" bodyfile="dal/Access.cs" bodystart="417" bodyend="433"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1dal_1_1_access_1a87599fa034591aaf73e6639b5374b8c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MediaTekDocuments.dal.Access.SupprimerLivre</definition>
+        <argsstring>(string id)</argsstring>
+        <name>SupprimerLivre</name>
+        <qualifiedname>MediaTekDocuments.dal.Access.SupprimerLivre</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Suppression d&apos;un livre en base de données. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id du livre</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true si la suppression a pu se faire</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dal/Access.cs" line="441" column="21" bodyfile="dal/Access.cs" bodystart="441" bodyend="454"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1dal_1_1_access_1a179f69f6440bbb96b87ef269e6787f73" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MediaTekDocuments.dal.Access.CreerDvd</definition>
+        <argsstring>(string id, string synopsis, string realisateur, int duree)</argsstring>
+        <name>CreerDvd</name>
+        <qualifiedname>MediaTekDocuments.dal.Access.CreerDvd</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>synopsis</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>realisateur</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>duree</declname>
+        </param>
+        <briefdescription>
+<para>Ecriture d&apos;un dvd en base de données. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id du dvd</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>synopsis</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>synopsis du dvd</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>realisateur</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>realisateur du dvd</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>duree</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>duree du dvd</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true si la création a pu se faire</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dal/Access.cs" line="464" column="21" bodyfile="dal/Access.cs" bodystart="464" bodyend="480"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1dal_1_1_access_1a24f45e3d99e5d5504afe35936be4ad6f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MediaTekDocuments.dal.Access.ModifierDvd</definition>
+        <argsstring>(string id, string synopsis, string realisateur, int duree)</argsstring>
+        <name>ModifierDvd</name>
+        <qualifiedname>MediaTekDocuments.dal.Access.ModifierDvd</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>synopsis</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>realisateur</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>duree</declname>
+        </param>
+        <briefdescription>
+<para>Modification d&apos;un dvd en base de données. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id du dvd</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>synopsis</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>synopsis du dvd</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>realisateur</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>realisateur du dvd</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>duree</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>duree du dvd</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true si la modification a pu se faire</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dal/Access.cs" line="491" column="21" bodyfile="dal/Access.cs" bodystart="491" bodyend="507"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1dal_1_1_access_1a7e6d31445e19ef226700f33c68befbcb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MediaTekDocuments.dal.Access.SupprimerDvd</definition>
+        <argsstring>(string id)</argsstring>
+        <name>SupprimerDvd</name>
+        <qualifiedname>MediaTekDocuments.dal.Access.SupprimerDvd</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Suppression d&apos;un dvd en base de données. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id du dvd</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true si la suppression a pu se faire</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dal/Access.cs" line="514" column="21" bodyfile="dal/Access.cs" bodystart="514" bodyend="527"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1dal_1_1_access_1a1cc6a284c94538dd3dbc8001f850c440" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MediaTekDocuments.dal.Access.CreerRevue</definition>
+        <argsstring>(string id, string periodicite, int delaiMiseADispo)</argsstring>
+        <name>CreerRevue</name>
+        <qualifiedname>MediaTekDocuments.dal.Access.CreerRevue</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>periodicite</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>delaiMiseADispo</declname>
+        </param>
+        <briefdescription>
+<para>Ecriture d&apos;une revue en base de données. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id de la revue</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>periodicite</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>periodicité de la revue</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>delaiMiseADispo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>delai de mise à dispo de la revue</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true si l&apos;insertion a pu se faire</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dal/Access.cs" line="536" column="21" bodyfile="dal/Access.cs" bodystart="536" bodyend="551"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1dal_1_1_access_1a809c51d6619478841d01226b65205453" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MediaTekDocuments.dal.Access.ModifierRevue</definition>
+        <argsstring>(string id, string periodicite, int delaiMiseADispo)</argsstring>
+        <name>ModifierRevue</name>
+        <qualifiedname>MediaTekDocuments.dal.Access.ModifierRevue</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>periodicite</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>delaiMiseADispo</declname>
+        </param>
+        <briefdescription>
+<para>Modification d&apos;une revue en base de données. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id de la revue</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>periodicite</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>periodicite de la revue</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>delaiMiseADispo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>delai de mise à dispo de la revue</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true si la modification a pu se faire</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dal/Access.cs" line="560" column="21" bodyfile="dal/Access.cs" bodystart="560" bodyend="575"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1dal_1_1_access_1a3cfc9a7afb50e5c2d5becb54829fa9fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MediaTekDocuments.dal.Access.SupprimerRevue</definition>
+        <argsstring>(string id)</argsstring>
+        <name>SupprimerRevue</name>
+        <qualifiedname>MediaTekDocuments.dal.Access.SupprimerRevue</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Suppression d&apos;une revue en base de données. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id de la revue</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true si la suppression a pu se faire</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dal/Access.cs" line="582" column="21" bodyfile="dal/Access.cs" bodystart="582" bodyend="595"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1dal_1_1_access_1a265380d0d35edb4e87c43312c51b72c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MediaTekDocuments.dal.Access.CreerCommande</definition>
+        <argsstring>(Commande commande)</argsstring>
+        <name>CreerCommande</name>
+        <qualifiedname>MediaTekDocuments.dal.Access.CreerCommande</qualifiedname>
+        <param>
+          <type><ref refid="class_media_tek_documents_1_1model_1_1_commande" kindref="compound">Commande</ref></type>
+          <declname>commande</declname>
+        </param>
+        <briefdescription>
+<para>Ecriture d&apos;une commande en base de données. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>commande</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="class_media_tek_documents_1_1model_1_1_commande" kindref="compound">Commande</ref> à insérer</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true si l&apos;insertion a pu se faire</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dal/Access.cs" line="602" column="21" bodyfile="dal/Access.cs" bodystart="602" bodyend="615"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1dal_1_1_access_1a46e6ae4d0b2ad59f55273a30fe51cb12" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MediaTekDocuments.dal.Access.CreerCommandeDocument</definition>
+        <argsstring>(string id, int nbExemplaire, string idLivreDvd, string idSuivi)</argsstring>
+        <name>CreerCommandeDocument</name>
+        <qualifiedname>MediaTekDocuments.dal.Access.CreerCommandeDocument</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nbExemplaire</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>idLivreDvd</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>idSuivi</declname>
+        </param>
+        <briefdescription>
+<para>Ecriture d&apos;une commande d&apos;un document en base de données. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id de la commande</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nbExemplaire</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nb d&apos;exemplaires de la commande</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>idLivreDvd</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id du livreDVD de la commande</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>idSuivi</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id du suivi de la commande </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true si l&apos;insertion a pu se faire</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dal/Access.cs" line="625" column="21" bodyfile="dal/Access.cs" bodystart="625" bodyend="641"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1dal_1_1_access_1a6239f9b068f7b3baf2718871f0437502" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MediaTekDocuments.dal.Access.ModifierSuiviCommandeDocument</definition>
+        <argsstring>(string id, string idSuivi)</argsstring>
+        <name>ModifierSuiviCommandeDocument</name>
+        <qualifiedname>MediaTekDocuments.dal.Access.ModifierSuiviCommandeDocument</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>idSuivi</declname>
+        </param>
+        <briefdescription>
+<para>Modification du suivi d&apos;une commande dans la bdd. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id du nouveau suivi</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true si la modification a pu se faire</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dal/Access.cs" line="648" column="21" bodyfile="dal/Access.cs" bodystart="648" bodyend="662"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1dal_1_1_access_1a54bdf5ff46f2587904abb6849abd2ff2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MediaTekDocuments.dal.Access.SupprimerCommandeDocument</definition>
+        <argsstring>(string id)</argsstring>
+        <name>SupprimerCommandeDocument</name>
+        <qualifiedname>MediaTekDocuments.dal.Access.SupprimerCommandeDocument</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Suppression d&apos;une commande d&apos;un document en base de données. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id de la commande</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true si la suppression a pu se faire</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dal/Access.cs" line="669" column="21" bodyfile="dal/Access.cs" bodystart="669" bodyend="682"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1dal_1_1_access_1ae681790c71a3495f6dd575507459a2a3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MediaTekDocuments.dal.Access.CreerAbonnementRevue</definition>
+        <argsstring>(string id, DateTime dateFinAbonnement, string idRevue)</argsstring>
+        <name>CreerAbonnementRevue</name>
+        <qualifiedname>MediaTekDocuments.dal.Access.CreerAbonnementRevue</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>DateTime</type>
+          <declname>dateFinAbonnement</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>idRevue</declname>
+        </param>
+        <briefdescription>
+<para>Ecriture d&apos;un abonnement d&apos;une revue en base de données. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>abonnement</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="class_media_tek_documents_1_1model_1_1_abonnement" kindref="compound">Abonnement</ref> à insérer</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true si l&apos;insertion a pu se faire</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dal/Access.cs" line="689" column="21" bodyfile="dal/Access.cs" bodystart="689" bodyend="705"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1dal_1_1_access_1ad20258d06be1d27b91df25da0ebb14be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MediaTekDocuments.dal.Access.SupprimerAbonnementRevue</definition>
+        <argsstring>(string id)</argsstring>
+        <name>SupprimerAbonnementRevue</name>
+        <qualifiedname>MediaTekDocuments.dal.Access.SupprimerAbonnementRevue</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Suppression d&apos;un abonnement d&apos;une revue en base de données. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id de l&apos;abonnement</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true si la suppression a pu se faire</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dal/Access.cs" line="712" column="21" bodyfile="dal/Access.cs" bodystart="712" bodyend="725"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1dal_1_1_access_1a76b0a129db8401647275484ffb6ebe4c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MediaTekDocuments.dal.Access.ParutionDansAbonnement</definition>
+        <argsstring>(DateTime dateCommande, DateTime dateFinAbonnement, DateTime dateParution)</argsstring>
+        <name>ParutionDansAbonnement</name>
+        <qualifiedname>MediaTekDocuments.dal.Access.ParutionDansAbonnement</qualifiedname>
+        <param>
+          <type>DateTime</type>
+          <declname>dateCommande</declname>
+        </param>
+        <param>
+          <type>DateTime</type>
+          <declname>dateFinAbonnement</declname>
+        </param>
+        <param>
+          <type>DateTime</type>
+          <declname>dateParution</declname>
+        </param>
+        <briefdescription>
+<para>Vérifier si une parution est associée à une commande donnée. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dateCommande</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>date de la commande</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dateFinAbonnement</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>date de fin de l&apos;abonnement</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dateParution</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>date de parution de la revue</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true si la date de parution est entre les 2 autres dates</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dal/Access.cs" line="734" column="21" bodyfile="dal/Access.cs" bodystart="734" bodyend="738"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1dal_1_1_access_1a035a5b819477ae0fe34e418d28e5fb0b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MediaTekDocuments.dal.Access.ModifierEtatExemplaireDocument</definition>
+        <argsstring>(Exemplaire exemplaire)</argsstring>
+        <name>ModifierEtatExemplaireDocument</name>
+        <qualifiedname>MediaTekDocuments.dal.Access.ModifierEtatExemplaireDocument</qualifiedname>
+        <param>
+          <type><ref refid="class_media_tek_documents_1_1model_1_1_exemplaire" kindref="compound">Exemplaire</ref></type>
+          <declname>exemplaire</declname>
+        </param>
+        <briefdescription>
+<para>Modification de l&apos;état d&apos;un exemplaire d&apos;un document dans la bdd. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>numero</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>numero du document</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>idEtat</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id de l&apos;état à modifier</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true si la modification a puse faire</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dal/Access.cs" line="746" column="21" bodyfile="dal/Access.cs" bodystart="746" bodyend="759"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_documents_1_1dal_1_1_access_1a8e4156b13056351bf5de9b89bd3c6140" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MediaTekDocuments.dal.Access.SupprimerExemplaireDocument</definition>
+        <argsstring>(Exemplaire exemplaire)</argsstring>
+        <name>SupprimerExemplaireDocument</name>
+        <qualifiedname>MediaTekDocuments.dal.Access.SupprimerExemplaireDocument</qualifiedname>
+        <param>
+          <type><ref refid="class_media_tek_documents_1_1model_1_1_exemplaire" kindref="compound">Exemplaire</ref></type>
+          <declname>exemplaire</declname>
+        </param>
+        <briefdescription>
+<para>Suppression d&apos;un exemplaire d&apos;un document en base de données. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>exemplaire</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Objet exemplaire à supprimer</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true si la suppression a pu se faire</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dal/Access.cs" line="766" column="21" bodyfile="dal/Access.cs" bodystart="766" bodyend="780"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Classe d&apos;accès aux données. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>MediaTekDocuments.dal.Access</label>
+        <link refid="class_media_tek_documents_1_1dal_1_1_access"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>instance</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>api</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MediaTekDocuments.dal.Access</label>
+        <link refid="class_media_tek_documents_1_1dal_1_1_access"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>instance</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>api</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MediaTekDocuments.manager.ApiRest</label>
+        <link refid="class_media_tek_documents_1_1manager_1_1_api_rest"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>instance</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="dal/Access.cs" line="19" column="11" bodyfile="dal/Access.cs" bodystart="20" bodyend="865"/>
+    <listofallmembers>
+      <member refid="class_media_tek_documents_1_1dal_1_1_access_1a188ec6815829c65c91bae6323d4f8f36" prot="private" virt="non-virtual"><scope>MediaTekDocuments::dal::Access</scope><name>Access</name></member>
+      <member refid="class_media_tek_documents_1_1dal_1_1_access_1a4cb677fc77aea66a12b04a0d383b1d17" prot="private" virt="non-virtual"><scope>MediaTekDocuments::dal::Access</scope><name>api</name></member>
+      <member refid="class_media_tek_documents_1_1dal_1_1_access_1a58c98b8a937a3f9f0a02ae267da65186" prot="private" virt="non-virtual"><scope>MediaTekDocuments::dal::Access</scope><name>connectionName</name></member>
+      <member refid="class_media_tek_documents_1_1dal_1_1_access_1a4f2357261937da12a1eadb5a789ee3d3" prot="private" virt="non-virtual"><scope>MediaTekDocuments::dal::Access</scope><name>convertToJson</name></member>
+      <member refid="class_media_tek_documents_1_1dal_1_1_access_1ae681790c71a3495f6dd575507459a2a3" prot="public" virt="non-virtual"><scope>MediaTekDocuments::dal::Access</scope><name>CreerAbonnementRevue</name></member>
+      <member refid="class_media_tek_documents_1_1dal_1_1_access_1a265380d0d35edb4e87c43312c51b72c4" prot="public" virt="non-virtual"><scope>MediaTekDocuments::dal::Access</scope><name>CreerCommande</name></member>
+      <member refid="class_media_tek_documents_1_1dal_1_1_access_1a46e6ae4d0b2ad59f55273a30fe51cb12" prot="public" virt="non-virtual"><scope>MediaTekDocuments::dal::Access</scope><name>CreerCommandeDocument</name></member>
+      <member refid="class_media_tek_documents_1_1dal_1_1_access_1a4198224ab0872f99170794e05c7499cb" prot="public" virt="non-virtual"><scope>MediaTekDocuments::dal::Access</scope><name>CreerDocument</name></member>
+      <member refid="class_media_tek_documents_1_1dal_1_1_access_1a179f69f6440bbb96b87ef269e6787f73" prot="public" virt="non-virtual"><scope>MediaTekDocuments::dal::Access</scope><name>CreerDvd</name></member>
+      <member refid="class_media_tek_documents_1_1dal_1_1_access_1a49b41a152a85598907cd41f50681dbe8" prot="public" virt="non-virtual"><scope>MediaTekDocuments::dal::Access</scope><name>CreerExemplaire</name></member>
+      <member refid="class_media_tek_documents_1_1dal_1_1_access_1a8ae9cf600edccd335f9b62d280116082" prot="public" virt="non-virtual"><scope>MediaTekDocuments::dal::Access</scope><name>CreerLivre</name></member>
+      <member refid="class_media_tek_documents_1_1dal_1_1_access_1a1cc6a284c94538dd3dbc8001f850c440" prot="public" virt="non-virtual"><scope>MediaTekDocuments::dal::Access</scope><name>CreerRevue</name></member>
+      <member refid="class_media_tek_documents_1_1dal_1_1_access_1a8ec5d8f374eef617254b3d66008b1805" prot="private" virt="non-virtual"><scope>MediaTekDocuments::dal::Access</scope><name>DELETE</name></member>
+      <member refid="class_media_tek_documents_1_1dal_1_1_access_1ad6682bb3eac1a5526ccafd32c1dca4ae" prot="private" virt="non-virtual"><scope>MediaTekDocuments::dal::Access</scope><name>GET</name></member>
+      <member refid="class_media_tek_documents_1_1dal_1_1_access_1a7a51aad05f2ea9ed89784c6748df62fb" prot="public" virt="non-virtual"><scope>MediaTekDocuments::dal::Access</scope><name>GetAbonnementsEcheance</name></member>
+      <member refid="class_media_tek_documents_1_1dal_1_1_access_1a21a75d6c12400558511db240d9a25f4f" prot="public" virt="non-virtual"><scope>MediaTekDocuments::dal::Access</scope><name>GetAbonnementsRevue</name></member>
+      <member refid="class_media_tek_documents_1_1dal_1_1_access_1ac05514ddc62fb86b8bf1619e88799ede" prot="public" virt="non-virtual"><scope>MediaTekDocuments::dal::Access</scope><name>GetAllAbonnements</name></member>
+      <member refid="class_media_tek_documents_1_1dal_1_1_access_1ae0968c92e84ab93ca300f64a18cb4ccf" prot="public" virt="non-virtual"><scope>MediaTekDocuments::dal::Access</scope><name>GetAllCommandes</name></member>
+      <member refid="class_media_tek_documents_1_1dal_1_1_access_1adc618aad24e9f9cdd328068569c268e1" prot="public" virt="non-virtual"><scope>MediaTekDocuments::dal::Access</scope><name>GetAllDocuments</name></member>
+      <member refid="class_media_tek_documents_1_1dal_1_1_access_1ad6e141fb3c8c28d381a62c76807f5f88" prot="public" virt="non-virtual"><scope>MediaTekDocuments::dal::Access</scope><name>GetAllDvd</name></member>
+      <member refid="class_media_tek_documents_1_1dal_1_1_access_1a239e34ff75115e04b088047ee191b227" prot="public" virt="non-virtual"><scope>MediaTekDocuments::dal::Access</scope><name>GetAllEtats</name></member>
+      <member refid="class_media_tek_documents_1_1dal_1_1_access_1a3c8e1bbfaf3e0332d27a69b3508c795d" prot="public" virt="non-virtual"><scope>MediaTekDocuments::dal::Access</scope><name>GetAllGenres</name></member>
+      <member refid="class_media_tek_documents_1_1dal_1_1_access_1adb24fd5f8c6c4db3ad86fee64cc95ad1" prot="public" virt="non-virtual"><scope>MediaTekDocuments::dal::Access</scope><name>GetAllLivres</name></member>
+      <member refid="class_media_tek_documents_1_1dal_1_1_access_1aa666fcd51e2dd4ab7feff1271bc8daf5" prot="public" virt="non-virtual"><scope>MediaTekDocuments::dal::Access</scope><name>GetAllPublics</name></member>
+      <member refid="class_media_tek_documents_1_1dal_1_1_access_1abb34414355a628dd16b5f35876cf39e8" prot="public" virt="non-virtual"><scope>MediaTekDocuments::dal::Access</scope><name>GetAllRayons</name></member>
+      <member refid="class_media_tek_documents_1_1dal_1_1_access_1af878e9be72359a411c8c1ca458dedbe6" prot="public" virt="non-virtual"><scope>MediaTekDocuments::dal::Access</scope><name>GetAllRevues</name></member>
+      <member refid="class_media_tek_documents_1_1dal_1_1_access_1a1b492bdba43754305024e14502f2d7e8" prot="public" virt="non-virtual"><scope>MediaTekDocuments::dal::Access</scope><name>GetAllSuivis</name></member>
+      <member refid="class_media_tek_documents_1_1dal_1_1_access_1a90abc126e791e0fd09bc48d2b6b7889b" prot="public" virt="non-virtual"><scope>MediaTekDocuments::dal::Access</scope><name>GetCommandesDocument</name></member>
+      <member refid="class_media_tek_documents_1_1dal_1_1_access_1ab28f529d85608a6e1f82789c47d3bfb9" prot="private" virt="non-virtual"><scope>MediaTekDocuments::dal::Access</scope><name>GetConnectionStringByName</name></member>
+      <member refid="class_media_tek_documents_1_1dal_1_1_access_1aba7f27346c7a08f021d96c47c28f33ce" prot="public" virt="non-virtual"><scope>MediaTekDocuments::dal::Access</scope><name>GetExemplairesDocument</name></member>
+      <member refid="class_media_tek_documents_1_1dal_1_1_access_1a8a22be0e93431c4462287ad25085e6e3" prot="public" virt="non-virtual"><scope>MediaTekDocuments::dal::Access</scope><name>GetExemplairesRevue</name></member>
+      <member refid="class_media_tek_documents_1_1dal_1_1_access_1a6d1fed556ce2c0a862d29b60f0d17a8f" prot="public" virt="non-virtual"><scope>MediaTekDocuments::dal::Access</scope><name>GetInstance</name></member>
+      <member refid="class_media_tek_documents_1_1dal_1_1_access_1ad07ebc1bcaffb386ab22e6764bdc7a54" prot="public" virt="non-virtual"><scope>MediaTekDocuments::dal::Access</scope><name>GetUtilisateur</name></member>
+      <member refid="class_media_tek_documents_1_1dal_1_1_access_1ac8c2e602f94b8e0563b0f36f781f8d5e" prot="private" virt="non-virtual"><scope>MediaTekDocuments::dal::Access</scope><name>instance</name></member>
+      <member refid="class_media_tek_documents_1_1dal_1_1_access_1afa6ce681c5ec2e23f978171f75983404" prot="public" virt="non-virtual"><scope>MediaTekDocuments::dal::Access</scope><name>ModifierDocument</name></member>
+      <member refid="class_media_tek_documents_1_1dal_1_1_access_1a24f45e3d99e5d5504afe35936be4ad6f" prot="public" virt="non-virtual"><scope>MediaTekDocuments::dal::Access</scope><name>ModifierDvd</name></member>
+      <member refid="class_media_tek_documents_1_1dal_1_1_access_1a035a5b819477ae0fe34e418d28e5fb0b" prot="public" virt="non-virtual"><scope>MediaTekDocuments::dal::Access</scope><name>ModifierEtatExemplaireDocument</name></member>
+      <member refid="class_media_tek_documents_1_1dal_1_1_access_1ad3e38ffbc72e1ba2b5adba77f5bec26d" prot="public" virt="non-virtual"><scope>MediaTekDocuments::dal::Access</scope><name>ModifierLivre</name></member>
+      <member refid="class_media_tek_documents_1_1dal_1_1_access_1a809c51d6619478841d01226b65205453" prot="public" virt="non-virtual"><scope>MediaTekDocuments::dal::Access</scope><name>ModifierRevue</name></member>
+      <member refid="class_media_tek_documents_1_1dal_1_1_access_1a6239f9b068f7b3baf2718871f0437502" prot="public" virt="non-virtual"><scope>MediaTekDocuments::dal::Access</scope><name>ModifierSuiviCommandeDocument</name></member>
+      <member refid="class_media_tek_documents_1_1dal_1_1_access_1a76b0a129db8401647275484ffb6ebe4c" prot="public" virt="non-virtual"><scope>MediaTekDocuments::dal::Access</scope><name>ParutionDansAbonnement</name></member>
+      <member refid="class_media_tek_documents_1_1dal_1_1_access_1a0c8a23f05664f0c0cdcd32b4be54b9ae" prot="private" virt="non-virtual"><scope>MediaTekDocuments::dal::Access</scope><name>POST</name></member>
+      <member refid="class_media_tek_documents_1_1dal_1_1_access_1a5dfa84c046b6f89ff6fc07a1cab759d0" prot="private" virt="non-virtual"><scope>MediaTekDocuments::dal::Access</scope><name>PUT</name></member>
+      <member refid="class_media_tek_documents_1_1dal_1_1_access_1ad20258d06be1d27b91df25da0ebb14be" prot="public" virt="non-virtual"><scope>MediaTekDocuments::dal::Access</scope><name>SupprimerAbonnementRevue</name></member>
+      <member refid="class_media_tek_documents_1_1dal_1_1_access_1a54bdf5ff46f2587904abb6849abd2ff2" prot="public" virt="non-virtual"><scope>MediaTekDocuments::dal::Access</scope><name>SupprimerCommandeDocument</name></member>
+      <member refid="class_media_tek_documents_1_1dal_1_1_access_1a7e6d31445e19ef226700f33c68befbcb" prot="public" virt="non-virtual"><scope>MediaTekDocuments::dal::Access</scope><name>SupprimerDvd</name></member>
+      <member refid="class_media_tek_documents_1_1dal_1_1_access_1a8e4156b13056351bf5de9b89bd3c6140" prot="public" virt="non-virtual"><scope>MediaTekDocuments::dal::Access</scope><name>SupprimerExemplaireDocument</name></member>
+      <member refid="class_media_tek_documents_1_1dal_1_1_access_1a87599fa034591aaf73e6639b5374b8c6" prot="public" virt="non-virtual"><scope>MediaTekDocuments::dal::Access</scope><name>SupprimerLivre</name></member>
+      <member refid="class_media_tek_documents_1_1dal_1_1_access_1a3cfc9a7afb50e5c2d5becb54829fa9fb" prot="public" virt="non-virtual"><scope>MediaTekDocuments::dal::Access</scope><name>SupprimerRevue</name></member>
+      <member refid="class_media_tek_documents_1_1dal_1_1_access_1ac112326181ed1a7bcc250f772d478899" prot="private" virt="non-virtual"><scope>MediaTekDocuments::dal::Access</scope><name>TraitementRecup&lt; T &gt;</name></member>
+      <member refid="class_media_tek_documents_1_1dal_1_1_access_1a4c5146388b3b6f8ce30d127f3c7d9e68" prot="private" virt="non-virtual"><scope>MediaTekDocuments::dal::Access</scope><name>uriApi</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

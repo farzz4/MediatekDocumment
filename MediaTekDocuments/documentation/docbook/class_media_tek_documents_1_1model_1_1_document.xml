@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_media_tek_documents_1_1model_1_1_document" xml:lang="fr">
+<title>Référence de la classe MediaTekDocuments.model.Document</title>
+<indexterm><primary>MediaTekDocuments.model.Document</primary></indexterm>
+<para>
+
+<para>Classe métier <link linkend="_class_media_tek_documents_1_1model_1_1_document">Document</link> (réunit les infomations communes à tous les documents : <link linkend="_class_media_tek_documents_1_1model_1_1_livre">Livre</link>, <link linkend="_class_media_tek_documents_1_1model_1_1_revue">Revue</link>, <link linkend="_class_media_tek_documents_1_1model_1_1_dvd">Dvd</link>). </para>
+ 
+</para>
+<para>Graphe d&apos;héritage de MediaTekDocuments.model.Document:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_media_tek_documents_1_1model_1_1_document.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Fonctions membres publiques    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_media_tek_documents_1_1model_1_1_document_1a4ec37162b38adb672e52e7504130f6c5">Document</link> (string id, string titre, string image, string idGenre, string genre, string idPublic, string lePublic, string idRayon, string rayon)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Propriétés    </title>
+        <itemizedlist>
+            <listitem><para>string <link linkend="_class_media_tek_documents_1_1model_1_1_document_1a3e5b4dabdbc9c81e0c92ed23d0f67b5e">Id</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_media_tek_documents_1_1model_1_1_document_1a5fd612083fc4adfe686e3ff622807c80">Titre</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_media_tek_documents_1_1model_1_1_document_1a139cf009cede8ea414926f897505a594">Image</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_media_tek_documents_1_1model_1_1_document_1a0661e5c1e7b6a8b3efc06e628241f788">IdGenre</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_media_tek_documents_1_1model_1_1_document_1a902cd2dcaf95a7de23061e0450912690">Genre</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_media_tek_documents_1_1model_1_1_document_1a4cd9368bb5e38891c835268ba4f5f427">IdPublic</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_media_tek_documents_1_1model_1_1_document_1af696a751a2fe992484506f59269fe550">Public</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_media_tek_documents_1_1model_1_1_document_1aae91a6dcc4fe8d9f0c70748e6f3d402b">IdRayon</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_media_tek_documents_1_1model_1_1_document_1a4a42cf0f9be94e2316008250bc903be3">Rayon</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Description détaillée</title>
+
+<para>Classe métier <link linkend="_class_media_tek_documents_1_1model_1_1_document">Document</link> (réunit les infomations communes à tous les documents : <link linkend="_class_media_tek_documents_1_1model_1_1_livre">Livre</link>, <link linkend="_class_media_tek_documents_1_1model_1_1_revue">Revue</link>, <link linkend="_class_media_tek_documents_1_1model_1_1_dvd">Dvd</link>). </para>
+</section>
+<section>
+<title>Documentation des constructeurs et destructeur</title>
+<anchor xml:id="_class_media_tek_documents_1_1model_1_1_document_1a4ec37162b38adb672e52e7504130f6c5"/><section>
+    <title>Document()</title>
+<indexterm><primary>Document</primary><secondary>MediaTekDocuments.model.Document</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.model.Document</primary><secondary>Document</secondary></indexterm>
+<para><computeroutput>MediaTekDocuments.model.Document.Document (string id, string titre, string image, string idGenre, string genre, string idPublic, string lePublic, string idRayon, string rayon)</computeroutput></para></section>
+</section>
+<section>
+<title>Documentation des propriétés</title>
+<anchor xml:id="_class_media_tek_documents_1_1model_1_1_document_1a902cd2dcaf95a7de23061e0450912690"/><section>
+    <title>Genre</title>
+<indexterm><primary>Genre</primary><secondary>MediaTekDocuments.model.Document</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.model.Document</primary><secondary>Genre</secondary></indexterm>
+<para><computeroutput>string MediaTekDocuments.model.Document.Genre<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_media_tek_documents_1_1model_1_1_document_1a3e5b4dabdbc9c81e0c92ed23d0f67b5e"/><section>
+    <title>Id</title>
+<indexterm><primary>Id</primary><secondary>MediaTekDocuments.model.Document</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.model.Document</primary><secondary>Id</secondary></indexterm>
+<para><computeroutput>string MediaTekDocuments.model.Document.Id<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_media_tek_documents_1_1model_1_1_document_1a0661e5c1e7b6a8b3efc06e628241f788"/><section>
+    <title>IdGenre</title>
+<indexterm><primary>IdGenre</primary><secondary>MediaTekDocuments.model.Document</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.model.Document</primary><secondary>IdGenre</secondary></indexterm>
+<para><computeroutput>string MediaTekDocuments.model.Document.IdGenre<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_media_tek_documents_1_1model_1_1_document_1a4cd9368bb5e38891c835268ba4f5f427"/><section>
+    <title>IdPublic</title>
+<indexterm><primary>IdPublic</primary><secondary>MediaTekDocuments.model.Document</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.model.Document</primary><secondary>IdPublic</secondary></indexterm>
+<para><computeroutput>string MediaTekDocuments.model.Document.IdPublic<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_media_tek_documents_1_1model_1_1_document_1aae91a6dcc4fe8d9f0c70748e6f3d402b"/><section>
+    <title>IdRayon</title>
+<indexterm><primary>IdRayon</primary><secondary>MediaTekDocuments.model.Document</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.model.Document</primary><secondary>IdRayon</secondary></indexterm>
+<para><computeroutput>string MediaTekDocuments.model.Document.IdRayon<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_media_tek_documents_1_1model_1_1_document_1a139cf009cede8ea414926f897505a594"/><section>
+    <title>Image</title>
+<indexterm><primary>Image</primary><secondary>MediaTekDocuments.model.Document</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.model.Document</primary><secondary>Image</secondary></indexterm>
+<para><computeroutput>string MediaTekDocuments.model.Document.Image<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_media_tek_documents_1_1model_1_1_document_1af696a751a2fe992484506f59269fe550"/><section>
+    <title>Public</title>
+<indexterm><primary>Public</primary><secondary>MediaTekDocuments.model.Document</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.model.Document</primary><secondary>Public</secondary></indexterm>
+<para><computeroutput>string MediaTekDocuments.model.Document.Public<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_media_tek_documents_1_1model_1_1_document_1a4a42cf0f9be94e2316008250bc903be3"/><section>
+    <title>Rayon</title>
+<indexterm><primary>Rayon</primary><secondary>MediaTekDocuments.model.Document</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.model.Document</primary><secondary>Rayon</secondary></indexterm>
+<para><computeroutput>string MediaTekDocuments.model.Document.Rayon<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_media_tek_documents_1_1model_1_1_document_1a5fd612083fc4adfe686e3ff622807c80"/><section>
+    <title>Titre</title>
+<indexterm><primary>Titre</primary><secondary>MediaTekDocuments.model.Document</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.model.Document</primary><secondary>Titre</secondary></indexterm>
+<para><computeroutput>string MediaTekDocuments.model.Document.Titre<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<para>
+La documentation de cette classe a été générée à partir du fichier suivant :</para>
+model/<link linkend="__document_8cs">Document.cs</link></section>
+</section>

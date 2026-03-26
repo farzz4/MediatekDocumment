@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="fr">
+  <compounddef id="class_media_tek_documents_1_1dal_1_1_access_1_1_custom_date_time_converter" kind="class" language="C#" prot="private" sealed="yes">
+    <compoundname>MediaTekDocuments::dal::Access::CustomDateTimeConverter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IsoDateTimeConverter</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_media_tek_documents_1_1dal_1_1_access_1_1_custom_date_time_converter_1a1b69d98890f675cbcbd166f1c957bde5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MediaTekDocuments.dal.Access.CustomDateTimeConverter.CustomDateTimeConverter</definition>
+        <argsstring>()</argsstring>
+        <name>CustomDateTimeConverter</name>
+        <qualifiedname>MediaTekDocuments.dal.Access.CustomDateTimeConverter.CustomDateTimeConverter</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dal/Access.cs" line="841" column="20" bodyfile="dal/Access.cs" bodystart="841" bodyend="844"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Modification du convertisseur Json pour gérer le format de date. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>IsoDateTimeConverter</label>
+      </node>
+      <node id="1">
+        <label>MediaTekDocuments.dal.Access.CustomDateTimeConverter</label>
+        <link refid="class_media_tek_documents_1_1dal_1_1_access_1_1_custom_date_time_converter"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>IsoDateTimeConverter</label>
+      </node>
+      <node id="1">
+        <label>MediaTekDocuments.dal.Access.CustomDateTimeConverter</label>
+        <link refid="class_media_tek_documents_1_1dal_1_1_access_1_1_custom_date_time_converter"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="dal/Access.cs" line="839" column="16" bodyfile="dal/Access.cs" bodystart="840" bodyend="845"/>
+    <listofallmembers>
+      <member refid="class_media_tek_documents_1_1dal_1_1_access_1_1_custom_date_time_converter_1a1b69d98890f675cbcbd166f1c957bde5" prot="public" virt="non-virtual"><scope>MediaTekDocuments::dal::Access::CustomDateTimeConverter</scope><name>CustomDateTimeConverter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_media_tek_documents_1_1model_1_1_commande" xml:lang="fr">
+<title>Référence de la classe MediaTekDocuments.model.Commande</title>
+<indexterm><primary>MediaTekDocuments.model.Commande</primary></indexterm>
+<para>
+
+<para>Classe métier <link linkend="_class_media_tek_documents_1_1model_1_1_commande">Commande</link>. </para>
+ 
+</para>
+<para>Graphe d&apos;héritage de MediaTekDocuments.model.Commande:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_media_tek_documents_1_1model_1_1_commande.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Fonctions membres publiques    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_media_tek_documents_1_1model_1_1_commande_1ad7abbd5d27307c467b75e4e3f41097e6">Commande</link> (string id, DateTime dateCommande, double montant)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Propriétés    </title>
+        <itemizedlist>
+            <listitem><para>string <link linkend="_class_media_tek_documents_1_1model_1_1_commande_1af40f3cebd61db3b07c5a67cfaab6a543">Id</link><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>DateTime <link linkend="_class_media_tek_documents_1_1model_1_1_commande_1ac0d0f36c146895da4ba30a1a03c72ff3">DateCommande</link><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>double <link linkend="_class_media_tek_documents_1_1model_1_1_commande_1ab960542350c24d0df2987072c9d547a8">Montant</link><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Description détaillée</title>
+
+<para>Classe métier <link linkend="_class_media_tek_documents_1_1model_1_1_commande">Commande</link>. </para>
+</section>
+<section>
+<title>Documentation des constructeurs et destructeur</title>
+<anchor xml:id="_class_media_tek_documents_1_1model_1_1_commande_1ad7abbd5d27307c467b75e4e3f41097e6"/><section>
+    <title>Commande()</title>
+<indexterm><primary>Commande</primary><secondary>MediaTekDocuments.model.Commande</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.model.Commande</primary><secondary>Commande</secondary></indexterm>
+<para><computeroutput>MediaTekDocuments.model.Commande.Commande (string id, DateTime dateCommande, double montant)</computeroutput></para></section>
+</section>
+<section>
+<title>Documentation des propriétés</title>
+<anchor xml:id="_class_media_tek_documents_1_1model_1_1_commande_1ac0d0f36c146895da4ba30a1a03c72ff3"/><section>
+    <title>DateCommande</title>
+<indexterm><primary>DateCommande</primary><secondary>MediaTekDocuments.model.Commande</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.model.Commande</primary><secondary>DateCommande</secondary></indexterm>
+<para><computeroutput>DateTime MediaTekDocuments.model.Commande.DateCommande<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_media_tek_documents_1_1model_1_1_commande_1af40f3cebd61db3b07c5a67cfaab6a543"/><section>
+    <title>Id</title>
+<indexterm><primary>Id</primary><secondary>MediaTekDocuments.model.Commande</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.model.Commande</primary><secondary>Id</secondary></indexterm>
+<para><computeroutput>string MediaTekDocuments.model.Commande.Id<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_media_tek_documents_1_1model_1_1_commande_1ab960542350c24d0df2987072c9d547a8"/><section>
+    <title>Montant</title>
+<indexterm><primary>Montant</primary><secondary>MediaTekDocuments.model.Commande</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.model.Commande</primary><secondary>Montant</secondary></indexterm>
+<para><computeroutput>double MediaTekDocuments.model.Commande.Montant<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<para>
+La documentation de cette classe a été générée à partir du fichier suivant :</para>
+model/<link linkend="__commande_8cs">Commande.cs</link></section>
+</section>

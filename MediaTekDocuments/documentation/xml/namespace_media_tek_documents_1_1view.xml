@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="fr">
+  <compounddef id="namespace_media_tek_documents_1_1view" kind="namespace" language="C#">
+    <compoundname>MediaTekDocuments::view</compoundname>
+    <innerclass refid="class_media_tek_documents_1_1view_1_1_frm_authentification" prot="public">MediaTekDocuments::view::FrmAuthentification</innerclass>
+    <innerclass refid="class_media_tek_documents_1_1view_1_1_frm_mediatek" prot="public">MediaTekDocuments::view::FrmMediatek</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="view/FrmAuthentification.cs" line="13" column="1"/>
+  </compounddef>
+</doxygen>

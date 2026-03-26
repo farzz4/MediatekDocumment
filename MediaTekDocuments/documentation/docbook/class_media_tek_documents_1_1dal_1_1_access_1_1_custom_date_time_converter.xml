@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_media_tek_documents_1_1dal_1_1_access_1_1_custom_date_time_converter" xml:lang="fr">
+<title>Référence de la classe MediaTekDocuments.dal.Access.CustomDateTimeConverter</title>
+<indexterm><primary>MediaTekDocuments.dal.Access.CustomDateTimeConverter</primary></indexterm>
+<para>
+
+<para>Modification du convertisseur Json pour gérer le format de date. </para>
+ 
+</para>
+<para>Graphe d&apos;héritage de MediaTekDocuments.dal.Access.CustomDateTimeConverter:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_media_tek_documents_1_1dal_1_1_access_1_1_custom_date_time_converter.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Fonctions membres publiques    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_media_tek_documents_1_1dal_1_1_access_1_1_custom_date_time_converter_1a1b69d98890f675cbcbd166f1c957bde5">CustomDateTimeConverter</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Description détaillée</title>
+
+<para>Modification du convertisseur Json pour gérer le format de date. </para>
+</section>
+<section>
+<title>Documentation des constructeurs et destructeur</title>
+<anchor xml:id="_class_media_tek_documents_1_1dal_1_1_access_1_1_custom_date_time_converter_1a1b69d98890f675cbcbd166f1c957bde5"/><section>
+    <title>CustomDateTimeConverter()</title>
+<indexterm><primary>CustomDateTimeConverter</primary><secondary>MediaTekDocuments.dal.Access.CustomDateTimeConverter</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.dal.Access.CustomDateTimeConverter</primary><secondary>CustomDateTimeConverter</secondary></indexterm>
+<para><computeroutput>MediaTekDocuments.dal.Access.CustomDateTimeConverter.CustomDateTimeConverter ( )</computeroutput></para></section>
+<para>
+La documentation de cette classe a été générée à partir du fichier suivant :</para>
+dal/<link linkend="__access_8cs">Access.cs</link></section>
+</section>

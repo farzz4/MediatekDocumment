@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<book xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_index" xml:lang="fr">
+    <info>
+    <title>MediaTekDocuments</title>
+    </info>
+<chapter>
+    <title>Documentation des répertoires</title>
+    <xi:include href="dir_d3bff1ab3a40b4e5d0775c67ace1b0da.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="dir_3c927018d33f8f9ad50ec470f4ebe1be.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="dir_a71c3b2ad23b9ff58220dd012d201987.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="dir_f4fde8e27670e448c9f2b9269bfa4d83.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="dir_3f14f6767c31cb4a1d22c13c18cc6fc3.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="dir_43724e81dd40e09f32417973865cdd64.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="dir_d051c76eebdc544d9c3d734575641c72.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="dir_b2f003339c516cc00c8cadcafbe82f13.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</chapter>
+<chapter>
+    <title>Documentation des espaces de nommage</title>
+    <xi:include href="namespace_media_tek_documents.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="namespace_media_tek_documents_1_1controller.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="namespace_media_tek_documents_1_1dal.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="namespace_media_tek_documents_1_1manager.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="namespace_media_tek_documents_1_1model.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="namespace_media_tek_documents_1_1_properties.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="namespace_media_tek_documents_1_1view.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</chapter>
+<chapter>
+    <title>Documentation des classes</title>
+    <xi:include href="class_media_tek_documents_1_1model_1_1_abonnement.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_media_tek_documents_1_1dal_1_1_access.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_media_tek_documents_1_1manager_1_1_api_rest.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_media_tek_documents_1_1model_1_1_categorie.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_media_tek_documents_1_1model_1_1_commande.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_media_tek_documents_1_1model_1_1_commande_document.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_media_tek_documents_1_1dal_1_1_access_1_1_custom_boolean_json_converter.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_media_tek_documents_1_1dal_1_1_access_1_1_custom_date_time_converter.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_media_tek_documents_1_1model_1_1_document.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_media_tek_documents_1_1model_1_1_dvd.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_media_tek_documents_1_1model_1_1_etat.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_media_tek_documents_1_1model_1_1_exemplaire.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_media_tek_documents_1_1view_1_1_frm_authentification.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_media_tek_documents_1_1controller_1_1_frm_authentification_controller.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_media_tek_documents_1_1view_1_1_frm_mediatek.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_media_tek_documents_1_1model_1_1_genre.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_media_tek_documents_1_1model_1_1_livre.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_media_tek_documents_1_1model_1_1_livre_dvd.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_media_tek_documents_1_1_program.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_media_tek_documents_1_1model_1_1_public.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_media_tek_documents_1_1model_1_1_rayon.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_media_tek_documents_1_1_properties_1_1_resources.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_media_tek_documents_1_1model_1_1_revue.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_media_tek_documents_1_1model_1_1_service.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_media_tek_documents_1_1_properties_1_1_settings.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_media_tek_documents_1_1model_1_1_suivi.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_media_tek_documents_1_1model_1_1_utilisateur.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</chapter>
+<chapter>
+    <title>Documentation des fichiers</title>
+    <xi:include href="_frm_authentification_controller_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_frm_mediatek_controller_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_access_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_api_rest_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_abonnement_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_categorie_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_commande_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_commande_document_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_document_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_dvd_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_etat_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_exemplaire_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_genre_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_livre_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_livre_dvd_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_public_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_rayon_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_revue_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_service_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_suivi_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_utilisateur_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_8_n_e_t_framework_00_version_0av4_87_82_8_assembly_attributes_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_program_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_assembly_info_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_resources_8_designer_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_settings_8_designer_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_frm_authentification_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_frm_authentification_8_designer_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_frm_mediatek_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_frm_mediatek_8_designer_8cs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</chapter>
+<index/>
+</book>

@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="fr">
+  <compounddef id="class_media_tek_documents_1_1model_1_1_utilisateur" kind="class" language="C#" prot="public">
+    <compoundname>MediaTekDocuments::model::Utilisateur</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_media_tek_documents_1_1model_1_1_utilisateur_1a6be7649c30c8268db5af08c9bfebe4b7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string MediaTekDocuments.model.Utilisateur.Login</definition>
+        <argsstring></argsstring>
+        <name>Login</name>
+        <qualifiedname>MediaTekDocuments.model.Utilisateur.Login</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="model/Utilisateur.cs" line="14" column="23" bodyfile="model/Utilisateur.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="property" id="class_media_tek_documents_1_1model_1_1_utilisateur_1a157180f664809a12f4b148a83a2a44da" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string MediaTekDocuments.model.Utilisateur.Password</definition>
+        <argsstring></argsstring>
+        <name>Password</name>
+        <qualifiedname>MediaTekDocuments.model.Utilisateur.Password</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="model/Utilisateur.cs" line="15" column="23" bodyfile="model/Utilisateur.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="property" id="class_media_tek_documents_1_1model_1_1_utilisateur_1af899efb8d89c0c6593ead2a52f931d17" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string MediaTekDocuments.model.Utilisateur.IdService</definition>
+        <argsstring></argsstring>
+        <name>IdService</name>
+        <qualifiedname>MediaTekDocuments.model.Utilisateur.IdService</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="model/Utilisateur.cs" line="16" column="23" bodyfile="model/Utilisateur.cs" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="property" id="class_media_tek_documents_1_1model_1_1_utilisateur_1a705edee0d41873826a8cc024e48ff160" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string MediaTekDocuments.model.Utilisateur.Libelle</definition>
+        <argsstring></argsstring>
+        <name>Libelle</name>
+        <qualifiedname>MediaTekDocuments.model.Utilisateur.Libelle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="model/Utilisateur.cs" line="17" column="23" bodyfile="model/Utilisateur.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_media_tek_documents_1_1model_1_1_utilisateur_1a404f8e79d4d7bb1fd3946b49ed899dc8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MediaTekDocuments.model.Utilisateur.Utilisateur</definition>
+        <argsstring>(string login, string password, string idService, string libelle)</argsstring>
+        <name>Utilisateur</name>
+        <qualifiedname>MediaTekDocuments.model.Utilisateur.Utilisateur</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>login</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>idService</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>libelle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="model/Utilisateur.cs" line="19" column="16" bodyfile="model/Utilisateur.cs" bodystart="19" bodyend="25"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Classe métier <ref refid="class_media_tek_documents_1_1model_1_1_utilisateur" kindref="compound">Utilisateur</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="model/Utilisateur.cs" line="12" column="11" bodyfile="model/Utilisateur.cs" bodystart="13" bodyend="26"/>
+    <listofallmembers>
+      <member refid="class_media_tek_documents_1_1model_1_1_utilisateur_1af899efb8d89c0c6593ead2a52f931d17" prot="public" virt="non-virtual"><scope>MediaTekDocuments::model::Utilisateur</scope><name>IdService</name></member>
+      <member refid="class_media_tek_documents_1_1model_1_1_utilisateur_1a705edee0d41873826a8cc024e48ff160" prot="public" virt="non-virtual"><scope>MediaTekDocuments::model::Utilisateur</scope><name>Libelle</name></member>
+      <member refid="class_media_tek_documents_1_1model_1_1_utilisateur_1a6be7649c30c8268db5af08c9bfebe4b7" prot="public" virt="non-virtual"><scope>MediaTekDocuments::model::Utilisateur</scope><name>Login</name></member>
+      <member refid="class_media_tek_documents_1_1model_1_1_utilisateur_1a157180f664809a12f4b148a83a2a44da" prot="public" virt="non-virtual"><scope>MediaTekDocuments::model::Utilisateur</scope><name>Password</name></member>
+      <member refid="class_media_tek_documents_1_1model_1_1_utilisateur_1a404f8e79d4d7bb1fd3946b49ed899dc8" prot="public" virt="non-virtual"><scope>MediaTekDocuments::model::Utilisateur</scope><name>Utilisateur</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

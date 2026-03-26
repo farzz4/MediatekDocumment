@@ -1,0 +1,1756 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_media_tek_documents_1_1dal_1_1_access" xml:lang="fr">
+<title>Référence de la classe MediaTekDocuments.dal.Access</title>
+<indexterm><primary>MediaTekDocuments.dal.Access</primary></indexterm>
+<para>
+
+<para>Classe d&apos;accès aux données. </para>
+ 
+</para>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_media_tek_documents_1_1dal_1_1_access_1_1_custom_date_time_converter">CustomDateTimeConverter</link></para>
+
+<para>Modification du convertisseur Json pour gérer le format de date. </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_media_tek_documents_1_1dal_1_1_access_1_1_custom_boolean_json_converter">CustomBooleanJsonConverter</link></para>
+
+<para>Modification du convertisseur Json pour prendre en compte les booléens classe trouvée sur le site : <link xlink:href="https://www.thecodebuzz.com/newtonsoft-jsonreaderexception-could-not-convert-string-to-boolean/">https://www.thecodebuzz.com/newtonsoft-jsonreaderexception-could-not-convert-string-to-boolean/</link>. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Fonctions membres publiques    </title>
+        <itemizedlist>
+            <listitem><para>List&lt; <link linkend="_class_media_tek_documents_1_1model_1_1_categorie">Categorie</link> &gt; <link linkend="_class_media_tek_documents_1_1dal_1_1_access_1a3c8e1bbfaf3e0332d27a69b3508c795d">GetAllGenres</link> ()</para>
+
+<para>Retourne tous les genres à partir de la BDD. </para>
+</listitem>
+            <listitem><para>List&lt; <link linkend="_class_media_tek_documents_1_1model_1_1_categorie">Categorie</link> &gt; <link linkend="_class_media_tek_documents_1_1dal_1_1_access_1abb34414355a628dd16b5f35876cf39e8">GetAllRayons</link> ()</para>
+
+<para>Retourne tous les rayons à partir de la BDD. </para>
+</listitem>
+            <listitem><para>List&lt; <link linkend="_class_media_tek_documents_1_1model_1_1_categorie">Categorie</link> &gt; <link linkend="_class_media_tek_documents_1_1dal_1_1_access_1aa666fcd51e2dd4ab7feff1271bc8daf5">GetAllPublics</link> ()</para>
+
+<para>Retourne toutes les catégories de public à partir de la BDD. </para>
+</listitem>
+            <listitem><para>List&lt; <link linkend="_class_media_tek_documents_1_1model_1_1_document">Document</link> &gt; <link linkend="_class_media_tek_documents_1_1dal_1_1_access_1adc618aad24e9f9cdd328068569c268e1">GetAllDocuments</link> ()</para>
+
+<para>Retourne tous les documents enregistrés dans la BDD. </para>
+</listitem>
+            <listitem><para>List&lt; <link linkend="_class_media_tek_documents_1_1model_1_1_livre">Livre</link> &gt; <link linkend="_class_media_tek_documents_1_1dal_1_1_access_1adb24fd5f8c6c4db3ad86fee64cc95ad1">GetAllLivres</link> ()</para>
+
+<para>Retourne toutes les livres à partir de la BDD. </para>
+</listitem>
+            <listitem><para>List&lt; <link linkend="_class_media_tek_documents_1_1model_1_1_dvd">Dvd</link> &gt; <link linkend="_class_media_tek_documents_1_1dal_1_1_access_1ad6e141fb3c8c28d381a62c76807f5f88">GetAllDvd</link> ()</para>
+
+<para>Retourne toutes les dvd à partir de la BDD. </para>
+</listitem>
+            <listitem><para>List&lt; <link linkend="_class_media_tek_documents_1_1model_1_1_revue">Revue</link> &gt; <link linkend="_class_media_tek_documents_1_1dal_1_1_access_1af878e9be72359a411c8c1ca458dedbe6">GetAllRevues</link> ()</para>
+
+<para>Retourne toutes les revues à partir de la BDD. </para>
+</listitem>
+            <listitem><para>List&lt; <link linkend="_class_media_tek_documents_1_1model_1_1_commande">Commande</link> &gt; <link linkend="_class_media_tek_documents_1_1dal_1_1_access_1ae0968c92e84ab93ca300f64a18cb4ccf">GetAllCommandes</link> ()</para>
+
+<para>Retourne toutes les commandes à partir de la BDD. </para>
+</listitem>
+            <listitem><para>List&lt; <link linkend="_class_media_tek_documents_1_1model_1_1_abonnement">Abonnement</link> &gt; <link linkend="_class_media_tek_documents_1_1dal_1_1_access_1ac05514ddc62fb86b8bf1619e88799ede">GetAllAbonnements</link> ()</para>
+
+<para>Retourne tous les abonnements à partir de la BDD. </para>
+</listitem>
+            <listitem><para>List&lt; <link linkend="_class_media_tek_documents_1_1model_1_1_suivi">Suivi</link> &gt; <link linkend="_class_media_tek_documents_1_1dal_1_1_access_1a1b492bdba43754305024e14502f2d7e8">GetAllSuivis</link> ()</para>
+
+<para>Retourne tous les suivis à partir de la BDD. </para>
+</listitem>
+            <listitem><para>List&lt; <link linkend="_class_media_tek_documents_1_1model_1_1_etat">Etat</link> &gt; <link linkend="_class_media_tek_documents_1_1dal_1_1_access_1a239e34ff75115e04b088047ee191b227">GetAllEtats</link> ()</para>
+
+<para>Retourne tous les états à partir de la BDD. </para>
+</listitem>
+            <listitem><para>List&lt; <link linkend="_class_media_tek_documents_1_1model_1_1_abonnement">Abonnement</link> &gt; <link linkend="_class_media_tek_documents_1_1dal_1_1_access_1a7a51aad05f2ea9ed89784c6748df62fb">GetAbonnementsEcheance</link> ()</para>
+
+<para>Retourne les abonnements arrivant à échéance. </para>
+</listitem>
+            <listitem><para>List&lt; <link linkend="_class_media_tek_documents_1_1model_1_1_exemplaire">Exemplaire</link> &gt; <link linkend="_class_media_tek_documents_1_1dal_1_1_access_1a8a22be0e93431c4462287ad25085e6e3">GetExemplairesRevue</link> (string idDocument)</para>
+
+<para>Retourne les exemplaires d&apos;une revue. </para>
+</listitem>
+            <listitem><para>List&lt; <link linkend="_class_media_tek_documents_1_1model_1_1_exemplaire">Exemplaire</link> &gt; <link linkend="_class_media_tek_documents_1_1dal_1_1_access_1aba7f27346c7a08f021d96c47c28f33ce">GetExemplairesDocument</link> (string idDocument)</para>
+
+<para>Retourne les exemplaires d&apos;un document. </para>
+</listitem>
+            <listitem><para>List&lt; <link linkend="_class_media_tek_documents_1_1model_1_1_commande_document">CommandeDocument</link> &gt; <link linkend="_class_media_tek_documents_1_1dal_1_1_access_1a90abc126e791e0fd09bc48d2b6b7889b">GetCommandesDocument</link> (string idDocument)</para>
+
+<para>Retourne les commandes d&apos;un document. </para>
+</listitem>
+            <listitem><para>List&lt; <link linkend="_class_media_tek_documents_1_1model_1_1_abonnement">Abonnement</link> &gt; <link linkend="_class_media_tek_documents_1_1dal_1_1_access_1a21a75d6c12400558511db240d9a25f4f">GetAbonnementsRevue</link> (string idDocument)</para>
+
+<para>Retourne les abonnements d&apos;une revue. </para>
+</listitem>
+            <listitem><para><link linkend="_class_media_tek_documents_1_1model_1_1_utilisateur">Utilisateur</link> <link linkend="_class_media_tek_documents_1_1dal_1_1_access_1ad07ebc1bcaffb386ab22e6764bdc7a54">GetUtilisateur</link> (string login, string password)</para>
+
+<para>Retourne l&apos;utilisateur associé au login et password. </para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_media_tek_documents_1_1dal_1_1_access_1a49b41a152a85598907cd41f50681dbe8">CreerExemplaire</link> (<link linkend="_class_media_tek_documents_1_1model_1_1_exemplaire">Exemplaire</link> exemplaire)</para>
+
+<para>ecriture d&apos;un exemplaire en base de données </para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_media_tek_documents_1_1dal_1_1_access_1a4198224ab0872f99170794e05c7499cb">CreerDocument</link> (string id, string titre, string image, string idRayon, string idPublic, string idGenre)</para>
+
+<para>ecriture d&apos;un document en base de données </para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_media_tek_documents_1_1dal_1_1_access_1afa6ce681c5ec2e23f978171f75983404">ModifierDocument</link> (string id, string titre, string image, string idRayon, string idPublic, string idGenre)</para>
+
+<para>Modification d&apos;un document en base de données. </para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_media_tek_documents_1_1dal_1_1_access_1a8ae9cf600edccd335f9b62d280116082">CreerLivre</link> (string id, string Isbn, string auteur, string collection)</para>
+
+<para>ecriture d&apos;un livre en base de données </para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_media_tek_documents_1_1dal_1_1_access_1ad3e38ffbc72e1ba2b5adba77f5bec26d">ModifierLivre</link> (string id, string Isbn, string auteur, string collection)</para>
+
+<para>Modification d&apos;un livre en base de données. </para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_media_tek_documents_1_1dal_1_1_access_1a87599fa034591aaf73e6639b5374b8c6">SupprimerLivre</link> (string id)</para>
+
+<para>Suppression d&apos;un livre en base de données. </para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_media_tek_documents_1_1dal_1_1_access_1a179f69f6440bbb96b87ef269e6787f73">CreerDvd</link> (string id, string synopsis, string realisateur, int duree)</para>
+
+<para>Ecriture d&apos;un dvd en base de données. </para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_media_tek_documents_1_1dal_1_1_access_1a24f45e3d99e5d5504afe35936be4ad6f">ModifierDvd</link> (string id, string synopsis, string realisateur, int duree)</para>
+
+<para>Modification d&apos;un dvd en base de données. </para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_media_tek_documents_1_1dal_1_1_access_1a7e6d31445e19ef226700f33c68befbcb">SupprimerDvd</link> (string id)</para>
+
+<para>Suppression d&apos;un dvd en base de données. </para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_media_tek_documents_1_1dal_1_1_access_1a1cc6a284c94538dd3dbc8001f850c440">CreerRevue</link> (string id, string periodicite, int delaiMiseADispo)</para>
+
+<para>Ecriture d&apos;une revue en base de données. </para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_media_tek_documents_1_1dal_1_1_access_1a809c51d6619478841d01226b65205453">ModifierRevue</link> (string id, string periodicite, int delaiMiseADispo)</para>
+
+<para>Modification d&apos;une revue en base de données. </para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_media_tek_documents_1_1dal_1_1_access_1a3cfc9a7afb50e5c2d5becb54829fa9fb">SupprimerRevue</link> (string id)</para>
+
+<para>Suppression d&apos;une revue en base de données. </para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_media_tek_documents_1_1dal_1_1_access_1a265380d0d35edb4e87c43312c51b72c4">CreerCommande</link> (<link linkend="_class_media_tek_documents_1_1model_1_1_commande">Commande</link> commande)</para>
+
+<para>Ecriture d&apos;une commande en base de données. </para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_media_tek_documents_1_1dal_1_1_access_1a46e6ae4d0b2ad59f55273a30fe51cb12">CreerCommandeDocument</link> (string id, int nbExemplaire, string idLivreDvd, string idSuivi)</para>
+
+<para>Ecriture d&apos;une commande d&apos;un document en base de données. </para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_media_tek_documents_1_1dal_1_1_access_1a6239f9b068f7b3baf2718871f0437502">ModifierSuiviCommandeDocument</link> (string id, string idSuivi)</para>
+
+<para>Modification du suivi d&apos;une commande dans la bdd. </para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_media_tek_documents_1_1dal_1_1_access_1a54bdf5ff46f2587904abb6849abd2ff2">SupprimerCommandeDocument</link> (string id)</para>
+
+<para>Suppression d&apos;une commande d&apos;un document en base de données. </para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_media_tek_documents_1_1dal_1_1_access_1ae681790c71a3495f6dd575507459a2a3">CreerAbonnementRevue</link> (string id, DateTime dateFinAbonnement, string idRevue)</para>
+
+<para>Ecriture d&apos;un abonnement d&apos;une revue en base de données. </para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_media_tek_documents_1_1dal_1_1_access_1ad20258d06be1d27b91df25da0ebb14be">SupprimerAbonnementRevue</link> (string id)</para>
+
+<para>Suppression d&apos;un abonnement d&apos;une revue en base de données. </para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_media_tek_documents_1_1dal_1_1_access_1a76b0a129db8401647275484ffb6ebe4c">ParutionDansAbonnement</link> (DateTime dateCommande, DateTime dateFinAbonnement, DateTime dateParution)</para>
+
+<para>Vérifier si une parution est associée à une commande donnée. </para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_media_tek_documents_1_1dal_1_1_access_1a035a5b819477ae0fe34e418d28e5fb0b">ModifierEtatExemplaireDocument</link> (<link linkend="_class_media_tek_documents_1_1model_1_1_exemplaire">Exemplaire</link> exemplaire)</para>
+
+<para>Modification de l&apos;état d&apos;un exemplaire d&apos;un document dans la bdd. </para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_media_tek_documents_1_1dal_1_1_access_1a8e4156b13056351bf5de9b89bd3c6140">SupprimerExemplaireDocument</link> (<link linkend="_class_media_tek_documents_1_1model_1_1_exemplaire">Exemplaire</link> exemplaire)</para>
+
+<para>Suppression d&apos;un exemplaire d&apos;un document en base de données. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Fonctions membres publiques statiques    </title>
+        <itemizedlist>
+            <listitem><para>static <link linkend="_class_media_tek_documents_1_1dal_1_1_access_1a188ec6815829c65c91bae6323d4f8f36">Access</link> <link linkend="_class_media_tek_documents_1_1dal_1_1_access_1a6d1fed556ce2c0a862d29b60f0d17a8f">GetInstance</link> ()</para>
+
+<para>Création et retour de l&apos;instance unique de la classe. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Fonctions membres privées    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_media_tek_documents_1_1dal_1_1_access_1a188ec6815829c65c91bae6323d4f8f36">Access</link> ()</para>
+
+<para>Méthode privée pour créer un singleton initialise l&apos;accès à l&apos;API. </para>
+</listitem>
+            <listitem><para>List&lt; T &gt; <link linkend="_class_media_tek_documents_1_1dal_1_1_access_1ac112326181ed1a7bcc250f772d478899">TraitementRecup&lt; T &gt;</link> (String methode, String message, String parametres)</para>
+
+<para>Traitement de la récupération du retour de l&apos;api, avec conversion du json en liste pour les select (GET). </para>
+</listitem>
+            <listitem><para>String <link linkend="_class_media_tek_documents_1_1dal_1_1_access_1a4f2357261937da12a1eadb5a789ee3d3">convertToJson</link> (Object nom, Object valeur)</para>
+
+<para>Convertit en json un couple nom/valeur. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Fonctions membres privées statiques    </title>
+        <itemizedlist>
+            <listitem><para>static string <link linkend="_class_media_tek_documents_1_1dal_1_1_access_1ab28f529d85608a6e1f82789c47d3bfb9">GetConnectionStringByName</link> (string name)</para>
+
+<para>Récupération de la chaîne de connexion. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Attributs privés    </title>
+        <itemizedlist>
+            <listitem><para>readonly <link linkend="_class_media_tek_documents_1_1manager_1_1_api_rest">ApiRest</link> <link linkend="_class_media_tek_documents_1_1dal_1_1_access_1a4cb677fc77aea66a12b04a0d383b1d17">api</link> = null</para>
+
+<para>instance de <link linkend="_class_media_tek_documents_1_1manager_1_1_api_rest">ApiRest</link> pour envoyer des demandes vers l&apos;api et recevoir la réponse </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Attributs privés statiques    </title>
+        <itemizedlist>
+            <listitem><para>static readonly string <link linkend="_class_media_tek_documents_1_1dal_1_1_access_1a4c5146388b3b6f8ce30d127f3c7d9e68">uriApi</link> = &quot;http://localhost/rest3/&quot;</para>
+
+<para>adresse de l&apos;API </para>
+</listitem>
+            <listitem><para>static readonly string <link linkend="_class_media_tek_documents_1_1dal_1_1_access_1a58c98b8a937a3f9f0a02ae267da65186">connectionName</link> = &quot;MediaTekDocuments.Properties.Settings.mediatek86ConnectionString&quot;</para>
+
+<para>nom de connexion à la bdd </para>
+</listitem>
+            <listitem><para>static <link linkend="_class_media_tek_documents_1_1dal_1_1_access_1a188ec6815829c65c91bae6323d4f8f36">Access</link> <link linkend="_class_media_tek_documents_1_1dal_1_1_access_1ac8c2e602f94b8e0563b0f36f781f8d5e">instance</link> = null</para>
+
+<para>instance unique de la classe </para>
+</listitem>
+            <listitem><para>const string <link linkend="_class_media_tek_documents_1_1dal_1_1_access_1ad6682bb3eac1a5526ccafd32c1dca4ae">GET</link> = &quot;GET&quot;</para>
+
+<para>méthode HTTP pour select </para>
+</listitem>
+            <listitem><para>const string <link linkend="_class_media_tek_documents_1_1dal_1_1_access_1a0c8a23f05664f0c0cdcd32b4be54b9ae">POST</link> = &quot;POST&quot;</para>
+
+<para>méthode HTTP pour insert </para>
+</listitem>
+            <listitem><para>const string <link linkend="_class_media_tek_documents_1_1dal_1_1_access_1a5dfa84c046b6f89ff6fc07a1cab759d0">PUT</link> = &quot;PUT&quot;</para>
+
+<para>méthode HTTP pour update </para>
+</listitem>
+            <listitem><para>const string <link linkend="_class_media_tek_documents_1_1dal_1_1_access_1a8ec5d8f374eef617254b3d66008b1805">DELETE</link> = &quot;DELETE&quot;</para>
+
+<para>méthode HTTP pour delete </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Description détaillée</title>
+
+<para>Classe d&apos;accès aux données. </para>
+</section>
+<section>
+<title>Documentation des constructeurs et destructeur</title>
+<anchor xml:id="_class_media_tek_documents_1_1dal_1_1_access_1a188ec6815829c65c91bae6323d4f8f36"/><section>
+    <title>Access()</title>
+<indexterm><primary>Access</primary><secondary>MediaTekDocuments.dal.Access</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.dal.Access</primary><secondary>Access</secondary></indexterm>
+<para><computeroutput>MediaTekDocuments.dal.Access.Access ( )<computeroutput>[private]</computeroutput></computeroutput></para><para>
+
+<para>Méthode privée pour créer un singleton initialise l&apos;accès à l&apos;API. </para>
+</para>
+</section>
+</section>
+<section>
+<title>Documentation des fonctions membres</title>
+<anchor xml:id="_class_media_tek_documents_1_1dal_1_1_access_1a4f2357261937da12a1eadb5a789ee3d3"/><section>
+    <title>convertToJson()</title>
+<indexterm><primary>convertToJson</primary><secondary>MediaTekDocuments.dal.Access</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.dal.Access</primary><secondary>convertToJson</secondary></indexterm>
+<para><computeroutput>String MediaTekDocuments.dal.Access.convertToJson (Object nom, Object valeur)<computeroutput>[private]</computeroutput></computeroutput></para><para>
+
+<para>Convertit en json un couple nom/valeur. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>nom</entry><entry></entry>
+                            </row>
+                            <row>
+<entry>valeur</entry><entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Renvoie</title>
+
+<para>couple au format json</para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1dal_1_1_access_1ae681790c71a3495f6dd575507459a2a3"/><section>
+    <title>CreerAbonnementRevue()</title>
+<indexterm><primary>CreerAbonnementRevue</primary><secondary>MediaTekDocuments.dal.Access</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.dal.Access</primary><secondary>CreerAbonnementRevue</secondary></indexterm>
+<para><computeroutput>bool MediaTekDocuments.dal.Access.CreerAbonnementRevue (string id, DateTime dateFinAbonnement, string idRevue)</computeroutput></para><para>
+
+<para>Ecriture d&apos;un abonnement d&apos;une revue en base de données. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>abonnement</entry><entry>
+<para><link linkend="_class_media_tek_documents_1_1model_1_1_abonnement">Abonnement</link> à insérer</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Renvoie</title>
+
+<para>true si l&apos;insertion a pu se faire</para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1dal_1_1_access_1a265380d0d35edb4e87c43312c51b72c4"/><section>
+    <title>CreerCommande()</title>
+<indexterm><primary>CreerCommande</primary><secondary>MediaTekDocuments.dal.Access</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.dal.Access</primary><secondary>CreerCommande</secondary></indexterm>
+<para><computeroutput>bool MediaTekDocuments.dal.Access.CreerCommande (<link linkend="_class_media_tek_documents_1_1model_1_1_commande">Commande</link> commande)</computeroutput></para><para>
+
+<para>Ecriture d&apos;une commande en base de données. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>commande</entry><entry>
+<para><link linkend="_class_media_tek_documents_1_1model_1_1_commande">Commande</link> à insérer</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Renvoie</title>
+
+<para>true si l&apos;insertion a pu se faire</para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1dal_1_1_access_1a46e6ae4d0b2ad59f55273a30fe51cb12"/><section>
+    <title>CreerCommandeDocument()</title>
+<indexterm><primary>CreerCommandeDocument</primary><secondary>MediaTekDocuments.dal.Access</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.dal.Access</primary><secondary>CreerCommandeDocument</secondary></indexterm>
+<para><computeroutput>bool MediaTekDocuments.dal.Access.CreerCommandeDocument (string id, int nbExemplaire, string idLivreDvd, string idSuivi)</computeroutput></para><para>
+
+<para>Ecriture d&apos;une commande d&apos;un document en base de données. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>id</entry><entry>
+<para>id de la commande</para>
+</entry>
+                            </row>
+                            <row>
+<entry>nbExemplaire</entry><entry>
+<para>nb d&apos;exemplaires de la commande</para>
+</entry>
+                            </row>
+                            <row>
+<entry>idLivreDvd</entry><entry>
+<para>id du livreDVD de la commande</para>
+</entry>
+                            </row>
+                            <row>
+<entry>idSuivi</entry><entry>
+<para>id du suivi de la commande </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Renvoie</title>
+
+<para>true si l&apos;insertion a pu se faire</para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1dal_1_1_access_1a4198224ab0872f99170794e05c7499cb"/><section>
+    <title>CreerDocument()</title>
+<indexterm><primary>CreerDocument</primary><secondary>MediaTekDocuments.dal.Access</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.dal.Access</primary><secondary>CreerDocument</secondary></indexterm>
+<para><computeroutput>bool MediaTekDocuments.dal.Access.CreerDocument (string id, string titre, string image, string idRayon, string idPublic, string idGenre)</computeroutput></para><para>
+
+<para>ecriture d&apos;un document en base de données </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>id</entry><entry>
+<para>id du documnent</para>
+</entry>
+                            </row>
+                            <row>
+<entry>titre</entry><entry>
+<para>titre du document</para>
+</entry>
+                            </row>
+                            <row>
+<entry>image</entry><entry>
+<para>image du document</para>
+</entry>
+                            </row>
+                            <row>
+<entry>idRayon</entry><entry>
+<para>id du rayon du document</para>
+</entry>
+                            </row>
+                            <row>
+<entry>idPublic</entry><entry>
+<para>id du public du document</para>
+</entry>
+                            </row>
+                            <row>
+<entry>idGenre</entry><entry>
+<para>id du genre du document</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Renvoie</title>
+
+<para>true si l&apos;insertion a pu se faire</para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1dal_1_1_access_1a179f69f6440bbb96b87ef269e6787f73"/><section>
+    <title>CreerDvd()</title>
+<indexterm><primary>CreerDvd</primary><secondary>MediaTekDocuments.dal.Access</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.dal.Access</primary><secondary>CreerDvd</secondary></indexterm>
+<para><computeroutput>bool MediaTekDocuments.dal.Access.CreerDvd (string id, string synopsis, string realisateur, int duree)</computeroutput></para><para>
+
+<para>Ecriture d&apos;un dvd en base de données. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>id</entry><entry>
+<para>id du dvd</para>
+</entry>
+                            </row>
+                            <row>
+<entry>synopsis</entry><entry>
+<para>synopsis du dvd</para>
+</entry>
+                            </row>
+                            <row>
+<entry>realisateur</entry><entry>
+<para>realisateur du dvd</para>
+</entry>
+                            </row>
+                            <row>
+<entry>duree</entry><entry>
+<para>duree du dvd</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Renvoie</title>
+
+<para>true si la création a pu se faire</para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1dal_1_1_access_1a49b41a152a85598907cd41f50681dbe8"/><section>
+    <title>CreerExemplaire()</title>
+<indexterm><primary>CreerExemplaire</primary><secondary>MediaTekDocuments.dal.Access</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.dal.Access</primary><secondary>CreerExemplaire</secondary></indexterm>
+<para><computeroutput>bool MediaTekDocuments.dal.Access.CreerExemplaire (<link linkend="_class_media_tek_documents_1_1model_1_1_exemplaire">Exemplaire</link> exemplaire)</computeroutput></para><para>
+
+<para>ecriture d&apos;un exemplaire en base de données </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>exemplaire</entry><entry>
+<para>exemplaire à insérer</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Renvoie</title>
+
+<para>true si l&apos;insertion a pu se faire (retour != null)</para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1dal_1_1_access_1a8ae9cf600edccd335f9b62d280116082"/><section>
+    <title>CreerLivre()</title>
+<indexterm><primary>CreerLivre</primary><secondary>MediaTekDocuments.dal.Access</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.dal.Access</primary><secondary>CreerLivre</secondary></indexterm>
+<para><computeroutput>bool MediaTekDocuments.dal.Access.CreerLivre (string id, string Isbn, string auteur, string collection)</computeroutput></para><para>
+
+<para>ecriture d&apos;un livre en base de données </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>id</entry><entry>
+<para>id du livre</para>
+</entry>
+                            </row>
+                            <row>
+<entry>Isbn</entry><entry>
+<para>isbn du livre</para>
+</entry>
+                            </row>
+                            <row>
+<entry>auteur</entry><entry>
+<para>auteur du livre</para>
+</entry>
+                            </row>
+                            <row>
+<entry>collection</entry><entry>
+<para>collection du livre</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Renvoie</title>
+
+<para>true si l&apos;insertion a pu se faire</para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1dal_1_1_access_1a1cc6a284c94538dd3dbc8001f850c440"/><section>
+    <title>CreerRevue()</title>
+<indexterm><primary>CreerRevue</primary><secondary>MediaTekDocuments.dal.Access</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.dal.Access</primary><secondary>CreerRevue</secondary></indexterm>
+<para><computeroutput>bool MediaTekDocuments.dal.Access.CreerRevue (string id, string periodicite, int delaiMiseADispo)</computeroutput></para><para>
+
+<para>Ecriture d&apos;une revue en base de données. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>id</entry><entry>
+<para>id de la revue</para>
+</entry>
+                            </row>
+                            <row>
+<entry>periodicite</entry><entry>
+<para>periodicité de la revue</para>
+</entry>
+                            </row>
+                            <row>
+<entry>delaiMiseADispo</entry><entry>
+<para>delai de mise à dispo de la revue</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Renvoie</title>
+
+<para>true si l&apos;insertion a pu se faire</para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1dal_1_1_access_1a7a51aad05f2ea9ed89784c6748df62fb"/><section>
+    <title>GetAbonnementsEcheance()</title>
+<indexterm><primary>GetAbonnementsEcheance</primary><secondary>MediaTekDocuments.dal.Access</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.dal.Access</primary><secondary>GetAbonnementsEcheance</secondary></indexterm>
+<para><computeroutput>List&lt; <link linkend="_class_media_tek_documents_1_1model_1_1_abonnement">Abonnement</link> &gt; MediaTekDocuments.dal.Access.GetAbonnementsEcheance ( )</computeroutput></para><para>
+
+<para>Retourne les abonnements arrivant à échéance. </para>
+</para>
+
+<para><formalpara><title>Renvoie</title>
+
+<para></para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1dal_1_1_access_1a21a75d6c12400558511db240d9a25f4f"/><section>
+    <title>GetAbonnementsRevue()</title>
+<indexterm><primary>GetAbonnementsRevue</primary><secondary>MediaTekDocuments.dal.Access</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.dal.Access</primary><secondary>GetAbonnementsRevue</secondary></indexterm>
+<para><computeroutput>List&lt; <link linkend="_class_media_tek_documents_1_1model_1_1_abonnement">Abonnement</link> &gt; MediaTekDocuments.dal.Access.GetAbonnementsRevue (string idDocument)</computeroutput></para><para>
+
+<para>Retourne les abonnements d&apos;une revue. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>idDocument</entry><entry>
+<para>id du document</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Renvoie</title>
+
+<para>List d&apos;objets <link linkend="_class_media_tek_documents_1_1model_1_1_abonnement">Abonnement</link></para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1dal_1_1_access_1ac05514ddc62fb86b8bf1619e88799ede"/><section>
+    <title>GetAllAbonnements()</title>
+<indexterm><primary>GetAllAbonnements</primary><secondary>MediaTekDocuments.dal.Access</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.dal.Access</primary><secondary>GetAllAbonnements</secondary></indexterm>
+<para><computeroutput>List&lt; <link linkend="_class_media_tek_documents_1_1model_1_1_abonnement">Abonnement</link> &gt; MediaTekDocuments.dal.Access.GetAllAbonnements ( )</computeroutput></para><para>
+
+<para>Retourne tous les abonnements à partir de la BDD. </para>
+</para>
+
+<para><formalpara><title>Renvoie</title>
+
+<para></para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1dal_1_1_access_1ae0968c92e84ab93ca300f64a18cb4ccf"/><section>
+    <title>GetAllCommandes()</title>
+<indexterm><primary>GetAllCommandes</primary><secondary>MediaTekDocuments.dal.Access</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.dal.Access</primary><secondary>GetAllCommandes</secondary></indexterm>
+<para><computeroutput>List&lt; <link linkend="_class_media_tek_documents_1_1model_1_1_commande">Commande</link> &gt; MediaTekDocuments.dal.Access.GetAllCommandes ( )</computeroutput></para><para>
+
+<para>Retourne toutes les commandes à partir de la BDD. </para>
+</para>
+
+<para><formalpara><title>Renvoie</title>
+
+<para>Liste d&apos;objets <link linkend="_class_media_tek_documents_1_1model_1_1_commande">Commande</link></para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1dal_1_1_access_1adc618aad24e9f9cdd328068569c268e1"/><section>
+    <title>GetAllDocuments()</title>
+<indexterm><primary>GetAllDocuments</primary><secondary>MediaTekDocuments.dal.Access</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.dal.Access</primary><secondary>GetAllDocuments</secondary></indexterm>
+<para><computeroutput>List&lt; <link linkend="_class_media_tek_documents_1_1model_1_1_document">Document</link> &gt; MediaTekDocuments.dal.Access.GetAllDocuments ( )</computeroutput></para><para>
+
+<para>Retourne tous les documents enregistrés dans la BDD. </para>
+</para>
+
+<para><formalpara><title>Renvoie</title>
+
+<para></para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1dal_1_1_access_1ad6e141fb3c8c28d381a62c76807f5f88"/><section>
+    <title>GetAllDvd()</title>
+<indexterm><primary>GetAllDvd</primary><secondary>MediaTekDocuments.dal.Access</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.dal.Access</primary><secondary>GetAllDvd</secondary></indexterm>
+<para><computeroutput>List&lt; <link linkend="_class_media_tek_documents_1_1model_1_1_dvd">Dvd</link> &gt; MediaTekDocuments.dal.Access.GetAllDvd ( )</computeroutput></para><para>
+
+<para>Retourne toutes les dvd à partir de la BDD. </para>
+</para>
+
+<para><formalpara><title>Renvoie</title>
+
+<para>Liste d&apos;objets <link linkend="_class_media_tek_documents_1_1model_1_1_dvd">Dvd</link></para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1dal_1_1_access_1a239e34ff75115e04b088047ee191b227"/><section>
+    <title>GetAllEtats()</title>
+<indexterm><primary>GetAllEtats</primary><secondary>MediaTekDocuments.dal.Access</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.dal.Access</primary><secondary>GetAllEtats</secondary></indexterm>
+<para><computeroutput>List&lt; <link linkend="_class_media_tek_documents_1_1model_1_1_etat">Etat</link> &gt; MediaTekDocuments.dal.Access.GetAllEtats ( )</computeroutput></para><para>
+
+<para>Retourne tous les états à partir de la BDD. </para>
+</para>
+
+<para><formalpara><title>Renvoie</title>
+
+<para>List d&apos;objets etats</para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1dal_1_1_access_1a3c8e1bbfaf3e0332d27a69b3508c795d"/><section>
+    <title>GetAllGenres()</title>
+<indexterm><primary>GetAllGenres</primary><secondary>MediaTekDocuments.dal.Access</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.dal.Access</primary><secondary>GetAllGenres</secondary></indexterm>
+<para><computeroutput>List&lt; <link linkend="_class_media_tek_documents_1_1model_1_1_categorie">Categorie</link> &gt; MediaTekDocuments.dal.Access.GetAllGenres ( )</computeroutput></para><para>
+
+<para>Retourne tous les genres à partir de la BDD. </para>
+</para>
+
+<para><formalpara><title>Renvoie</title>
+
+<para>Liste d&apos;objets <link linkend="_class_media_tek_documents_1_1model_1_1_genre">Genre</link></para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1dal_1_1_access_1adb24fd5f8c6c4db3ad86fee64cc95ad1"/><section>
+    <title>GetAllLivres()</title>
+<indexterm><primary>GetAllLivres</primary><secondary>MediaTekDocuments.dal.Access</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.dal.Access</primary><secondary>GetAllLivres</secondary></indexterm>
+<para><computeroutput>List&lt; <link linkend="_class_media_tek_documents_1_1model_1_1_livre">Livre</link> &gt; MediaTekDocuments.dal.Access.GetAllLivres ( )</computeroutput></para><para>
+
+<para>Retourne toutes les livres à partir de la BDD. </para>
+</para>
+
+<para><formalpara><title>Renvoie</title>
+
+<para>Liste d&apos;objets <link linkend="_class_media_tek_documents_1_1model_1_1_livre">Livre</link></para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1dal_1_1_access_1aa666fcd51e2dd4ab7feff1271bc8daf5"/><section>
+    <title>GetAllPublics()</title>
+<indexterm><primary>GetAllPublics</primary><secondary>MediaTekDocuments.dal.Access</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.dal.Access</primary><secondary>GetAllPublics</secondary></indexterm>
+<para><computeroutput>List&lt; <link linkend="_class_media_tek_documents_1_1model_1_1_categorie">Categorie</link> &gt; MediaTekDocuments.dal.Access.GetAllPublics ( )</computeroutput></para><para>
+
+<para>Retourne toutes les catégories de public à partir de la BDD. </para>
+</para>
+
+<para><formalpara><title>Renvoie</title>
+
+<para>Liste d&apos;objets <link linkend="_class_media_tek_documents_1_1model_1_1_public">Public</link></para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1dal_1_1_access_1abb34414355a628dd16b5f35876cf39e8"/><section>
+    <title>GetAllRayons()</title>
+<indexterm><primary>GetAllRayons</primary><secondary>MediaTekDocuments.dal.Access</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.dal.Access</primary><secondary>GetAllRayons</secondary></indexterm>
+<para><computeroutput>List&lt; <link linkend="_class_media_tek_documents_1_1model_1_1_categorie">Categorie</link> &gt; MediaTekDocuments.dal.Access.GetAllRayons ( )</computeroutput></para><para>
+
+<para>Retourne tous les rayons à partir de la BDD. </para>
+</para>
+
+<para><formalpara><title>Renvoie</title>
+
+<para>Liste d&apos;objets <link linkend="_class_media_tek_documents_1_1model_1_1_rayon">Rayon</link></para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1dal_1_1_access_1af878e9be72359a411c8c1ca458dedbe6"/><section>
+    <title>GetAllRevues()</title>
+<indexterm><primary>GetAllRevues</primary><secondary>MediaTekDocuments.dal.Access</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.dal.Access</primary><secondary>GetAllRevues</secondary></indexterm>
+<para><computeroutput>List&lt; <link linkend="_class_media_tek_documents_1_1model_1_1_revue">Revue</link> &gt; MediaTekDocuments.dal.Access.GetAllRevues ( )</computeroutput></para><para>
+
+<para>Retourne toutes les revues à partir de la BDD. </para>
+</para>
+
+<para><formalpara><title>Renvoie</title>
+
+<para>Liste d&apos;objets <link linkend="_class_media_tek_documents_1_1model_1_1_revue">Revue</link></para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1dal_1_1_access_1a1b492bdba43754305024e14502f2d7e8"/><section>
+    <title>GetAllSuivis()</title>
+<indexterm><primary>GetAllSuivis</primary><secondary>MediaTekDocuments.dal.Access</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.dal.Access</primary><secondary>GetAllSuivis</secondary></indexterm>
+<para><computeroutput>List&lt; <link linkend="_class_media_tek_documents_1_1model_1_1_suivi">Suivi</link> &gt; MediaTekDocuments.dal.Access.GetAllSuivis ( )</computeroutput></para><para>
+
+<para>Retourne tous les suivis à partir de la BDD. </para>
+</para>
+
+<para><formalpara><title>Renvoie</title>
+
+<para>List d&apos;objets suivi</para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1dal_1_1_access_1a90abc126e791e0fd09bc48d2b6b7889b"/><section>
+    <title>GetCommandesDocument()</title>
+<indexterm><primary>GetCommandesDocument</primary><secondary>MediaTekDocuments.dal.Access</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.dal.Access</primary><secondary>GetCommandesDocument</secondary></indexterm>
+<para><computeroutput>List&lt; <link linkend="_class_media_tek_documents_1_1model_1_1_commande_document">CommandeDocument</link> &gt; MediaTekDocuments.dal.Access.GetCommandesDocument (string idDocument)</computeroutput></para><para>
+
+<para>Retourne les commandes d&apos;un document. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>idDocument</entry><entry>
+<para>id du document</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Renvoie</title>
+
+<para>Liste d&apos;objets <link linkend="_class_media_tek_documents_1_1model_1_1_commande_document">CommandeDocument</link></para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1dal_1_1_access_1ab28f529d85608a6e1f82789c47d3bfb9"/><section>
+    <title>GetConnectionStringByName()</title>
+<indexterm><primary>GetConnectionStringByName</primary><secondary>MediaTekDocuments.dal.Access</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.dal.Access</primary><secondary>GetConnectionStringByName</secondary></indexterm>
+<para><computeroutput>string MediaTekDocuments.dal.Access.GetConnectionStringByName (string name)<computeroutput>[static]</computeroutput>, <computeroutput>[private]</computeroutput></computeroutput></para><para>
+
+<para>Récupération de la chaîne de connexion. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>name</entry><entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Renvoie</title>
+
+<para></para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1dal_1_1_access_1aba7f27346c7a08f021d96c47c28f33ce"/><section>
+    <title>GetExemplairesDocument()</title>
+<indexterm><primary>GetExemplairesDocument</primary><secondary>MediaTekDocuments.dal.Access</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.dal.Access</primary><secondary>GetExemplairesDocument</secondary></indexterm>
+<para><computeroutput>List&lt; <link linkend="_class_media_tek_documents_1_1model_1_1_exemplaire">Exemplaire</link> &gt; MediaTekDocuments.dal.Access.GetExemplairesDocument (string idDocument)</computeroutput></para><para>
+
+<para>Retourne les exemplaires d&apos;un document. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>idDocument</entry><entry>
+<para>id du document concerné</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Renvoie</title>
+
+<para>Liste d&apos;objets <link linkend="_class_media_tek_documents_1_1model_1_1_exemplaire">Exemplaire</link></para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1dal_1_1_access_1a8a22be0e93431c4462287ad25085e6e3"/><section>
+    <title>GetExemplairesRevue()</title>
+<indexterm><primary>GetExemplairesRevue</primary><secondary>MediaTekDocuments.dal.Access</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.dal.Access</primary><secondary>GetExemplairesRevue</secondary></indexterm>
+<para><computeroutput>List&lt; <link linkend="_class_media_tek_documents_1_1model_1_1_exemplaire">Exemplaire</link> &gt; MediaTekDocuments.dal.Access.GetExemplairesRevue (string idDocument)</computeroutput></para><para>
+
+<para>Retourne les exemplaires d&apos;une revue. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>idDocument</entry><entry>
+<para>id de la revue concernée</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Renvoie</title>
+
+<para>Liste d&apos;objets <link linkend="_class_media_tek_documents_1_1model_1_1_exemplaire">Exemplaire</link></para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1dal_1_1_access_1a6d1fed556ce2c0a862d29b60f0d17a8f"/><section>
+    <title>GetInstance()</title>
+<indexterm><primary>GetInstance</primary><secondary>MediaTekDocuments.dal.Access</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.dal.Access</primary><secondary>GetInstance</secondary></indexterm>
+<para><computeroutput><link linkend="_class_media_tek_documents_1_1dal_1_1_access_1a188ec6815829c65c91bae6323d4f8f36">Access</link> MediaTekDocuments.dal.Access.GetInstance ( )<computeroutput>[static]</computeroutput></computeroutput></para><para>
+
+<para>Création et retour de l&apos;instance unique de la classe. </para>
+</para>
+
+<para><formalpara><title>Renvoie</title>
+
+<para>instance unique de la classe</para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1dal_1_1_access_1ad07ebc1bcaffb386ab22e6764bdc7a54"/><section>
+    <title>GetUtilisateur()</title>
+<indexterm><primary>GetUtilisateur</primary><secondary>MediaTekDocuments.dal.Access</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.dal.Access</primary><secondary>GetUtilisateur</secondary></indexterm>
+<para><computeroutput><link linkend="_class_media_tek_documents_1_1model_1_1_utilisateur">Utilisateur</link> MediaTekDocuments.dal.Access.GetUtilisateur (string login, string password)</computeroutput></para><para>
+
+<para>Retourne l&apos;utilisateur associé au login et password. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>login</entry><entry>
+<para>login de l&apos;utilisateur cherché</para>
+</entry>
+                            </row>
+                            <row>
+<entry>password</entry><entry>
+<para>password de l&apos;utilisateur cherché</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Renvoie</title>
+
+<para>Objet utilisateur</para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1dal_1_1_access_1afa6ce681c5ec2e23f978171f75983404"/><section>
+    <title>ModifierDocument()</title>
+<indexterm><primary>ModifierDocument</primary><secondary>MediaTekDocuments.dal.Access</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.dal.Access</primary><secondary>ModifierDocument</secondary></indexterm>
+<para><computeroutput>bool MediaTekDocuments.dal.Access.ModifierDocument (string id, string titre, string image, string idRayon, string idPublic, string idGenre)</computeroutput></para><para>
+
+<para>Modification d&apos;un document en base de données. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>id</entry><entry>
+<para>id du document</para>
+</entry>
+                            </row>
+                            <row>
+<entry>titre</entry><entry>
+<para>titre du documnent</para>
+</entry>
+                            </row>
+                            <row>
+<entry>image</entry><entry>
+<para>image du document</para>
+</entry>
+                            </row>
+                            <row>
+<entry>idRayon</entry><entry>
+<para>id du rayon du document</para>
+</entry>
+                            </row>
+                            <row>
+<entry>idPublic</entry><entry>
+<para>id du public du document</para>
+</entry>
+                            </row>
+                            <row>
+<entry>idGenre</entry><entry>
+<para>id du genre du document</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Renvoie</title>
+
+<para>true si la modification a pu se faire</para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1dal_1_1_access_1a24f45e3d99e5d5504afe35936be4ad6f"/><section>
+    <title>ModifierDvd()</title>
+<indexterm><primary>ModifierDvd</primary><secondary>MediaTekDocuments.dal.Access</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.dal.Access</primary><secondary>ModifierDvd</secondary></indexterm>
+<para><computeroutput>bool MediaTekDocuments.dal.Access.ModifierDvd (string id, string synopsis, string realisateur, int duree)</computeroutput></para><para>
+
+<para>Modification d&apos;un dvd en base de données. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>id</entry><entry>
+<para>id du dvd</para>
+</entry>
+                            </row>
+                            <row>
+<entry>synopsis</entry><entry>
+<para>synopsis du dvd</para>
+</entry>
+                            </row>
+                            <row>
+<entry>realisateur</entry><entry>
+<para>realisateur du dvd</para>
+</entry>
+                            </row>
+                            <row>
+<entry>duree</entry><entry>
+<para>duree du dvd</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Renvoie</title>
+
+<para>true si la modification a pu se faire</para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1dal_1_1_access_1a035a5b819477ae0fe34e418d28e5fb0b"/><section>
+    <title>ModifierEtatExemplaireDocument()</title>
+<indexterm><primary>ModifierEtatExemplaireDocument</primary><secondary>MediaTekDocuments.dal.Access</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.dal.Access</primary><secondary>ModifierEtatExemplaireDocument</secondary></indexterm>
+<para><computeroutput>bool MediaTekDocuments.dal.Access.ModifierEtatExemplaireDocument (<link linkend="_class_media_tek_documents_1_1model_1_1_exemplaire">Exemplaire</link> exemplaire)</computeroutput></para><para>
+
+<para>Modification de l&apos;état d&apos;un exemplaire d&apos;un document dans la bdd. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>numero</entry><entry>
+<para>numero du document</para>
+</entry>
+                            </row>
+                            <row>
+<entry>idEtat</entry><entry>
+<para>id de l&apos;état à modifier</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Renvoie</title>
+
+<para>true si la modification a puse faire</para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1dal_1_1_access_1ad3e38ffbc72e1ba2b5adba77f5bec26d"/><section>
+    <title>ModifierLivre()</title>
+<indexterm><primary>ModifierLivre</primary><secondary>MediaTekDocuments.dal.Access</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.dal.Access</primary><secondary>ModifierLivre</secondary></indexterm>
+<para><computeroutput>bool MediaTekDocuments.dal.Access.ModifierLivre (string id, string Isbn, string auteur, string collection)</computeroutput></para><para>
+
+<para>Modification d&apos;un livre en base de données. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>id</entry><entry>
+<para>id du livre</para>
+</entry>
+                            </row>
+                            <row>
+<entry>Isbn</entry><entry>
+<para>isbn du livre</para>
+</entry>
+                            </row>
+                            <row>
+<entry>auteur</entry><entry>
+<para>auteur du livre</para>
+</entry>
+                            </row>
+                            <row>
+<entry>collection</entry><entry>
+<para>collection du livre</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Renvoie</title>
+
+<para></para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1dal_1_1_access_1a809c51d6619478841d01226b65205453"/><section>
+    <title>ModifierRevue()</title>
+<indexterm><primary>ModifierRevue</primary><secondary>MediaTekDocuments.dal.Access</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.dal.Access</primary><secondary>ModifierRevue</secondary></indexterm>
+<para><computeroutput>bool MediaTekDocuments.dal.Access.ModifierRevue (string id, string periodicite, int delaiMiseADispo)</computeroutput></para><para>
+
+<para>Modification d&apos;une revue en base de données. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>id</entry><entry>
+<para>id de la revue</para>
+</entry>
+                            </row>
+                            <row>
+<entry>periodicite</entry><entry>
+<para>periodicite de la revue</para>
+</entry>
+                            </row>
+                            <row>
+<entry>delaiMiseADispo</entry><entry>
+<para>delai de mise à dispo de la revue</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Renvoie</title>
+
+<para>true si la modification a pu se faire</para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1dal_1_1_access_1a6239f9b068f7b3baf2718871f0437502"/><section>
+    <title>ModifierSuiviCommandeDocument()</title>
+<indexterm><primary>ModifierSuiviCommandeDocument</primary><secondary>MediaTekDocuments.dal.Access</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.dal.Access</primary><secondary>ModifierSuiviCommandeDocument</secondary></indexterm>
+<para><computeroutput>bool MediaTekDocuments.dal.Access.ModifierSuiviCommandeDocument (string id, string idSuivi)</computeroutput></para><para>
+
+<para>Modification du suivi d&apos;une commande dans la bdd. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>id</entry><entry>
+<para>id du nouveau suivi</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Renvoie</title>
+
+<para>true si la modification a pu se faire</para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1dal_1_1_access_1a76b0a129db8401647275484ffb6ebe4c"/><section>
+    <title>ParutionDansAbonnement()</title>
+<indexterm><primary>ParutionDansAbonnement</primary><secondary>MediaTekDocuments.dal.Access</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.dal.Access</primary><secondary>ParutionDansAbonnement</secondary></indexterm>
+<para><computeroutput>bool MediaTekDocuments.dal.Access.ParutionDansAbonnement (DateTime dateCommande, DateTime dateFinAbonnement, DateTime dateParution)</computeroutput></para><para>
+
+<para>Vérifier si une parution est associée à une commande donnée. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>dateCommande</entry><entry>
+<para>date de la commande</para>
+</entry>
+                            </row>
+                            <row>
+<entry>dateFinAbonnement</entry><entry>
+<para>date de fin de l&apos;abonnement</para>
+</entry>
+                            </row>
+                            <row>
+<entry>dateParution</entry><entry>
+<para>date de parution de la revue</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Renvoie</title>
+
+<para>true si la date de parution est entre les 2 autres dates</para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1dal_1_1_access_1ad20258d06be1d27b91df25da0ebb14be"/><section>
+    <title>SupprimerAbonnementRevue()</title>
+<indexterm><primary>SupprimerAbonnementRevue</primary><secondary>MediaTekDocuments.dal.Access</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.dal.Access</primary><secondary>SupprimerAbonnementRevue</secondary></indexterm>
+<para><computeroutput>bool MediaTekDocuments.dal.Access.SupprimerAbonnementRevue (string id)</computeroutput></para><para>
+
+<para>Suppression d&apos;un abonnement d&apos;une revue en base de données. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>id</entry><entry>
+<para>id de l&apos;abonnement</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Renvoie</title>
+
+<para>true si la suppression a pu se faire</para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1dal_1_1_access_1a54bdf5ff46f2587904abb6849abd2ff2"/><section>
+    <title>SupprimerCommandeDocument()</title>
+<indexterm><primary>SupprimerCommandeDocument</primary><secondary>MediaTekDocuments.dal.Access</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.dal.Access</primary><secondary>SupprimerCommandeDocument</secondary></indexterm>
+<para><computeroutput>bool MediaTekDocuments.dal.Access.SupprimerCommandeDocument (string id)</computeroutput></para><para>
+
+<para>Suppression d&apos;une commande d&apos;un document en base de données. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>id</entry><entry>
+<para>id de la commande</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Renvoie</title>
+
+<para>true si la suppression a pu se faire</para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1dal_1_1_access_1a7e6d31445e19ef226700f33c68befbcb"/><section>
+    <title>SupprimerDvd()</title>
+<indexterm><primary>SupprimerDvd</primary><secondary>MediaTekDocuments.dal.Access</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.dal.Access</primary><secondary>SupprimerDvd</secondary></indexterm>
+<para><computeroutput>bool MediaTekDocuments.dal.Access.SupprimerDvd (string id)</computeroutput></para><para>
+
+<para>Suppression d&apos;un dvd en base de données. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>id</entry><entry>
+<para>id du dvd</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Renvoie</title>
+
+<para>true si la suppression a pu se faire</para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1dal_1_1_access_1a8e4156b13056351bf5de9b89bd3c6140"/><section>
+    <title>SupprimerExemplaireDocument()</title>
+<indexterm><primary>SupprimerExemplaireDocument</primary><secondary>MediaTekDocuments.dal.Access</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.dal.Access</primary><secondary>SupprimerExemplaireDocument</secondary></indexterm>
+<para><computeroutput>bool MediaTekDocuments.dal.Access.SupprimerExemplaireDocument (<link linkend="_class_media_tek_documents_1_1model_1_1_exemplaire">Exemplaire</link> exemplaire)</computeroutput></para><para>
+
+<para>Suppression d&apos;un exemplaire d&apos;un document en base de données. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>exemplaire</entry><entry>
+<para>Objet exemplaire à supprimer</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Renvoie</title>
+
+<para>true si la suppression a pu se faire</para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1dal_1_1_access_1a87599fa034591aaf73e6639b5374b8c6"/><section>
+    <title>SupprimerLivre()</title>
+<indexterm><primary>SupprimerLivre</primary><secondary>MediaTekDocuments.dal.Access</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.dal.Access</primary><secondary>SupprimerLivre</secondary></indexterm>
+<para><computeroutput>bool MediaTekDocuments.dal.Access.SupprimerLivre (string id)</computeroutput></para><para>
+
+<para>Suppression d&apos;un livre en base de données. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>id</entry><entry>
+<para>id du livre</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Renvoie</title>
+
+<para>true si la suppression a pu se faire</para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1dal_1_1_access_1a3cfc9a7afb50e5c2d5becb54829fa9fb"/><section>
+    <title>SupprimerRevue()</title>
+<indexterm><primary>SupprimerRevue</primary><secondary>MediaTekDocuments.dal.Access</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.dal.Access</primary><secondary>SupprimerRevue</secondary></indexterm>
+<para><computeroutput>bool MediaTekDocuments.dal.Access.SupprimerRevue (string id)</computeroutput></para><para>
+
+<para>Suppression d&apos;une revue en base de données. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>id</entry><entry>
+<para>id de la revue</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Renvoie</title>
+
+<para>true si la suppression a pu se faire</para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1dal_1_1_access_1ac112326181ed1a7bcc250f772d478899"/><section>
+    <title>TraitementRecup&lt; T &gt;()</title>
+<indexterm><primary>TraitementRecup&lt; T &gt;</primary><secondary>MediaTekDocuments.dal.Access</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.dal.Access</primary><secondary>TraitementRecup&lt; T &gt;</secondary></indexterm>
+<para><computeroutput>List&lt; T &gt; MediaTekDocuments.dal.Access.TraitementRecup&lt; T &gt; (String methode, String message, String parametres)<computeroutput>[private]</computeroutput></computeroutput></para><para>
+
+<para>Traitement de la récupération du retour de l&apos;api, avec conversion du json en liste pour les select (GET). </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres du template</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>T</entry><entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>methode</entry><entry>
+<para>verbe HTTP (GET, POST, PUT, DELETE)</para>
+</entry>
+                            </row>
+                            <row>
+<entry>message</entry><entry>
+<para>information envoyée dans l&apos;url</para>
+</entry>
+                            </row>
+                            <row>
+<entry>parametres</entry><entry>
+<para>paramètres à envoyer dans le body, au format &quot;chp1=val1&amp;chp2=val2&amp;...&quot;</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Renvoie</title>
+
+<para>liste d&apos;objets récupérés (ou liste vide)</para>
+</formalpara>
+</para>
+</section>
+</section>
+<section>
+<title>Documentation des données membres</title>
+<anchor xml:id="_class_media_tek_documents_1_1dal_1_1_access_1a4cb677fc77aea66a12b04a0d383b1d17"/><section>
+    <title>api</title>
+<indexterm><primary>api</primary><secondary>MediaTekDocuments.dal.Access</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.dal.Access</primary><secondary>api</secondary></indexterm>
+<para><computeroutput>readonly <link linkend="_class_media_tek_documents_1_1manager_1_1_api_rest">ApiRest</link> MediaTekDocuments.dal.Access.api = null<computeroutput>[private]</computeroutput></computeroutput></para><para>
+
+<para>instance de <link linkend="_class_media_tek_documents_1_1manager_1_1_api_rest">ApiRest</link> pour envoyer des demandes vers l&apos;api et recevoir la réponse </para>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1dal_1_1_access_1a58c98b8a937a3f9f0a02ae267da65186"/><section>
+    <title>connectionName</title>
+<indexterm><primary>connectionName</primary><secondary>MediaTekDocuments.dal.Access</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.dal.Access</primary><secondary>connectionName</secondary></indexterm>
+<para><computeroutput>readonly string MediaTekDocuments.dal.Access.connectionName = &quot;MediaTekDocuments.Properties.Settings.mediatek86ConnectionString&quot;<computeroutput>[static]</computeroutput>, <computeroutput>[private]</computeroutput></computeroutput></para><para>
+
+<para>nom de connexion à la bdd </para>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1dal_1_1_access_1a8ec5d8f374eef617254b3d66008b1805"/><section>
+    <title>DELETE</title>
+<indexterm><primary>DELETE</primary><secondary>MediaTekDocuments.dal.Access</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.dal.Access</primary><secondary>DELETE</secondary></indexterm>
+<para><computeroutput>const string MediaTekDocuments.dal.Access.DELETE = &quot;DELETE&quot;<computeroutput>[static]</computeroutput>, <computeroutput>[private]</computeroutput></computeroutput></para><para>
+
+<para>méthode HTTP pour delete </para>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1dal_1_1_access_1ad6682bb3eac1a5526ccafd32c1dca4ae"/><section>
+    <title>GET</title>
+<indexterm><primary>GET</primary><secondary>MediaTekDocuments.dal.Access</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.dal.Access</primary><secondary>GET</secondary></indexterm>
+<para><computeroutput>const string MediaTekDocuments.dal.Access.GET = &quot;GET&quot;<computeroutput>[static]</computeroutput>, <computeroutput>[private]</computeroutput></computeroutput></para><para>
+
+<para>méthode HTTP pour select </para>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1dal_1_1_access_1ac8c2e602f94b8e0563b0f36f781f8d5e"/><section>
+    <title>instance</title>
+<indexterm><primary>instance</primary><secondary>MediaTekDocuments.dal.Access</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.dal.Access</primary><secondary>instance</secondary></indexterm>
+<para><computeroutput><link linkend="_class_media_tek_documents_1_1dal_1_1_access_1a188ec6815829c65c91bae6323d4f8f36">Access</link> MediaTekDocuments.dal.Access.instance = null<computeroutput>[static]</computeroutput>, <computeroutput>[private]</computeroutput></computeroutput></para><para>
+
+<para>instance unique de la classe </para>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1dal_1_1_access_1a0c8a23f05664f0c0cdcd32b4be54b9ae"/><section>
+    <title>POST</title>
+<indexterm><primary>POST</primary><secondary>MediaTekDocuments.dal.Access</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.dal.Access</primary><secondary>POST</secondary></indexterm>
+<para><computeroutput>const string MediaTekDocuments.dal.Access.POST = &quot;POST&quot;<computeroutput>[static]</computeroutput>, <computeroutput>[private]</computeroutput></computeroutput></para><para>
+
+<para>méthode HTTP pour insert </para>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1dal_1_1_access_1a5dfa84c046b6f89ff6fc07a1cab759d0"/><section>
+    <title>PUT</title>
+<indexterm><primary>PUT</primary><secondary>MediaTekDocuments.dal.Access</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.dal.Access</primary><secondary>PUT</secondary></indexterm>
+<para><computeroutput>const string MediaTekDocuments.dal.Access.PUT = &quot;PUT&quot;<computeroutput>[static]</computeroutput>, <computeroutput>[private]</computeroutput></computeroutput></para><para>
+
+<para>méthode HTTP pour update </para>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1dal_1_1_access_1a4c5146388b3b6f8ce30d127f3c7d9e68"/><section>
+    <title>uriApi</title>
+<indexterm><primary>uriApi</primary><secondary>MediaTekDocuments.dal.Access</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.dal.Access</primary><secondary>uriApi</secondary></indexterm>
+<para><computeroutput>readonly string MediaTekDocuments.dal.Access.uriApi = &quot;http://localhost/rest3/&quot;<computeroutput>[static]</computeroutput>, <computeroutput>[private]</computeroutput></computeroutput></para><para>
+
+<para>adresse de l&apos;API </para>
+</para>
+</section>
+<para>
+La documentation de cette classe a été générée à partir du fichier suivant :</para>
+dal/<link linkend="__access_8cs">Access.cs</link></section>
+</section>

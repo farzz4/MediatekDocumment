@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_3f14f6767c31cb4a1d22c13c18cc6fc3" xml:lang="fr">
+<title>Répertoire de référence de model</title>
+<indexterm><primary>Répertoire de référence de model</primary></indexterm>
+<simplesect>
+    <title>Fichiers    </title>
+        <itemizedlist>
+            <listitem><para>fichier <link linkend="__abonnement_8cs">Abonnement.cs</link></para>
+</listitem>
+            <listitem><para>fichier <link linkend="__categorie_8cs">Categorie.cs</link></para>
+</listitem>
+            <listitem><para>fichier <link linkend="__commande_8cs">Commande.cs</link></para>
+</listitem>
+            <listitem><para>fichier <link linkend="__commande_document_8cs">CommandeDocument.cs</link></para>
+</listitem>
+            <listitem><para>fichier <link linkend="__document_8cs">Document.cs</link></para>
+</listitem>
+            <listitem><para>fichier <link linkend="__dvd_8cs">Dvd.cs</link></para>
+</listitem>
+            <listitem><para>fichier <link linkend="__etat_8cs">Etat.cs</link></para>
+</listitem>
+            <listitem><para>fichier <link linkend="__exemplaire_8cs">Exemplaire.cs</link></para>
+</listitem>
+            <listitem><para>fichier <link linkend="__genre_8cs">Genre.cs</link></para>
+</listitem>
+            <listitem><para>fichier <link linkend="__livre_8cs">Livre.cs</link></para>
+</listitem>
+            <listitem><para>fichier <link linkend="__livre_dvd_8cs">LivreDvd.cs</link></para>
+</listitem>
+            <listitem><para>fichier <link linkend="__public_8cs">Public.cs</link></para>
+</listitem>
+            <listitem><para>fichier <link linkend="__rayon_8cs">Rayon.cs</link></para>
+</listitem>
+            <listitem><para>fichier <link linkend="__revue_8cs">Revue.cs</link></para>
+</listitem>
+            <listitem><para>fichier <link linkend="__service_8cs">Service.cs</link></para>
+</listitem>
+            <listitem><para>fichier <link linkend="__suivi_8cs">Suivi.cs</link></para>
+</listitem>
+            <listitem><para>fichier <link linkend="__utilisateur_8cs">Utilisateur.cs</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="fr">
+  <compounddef id="namespace_media_tek_documents_1_1model" kind="namespace" language="C#">
+    <compoundname>MediaTekDocuments::model</compoundname>
+    <innerclass refid="class_media_tek_documents_1_1model_1_1_abonnement" prot="public">MediaTekDocuments::model::Abonnement</innerclass>
+    <innerclass refid="class_media_tek_documents_1_1model_1_1_categorie" prot="public">MediaTekDocuments::model::Categorie</innerclass>
+    <innerclass refid="class_media_tek_documents_1_1model_1_1_commande" prot="public">MediaTekDocuments::model::Commande</innerclass>
+    <innerclass refid="class_media_tek_documents_1_1model_1_1_commande_document" prot="public">MediaTekDocuments::model::CommandeDocument</innerclass>
+    <innerclass refid="class_media_tek_documents_1_1model_1_1_document" prot="public">MediaTekDocuments::model::Document</innerclass>
+    <innerclass refid="class_media_tek_documents_1_1model_1_1_dvd" prot="public">MediaTekDocuments::model::Dvd</innerclass>
+    <innerclass refid="class_media_tek_documents_1_1model_1_1_etat" prot="public">MediaTekDocuments::model::Etat</innerclass>
+    <innerclass refid="class_media_tek_documents_1_1model_1_1_exemplaire" prot="public">MediaTekDocuments::model::Exemplaire</innerclass>
+    <innerclass refid="class_media_tek_documents_1_1model_1_1_genre" prot="public">MediaTekDocuments::model::Genre</innerclass>
+    <innerclass refid="class_media_tek_documents_1_1model_1_1_livre" prot="public">MediaTekDocuments::model::Livre</innerclass>
+    <innerclass refid="class_media_tek_documents_1_1model_1_1_livre_dvd" prot="public">MediaTekDocuments::model::LivreDvd</innerclass>
+    <innerclass refid="class_media_tek_documents_1_1model_1_1_public" prot="public">MediaTekDocuments::model::Public</innerclass>
+    <innerclass refid="class_media_tek_documents_1_1model_1_1_rayon" prot="public">MediaTekDocuments::model::Rayon</innerclass>
+    <innerclass refid="class_media_tek_documents_1_1model_1_1_revue" prot="public">MediaTekDocuments::model::Revue</innerclass>
+    <innerclass refid="class_media_tek_documents_1_1model_1_1_service" prot="public">MediaTekDocuments::model::Service</innerclass>
+    <innerclass refid="class_media_tek_documents_1_1model_1_1_suivi" prot="public">MediaTekDocuments::model::Suivi</innerclass>
+    <innerclass refid="class_media_tek_documents_1_1model_1_1_utilisateur" prot="public">MediaTekDocuments::model::Utilisateur</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="model/Abonnement.cs" line="7" column="1"/>
+  </compounddef>
+</doxygen>

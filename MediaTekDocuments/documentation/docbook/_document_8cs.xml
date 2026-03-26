@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__document_8cs" xml:lang="fr">
+<title>Référence du fichier model/Document.cs</title>
+<indexterm><primary>model/Document.cs</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_media_tek_documents_1_1model_1_1_document">MediaTekDocuments.model.Document</link></para>
+
+<para>Classe métier <link linkend="_class_media_tek_documents_1_1model_1_1_document">Document</link> (réunit les infomations communes à tous les documents : <link linkend="_class_media_tek_documents_1_1model_1_1_livre">Livre</link>, <link linkend="_class_media_tek_documents_1_1model_1_1_revue">Revue</link>, <link linkend="_class_media_tek_documents_1_1model_1_1_dvd">Dvd</link>). </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Espaces de nommage    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespace_media_tek_documents">MediaTekDocuments</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespace_media_tek_documents_1_1model">MediaTekDocuments.model</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

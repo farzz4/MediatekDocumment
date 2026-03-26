@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_media_tek_documents_1_1model_1_1_commande_document" xml:lang="fr">
+<title>Référence de la classe MediaTekDocuments.model.CommandeDocument</title>
+<indexterm><primary>MediaTekDocuments.model.CommandeDocument</primary></indexterm>
+<para>
+
+<para>Classe métier <link linkend="_class_media_tek_documents_1_1model_1_1_commande_document">CommandeDocument</link>. </para>
+ 
+</para>
+<para>Graphe d&apos;héritage de MediaTekDocuments.model.CommandeDocument:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_media_tek_documents_1_1model_1_1_commande_document.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Fonctions membres publiques    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_media_tek_documents_1_1model_1_1_commande_document_1a1192272583c1b05dcddab2a2d2606264">CommandeDocument</link> (string id, DateTime dateCommande, double montant, int nbExemplaire, string idLivreDvd, string idSuivi, string libelle)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+Fonctions membres publiques hérités de <link linkend="_class_media_tek_documents_1_1model_1_1_commande">MediaTekDocuments.model.Commande</link>        <itemizedlist>
+            <listitem><para><link linkend="_class_media_tek_documents_1_1model_1_1_commande_1ad7abbd5d27307c467b75e4e3f41097e6">Commande</link> (string id, DateTime dateCommande, double montant)</para>
+</listitem>
+        </itemizedlist>
+<simplesect>
+    <title>Propriétés    </title>
+        <itemizedlist>
+            <listitem><para>int <link linkend="_class_media_tek_documents_1_1model_1_1_commande_document_1a9c7fea5a10d02c32b2c6de200e9c4c29">NbExemplaire</link><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_media_tek_documents_1_1model_1_1_commande_document_1a5b614cdc0404c0abb53da5570bbc33bf">IdLivreDvd</link><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_media_tek_documents_1_1model_1_1_commande_document_1a0f47db6bf8c02e2b3ae6840ccbcd9530">IdSuivi</link><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_media_tek_documents_1_1model_1_1_commande_document_1a393dadf2237a96220619f8648496f2ec">Libelle</link><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+Propriétés hérités de <link linkend="_class_media_tek_documents_1_1model_1_1_commande">MediaTekDocuments.model.Commande</link>        <itemizedlist>
+            <listitem><para>string <link linkend="_class_media_tek_documents_1_1model_1_1_commande_1af40f3cebd61db3b07c5a67cfaab6a543">Id</link><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>DateTime <link linkend="_class_media_tek_documents_1_1model_1_1_commande_1ac0d0f36c146895da4ba30a1a03c72ff3">DateCommande</link><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>double <link linkend="_class_media_tek_documents_1_1model_1_1_commande_1ab960542350c24d0df2987072c9d547a8">Montant</link><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+<section>
+<title>Description détaillée</title>
+
+<para>Classe métier <link linkend="_class_media_tek_documents_1_1model_1_1_commande_document">CommandeDocument</link>. </para>
+</section>
+<section>
+<title>Documentation des constructeurs et destructeur</title>
+<anchor xml:id="_class_media_tek_documents_1_1model_1_1_commande_document_1a1192272583c1b05dcddab2a2d2606264"/><section>
+    <title>CommandeDocument()</title>
+<indexterm><primary>CommandeDocument</primary><secondary>MediaTekDocuments.model.CommandeDocument</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.model.CommandeDocument</primary><secondary>CommandeDocument</secondary></indexterm>
+<para><computeroutput>MediaTekDocuments.model.CommandeDocument.CommandeDocument (string id, DateTime dateCommande, double montant, int nbExemplaire, string idLivreDvd, string idSuivi, string libelle)</computeroutput></para></section>
+</section>
+<section>
+<title>Documentation des propriétés</title>
+<anchor xml:id="_class_media_tek_documents_1_1model_1_1_commande_document_1a5b614cdc0404c0abb53da5570bbc33bf"/><section>
+    <title>IdLivreDvd</title>
+<indexterm><primary>IdLivreDvd</primary><secondary>MediaTekDocuments.model.CommandeDocument</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.model.CommandeDocument</primary><secondary>IdLivreDvd</secondary></indexterm>
+<para><computeroutput>string MediaTekDocuments.model.CommandeDocument.IdLivreDvd<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_media_tek_documents_1_1model_1_1_commande_document_1a0f47db6bf8c02e2b3ae6840ccbcd9530"/><section>
+    <title>IdSuivi</title>
+<indexterm><primary>IdSuivi</primary><secondary>MediaTekDocuments.model.CommandeDocument</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.model.CommandeDocument</primary><secondary>IdSuivi</secondary></indexterm>
+<para><computeroutput>string MediaTekDocuments.model.CommandeDocument.IdSuivi<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_media_tek_documents_1_1model_1_1_commande_document_1a393dadf2237a96220619f8648496f2ec"/><section>
+    <title>Libelle</title>
+<indexterm><primary>Libelle</primary><secondary>MediaTekDocuments.model.CommandeDocument</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.model.CommandeDocument</primary><secondary>Libelle</secondary></indexterm>
+<para><computeroutput>string MediaTekDocuments.model.CommandeDocument.Libelle<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_media_tek_documents_1_1model_1_1_commande_document_1a9c7fea5a10d02c32b2c6de200e9c4c29"/><section>
+    <title>NbExemplaire</title>
+<indexterm><primary>NbExemplaire</primary><secondary>MediaTekDocuments.model.CommandeDocument</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.model.CommandeDocument</primary><secondary>NbExemplaire</secondary></indexterm>
+<para><computeroutput>int MediaTekDocuments.model.CommandeDocument.NbExemplaire<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<para>
+La documentation de cette classe a été générée à partir du fichier suivant :</para>
+model/<link linkend="__commande_document_8cs">CommandeDocument.cs</link></section>
+</section>

@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="fr">
+  <compounddef id="class_media_tek_documents_1_1_properties_1_1_settings" kind="class" language="C#" prot="package" sealed="yes">
+    <compoundname>MediaTekDocuments::Properties::Settings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">global.SystemConfiguration.ApplicationSettingsBase</basecompoundref>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_media_tek_documents_1_1_properties_1_1_settings_1aebfd9755aace3c8156e80bcfc82e826d" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_media_tek_documents_1_1_properties_1_1_settings" kindref="compound">Settings</ref></type>
+        <definition>Settings MediaTekDocuments.Properties.Settings.defaultInstance</definition>
+        <argsstring></argsstring>
+        <name>defaultInstance</name>
+        <qualifiedname>MediaTekDocuments.Properties.Settings.defaultInstance</qualifiedname>
+        <initializer>= ((<ref refid="class_media_tek_documents_1_1_properties_1_1_settings" kindref="compound">Settings</ref>)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new <ref refid="class_media_tek_documents_1_1_properties_1_1_settings" kindref="compound">Settings</ref>())))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Properties/Settings.Designer.cs" line="18" column="33" bodyfile="Properties/Settings.Designer.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_media_tek_documents_1_1_properties_1_1_settings_1a44ad9858eb332dd91a966e4c2a18c9b9" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_media_tek_documents_1_1_properties_1_1_settings" kindref="compound">Settings</ref></type>
+        <definition>Settings MediaTekDocuments.Properties.Settings.Default</definition>
+        <argsstring></argsstring>
+        <name>Default</name>
+        <qualifiedname>MediaTekDocuments.Properties.Settings.Default</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Properties/Settings.Designer.cs" line="20" column="32" bodyfile="Properties/Settings.Designer.cs" bodystart="20" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="property" id="class_media_tek_documents_1_1_properties_1_1_settings_1aef2ed410e22af7c8e86d0f63f94e743b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string MediaTekDocuments.Properties.Settings.mediatek86ConnectionString</definition>
+        <argsstring></argsstring>
+        <name>mediatek86ConnectionString</name>
+        <qualifiedname>MediaTekDocuments.Properties.Settings.mediatek86ConnectionString</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Properties/Settings.Designer.cs" line="30" column="23" bodyfile="Properties/Settings.Designer.cs" bodystart="30" bodyend="34"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MediaTekDocuments.Properties.Settings</label>
+        <link refid="class_media_tek_documents_1_1_properties_1_1_settings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>global::SystemConfiguration::ApplicationSettingsBase</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MediaTekDocuments.Properties.Settings</label>
+        <link refid="class_media_tek_documents_1_1_properties_1_1_settings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>defaultInstance</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MediaTekDocuments.Properties.Settings</label>
+        <link refid="class_media_tek_documents_1_1_properties_1_1_settings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>defaultInstance</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>global::SystemConfiguration::ApplicationSettingsBase</label>
+      </node>
+    </collaborationgraph>
+    <location file="Properties/Settings.Designer.cs" line="16" column="20" bodyfile="Properties/Settings.Designer.cs" bodystart="16" bodyend="35"/>
+    <listofallmembers>
+      <member refid="class_media_tek_documents_1_1_properties_1_1_settings_1a44ad9858eb332dd91a966e4c2a18c9b9" prot="public" virt="non-virtual"><scope>MediaTekDocuments::Properties::Settings</scope><name>Default</name></member>
+      <member refid="class_media_tek_documents_1_1_properties_1_1_settings_1aebfd9755aace3c8156e80bcfc82e826d" prot="private" virt="non-virtual"><scope>MediaTekDocuments::Properties::Settings</scope><name>defaultInstance</name></member>
+      <member refid="class_media_tek_documents_1_1_properties_1_1_settings_1aef2ed410e22af7c8e86d0f63f94e743b" prot="public" virt="non-virtual"><scope>MediaTekDocuments::Properties::Settings</scope><name>mediatek86ConnectionString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

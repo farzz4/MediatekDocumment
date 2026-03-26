@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_media_tek_documents_1_1model_1_1_service" xml:lang="fr">
+<title>Référence de la classe MediaTekDocuments.model.Service</title>
+<indexterm><primary>MediaTekDocuments.model.Service</primary></indexterm>
+<para>
+
+<para>Classe métier <link linkend="_class_media_tek_documents_1_1model_1_1_service">Service</link>. </para>
+ 
+</para>
+<simplesect>
+    <title>Fonctions membres publiques    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_media_tek_documents_1_1model_1_1_service_1a3531c8e6873cb2c531f592d543b15e12">Service</link> (string id, string libelle)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Propriétés    </title>
+        <itemizedlist>
+            <listitem><para>string <link linkend="_class_media_tek_documents_1_1model_1_1_service_1a8a4ac37a8e724ba47d696785f3d59ce8">Id</link><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_media_tek_documents_1_1model_1_1_service_1a26d6dec1f39a7dadbe7d76f229aee8ea">Libelle</link><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Description détaillée</title>
+
+<para>Classe métier <link linkend="_class_media_tek_documents_1_1model_1_1_service">Service</link>. </para>
+</section>
+<section>
+<title>Documentation des constructeurs et destructeur</title>
+<anchor xml:id="_class_media_tek_documents_1_1model_1_1_service_1a3531c8e6873cb2c531f592d543b15e12"/><section>
+    <title>Service()</title>
+<indexterm><primary>Service</primary><secondary>MediaTekDocuments.model.Service</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.model.Service</primary><secondary>Service</secondary></indexterm>
+<para><computeroutput>MediaTekDocuments.model.Service.Service (string id, string libelle)</computeroutput></para></section>
+</section>
+<section>
+<title>Documentation des propriétés</title>
+<anchor xml:id="_class_media_tek_documents_1_1model_1_1_service_1a8a4ac37a8e724ba47d696785f3d59ce8"/><section>
+    <title>Id</title>
+<indexterm><primary>Id</primary><secondary>MediaTekDocuments.model.Service</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.model.Service</primary><secondary>Id</secondary></indexterm>
+<para><computeroutput>string MediaTekDocuments.model.Service.Id<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_media_tek_documents_1_1model_1_1_service_1a26d6dec1f39a7dadbe7d76f229aee8ea"/><section>
+    <title>Libelle</title>
+<indexterm><primary>Libelle</primary><secondary>MediaTekDocuments.model.Service</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.model.Service</primary><secondary>Libelle</secondary></indexterm>
+<para><computeroutput>string MediaTekDocuments.model.Service.Libelle<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<para>
+La documentation de cette classe a été générée à partir du fichier suivant :</para>
+model/<link linkend="__service_8cs">Service.cs</link></section>
+</section>

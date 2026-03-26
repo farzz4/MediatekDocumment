@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__frm_mediatek_controller_8cs" xml:lang="fr">
+<title>Référence du fichier controller/FrmMediatekController.cs</title>
+<indexterm><primary>controller/FrmMediatekController.cs</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller">MediaTekDocuments.controller.FrmMediatekController</link></para>
+
+<para>Contrôleur lié à FrmMediatek. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Espaces de nommage    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespace_media_tek_documents">MediaTekDocuments</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespace_media_tek_documents_1_1controller">MediaTekDocuments.controller</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

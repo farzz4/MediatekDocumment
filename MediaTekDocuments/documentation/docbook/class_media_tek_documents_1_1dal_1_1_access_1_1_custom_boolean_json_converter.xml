@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_media_tek_documents_1_1dal_1_1_access_1_1_custom_boolean_json_converter" xml:lang="fr">
+<title>Référence de la classe MediaTekDocuments.dal.Access.CustomBooleanJsonConverter</title>
+<indexterm><primary>MediaTekDocuments.dal.Access.CustomBooleanJsonConverter</primary></indexterm>
+<para>
+
+<para>Modification du convertisseur Json pour prendre en compte les booléens classe trouvée sur le site : <link xlink:href="https://www.thecodebuzz.com/newtonsoft-jsonreaderexception-could-not-convert-string-to-boolean/">https://www.thecodebuzz.com/newtonsoft-jsonreaderexception-could-not-convert-string-to-boolean/</link>. </para>
+ 
+</para>
+<para>Graphe d&apos;héritage de MediaTekDocuments.dal.Access.CustomBooleanJsonConverter:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_media_tek_documents_1_1dal_1_1_access_1_1_custom_boolean_json_converter.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Fonctions membres publiques    </title>
+        <itemizedlist>
+            <listitem><para>override bool <link linkend="_class_media_tek_documents_1_1dal_1_1_access_1_1_custom_boolean_json_converter_1a723875807be3389b080e04f2923f4198">ReadJson</link> (JsonReader reader, Type objectType, bool existingValue, bool hasExistingValue, JsonSerializer serializer)</para>
+</listitem>
+            <listitem><para>override void <link linkend="_class_media_tek_documents_1_1dal_1_1_access_1_1_custom_boolean_json_converter_1a37bc8f62fc81cd4c6c8b02966772b5af">WriteJson</link> (JsonWriter writer, bool value, JsonSerializer serializer)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Description détaillée</title>
+
+<para>Modification du convertisseur Json pour prendre en compte les booléens classe trouvée sur le site : <link xlink:href="https://www.thecodebuzz.com/newtonsoft-jsonreaderexception-could-not-convert-string-to-boolean/">https://www.thecodebuzz.com/newtonsoft-jsonreaderexception-could-not-convert-string-to-boolean/</link>. </para>
+</section>
+<section>
+<title>Documentation des fonctions membres</title>
+<anchor xml:id="_class_media_tek_documents_1_1dal_1_1_access_1_1_custom_boolean_json_converter_1a723875807be3389b080e04f2923f4198"/><section>
+    <title>ReadJson()</title>
+<indexterm><primary>ReadJson</primary><secondary>MediaTekDocuments.dal.Access.CustomBooleanJsonConverter</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.dal.Access.CustomBooleanJsonConverter</primary><secondary>ReadJson</secondary></indexterm>
+<para><computeroutput>override bool MediaTekDocuments.dal.Access.CustomBooleanJsonConverter.ReadJson (JsonReader reader, Type objectType, bool existingValue, bool hasExistingValue, JsonSerializer serializer)</computeroutput></para></section>
+<anchor xml:id="_class_media_tek_documents_1_1dal_1_1_access_1_1_custom_boolean_json_converter_1a37bc8f62fc81cd4c6c8b02966772b5af"/><section>
+    <title>WriteJson()</title>
+<indexterm><primary>WriteJson</primary><secondary>MediaTekDocuments.dal.Access.CustomBooleanJsonConverter</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.dal.Access.CustomBooleanJsonConverter</primary><secondary>WriteJson</secondary></indexterm>
+<para><computeroutput>override void MediaTekDocuments.dal.Access.CustomBooleanJsonConverter.WriteJson (JsonWriter writer, bool value, JsonSerializer serializer)</computeroutput></para></section>
+<para>
+La documentation de cette classe a été générée à partir du fichier suivant :</para>
+dal/<link linkend="__access_8cs">Access.cs</link></section>
+</section>

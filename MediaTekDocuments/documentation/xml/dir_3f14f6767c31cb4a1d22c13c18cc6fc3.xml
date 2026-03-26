@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="fr">
+  <compounddef id="dir_3f14f6767c31cb4a1d22c13c18cc6fc3" kind="dir">
+    <compoundname>model</compoundname>
+    <innerfile refid="_abonnement_8cs">Abonnement.cs</innerfile>
+    <innerfile refid="_categorie_8cs">Categorie.cs</innerfile>
+    <innerfile refid="_commande_8cs">Commande.cs</innerfile>
+    <innerfile refid="_commande_document_8cs">CommandeDocument.cs</innerfile>
+    <innerfile refid="_document_8cs">Document.cs</innerfile>
+    <innerfile refid="_dvd_8cs">Dvd.cs</innerfile>
+    <innerfile refid="_etat_8cs">Etat.cs</innerfile>
+    <innerfile refid="_exemplaire_8cs">Exemplaire.cs</innerfile>
+    <innerfile refid="_genre_8cs">Genre.cs</innerfile>
+    <innerfile refid="_livre_8cs">Livre.cs</innerfile>
+    <innerfile refid="_livre_dvd_8cs">LivreDvd.cs</innerfile>
+    <innerfile refid="_public_8cs">Public.cs</innerfile>
+    <innerfile refid="_rayon_8cs">Rayon.cs</innerfile>
+    <innerfile refid="_revue_8cs">Revue.cs</innerfile>
+    <innerfile refid="_service_8cs">Service.cs</innerfile>
+    <innerfile refid="_suivi_8cs">Suivi.cs</innerfile>
+    <innerfile refid="_utilisateur_8cs">Utilisateur.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="model/"/>
+  </compounddef>
+</doxygen>

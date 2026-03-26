@@ -1,0 +1,930 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.16.1" xml:lang="fr">
+  <compound refid="class_media_tek_documents_1_1model_1_1_abonnement" kind="class"><name>MediaTekDocuments::model::Abonnement</name>
+    <member refid="class_media_tek_documents_1_1model_1_1_abonnement_1ac49c5874e976f265dda8f94163629610" kind="property"><name>DateFinAbonnement</name></member>
+    <member refid="class_media_tek_documents_1_1model_1_1_abonnement_1a4323dfc135ad15d91f5f6a3def265f9b" kind="property"><name>IdRevue</name></member>
+    <member refid="class_media_tek_documents_1_1model_1_1_abonnement_1a236ad5f037c90fe9d01ce5a2573e6707" kind="property"><name>Titre</name></member>
+    <member refid="class_media_tek_documents_1_1model_1_1_abonnement_1ab976dcdc47d1693386241c6700ce3505" kind="function"><name>Abonnement</name></member>
+  </compound>
+  <compound refid="class_media_tek_documents_1_1dal_1_1_access" kind="class"><name>MediaTekDocuments::dal::Access</name>
+    <member refid="class_media_tek_documents_1_1dal_1_1_access_1a4c5146388b3b6f8ce30d127f3c7d9e68" kind="variable"><name>uriApi</name></member>
+    <member refid="class_media_tek_documents_1_1dal_1_1_access_1a58c98b8a937a3f9f0a02ae267da65186" kind="variable"><name>connectionName</name></member>
+    <member refid="class_media_tek_documents_1_1dal_1_1_access_1ac8c2e602f94b8e0563b0f36f781f8d5e" kind="variable"><name>instance</name></member>
+    <member refid="class_media_tek_documents_1_1dal_1_1_access_1ad6682bb3eac1a5526ccafd32c1dca4ae" kind="variable"><name>GET</name></member>
+    <member refid="class_media_tek_documents_1_1dal_1_1_access_1a0c8a23f05664f0c0cdcd32b4be54b9ae" kind="variable"><name>POST</name></member>
+    <member refid="class_media_tek_documents_1_1dal_1_1_access_1a5dfa84c046b6f89ff6fc07a1cab759d0" kind="variable"><name>PUT</name></member>
+    <member refid="class_media_tek_documents_1_1dal_1_1_access_1a8ec5d8f374eef617254b3d66008b1805" kind="variable"><name>DELETE</name></member>
+    <member refid="class_media_tek_documents_1_1dal_1_1_access_1a4cb677fc77aea66a12b04a0d383b1d17" kind="variable"><name>api</name></member>
+    <member refid="class_media_tek_documents_1_1dal_1_1_access_1a188ec6815829c65c91bae6323d4f8f36" kind="function"><name>Access</name></member>
+    <member refid="class_media_tek_documents_1_1dal_1_1_access_1ac112326181ed1a7bcc250f772d478899" kind="function"><name>TraitementRecup&lt; T &gt;</name></member>
+    <member refid="class_media_tek_documents_1_1dal_1_1_access_1a4f2357261937da12a1eadb5a789ee3d3" kind="function"><name>convertToJson</name></member>
+    <member refid="class_media_tek_documents_1_1dal_1_1_access_1a6d1fed556ce2c0a862d29b60f0d17a8f" kind="function"><name>GetInstance</name></member>
+    <member refid="class_media_tek_documents_1_1dal_1_1_access_1ab28f529d85608a6e1f82789c47d3bfb9" kind="function"><name>GetConnectionStringByName</name></member>
+    <member refid="class_media_tek_documents_1_1dal_1_1_access_1a3c8e1bbfaf3e0332d27a69b3508c795d" kind="function"><name>GetAllGenres</name></member>
+    <member refid="class_media_tek_documents_1_1dal_1_1_access_1abb34414355a628dd16b5f35876cf39e8" kind="function"><name>GetAllRayons</name></member>
+    <member refid="class_media_tek_documents_1_1dal_1_1_access_1aa666fcd51e2dd4ab7feff1271bc8daf5" kind="function"><name>GetAllPublics</name></member>
+    <member refid="class_media_tek_documents_1_1dal_1_1_access_1adc618aad24e9f9cdd328068569c268e1" kind="function"><name>GetAllDocuments</name></member>
+    <member refid="class_media_tek_documents_1_1dal_1_1_access_1adb24fd5f8c6c4db3ad86fee64cc95ad1" kind="function"><name>GetAllLivres</name></member>
+    <member refid="class_media_tek_documents_1_1dal_1_1_access_1ad6e141fb3c8c28d381a62c76807f5f88" kind="function"><name>GetAllDvd</name></member>
+    <member refid="class_media_tek_documents_1_1dal_1_1_access_1af878e9be72359a411c8c1ca458dedbe6" kind="function"><name>GetAllRevues</name></member>
+    <member refid="class_media_tek_documents_1_1dal_1_1_access_1ae0968c92e84ab93ca300f64a18cb4ccf" kind="function"><name>GetAllCommandes</name></member>
+    <member refid="class_media_tek_documents_1_1dal_1_1_access_1ac05514ddc62fb86b8bf1619e88799ede" kind="function"><name>GetAllAbonnements</name></member>
+    <member refid="class_media_tek_documents_1_1dal_1_1_access_1a1b492bdba43754305024e14502f2d7e8" kind="function"><name>GetAllSuivis</name></member>
+    <member refid="class_media_tek_documents_1_1dal_1_1_access_1a239e34ff75115e04b088047ee191b227" kind="function"><name>GetAllEtats</name></member>
+    <member refid="class_media_tek_documents_1_1dal_1_1_access_1a7a51aad05f2ea9ed89784c6748df62fb" kind="function"><name>GetAbonnementsEcheance</name></member>
+    <member refid="class_media_tek_documents_1_1dal_1_1_access_1a8a22be0e93431c4462287ad25085e6e3" kind="function"><name>GetExemplairesRevue</name></member>
+    <member refid="class_media_tek_documents_1_1dal_1_1_access_1aba7f27346c7a08f021d96c47c28f33ce" kind="function"><name>GetExemplairesDocument</name></member>
+    <member refid="class_media_tek_documents_1_1dal_1_1_access_1a90abc126e791e0fd09bc48d2b6b7889b" kind="function"><name>GetCommandesDocument</name></member>
+    <member refid="class_media_tek_documents_1_1dal_1_1_access_1a21a75d6c12400558511db240d9a25f4f" kind="function"><name>GetAbonnementsRevue</name></member>
+    <member refid="class_media_tek_documents_1_1dal_1_1_access_1ad07ebc1bcaffb386ab22e6764bdc7a54" kind="function"><name>GetUtilisateur</name></member>
+    <member refid="class_media_tek_documents_1_1dal_1_1_access_1a49b41a152a85598907cd41f50681dbe8" kind="function"><name>CreerExemplaire</name></member>
+    <member refid="class_media_tek_documents_1_1dal_1_1_access_1a4198224ab0872f99170794e05c7499cb" kind="function"><name>CreerDocument</name></member>
+    <member refid="class_media_tek_documents_1_1dal_1_1_access_1afa6ce681c5ec2e23f978171f75983404" kind="function"><name>ModifierDocument</name></member>
+    <member refid="class_media_tek_documents_1_1dal_1_1_access_1a8ae9cf600edccd335f9b62d280116082" kind="function"><name>CreerLivre</name></member>
+    <member refid="class_media_tek_documents_1_1dal_1_1_access_1ad3e38ffbc72e1ba2b5adba77f5bec26d" kind="function"><name>ModifierLivre</name></member>
+    <member refid="class_media_tek_documents_1_1dal_1_1_access_1a87599fa034591aaf73e6639b5374b8c6" kind="function"><name>SupprimerLivre</name></member>
+    <member refid="class_media_tek_documents_1_1dal_1_1_access_1a179f69f6440bbb96b87ef269e6787f73" kind="function"><name>CreerDvd</name></member>
+    <member refid="class_media_tek_documents_1_1dal_1_1_access_1a24f45e3d99e5d5504afe35936be4ad6f" kind="function"><name>ModifierDvd</name></member>
+    <member refid="class_media_tek_documents_1_1dal_1_1_access_1a7e6d31445e19ef226700f33c68befbcb" kind="function"><name>SupprimerDvd</name></member>
+    <member refid="class_media_tek_documents_1_1dal_1_1_access_1a1cc6a284c94538dd3dbc8001f850c440" kind="function"><name>CreerRevue</name></member>
+    <member refid="class_media_tek_documents_1_1dal_1_1_access_1a809c51d6619478841d01226b65205453" kind="function"><name>ModifierRevue</name></member>
+    <member refid="class_media_tek_documents_1_1dal_1_1_access_1a3cfc9a7afb50e5c2d5becb54829fa9fb" kind="function"><name>SupprimerRevue</name></member>
+    <member refid="class_media_tek_documents_1_1dal_1_1_access_1a265380d0d35edb4e87c43312c51b72c4" kind="function"><name>CreerCommande</name></member>
+    <member refid="class_media_tek_documents_1_1dal_1_1_access_1a46e6ae4d0b2ad59f55273a30fe51cb12" kind="function"><name>CreerCommandeDocument</name></member>
+    <member refid="class_media_tek_documents_1_1dal_1_1_access_1a6239f9b068f7b3baf2718871f0437502" kind="function"><name>ModifierSuiviCommandeDocument</name></member>
+    <member refid="class_media_tek_documents_1_1dal_1_1_access_1a54bdf5ff46f2587904abb6849abd2ff2" kind="function"><name>SupprimerCommandeDocument</name></member>
+    <member refid="class_media_tek_documents_1_1dal_1_1_access_1ae681790c71a3495f6dd575507459a2a3" kind="function"><name>CreerAbonnementRevue</name></member>
+    <member refid="class_media_tek_documents_1_1dal_1_1_access_1ad20258d06be1d27b91df25da0ebb14be" kind="function"><name>SupprimerAbonnementRevue</name></member>
+    <member refid="class_media_tek_documents_1_1dal_1_1_access_1a76b0a129db8401647275484ffb6ebe4c" kind="function"><name>ParutionDansAbonnement</name></member>
+    <member refid="class_media_tek_documents_1_1dal_1_1_access_1a035a5b819477ae0fe34e418d28e5fb0b" kind="function"><name>ModifierEtatExemplaireDocument</name></member>
+    <member refid="class_media_tek_documents_1_1dal_1_1_access_1a8e4156b13056351bf5de9b89bd3c6140" kind="function"><name>SupprimerExemplaireDocument</name></member>
+  </compound>
+  <compound refid="class_media_tek_documents_1_1manager_1_1_api_rest" kind="class"><name>MediaTekDocuments::manager::ApiRest</name>
+    <member refid="class_media_tek_documents_1_1manager_1_1_api_rest_1a16c8f1c937ce5b69ef7f0cb2aecd8877" kind="variable"><name>instance</name></member>
+    <member refid="class_media_tek_documents_1_1manager_1_1_api_rest_1a56b2eeec29782076f17a3c278a542132" kind="variable"><name>httpClient</name></member>
+    <member refid="class_media_tek_documents_1_1manager_1_1_api_rest_1a6c1a557b0c275f6a02bc3107a9706b3c" kind="variable"><name>httpResponse</name></member>
+    <member refid="class_media_tek_documents_1_1manager_1_1_api_rest_1a0d8b369ef525d796ec57b16f18e765a6" kind="function"><name>ApiRest</name></member>
+    <member refid="class_media_tek_documents_1_1manager_1_1_api_rest_1ade84494b4ed3528da480bd5a3c553105" kind="function"><name>GetInstance</name></member>
+    <member refid="class_media_tek_documents_1_1manager_1_1_api_rest_1a24ec9968854932c87e9422b57778396b" kind="function"><name>RecupDistant</name></member>
+  </compound>
+  <compound refid="class_media_tek_documents_1_1model_1_1_categorie" kind="class"><name>MediaTekDocuments::model::Categorie</name>
+    <member refid="class_media_tek_documents_1_1model_1_1_categorie_1a53b5c383291606f99c080bdd248e2446" kind="property"><name>Id</name></member>
+    <member refid="class_media_tek_documents_1_1model_1_1_categorie_1a3921e57e7e2d534f78caeaf373bec49d" kind="property"><name>Libelle</name></member>
+    <member refid="class_media_tek_documents_1_1model_1_1_categorie_1a3f5f73920d44069b9e8f9584a45d2194" kind="function"><name>Categorie</name></member>
+    <member refid="class_media_tek_documents_1_1model_1_1_categorie_1aa127da14b5715971b9f296cfefa105fb" kind="function"><name>ToString</name></member>
+  </compound>
+  <compound refid="class_media_tek_documents_1_1model_1_1_commande" kind="class"><name>MediaTekDocuments::model::Commande</name>
+    <member refid="class_media_tek_documents_1_1model_1_1_commande_1af40f3cebd61db3b07c5a67cfaab6a543" kind="property"><name>Id</name></member>
+    <member refid="class_media_tek_documents_1_1model_1_1_commande_1ac0d0f36c146895da4ba30a1a03c72ff3" kind="property"><name>DateCommande</name></member>
+    <member refid="class_media_tek_documents_1_1model_1_1_commande_1ab960542350c24d0df2987072c9d547a8" kind="property"><name>Montant</name></member>
+    <member refid="class_media_tek_documents_1_1model_1_1_commande_1ad7abbd5d27307c467b75e4e3f41097e6" kind="function"><name>Commande</name></member>
+  </compound>
+  <compound refid="class_media_tek_documents_1_1model_1_1_commande_document" kind="class"><name>MediaTekDocuments::model::CommandeDocument</name>
+    <member refid="class_media_tek_documents_1_1model_1_1_commande_document_1a9c7fea5a10d02c32b2c6de200e9c4c29" kind="property"><name>NbExemplaire</name></member>
+    <member refid="class_media_tek_documents_1_1model_1_1_commande_document_1a5b614cdc0404c0abb53da5570bbc33bf" kind="property"><name>IdLivreDvd</name></member>
+    <member refid="class_media_tek_documents_1_1model_1_1_commande_document_1a0f47db6bf8c02e2b3ae6840ccbcd9530" kind="property"><name>IdSuivi</name></member>
+    <member refid="class_media_tek_documents_1_1model_1_1_commande_document_1a393dadf2237a96220619f8648496f2ec" kind="property"><name>Libelle</name></member>
+    <member refid="class_media_tek_documents_1_1model_1_1_commande_document_1a1192272583c1b05dcddab2a2d2606264" kind="function"><name>CommandeDocument</name></member>
+  </compound>
+  <compound refid="class_media_tek_documents_1_1dal_1_1_access_1_1_custom_boolean_json_converter" kind="class"><name>MediaTekDocuments::dal::Access::CustomBooleanJsonConverter</name>
+    <member refid="class_media_tek_documents_1_1dal_1_1_access_1_1_custom_boolean_json_converter_1a723875807be3389b080e04f2923f4198" kind="function"><name>ReadJson</name></member>
+    <member refid="class_media_tek_documents_1_1dal_1_1_access_1_1_custom_boolean_json_converter_1a37bc8f62fc81cd4c6c8b02966772b5af" kind="function"><name>WriteJson</name></member>
+  </compound>
+  <compound refid="class_media_tek_documents_1_1dal_1_1_access_1_1_custom_date_time_converter" kind="class"><name>MediaTekDocuments::dal::Access::CustomDateTimeConverter</name>
+    <member refid="class_media_tek_documents_1_1dal_1_1_access_1_1_custom_date_time_converter_1a1b69d98890f675cbcbd166f1c957bde5" kind="function"><name>CustomDateTimeConverter</name></member>
+  </compound>
+  <compound refid="class_media_tek_documents_1_1model_1_1_document" kind="class"><name>MediaTekDocuments::model::Document</name>
+    <member refid="class_media_tek_documents_1_1model_1_1_document_1a3e5b4dabdbc9c81e0c92ed23d0f67b5e" kind="property"><name>Id</name></member>
+    <member refid="class_media_tek_documents_1_1model_1_1_document_1a5fd612083fc4adfe686e3ff622807c80" kind="property"><name>Titre</name></member>
+    <member refid="class_media_tek_documents_1_1model_1_1_document_1a139cf009cede8ea414926f897505a594" kind="property"><name>Image</name></member>
+    <member refid="class_media_tek_documents_1_1model_1_1_document_1a0661e5c1e7b6a8b3efc06e628241f788" kind="property"><name>IdGenre</name></member>
+    <member refid="class_media_tek_documents_1_1model_1_1_document_1a902cd2dcaf95a7de23061e0450912690" kind="property"><name>Genre</name></member>
+    <member refid="class_media_tek_documents_1_1model_1_1_document_1a4cd9368bb5e38891c835268ba4f5f427" kind="property"><name>IdPublic</name></member>
+    <member refid="class_media_tek_documents_1_1model_1_1_document_1af696a751a2fe992484506f59269fe550" kind="property"><name>Public</name></member>
+    <member refid="class_media_tek_documents_1_1model_1_1_document_1aae91a6dcc4fe8d9f0c70748e6f3d402b" kind="property"><name>IdRayon</name></member>
+    <member refid="class_media_tek_documents_1_1model_1_1_document_1a4a42cf0f9be94e2316008250bc903be3" kind="property"><name>Rayon</name></member>
+    <member refid="class_media_tek_documents_1_1model_1_1_document_1a4ec37162b38adb672e52e7504130f6c5" kind="function"><name>Document</name></member>
+  </compound>
+  <compound refid="class_media_tek_documents_1_1model_1_1_dvd" kind="class"><name>MediaTekDocuments::model::Dvd</name>
+    <member refid="class_media_tek_documents_1_1model_1_1_dvd_1a3d53bb81cc5e9b97c1f876858de720ce" kind="property"><name>Duree</name></member>
+    <member refid="class_media_tek_documents_1_1model_1_1_dvd_1a6884c7ee331fa463ff280840078b9378" kind="property"><name>Realisateur</name></member>
+    <member refid="class_media_tek_documents_1_1model_1_1_dvd_1a24203cc16b89c6a085cb5de5fc65a9c1" kind="property"><name>Synopsis</name></member>
+    <member refid="class_media_tek_documents_1_1model_1_1_dvd_1af7cf7aa9fce1c55683c9d418fa755a51" kind="function"><name>Dvd</name></member>
+  </compound>
+  <compound refid="class_media_tek_documents_1_1model_1_1_etat" kind="class"><name>MediaTekDocuments::model::Etat</name>
+    <member refid="class_media_tek_documents_1_1model_1_1_etat_1ae9507944d35ecd312988035c8e6aafba" kind="property"><name>Id</name></member>
+    <member refid="class_media_tek_documents_1_1model_1_1_etat_1a598a195916a28e83aa14538942928be4" kind="property"><name>Libelle</name></member>
+    <member refid="class_media_tek_documents_1_1model_1_1_etat_1a1ec019121eddab79562aa04350bbb077" kind="function"><name>Etat</name></member>
+  </compound>
+  <compound refid="class_media_tek_documents_1_1model_1_1_exemplaire" kind="class"><name>MediaTekDocuments::model::Exemplaire</name>
+    <member refid="class_media_tek_documents_1_1model_1_1_exemplaire_1a872d095e0392d6179e60fe5439a1d0e6" kind="property"><name>Numero</name></member>
+    <member refid="class_media_tek_documents_1_1model_1_1_exemplaire_1a16f5973f92b03fece7606d0e80653a66" kind="property"><name>Photo</name></member>
+    <member refid="class_media_tek_documents_1_1model_1_1_exemplaire_1ae0fac8f68bf0cbd9a28cb1d15160e36c" kind="property"><name>DateAchat</name></member>
+    <member refid="class_media_tek_documents_1_1model_1_1_exemplaire_1a28e9cb8508501f2913dc86ee11087545" kind="property"><name>IdEtat</name></member>
+    <member refid="class_media_tek_documents_1_1model_1_1_exemplaire_1ad4e6e91065237707446cc2a5d1418d67" kind="property"><name>Id</name></member>
+    <member refid="class_media_tek_documents_1_1model_1_1_exemplaire_1accb9d572c7de25b4512f13abf504e5ee" kind="property"><name>Libelle</name></member>
+    <member refid="class_media_tek_documents_1_1model_1_1_exemplaire_1a2e475fc73ab63e5dc8e88221f7d07bf3" kind="function"><name>Exemplaire</name></member>
+  </compound>
+  <compound refid="class_media_tek_documents_1_1view_1_1_frm_authentification" kind="class"><name>MediaTekDocuments::view::FrmAuthentification</name>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_authentification_1afa79da57f77de8513224ac71f06a47e7" kind="variable"><name>controller</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_authentification_1ae059d3f44b8b06e1056b16ee33742b86" kind="variable"><name>components</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_authentification_1a21aaeba0b5582056924765e46769a9e3" kind="variable"><name>label51</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_authentification_1ab4fa9e610b0f6a8164c10d17890a4d3d" kind="variable"><name>label1</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_authentification_1ae5fde57c4f6a44f484c3867eafaf19a8" kind="variable"><name>label2</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_authentification_1aaa29e42e8d980855138b299ee90f6eeb" kind="variable"><name>txbLogin</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_authentification_1ac221886a76a9b1aca4837210144ecd33" kind="variable"><name>txbPwd</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_authentification_1ac837dc0b73d16a0f425092db3343b5fe" kind="variable"><name>btnConnexion</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_authentification_1a88241d51d11d468175347f9b2f8e0ed6" kind="function"><name>FrmAuthentification</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_authentification_1aa4273a756218fd720512ca3ce71535ea" kind="function"><name>btnConnexion_Click</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_authentification_1ae43306bdab1af8c0948362a2347fff7e" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_authentification_1ae69e5c2aa98cbd0b4ccf52110c69a20a" kind="function"><name>Dispose</name></member>
+  </compound>
+  <compound refid="class_media_tek_documents_1_1controller_1_1_frm_authentification_controller" kind="class"><name>MediaTekDocuments::controller::FrmAuthentificationController</name>
+    <member refid="class_media_tek_documents_1_1controller_1_1_frm_authentification_controller_1aa8f32f36ba6bce613e5a106024b1c322" kind="variable"><name>access</name></member>
+    <member refid="class_media_tek_documents_1_1controller_1_1_frm_authentification_controller_1a07077486380e4cc2cf4d7348138c3215" kind="function"><name>FrmAuthentificationController</name></member>
+    <member refid="class_media_tek_documents_1_1controller_1_1_frm_authentification_controller_1a3bacc79d18929c8a24b820160353f063" kind="function"><name>GetUtilisateur</name></member>
+  </compound>
+  <compound refid="class_media_tek_documents_1_1view_1_1_frm_mediatek" kind="class"><name>MediaTekDocuments::view::FrmMediatek</name>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a40c46c9597191e04bfbe6e925b7b041b" kind="variable"><name>controller</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ad4ca252463333a635c06a37c017d12bd" kind="variable"><name>bdgGenres</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1abba42ad066bead082ddfe1d491064961" kind="variable"><name>bdgPublics</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1abc1ce6f5b8043c46640b8224330528fc" kind="variable"><name>bdgRayons</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a94ec0fbfdf94515c48175330976d4ccd" kind="variable"><name>service</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1aae65d8cf9b06aeb0366825931c48e997" kind="variable"><name>bdgLivresListe</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1abe6546ad9ca2e8267b39a39d22cf4712" kind="variable"><name>lesLivres</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ae9608f40a21763af795e717b4f94694a" kind="variable"><name>bdgExemplairesLivre</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a5635d19fbaaecb0e3e71ce48391db616" kind="variable"><name>lesExemplairesDocument</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a5a9d745a8df4315945b239815c63aead" kind="variable"><name>bdgDvdListe</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1aa2e62b82a9763aa5a5112993bb0b196a" kind="variable"><name>lesDvd</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1af1dae6168f40900b473419a1fc8ea3df" kind="variable"><name>bdgExemplairesDvd</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a14fa7f09dc7b4053191249f948226d25" kind="variable"><name>lesExemplairesDvd</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a7ea5bdec37bd491d2f1e1b61bfdf4f1b" kind="variable"><name>bdgRevuesListe</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a52938c1eb665024e25d9278985fbc9a1" kind="variable"><name>lesRevues</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1af2b47810edd0515256f2e830c95c3a8e" kind="variable"><name>bdgExemplairesListe</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1aeaa8f3be3daac6b511608220da1a0309" kind="variable"><name>lesExemplaires</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a7cf2af57b11af44b13a83d567dd386be" kind="variable"><name>bdgCommandesLivreListe</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a50e444b50151c89a5e21b482d50d3ef5" kind="variable"><name>lesCommandesDocument</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a88a239fdec2eb55c3f97f178b0332ee6" kind="variable"><name>bdgCommandesDvdListe</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a047dd5e29184e0f2cda73f5127196b45" kind="variable"><name>bdgAbonnementsRevueListe</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ad1e4c55c1f5a56ca8f9cedefe86effe0" kind="variable"><name>lesAbonnementsRevue</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a81ffd03260aac30c9fee9eb63c29e9dd" kind="variable"><name>components</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a897584ba53986dd35faea86732fc763b" kind="variable"><name>tabOngletsApplication</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a27c44334f5c7a59ebc111b30d23e98ce" kind="variable"><name>tabRevues</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a37f26db182577f7cb95c25d41ce2aca8" kind="variable"><name>tabLivres</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ab7372debd923b4821c1cdc950c96c262" kind="variable"><name>tabDvd</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a869f74adc75cc527d0a1368bafdb706f" kind="variable"><name>txbLivresTitreRecherche</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a008390e3bfae18174ac877d8c56b61eb" kind="variable"><name>label6</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a7e28b80bf7b5d2193a37a5cf70b5e6ad" kind="variable"><name>grpLivresRecherche</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a34fdb768449a2e720cd21306137017a3" kind="variable"><name>dgvLivresListe</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1aef04a93ec504d72fb72ca17eb69a14bd" kind="variable"><name>tabReceptionRevue</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a286369b64463c313b668fff6ffb7b0a8" kind="variable"><name>grpReceptionExemplaire</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ae2222edfddf3f858fab17f2e46b8ff82" kind="variable"><name>btnReceptionExemplaireValider</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ae8917bbbfd7e8183d53e6cb76ffec9e2" kind="variable"><name>txbReceptionExemplaireImage</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a3de229d6d6ab6ccc52559ced8b06dc69" kind="variable"><name>label18</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a0a2f5c3aaff6d1a6c9eaa418c7d7a1cf" kind="variable"><name>txbReceptionExemplaireNumero</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a5dadd3ae687d570249163aaf8a3cf2b9" kind="variable"><name>label17</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a1b1d79bff304f966b749fee918736a43" kind="variable"><name>dtpReceptionExemplaireDate</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1aef0f5dc97446c6f40e498eb95d4bd934" kind="variable"><name>label16</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ae2e15ab773d94ad082f3aa4d1951d88c" kind="variable"><name>grpReceptionRevue</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a35e9f7b579a147835144f28b18b93334" kind="variable"><name>cbxLivresGenres</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a0e1ec4972193b65b552ec0bdf3b2fb56" kind="variable"><name>label14</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a36d807e66644038985b1fb39e10716df" kind="variable"><name>cbxLivresPublics</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a910f41d1557bd1a6d68fc49153dd660b" kind="variable"><name>label20</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1aa9e00d025ff81147edec5446475a5791" kind="variable"><name>cbxLivresRayons</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ae04a4d9cc96873be2d71d23aed0fc483" kind="variable"><name>label21</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1aaeee1d436066aa4079c692c2e2860e11" kind="variable"><name>btnLivresAnnulGenres</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ad69739aec8bd361c19b75db23e0463ad" kind="variable"><name>grpLivresInfos</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1aaa9884dabc7664652186a13be7dfd87b" kind="variable"><name>pcbLivresImage</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ae82a64302f4865241a7cb2fe68b27186" kind="variable"><name>label19</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ad550a0ae3aebea183fb68b7d43c4b3c4" kind="variable"><name>label1</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a3a9976aa24444822848c754fd0c87e54" kind="variable"><name>label10</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1aeb74441b694102913a5887b36778094b" kind="variable"><name>label7</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1add3a8ac3ee83dd830ba4db91804bbc9d" kind="variable"><name>label11</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ad173ff7694b4e97531e9d2b825473732" kind="variable"><name>label8</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a5737b0942b3d7d96add1f9c45f1d903c" kind="variable"><name>label12</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a8fd878891ceb95f5f91824c01cdc6643" kind="variable"><name>label9</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ab7d1a95db89802e75efd2c5e0d45ce7a" kind="variable"><name>btnLivresNumRecherche</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ac5f35c90a0764f997bc41a01013e5978" kind="variable"><name>label5</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a2fe2cbc2f72b5567c5e2b6f80c57e92f" kind="variable"><name>txbLivresNumRecherche</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a2a3abbf6ddcd389166b9ba0c2482c9d6" kind="variable"><name>btnlivresAnnulPublics</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1aaa7d9b77dbbb2a1e606238e891b9deac" kind="variable"><name>btnLivresAnnulRayons</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a79f4309588d5e9ba5ef2c98513122c07" kind="variable"><name>grpDvdRecherche</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a68785e70c170dd59f4e0329aa4054f32" kind="variable"><name>btnDvdAnnulRayons</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ab9a6e33214dc36cc141d30b6e1ab1f0c" kind="variable"><name>btnDvdAnnulPublics</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ac40f48314985961acd7b0bcc3de8442b" kind="variable"><name>btnDvdNumRecherche</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a7439e7d8413c46a1b2e2da90e56647c4" kind="variable"><name>label38</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ae2c5f4d67279800111b327657ebe8eff" kind="variable"><name>txbDvdNumRecherche</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a468aecfeaf14a3d25ed7ed2d1819ee6d" kind="variable"><name>btnDvdAnnulGenres</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ad42b186f4694cccd59b608c50622ae7b" kind="variable"><name>cbxDvdRayons</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a75b0de8be5669f569bc4e5070dda945a" kind="variable"><name>label39</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a2e842d53d041e45c9b47659a87dd5138" kind="variable"><name>cbxDvdPublics</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a1e868907a9df384dc411b762e8259480" kind="variable"><name>label40</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a58064ed9d361fc169c7c37d22aa4f9e2" kind="variable"><name>cbxDvdGenres</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a8593b64fdf4c5bce21a11f1e3c9cf4e7" kind="variable"><name>label41</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a682a46ad93f8d5d6c72a8565529fdf33" kind="variable"><name>dgvDvdListe</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1af64f154e99767c24ee436308f875aa28" kind="variable"><name>label42</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a609d2ae8059d2f8d0dd7c652db5c9858" kind="variable"><name>txbDvdTitreRecherche</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a00ea6559b2e5925cc363d3625b010e68" kind="variable"><name>label22</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a3533b1da1cd9e3b3363c844487f2822c" kind="variable"><name>txbLivresTitre</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a4dff51e1f7d44275f0da978fe2bcfa63" kind="variable"><name>txbLivresNumero</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a8b59cab64f522354c820c2afa9eb6d74" kind="variable"><name>txbLivresIsbn</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a3f8f5cd93b981287fee80fea20ff5280" kind="variable"><name>txbLivresImage</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ae528d8b0b5b3d19058bbd3924cc39c46" kind="variable"><name>txbLivresRayon</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1aeaa405eccdce49338bb2b7e69aa90d38" kind="variable"><name>txbLivresPublic</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1aae81bfddb80dc3e45646fc8006ff18f1" kind="variable"><name>txbLivresGenre</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a3c8de1f8a3ad4384299d9954f89383c4" kind="variable"><name>txbLivresCollection</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a5a26d13a741b9eca24feb49d00a8648a" kind="variable"><name>txbLivresAuteur</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a2e9994a1230fbac95cf1781e87921b9a" kind="variable"><name>grpDvdInfos</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a35a972f4c8fcb076ba4d82def40582d7" kind="variable"><name>txbDvdDuree</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a0d4494bc5e6c43cd46a62926ffcffea7" kind="variable"><name>txbDvdImage</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a9a4e1dbaf6c117797ee9ba6434263727" kind="variable"><name>txbDvdRayon</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ac9650c66fe91474b98aa084e5fb45715" kind="variable"><name>txbDvdPublic</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a0ee7aac565d9630f034d0af3f091a85c" kind="variable"><name>txbDvdGenre</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a15a9b1b9b36916014f36b57b1d52a4f5" kind="variable"><name>txbDvdSynopsis</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a8aafe98d5773e6fad51c75f1f3965d87" kind="variable"><name>txbDvdRealisateur</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a011cc12c81018053e02b7a63d0232630" kind="variable"><name>txbDvdTitre</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a7c5afb6d2c1a41f2ee9fdb78696eb173" kind="variable"><name>txbDvdNumero</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a4c870f72b4d5e84054a54906c21e47e2" kind="variable"><name>label23</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a8e706b2628c09b29d9ef42c798c732dc" kind="variable"><name>pcbDvdImage</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1aaaad68c93b9a0aac9f5d18e0412659bf" kind="variable"><name>label24</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ae0c477959ea0076514bb2c741d80041c" kind="variable"><name>label25</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a15b14bbfe537cc3cf22d98b1bea15bd2" kind="variable"><name>label26</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a53205ade5a305e5dac9341c0d2dd9f66" kind="variable"><name>label27</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a3b13df09af82ddcd667cf1705b56e0ba" kind="variable"><name>label28</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a3bc3b64888d51cacf5d5196e8624f191" kind="variable"><name>label29</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a60bbd59414af416be951551c92c5a19d" kind="variable"><name>label30</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a820850541bdd163d378624483950a1e5" kind="variable"><name>label31</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a9ee34483f18e3112368e1a1155555420" kind="variable"><name>grpRevuesInfos</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a31f86f3a4b5a38460ac3ece08f79f283" kind="variable"><name>txbRevuesImage</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a0b8b2019953dbaa437512dbf92b68ab6" kind="variable"><name>txbRevuesRayon</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a1b02a5c7ac96ba2ae3999622c6c10221" kind="variable"><name>txbRevuesPublic</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1aa6ab48fc69024bc881eb682e6202ae45" kind="variable"><name>txbRevuesGenre</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a414777cd710be616650b8966a277d94b" kind="variable"><name>txbRevuesDateMiseADispo</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a5c0433a10a61af85ee2c9a9e05243f81" kind="variable"><name>txbRevuesPeriodicite</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a96d339b1015262a0758fc7bbd2be945f" kind="variable"><name>txbRevuesTitre</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1aa959a5036dbfce9095e59f9af38f8f11" kind="variable"><name>txbRevuesNumero</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a7b28e455cd23b0d4d51126530ce71532" kind="variable"><name>label35</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a7c869b53ca0586a21562d54147894f21" kind="variable"><name>pcbRevuesImage</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1aa7c69004852219972630a348973a4e68" kind="variable"><name>label36</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a44257687db11964aa0d5eeedea57452b" kind="variable"><name>label37</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a2fbc98b1e120f664fd7c4ebeedb9e7eb" kind="variable"><name>label43</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a88d2112ab45070ddda530cf2677b2c23" kind="variable"><name>label44</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a9e3b3872de19e206ba304f15570a4988" kind="variable"><name>label45</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a7f2fb3c2306f451ec9ae69f00d410cd0" kind="variable"><name>label46</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ad797cfd1c9cc12a5e7abf4aa8ca9c7d7" kind="variable"><name>label47</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a4e5c8759a64a5e16d8f6e6e91e4b61a8" kind="variable"><name>grpRevuesRecherche</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ad50aecdea5b6bbab64d8617dab98fb4c" kind="variable"><name>btnRevuesAnnulRayons</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ab460e6aca98358884646af95b6b42070" kind="variable"><name>btnRevuesAnnulPublics</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1acc80236abc14e4391757fccc0a6563f9" kind="variable"><name>btnRevuesNumRecherche</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a00658ce25742d62a02751fc29068f652" kind="variable"><name>label2</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a0a68bf74e3a752c25dc898082d2cb9ee" kind="variable"><name>txbRevuesNumRecherche</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a1398d80932cc2f4c1a02bc1bf5805d27" kind="variable"><name>btnRevuesAnnulGenres</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a674ed19f7e644cec31011e2336f2e153" kind="variable"><name>cbxRevuesRayons</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ac40de62af6f25868f000c3162bfd5c7c" kind="variable"><name>label4</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a2e1a08201b08ddd24d3964bc2765838b" kind="variable"><name>cbxRevuesPublics</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a047ea6ad5b06a4f05ab807215fdb1cd9" kind="variable"><name>label32</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1af0d21d4914f7a5a27af88bb88e48086d" kind="variable"><name>cbxRevuesGenres</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a7ed86eb564ef56385ad109f3a1a77b7c" kind="variable"><name>label33</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a9a0d8f556f7623e8f5b0263b47d5a401" kind="variable"><name>dgvRevuesListe</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a2fb6d6a3c917cbfcc15efae8ded6973d" kind="variable"><name>label34</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1add593b04f4f74519ef45f8998abc58e8" kind="variable"><name>txbRevuesTitreRecherche</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a7ec4811156a76df8baf4ee58992b9792" kind="variable"><name>btnReceptionRechercher</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a4adc6bf8146c6c0697845b0cb4ccdc5f" kind="variable"><name>txbReceptionRevueImage</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1aa8e2991221df503a9cc5495eb44e5906" kind="variable"><name>txbReceptionRevueRayon</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ab0b7bf5363ad47747ab369a45a503eae" kind="variable"><name>txbReceptionRevuePublic</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a821ea2c4e3886f32248b6fa17f898da1" kind="variable"><name>txbReceptionRevueGenre</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a68566f2203111237025dc7b8ae91a22b" kind="variable"><name>txbReceptionRevueDelaiMiseADispo</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1af85de71b5d9bdb1d5a20416f0f92dbb4" kind="variable"><name>txbReceptionRevuePeriodicite</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a78eefc0b50817b1efd38370de58652dd" kind="variable"><name>txbReceptionRevueTitre</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a07d13a5cb2c84a4be836ae30da8e2753" kind="variable"><name>txbReceptionRevueNumero</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a174c54e04aeddbbfc582637d06582849" kind="variable"><name>label3</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a6657b64c86fc2df658310f9736cf072a" kind="variable"><name>pcbReceptionRevueImage</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a98f1fe8d0acd1b538088fce93fe9af5f" kind="variable"><name>label15</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a71fdbab9c6028cf760da0e69f417d705" kind="variable"><name>label49</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a058167574a8d4fa525d39681276e259b" kind="variable"><name>label50</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1af092a9505016da438b9d5342426c6c95" kind="variable"><name>label51</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a89399a3fd23fb5ae3d1b7557a4c4bac0" kind="variable"><name>label52</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ae823caf77fba6c262b9e9d9e5b0a52ef" kind="variable"><name>label53</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1aac4c2418473174a216c494be7348ea3e" kind="variable"><name>label54</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a2bbc47849ec75845e94881986cbeba6d" kind="variable"><name>pcbReceptionExemplaireImage</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a9b13e0f4908583a885278e1f0beac2e0" kind="variable"><name>btnReceptionExemplaireImage</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1adcaea6933bcdd18f8ce2b8b406b090c2" kind="variable"><name>dgvReceptionExemplairesListe</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1aea42410dfc7ff24d2fe477997f6d29ac" kind="variable"><name>label13</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a23b99812691bb52fee71a727cf80eb1e" kind="variable"><name>pcbReceptionExemplaireRevueImage</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a10848e50d2536501da7410bf32b36d81" kind="variable"><name>label56</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1afb52b39051fd36add2735d4aeccd3dec" kind="variable"><name>label55</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a3fcbaeb2aea39b7011516e37c9111087" kind="variable"><name>label48</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a54437a0a98f48b648693e5e973f7a9c2" kind="variable"><name>label57</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a3bac42074d9064c44e493a03a59bc3d3" kind="variable"><name>label58</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a7c5769d28de008b6f186001ad861f780" kind="variable"><name>label59</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a7d44a835aef550f6d6b0aa913846d618" kind="variable"><name>btnAjoutLivre</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a8ea1ccfd8903637527d9340f9ed37360" kind="variable"><name>btnModifLivre</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1aa8b111d50232fcb1d400d5f7167fb97e" kind="variable"><name>btnSupprLivre</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1aa62c6debd683a70d35c03e0e737c1ba8" kind="variable"><name>btnAnnLivre</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ab6c352516decb1d2e8fbf597fb446658" kind="variable"><name>btnValAjLivre</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a61706a3965b3949323205035c7737d8d" kind="variable"><name>cbxLivresGenre</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ae4ff6d3a75938a4b683436177f05f61b" kind="variable"><name>cbxLivresRayon</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a6058b380e1e4e14c3b3b927efecabd36" kind="variable"><name>cbxLivresPublic</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a2468abd15af14adcdd9dbec22e4179c6" kind="variable"><name>btnValModLivre</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a219f343879fe32b4695653f9629cd373" kind="variable"><name>btnSupprDvd</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a13f98e5531079deefd652f8dfa2f199b" kind="variable"><name>btnModifDvd</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a60db60ca4c7071e93596002f28c17138" kind="variable"><name>btnAjoutDvd</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ae9800181dd83e467a56e27fb8a22b771" kind="variable"><name>btnValAjDvd</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a863989d4d49eeb75bfebcbe1bdf95393" kind="variable"><name>btnValModDvd</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a51b6438c30843d65032603467e470564" kind="variable"><name>btnAnnDvd</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a7e2ddb6ae87942f0eca34cbdffbf142f" kind="variable"><name>cbxDvdRayon</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a524927ca0247d14a93d3e69d0de2af18" kind="variable"><name>cbxDvdPublic</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1afbdb2ee813ea2c7160cf1d184ec18f44" kind="variable"><name>cbxDvdGenre</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ae4572176ea09ccaf8c10c3512fe772d6" kind="variable"><name>cbxRevuesRayon</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1aff047c02bb658ca0d811398ad51d669f" kind="variable"><name>cbxRevuesPublic</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a22c992d09a094d04658ec0f465f69793" kind="variable"><name>cbxRevuesGenre</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a62c3af92e47e6726e6db02d09d1b3a0e" kind="variable"><name>btnValAjRevue</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a82a4d0521b73bb66e9affd4e465c5ff7" kind="variable"><name>btnAnnRevue</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ae115f06f6b5c596ba0aeeab58166f8b2" kind="variable"><name>btnSupprRevue</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a618c325cf688cd4ff33292cb95b906ed" kind="variable"><name>btnModifRevue</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a65e86629441d7b8eaae97b684d02a179" kind="variable"><name>btnAjoutRevue</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ad7d7b123d6c65f944b48325b8d96aa32" kind="variable"><name>btnValModRevue</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a0fd6df6ae297a960e4008d22dd4ad4b3" kind="variable"><name>tabCommandeLivre</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1af50776cb99801a16ced0715afe865b21" kind="variable"><name>grpInfosLivre</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ae6049065bc69588c89260361ae75f59b" kind="variable"><name>label60</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ab03315aaed8921224133f65796aaeb5d" kind="variable"><name>txbComLivresIsbn</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a89c6a7c7f0eba4a86e746e84eeb24395" kind="variable"><name>txbComLivresCheminImage</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a7feaad89b50e48283b5b2df4d801e10b" kind="variable"><name>txbComLivresRayon</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a27d8843a8098d23f315bee25d4ae7b80" kind="variable"><name>txbComLivresPublic</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a82dd9c5464d5088a3c7b3efeffdecf1a" kind="variable"><name>txbComLivresGenre</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ab02f89165a07f1d7dbdd8c8500552830" kind="variable"><name>txbComLivresCollection</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a63b14f869245dd12d1d6d1004bf97c0c" kind="variable"><name>txbComLivresAuteur</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a5507be99023e385fe0ccad0e3cfce291" kind="variable"><name>txbComLivresTitre</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a36e9dc97129ac950968c06e5ec0309e3" kind="variable"><name>label61</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ae88261e3471b72110872320f72ec320f" kind="variable"><name>pbLivresImage</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a163a57bd32bb058f0e19a8912b604e4e" kind="variable"><name>label62</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1aacf71d3a2716bb14ac0feadfb6236044" kind="variable"><name>label63</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a79912d3eafd0715bbefcd6a83d9049da" kind="variable"><name>label64</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ae9ab3c04325846df027680c6903691b8" kind="variable"><name>label66</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a7c28c6cffcd7e0c7c31f6da93cc9dc5e" kind="variable"><name>label67</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a866d54f51f5429d5495a9f4e0363e9e5" kind="variable"><name>label68</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1adc65bdf0f0807add6ee4158b363a3efc" kind="variable"><name>label69</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a8bf671c9bc023eff603e0fcb70f877e8" kind="variable"><name>lblSelectionLivre</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ac1c6aa605099e358edaaf5ae5c287d74" kind="variable"><name>dgvCommandesLivre</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1acbcf43c1f4d8a89523422d8fdb69450f" kind="variable"><name>btnRechercheLivre</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a202e5c0655226d479de3c6c9d87934f3" kind="variable"><name>grpSuiviCommandeLivre</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a722dca856da19ef7ef9da9703f05a9cf" kind="variable"><name>cbxNvEtapeCommandeLivre</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a1787cd7069c9df8598a8591c332dd4ba" kind="variable"><name>btnAnnModifSuiviCommandeLivre</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a498f4693584b363cf4cdbc98c535ebb2" kind="variable"><name>btnModifSuiviCommandeLivre</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ad5dcd0ebad339e899d25ff27936fcbdb" kind="variable"><name>label75</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a378078626472c6ad0a4f26cbbd268f80" kind="variable"><name>txbEtapeActuelleCommandeLivre</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a3a06f077802232eec132b1505b3556ce" kind="variable"><name>label77</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1aabaa6958293e26dfeaba921f6e8d65f5" kind="variable"><name>grpInfosCommandeLivre</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ab0edbf47b6a54144cc15c95ee0a01931" kind="variable"><name>dtpDateCommandeLivre</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a46024ed6caf942a36d2401e012917401" kind="variable"><name>btnGererSuiviCommandeLivre</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1abefb6e3a4a5a6e18996d8d6de1611bf3" kind="variable"><name>btnSupprCommandeLivre</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a04826655fc861db160e805ed747994ab" kind="variable"><name>btnAjCommandeLivre</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1aa4c0f62062c048d6ed88f8403be04c0f" kind="variable"><name>label70</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ad418e1f96ad07987748c443e336c10d5" kind="variable"><name>txbNbExemplairesCommandeLivre</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1abb05c3e9c1d3452210f5a6b309b7b42f" kind="variable"><name>label71</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1aa96f4ee4d8b7d4292b1e58a69cbaf8dc" kind="variable"><name>txbMontantCommandeLivre</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ac586401250e94ff009c4a228fdee5b09" kind="variable"><name>label73</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1adc768b5f52ee867215a82cd5110b02bf" kind="variable"><name>txbNumCommandeLivre</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ab9eb3154c1d2fc565b27fbcee33a863d" kind="variable"><name>label72</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a9a0fcd41c6e126a959d1150d4b320739" kind="variable"><name>cbxRechercheLivreCommande</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a7da1e2f2f7f8293aed26d2c4afc40891" kind="variable"><name>btnValAjCommandeLivre</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a81b552e464d4653fee9d202aa03a2643" kind="variable"><name>btnAnnAjCommandeLivre</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ac5954bcc22d32684fc6b75a2b391483f" kind="variable"><name>tabCommandeDvd</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a9aacebf0837424a4c8e1c66df80c2944" kind="variable"><name>grpInfosDvd</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a01636649bc145d057dc3848f5066125c" kind="variable"><name>label82</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1aadcb942975f9e4148e76bd2afcb33fc0" kind="variable"><name>txbComDvdDuree</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1afea40faad91ecfb1c8204e214f5492d0" kind="variable"><name>txbComDvdChemin</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1af8a6d0787237a3d3933111308ea51dab" kind="variable"><name>txbComDvdRayon</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a77bf4a8f05cd6dcbe43cf5268f77eed3" kind="variable"><name>txbComDvdPublic</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a870b22c5d9412d7715bc23d3d9ec906e" kind="variable"><name>txbComDvdGenre</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a4d051caeb925868451347864fc63e273" kind="variable"><name>txbComDvdSynopsis</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a12dff0204103a5fe7cccac3316f937d6" kind="variable"><name>txbComDvdRealisateur</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a2204430b9507a73e9d5d03bb8baf257a" kind="variable"><name>txbComDvdTitre</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ae557c35339bc963d48731fe269f27026" kind="variable"><name>label83</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a7cb2db1c25c476ff4ea6a7ea97efa360" kind="variable"><name>pbDvdImage</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ad01cd0977ee2524728d1e8e270796ac4" kind="variable"><name>label84</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ab8d63d4e2077eaac935591ff86e1fa6b" kind="variable"><name>label85</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a3d53aad3e2d0f8c700b078fbe5b1bb0a" kind="variable"><name>label86</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ab1f1b61e59df83c834fff5e5b73d01ec" kind="variable"><name>label88</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a25dfa5189f45a0dbb8811cfe7abed739" kind="variable"><name>label89</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ad359c0323ac2a26c3a8f00c8f9247a80" kind="variable"><name>label90</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a34df7fb9646dbdde49d330335082caf4" kind="variable"><name>label91</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a097e3189cce86e4d2026502ba05510f5" kind="variable"><name>cbxRechercheDvdCommande</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1acaf0422443ad9327c17fd978a57e91f8" kind="variable"><name>grpSuiviCommandeDvd</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a1b4e85383641d47339d66058170aaaa5" kind="variable"><name>cbxNvEtapeCommandeDvd</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ad582cbf0001548e75f8e97d35a810d94" kind="variable"><name>btnAnnModifSuiviCommandeDvd</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1af16897bdf16109478f1a06405f7269ab" kind="variable"><name>btnModifSuiviCommandeDvd</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a21d024074c10a176deeab4a89b3087bc" kind="variable"><name>label65</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1aece5f2e18c7339396787a5fcff4ba682" kind="variable"><name>txbEtapeActuelleCommandeDvd</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a659ff9802baa5b45de5669694e3ebfd2" kind="variable"><name>label74</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a3920525fcdb71f7ada80a440601e3ade" kind="variable"><name>grpInfosCommandeDvd</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a879e46520cf9a5e63ec97f796592acd8" kind="variable"><name>btnValAjCommandeDvd</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a43e9276a44f3c03e3f43243eec6799bf" kind="variable"><name>btnAnnAjCommandeDvd</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1adb127fecd105b929a00373b41bea5d09" kind="variable"><name>dtpDateCommandeDvd</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a72e4fa56ab302688f663c67bd1243cd6" kind="variable"><name>btnGererSuiviCommandeDvd</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1aeba1ff8bb33974a530a2cffeb289a4fb" kind="variable"><name>btnSupprCommandeDvd</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a0150867d79eaf53ab881bfe116c57f01" kind="variable"><name>btnAjCommandeDvd</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ab5a33159202f9dd2c8f5d3c3b9727d89" kind="variable"><name>label76</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a1d90461437048515dc1a7629753c21ea" kind="variable"><name>txbNbExemplairesCommandeDvd</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a0c6b7b0ac1d5eae0fe190b7c569e7e77" kind="variable"><name>label78</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a295baa2e77453070670fcf493056aaa7" kind="variable"><name>txbMontantCommandeDvd</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a3e7017e3cd07c4d93d8125d1c3dc69e2" kind="variable"><name>label79</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a463a77174612cb37ac6a5d2daec8d705" kind="variable"><name>txbNumCommandeDvd</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a0a193ea3b34ca4dbc94b1435f4dce344" kind="variable"><name>label80</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a8aa59993e6e6ef2e089e670f463b9a88" kind="variable"><name>dgvCommandesDvd</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a1f2b4f4e8a2fb41a933701372f0f3853" kind="variable"><name>btnRechercheDvd</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1aa56cfcb15f47eca7e18dd8ab1a5c286b" kind="variable"><name>lblSelectionDvd</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ae0f6991fbf439f14bb89d126e960c544" kind="variable"><name>tabCommandeRevue</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a0d4c556d045ef03850d5f815179db86d" kind="variable"><name>grpInfosCommandeRevue</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a80974bb7af5d46a0789ca531900204f2" kind="variable"><name>dtpFinAbonnementRevue</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a980d400b9abe3a0256808b79b8d3fe02" kind="variable"><name>label100</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a6e10181be58f24da6090107b944b4bb9" kind="variable"><name>dtpDateCommandeRevue</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a893de0bbabcd974b1a82069e319416a8" kind="variable"><name>btnSupprCommandeRevue</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a2d6c3c7e5ae9d2a513e19eb45f6b1468" kind="variable"><name>btnAjCommandeRevue</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a3aa1e83628162ed906d822e75e0493c1" kind="variable"><name>label95</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1aafc412c23958aaf3c780ffe90c2fd993" kind="variable"><name>label99</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a152869bd5604032c2c024aa71ccb686f" kind="variable"><name>txbMontantCommandeRevue</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a965c9125b2568d09a206cc935a56215a" kind="variable"><name>txbNumCommandeRevue</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a5a5206f7bb73099cc83f4f825d9e3607" kind="variable"><name>label101</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a0bae51365c15604f0682f99150337a05" kind="variable"><name>dgvAbonnementsRevue</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a59d82002b934ea01abd87e2093967c94" kind="variable"><name>cbxRechercheRevueCommande</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a75834792b8832672fdc2b36c58c14fa1" kind="variable"><name>btnRechercheRevue</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a3dda277266c7298449b2c4850f7b7763" kind="variable"><name>lblSelectionRevue</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1aa5bd24ece8b05e1b79507550af7fa7ca" kind="variable"><name>grpInfosRevue</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1aab59f853376de6c9ec2eaaaf16ecccfe" kind="variable"><name>label81</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a6c317fae9aa0f06c4503837556ae6335" kind="variable"><name>txbComRevueChemin</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a159c4ba079403322812a4e8174f71f9a" kind="variable"><name>txbComRevueRayon</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a90f8e66289e5823761373ee01d6cb945" kind="variable"><name>txbComRevuePublic</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a634080ea2bfa3d2288b759e4b0ff6016" kind="variable"><name>txbComRevueGenre</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a2e2a2b8656dc6efd21dcbd57a57d585f" kind="variable"><name>txbComRevueDelai</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a02631d8a6a908f02c09034ee518e619c" kind="variable"><name>txbComRevuePeriod</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a4e089b377c01fe9ed6d6e8e81ec8fc36" kind="variable"><name>txbComRevueTitre</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ac2ee0c95ed22603ad0224fdf1521b0ec" kind="variable"><name>label87</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a1593443b988eb3e948a88c50403b1133" kind="variable"><name>pbRevueImage</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a155a29c8bd05876a8a135a908f8d1992" kind="variable"><name>label92</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a298e810cc112f3891b4bfbaf23f1f763" kind="variable"><name>label93</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ab1f78ed94d5f79f40edce8debe422c1c" kind="variable"><name>label94</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a32b0fa2abd1f150cc4860b76df6c48f3" kind="variable"><name>label96</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1abf53110ce763240a1186b7b231524428" kind="variable"><name>label97</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a4cda84c2dc405205bf24b11d5a5a8c93" kind="variable"><name>label98</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ab251088746118dfac425d4752ef47d36" kind="variable"><name>btnAnnAjCommandeRevue</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ae1c14ba910991200f5a328c38755dae9" kind="variable"><name>btnValAjCommandeRevue</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a33949a4b34ad9446a73d1515c12e5d54" kind="variable"><name>grpInfosExemplairesLivre</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1adb513e88f10671d9fcb9a6849a92fde5" kind="variable"><name>label105</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1aa73c2d1690614ad6b0caf334d3badc63" kind="variable"><name>cbxNvEtatExemplaireLivre</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1adcef81c2fc9642de822b45b73047fa12" kind="variable"><name>btnSupprExLivre</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a41866f0c17aa9ade0a179882c15fb52a" kind="variable"><name>btnModifEtatExLivre</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a759e48225529f8c0b3bbbe4a788ce5c0" kind="variable"><name>dtpAchatExemplaireLivre</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a6082d834ba20107a7a0ac423e546b42e" kind="variable"><name>txbEtatExemplaireLivre</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a5f508f98c6198097360d00271605edf3" kind="variable"><name>txbNumExemplaireLivre</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a8d16be5bdd4b0e7b46b3c25c94e0a0dd" kind="variable"><name>label104</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a145b2e7a5ef078c91feed3edb146e54b" kind="variable"><name>label103</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a95e6f1fd22f1a09f5cdd96fc77992b04" kind="variable"><name>label102</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a6282b20ad12adb0418ec13c5e44a34db" kind="variable"><name>grpExemplairesLivre</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a6da73fbdfc6ba6e7541b67e799e04aa4" kind="variable"><name>dgvExemplairesLivre</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a21038d2746a4713ba6f28f17a231d97b" kind="variable"><name>grpInfosExemplairesDvd</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a449a909e65e6e5eb7cf7108401b424c6" kind="variable"><name>label106</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a1848d1c2ed17bf5b55c340e634f4234b" kind="variable"><name>cbxNvEtatExemplaireDvd</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1af5b18dfac2cf44cff70d1a246d672b0c" kind="variable"><name>btnSupprExDvd</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1af88e5fe00e272a46a721587e8fbf318e" kind="variable"><name>btnModifEtatExDvd</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a8bd260ae3f287f78f9a5d530fd814f9d" kind="variable"><name>dtpAchatExemplaireDvd</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a5cc1c0c059685abdb4d3bf3fe31c0260" kind="variable"><name>txbEtatExemplaireDvd</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a479a0a075e45d06440b0de562e20f9f8" kind="variable"><name>txbNumExemplaireDvd</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1abce3311e0ab9b92a7d1be983af95a1bd" kind="variable"><name>label107</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ad159940f5d8379b6d34ba7226060ba28" kind="variable"><name>label108</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a1a5c22543991aa20b2ddfb9085534e7d" kind="variable"><name>label109</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a2b2d5db893176f1fff0597b8e146a730" kind="variable"><name>grpExemplairesDvd</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1af8058b43de329b79366f75b00cafab65" kind="variable"><name>dgvExemplairesDvd</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a356f52db1b1eae004e10b1b9a5b45016" kind="variable"><name>grpInfoExemplaireRevue</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a14177c67ed0b75907933c74d4b9960f8" kind="variable"><name>label110</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1aa3369d16ff52e36637df7a4468bd3119" kind="variable"><name>cbxNvEtatExemplaireRevue</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a8e4e2c7a428b694fad712e01ae8e944a" kind="variable"><name>btnSupprExRevue</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a4b1f9fa432c623ff962b3bc9ec5d7d01" kind="variable"><name>btnModifEtatExRevue</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a33337754c14135a331a724e1130bad61" kind="variable"><name>dtpAchatExemplaireRevue</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a60749171d8ca61d05d6ffe1ca814141c" kind="variable"><name>txbEtatExemplaireRevue</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1aa07327259e9be44e812905ab1f6d1345" kind="variable"><name>txbNumExemplaireRevue</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a26443d94784d680b89aa93b3786420dc" kind="variable"><name>label111</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a6de4f92c537db5f92b2a8dc961b9a565" kind="variable"><name>label112</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ab3dcef4c93ba4b7b2dd25e71e89eb1e1" kind="variable"><name>label113</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a4fa7dd5cd950076630f501012320aa1b" kind="variable"><name>ETATNEUF</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a75702efb9799bb838c1b6e69a7051737" kind="function"><name>FrmMediatek</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1af7e4f72295abd262da9037569eb30551" kind="function"><name>FrmMediatek_Load</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a056c7568a6422949718a6ce4218ad3ba" kind="function"><name>AccesRestreint</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a2b375507ea08f3b180430f6c371bc71d" kind="function"><name>getIdGenreDoc</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a517b38e0bbaf8e44ee7f298856dcbfbe" kind="function"><name>getIdPublicDoc</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a845272a572905fcad2fd79c946fde892" kind="function"><name>getIdRayonDoc</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a1b4bf66fb825f49c721afe7e1bb7b891" kind="function"><name>getIdSuivi</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a1486896b81a360626f1907245277f748" kind="function"><name>docExiste</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a0c269ecbaf163d4c5b465a5487297628" kind="function"><name>commandeExiste</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a1c2cfbbc25ac38694b57681e4a6e8f21" kind="function"><name>isDigit</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ae61ce9c3ef745c6fa55c4f39496adf8d" kind="function"><name>TabLivres_Enter</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a4457b229b8c20d92165112a856ef95f3" kind="function"><name>RemplirLivresListe</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1acadf064d22e994d8262b43742a7bf777" kind="function"><name>BtnLivresNumRecherche_Click</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a096fbda8945d12cca6b7dcbe5e9e29f9" kind="function"><name>TxbLivresTitreRecherche_TextChanged</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a964d7737a77bad231c4a5ce8dca54026" kind="function"><name>AfficheLivresInfos</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1afce6da9c737bf9a0516516aa55f0937b" kind="function"><name>VideLivresInfos</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1acd8e41e552d3be188bc71ac8c38cd6da" kind="function"><name>CbxLivresGenres_SelectedIndexChanged</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a7d995806aeee6f5664eee69abec0b74a" kind="function"><name>CbxLivresPublics_SelectedIndexChanged</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ab2686ab8c2ece3866b7091018c86e450" kind="function"><name>CbxLivresRayons_SelectedIndexChanged</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a5dcc5f0d9fd873cbb9dfdfdc8bd70d96" kind="function"><name>DgvLivresListe_SelectionChanged</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a9faefd5a7fa245cd5625b5b14bf216e8" kind="function"><name>BtnLivresAnnulPublics_Click</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a32d0b28c06df99fbe6d215b19681e5d9" kind="function"><name>BtnLivresAnnulRayons_Click</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a61c3b112a71aaf3a10a73981e55f8bf7" kind="function"><name>BtnLivresAnnulGenres_Click</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ab7237d498b019e28e15119d89b64498b" kind="function"><name>RemplirLivresListeComplete</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a21986e1a3253c79f130c1107edc3d131" kind="function"><name>VideLivresZones</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1adc7b2fb1f89855d4def56059744247b4" kind="function"><name>DgvLivresListe_ColumnHeaderMouseClick</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a8b501cba223457a07303d923d0ca0ce6" kind="function"><name>encoursAjoutLivre</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a8115917e7910bfc4a1aef0b64874de3b" kind="function"><name>RemplirCbxLivresGenre</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1acddefdd5e27275a7f0737b32cb63cff3" kind="function"><name>RemplirCbxLivresPublic</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1af6934e6c4057dc19cc84c9266cdee21c" kind="function"><name>RemplirCbxLivresRayon</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a8963ec8d22ea5b5ae420419e5058e6c8" kind="function"><name>btnAjoutLivre_Click</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a9905a7e925c4cba8994cb84d0d6d4cf6" kind="function"><name>btnAnnLivre_Click</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ab446ca119470f6cad96b38024ffcaf1a" kind="function"><name>livreExiste</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ae04c0f928f9f866653452122ff455b5e" kind="function"><name>btnValAjLivre_Click</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1abaa360d7040e389272aee295ea021061" kind="function"><name>encoursModifLivre</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ac200b739233c1d8c2ea872d5f563ef1e" kind="function"><name>btnModifLivre_Click</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ae984991a05854b4b9f1c43bedbea9ba2" kind="function"><name>btnValModLivre_Click</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1abaf1af3aaaa80bcc2d11738a7424e763" kind="function"><name>btnSupprLivre_Click</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a2bd53889bc937d7f28e6f07c045ce8f7" kind="function"><name>remplirExemplairesLivreListe</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a07494ec542f0c31dc4140934070fe2eb" kind="function"><name>dgvExemplairesLivre_ColumnHeaderMouseClick_1</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1aec0ca00652d9efb070c8507b5c42a31b" kind="function"><name>dgvExemplairesLivre_SelectionChanged</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1aeffa558f4a3e2db436a4881f30f526ec" kind="function"><name>AfficheExemplaireLivreInfos</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1afb9d85c88a0375db0933fa6bdea52d47" kind="function"><name>VideExemplaireInfosZones</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a0c4e5c226bb9d6a275eaca7758946897" kind="function"><name>remplirCbxEtatLibelleExemplaireLivre</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ae44255f5ce704d938e7ed9788869ad7a" kind="function"><name>GetIdEtat</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1aef66db9706ce904e9d7c4c62281bf944" kind="function"><name>btnModifEtatExLivre_Click</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ad97a6d40541dfa3a153f05ec8c929b2f" kind="function"><name>btnSupprExLivre_Click</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a1d72c0812f129387f8c8970c3ab23c1e" kind="function"><name>tabDvd_Enter</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ac42144827b2ee1506a01ed0c98d4d6ff" kind="function"><name>RemplirDvdListe</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ad84d58c52049c894e810748d5b0dcddc" kind="function"><name>btnDvdNumRecherche_Click</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ac08840a615b1082e37c1b5a5e2bb899c" kind="function"><name>txbDvdTitreRecherche_TextChanged</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a7514770da32da1ccefa3f46f72330129" kind="function"><name>AfficheDvdInfos</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1aff783a40946b1870c157ea450cee6403" kind="function"><name>VideDvdInfos</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a1a497802ac48602b7e3c8c13b21ba7f7" kind="function"><name>cbxDvdGenres_SelectedIndexChanged</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a1405a1bc6bb9812cf0b494e7c683d7a8" kind="function"><name>cbxDvdPublics_SelectedIndexChanged</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1abb07db1ad5e3dc9a318f619bc0cc4abe" kind="function"><name>cbxDvdRayons_SelectedIndexChanged</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a1ff3a26418daeb15e846ecc8f8eedddc" kind="function"><name>dgvDvdListe_SelectionChanged</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a3e8299c309702191e1c9839316284c2e" kind="function"><name>btnDvdAnnulPublics_Click</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a557178bbd7cfc5ea31614494aca75807" kind="function"><name>btnDvdAnnulRayons_Click</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a6f13ab35b035f56059338a14f5dd3acb" kind="function"><name>btnDvdAnnulGenres_Click</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a17c4ffc78b7a01619939a6771c18febb" kind="function"><name>RemplirDvdListeComplete</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a61e14e78effcb44a4af726a95aec081a" kind="function"><name>VideDvdZones</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1aa55f21105e817bdc85e13f3d0a604da9" kind="function"><name>dgvDvdListe_ColumnHeaderMouseClick</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a2e703268eee5af17a2d3e81a7f7e336c" kind="function"><name>RemplirCbxDvdGenre</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1aa1e5c4e02730824c418b3b93a6335d86" kind="function"><name>RemplirCbxDvdPublic</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a9c7789d6bf35d30ede4ea70cb6239d83" kind="function"><name>RemplirCbxDvdRayon</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1aae7d6a917e29e3fd772a35357de5f4cb" kind="function"><name>encoursAjoutDvd</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ad721a9d2b3c5e9841f9b85e2b8490f93" kind="function"><name>btnAjoutDvd_Click</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a216deafac32eac4bf587314ae848c93c" kind="function"><name>btnAnnDvd_Click</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a37cd0a66f7f161f314e4bc78a872e9ed" kind="function"><name>dvdExiste</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a5416da207d91bb12060bb998adb675c6" kind="function"><name>btnValAjDvd_Click</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a4aa1a1eaed662e8d313ae5f4add8d060" kind="function"><name>enCoursModifDvd</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1add204aa176d7085ebbcc0e468a90a7a2" kind="function"><name>btnModifDvd_Click</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1aac778c6a7882e1539f18c6bc51fd9904" kind="function"><name>btnValModDvd_Click</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ad82e18956733bfba7706358857c4784f" kind="function"><name>btnSupprDvd_Click</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ae2debf1c16d8a953ee4c57104ffe25cb" kind="function"><name>remplirExemplairesDvdListe</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a092adf31d6856ee06ff1cdf1884b1f47" kind="function"><name>dgvExemplairesDvd_ColumnHeaderMouseClick</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a269cd125d4f5f0f8ed9506c53d4a1c8a" kind="function"><name>dgvExemplairesDvd_SelectionChanged</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a141729d4f7ced727855f0d15478c4810" kind="function"><name>AfficheExemplaireDvdInfos</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1acebc699c4b735aef13bc8b770f8f7593" kind="function"><name>VideExemplaireDvdInfosZones</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ade0cc0f9198f715a7867d2e3731a00c0" kind="function"><name>remplirCbxEtatLibelleExemplaireDvd</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ac3f98d0a26718c2a018b25f939b25be5" kind="function"><name>btnModifEtatExDvd_Click</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1acfece4f38135b0614f1cbb71f0222183" kind="function"><name>btnSupprExDvd_Click</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a092322234aa29416732c07daecf4660a" kind="function"><name>tabRevues_Enter</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1aa36a5ee127763e0cc6753d2ab16d4902" kind="function"><name>RemplirRevuesListe</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a297a9bcffb00003009b55502d90424d0" kind="function"><name>btnRevuesNumRecherche_Click</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a269a435353251ce173703e4d92a2f6ef" kind="function"><name>txbRevuesTitreRecherche_TextChanged</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a3ae9127cb8a6ab912dedd07958a7d886" kind="function"><name>AfficheRevuesInfos</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a2247084cba4d7fb7f6786b81fcea0842" kind="function"><name>VideRevuesInfos</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a288d053acc5c8cef241c7d89c572a034" kind="function"><name>cbxRevuesGenres_SelectedIndexChanged</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a767e456aa6d210ade244124f550940e4" kind="function"><name>cbxRevuesPublics_SelectedIndexChanged</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ae92c091c073ef80e67ae0b9b60412ce9" kind="function"><name>cbxRevuesRayons_SelectedIndexChanged</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a278705fe87cff2b89d769b28cbf219e6" kind="function"><name>dgvRevuesListe_SelectionChanged</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a564c3ffe4050450e8da73d08ac94caec" kind="function"><name>btnRevuesAnnulPublics_Click</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a594508df85504261916bc6536a36657e" kind="function"><name>btnRevuesAnnulRayons_Click</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a5a1cda9c9001bd2e3efffc3696e26f97" kind="function"><name>btnRevuesAnnulGenres_Click</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a5a9011ac63cd4825ed567e250b154f56" kind="function"><name>RemplirRevuesListeComplete</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a3725088c26a09966636db76172db8f93" kind="function"><name>VideRevuesZones</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a40b3e41db087dfbc2b3db1bf0521b024" kind="function"><name>dgvRevuesListe_ColumnHeaderMouseClick</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a3265670a80ace0f45bdb663e4751edc6" kind="function"><name>RemplirCbxRevueGenre</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ab3506566f2f147437b958f1c245035c0" kind="function"><name>RemplirCbxRevuePublic</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ae7154c7b488cef877c914b5d7070206e" kind="function"><name>RemplirCbxRevueRayon</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a0704a27b56b5459dd784f7bb5cd1403d" kind="function"><name>enCoursAjoutRevue</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a4fb9b1eb61ea98ababcdbd8daebb26c4" kind="function"><name>btnAjoutRevue_Click</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a66fc3f3d904aada229db6c910e512777" kind="function"><name>btnAnnRevue_Click</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a0827c7997416d54a4ab6311197a9f96c" kind="function"><name>revueExiste</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a4434ed82ffc98721fc17a078900bddd9" kind="function"><name>btnValAjRevue_Click</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a76684133ace2ddee48341ad9c8b23e54" kind="function"><name>enCoursModifRevue</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ada36f3da90bfa5a542edf361b8b54c18" kind="function"><name>btnModifRevue_Click</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1aa294ce7f03fce10d2e7f023f33bf9b58" kind="function"><name>btnValModRevue_Click</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ac6667656cb92169250dd4d1bf797bc1e" kind="function"><name>btnSupprRevue_Click</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ab6b7fb463b42bd7772b0d16feb38d685" kind="function"><name>tabReceptionRevue_Enter</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1adcde9b9af2fffbd76921b7776dcec372" kind="function"><name>RemplirReceptionExemplairesListe</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a26774b3bc43b688048571ec9b6ebfed1" kind="function"><name>btnReceptionRechercher_Click</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ae24f173e8a1e5ec83033d71793df52d1" kind="function"><name>txbReceptionRevueNumero_TextChanged</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1aa54d5e64b49306c984c98b69d5ebfc15" kind="function"><name>AfficheReceptionRevueInfos</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ad4caa2354590bd920df8a50f9dcb9f3f" kind="function"><name>AfficheReceptionExemplairesRevue</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a9b04b01d2e0db03097d917914e55dda2" kind="function"><name>AccesReceptionExemplaireGroupBox</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a68aaf9e589f0f007edab7613eeff6804" kind="function"><name>btnReceptionExemplaireImage_Click</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a93c6ec2b02d45c8c228ab78b61883fae" kind="function"><name>btnReceptionExemplaireValider_Click</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1aada8573ab66a7de2c991dbcbd753e105" kind="function"><name>dgvExemplairesListe_ColumnHeaderMouseClick</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a81ec995f241d8dd5ee13d1c791706570" kind="function"><name>dgvReceptionExemplairesListe_SelectionChanged</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1af23ab9352df75b5573b0e8d13da4bd74" kind="function"><name>AfficheExemplaireRevueInfos</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a72f7bca4288b21053fcbc0187d47c9e6" kind="function"><name>VideExemplaireRevueInfosZones</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a3b6001fe1c5d297ad79c4070b11eef14" kind="function"><name>remplirCbxEtatLibelleExemplaireRevue</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a5375ba2180bc5e4d3c6ab8a6691caa6f" kind="function"><name>btnModifEtatExRevue_Click</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1aef62499065f96b1d9db16d7a2b882ce9" kind="function"><name>btnSupprExRevue_Click</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1aa75e3f82445ad17f8ea2d466dc79884b" kind="function"><name>tabCommandeLivre_Enter</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a23835658603c7097d4702abb75377c5e" kind="function"><name>remplirCbxRechercheLivre</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a05b4defaddb173b54b2f3a39fd2061d7" kind="function"><name>btnRechercheLivre_Click</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ad410eaad78fea711273d3d9a8e40d147" kind="function"><name>getLivreCommande</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a526782e6a280c158b095d8163acbcbf4" kind="function"><name>remplirGrpInfosLivre</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a06dead141e8a42927e0030eb471343cc" kind="function"><name>RemplirCommandesLivreListe</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1aaf939fa06b4860ea4930364ca85ea551" kind="function"><name>RemplirCommandesLivreListeComplete</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a09245e370ad68f70c0c4c3d4b2427d90" kind="function"><name>dgvCommandesLivre_ColumnHeaderMouseClick</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1aff0af3d0cacbeeff119ab21738560144" kind="function"><name>dgvCommandesLivre_SelectionChanged</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ad6f4f3a836c767d447cbde4467e4e76e" kind="function"><name>VideCommandeLivreZone</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a34d4f83a188812b0a5067f76dc9f251c" kind="function"><name>AffichageCommandeLivreInfos</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a056e4fa86746ba1d6ea075037bb1648c" kind="function"><name>remplirCbxModifSuiviCommandeLivre</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a3f80837d5ac35e6a2a00c23d6540be04" kind="function"><name>btnAjCommandeLivre_Click</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a565cae2b70d5ccb37b036d86b7506669" kind="function"><name>enCoursAjoutCommandeLivre</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a8c5928683814ec7bcecefd97500db19a" kind="function"><name>btnAnnAjCommandeLivre_Click</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a4cf813593763182fea03d85174f71987" kind="function"><name>btnValAjCommandeLivre_Click</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a76ca2c4f9f9bc5e70483fd522637b1a9" kind="function"><name>btnGererSuiviCommandeLivre_Click</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ac984a60b242f0d5bd562c8a999782b37" kind="function"><name>enCoursModifSuiviLivre</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a527dc82d4c09459dc643ee1676908f8e" kind="function"><name>btnAnnModifSuiviCommandeLivre_Click</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a3d19f144ee7ba026c94c2a7c059ec48b" kind="function"><name>btnModifSuiviCommandeLivre_Click</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a804d5545747cac8b697a456a774b3d7e" kind="function"><name>btnSupprCommandeLivre_Click</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a9876c887b2e2b0346cac5ad5b5ac162f" kind="function"><name>remplirCbxRechercheDvd</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a103915bbb26828c868ed4ff6b2cfa921" kind="function"><name>tabCommandeDvd_Enter</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a3eb2a2a45057621cc4151ab75669a238" kind="function"><name>getDvdCommande</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1aa29109b44c979ee4a279e4485922edf4" kind="function"><name>btnRechercheDvd_Click</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a452c5f21fc8543df06c1a05198a8443d" kind="function"><name>remplirGrpInfosDvd</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ab08df7daf3f77adb54ad99e437bd216d" kind="function"><name>remplirCommandesDvdListe</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a59e2da90ac5937967043095433fe9789" kind="function"><name>RemplirCommandesDvdListeComplete</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a32e4ab7a0d253f1cce714a607e6cd736" kind="function"><name>dgvCommandesDvd_ColumnHeaderMouseClick</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a8abb37be49eae4b53a6fecdbdf3e8da0" kind="function"><name>dgvCommandesDvd_SelectionChanged</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1afc1db3b9cf141cb21982f99e9162d119" kind="function"><name>VideCommandeDvdZone</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a09b4e7bc4571aa470177b577d55d36e7" kind="function"><name>AffichageCommandeDvdInfos</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1aebf8b80e2ce39bb5498b747f35db393d" kind="function"><name>remplirCbxModifSuiviCommandeDvd</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a386adb8c53fcb69d9634587269ab2fe2" kind="function"><name>btnAjCommandeDvd_Click</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a5889f3be22bb34a643441f0e1637bdd7" kind="function"><name>enCoursAjoutCommandeDvd</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ad621f6c9b69aed1329158a3c7c340503" kind="function"><name>btnAnnAjCommandeDvd_Click</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a32cef220988cc42cdb384224ab2f55c5" kind="function"><name>btnValAjCommandeDvd_Click</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ae9f56cf33d15aec93437704523f99591" kind="function"><name>btnGererSuiviCommandeDvd_Click</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1acc3591369c5016b90992d35f9ad3e6a9" kind="function"><name>enCoursModifSuiviDvd</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a06e5d7bbf7ed93c91e2b49858e4c596a" kind="function"><name>btnAnnModifSuiviCommandeDvd_Click</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a6507211656a6f99c377a8e50c1afb06e" kind="function"><name>btnModifSuiviCommandeDvd_Click</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1aab62d94d16ca0c19773b70b9c42f755b" kind="function"><name>btnSupprCommandeDvd_Click</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a719648e8207a2202b2b38fdb16da6680" kind="function"><name>remplirCbxRechercheRevue</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1afabdd3fc516bd6ab9de5c41d4b1f6ace" kind="function"><name>tabCommandeRevue_Enter</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1aece1cb751f6f8817c912faf7db03ceed" kind="function"><name>getRevueCommande</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a3a1ac7a0a368d60aa7d1d52e872b4dff" kind="function"><name>btnRechercheRevue_Click</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a24533f7ac3129cfdc9d511c90fb3e4a1" kind="function"><name>remplirGrpInfosRevue</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1aa84549bcd97f0efc20d69f635fbb201d" kind="function"><name>remplirAbonnementsRevueListe</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1aab65593e1c681731a75c4415ccd21edb" kind="function"><name>remplirAbonnementsRevueListeComplete</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a19d54976ca6d1b24328db3cfb5b722ca" kind="function"><name>dgvAbonnementsRevue_ColumnHeaderMouseClick</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ae0b7b96a95f03ed85064afcf9c104fbb" kind="function"><name>dgvAbonnementsRevue_SelectionChanged</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1adc8f6eb9947660ed0f5ffaadea0d821b" kind="function"><name>VideCommandeRevueZone</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a35d162a503d6217b714eb68612fc874b" kind="function"><name>AffichageCommandeRevueInfos</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a38eecaa7a5180bd9a92d50ee5700152b" kind="function"><name>btnAjCommandeRevue_Click</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a91e466113694f4e3b2a32d2e3ab6bd5c" kind="function"><name>enCoursAjoutAbonnementRevue</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a42b973591f4016299b222125061335db" kind="function"><name>btnAnnAjCommandeRevue_Click</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a666ae3c223317097e9d9edd91d2b0bad" kind="function"><name>btnValAjCommandeRevue_Click</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a18797f4bed208ab54a54a33868fa8084" kind="function"><name>verifExemplaireAbonnement</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a61317bc85f2eee261f26f33296726d5d" kind="function"><name>btnSupprCommandeRevue_Click</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a4ee797b1b4f5e56a45a6f1c48a9e09b0" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1a62b280a0c2bba8a8601931cc347ba162" kind="function"><name>RemplirComboCategorie</name></member>
+    <member refid="class_media_tek_documents_1_1view_1_1_frm_mediatek_1ad165810ce498739484943e2f0db5a6d3" kind="function"><name>Dispose</name></member>
+  </compound>
+  <compound refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller" kind="class"><name>MediaTekDocuments::controller::FrmMediatekController</name>
+    <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a3d7ce7f4a99f5748b8380ace06f6221a" kind="variable"><name>access</name></member>
+    <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a72ed2400f576d1bef7c7b4621421c8a7" kind="function"><name>FrmMediatekController</name></member>
+    <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1ac9f6171c5f481a949bea961a54b4d260" kind="function"><name>GetAllGenres</name></member>
+    <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1ae13b977e2f01bada5086a0127792d03d" kind="function"><name>GetAllDocuments</name></member>
+    <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a31259a00ffb53bd05653dc1b5d2d041b" kind="function"><name>GetAllLivres</name></member>
+    <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1aff6798b4a3a7fb18d9515fdb0f8807c9" kind="function"><name>GetAllDvd</name></member>
+    <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a3e54e8336581d07c393569ee4625c80c" kind="function"><name>GetAllRevues</name></member>
+    <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1aa080a5d10b7b7da29e376ce0057629cf" kind="function"><name>GetAllRayons</name></member>
+    <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1abab41748fe20336499dd3fc8bd29c3a2" kind="function"><name>GetAllPublics</name></member>
+    <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a259fa9bff3caa7f40d83748729e18d1a" kind="function"><name>GetAllCommandes</name></member>
+    <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1ac6252666f48aa3baa9cdb08852925eb8" kind="function"><name>GetAllAbonnements</name></member>
+    <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1ab5471e58f2e6ed78d298ab05db685daa" kind="function"><name>GetAllSuivis</name></member>
+    <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a6eac49e2bb328dd68b0b736e0a717bdd" kind="function"><name>GetAllEtats</name></member>
+    <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a176241828bfd21eca7f5572770cb63ae" kind="function"><name>GetAbonnementsEcheance</name></member>
+    <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a5f242368a3552d8e072d31cd4ecc6d5f" kind="function"><name>GetExemplairesRevue</name></member>
+    <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a13c4d05274842980a646e9065acbdafa" kind="function"><name>GetExemplairesDocument</name></member>
+    <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a827939bca67394e3a25f753b36162de4" kind="function"><name>GetCommandeDocuments</name></member>
+    <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a919388a569c2fc715e83997eb6b76bfc" kind="function"><name>GetAbonnementsRevue</name></member>
+    <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a38b26e0f8357c7b9539e974fb0496c4f" kind="function"><name>CreerExemplaire</name></member>
+    <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a16694ed85a8a49520b1ada114f4c2d2d" kind="function"><name>CreerDocument</name></member>
+    <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a372ce9e03b169df807696fb919a2cd29" kind="function"><name>ModifierDocument</name></member>
+    <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a0ef398223ef3d96301f99baff78b689b" kind="function"><name>CreerLivre</name></member>
+    <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a599b50e55fdd6eb3eb4027e1e9754e2b" kind="function"><name>ModifierLivre</name></member>
+    <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1af0b47ae755941421df98ac1fdabb8019" kind="function"><name>SupprimerLivre</name></member>
+    <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a154c78a44d0f9ca71a982a333a549563" kind="function"><name>CreerDvd</name></member>
+    <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a922873643191d921f64cc8ca3e95081c" kind="function"><name>ModifierDvd</name></member>
+    <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1ae2952711892fe015122a88d251652f01" kind="function"><name>SupprimerDvd</name></member>
+    <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a6f3f0045e3c2368c70ec7f1ccbc48e9d" kind="function"><name>CreerRevue</name></member>
+    <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a0d6def7cc8c3673fac7a02f1c7cf67e2" kind="function"><name>ModifierRevue</name></member>
+    <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a765f15d68753d89413d2065f0deb6315" kind="function"><name>SupprimerRevue</name></member>
+    <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a9e1f79c36958bd1800bb20145631606d" kind="function"><name>CreerCommande</name></member>
+    <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a049dc45494461081866270775c70cc02" kind="function"><name>CreerCommandeDocument</name></member>
+    <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1acdc5825d8d86dc1819ed4f1c3ad5482a" kind="function"><name>ModifierSuiviCommandeDocument</name></member>
+    <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a9090bd1380ad4378fc4da52f28829738" kind="function"><name>SupprimerCommandeDocument</name></member>
+    <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a61be60749967c533463ffcbc23e4738f" kind="function"><name>CreerAbonnementRevue</name></member>
+    <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a9e09a243e382acd67f3e364bbfad5478" kind="function"><name>SupprimerAbonnementRevue</name></member>
+    <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1a980fde13f957bbb517cb732df29f9c6f" kind="function"><name>ParutionDansAbonnement</name></member>
+    <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1aeb6938e241e26ba555f3f71ad5a2b867" kind="function"><name>ModifierEtatExemplaireDocument</name></member>
+    <member refid="class_media_tek_documents_1_1controller_1_1_frm_mediatek_controller_1afebed9427833259fda459f8fdb446f85" kind="function"><name>SupprimerExemplaireDocument</name></member>
+  </compound>
+  <compound refid="class_media_tek_documents_1_1model_1_1_genre" kind="class"><name>MediaTekDocuments::model::Genre</name>
+    <member refid="class_media_tek_documents_1_1model_1_1_genre_1adf0dea7265b5c37fbc98313e7207facf" kind="function"><name>Genre</name></member>
+  </compound>
+  <compound refid="class_media_tek_documents_1_1model_1_1_livre" kind="class"><name>MediaTekDocuments::model::Livre</name>
+    <member refid="class_media_tek_documents_1_1model_1_1_livre_1a5d7958c2e3a7ab7eb2cab4b16588c2b5" kind="property"><name>Isbn</name></member>
+    <member refid="class_media_tek_documents_1_1model_1_1_livre_1aa5d497fea14dfb1a926e0d797b8a2d30" kind="property"><name>Auteur</name></member>
+    <member refid="class_media_tek_documents_1_1model_1_1_livre_1abd7c061ae119c6eac0e181062551f5bf" kind="property"><name>Collection</name></member>
+    <member refid="class_media_tek_documents_1_1model_1_1_livre_1a3fb135cf6d8d29cd63e01e7338272c90" kind="function"><name>Livre</name></member>
+  </compound>
+  <compound refid="class_media_tek_documents_1_1model_1_1_livre_dvd" kind="class"><name>MediaTekDocuments::model::LivreDvd</name>
+    <member refid="class_media_tek_documents_1_1model_1_1_livre_dvd_1ab41f0842266a294cf06d19027b585b5a" kind="function"><name>LivreDvd</name></member>
+  </compound>
+  <compound refid="class_media_tek_documents_1_1_program" kind="class"><name>MediaTekDocuments::Program</name>
+    <member refid="class_media_tek_documents_1_1_program_1a001dfaa5faeba5bf9d10ce45e6ad65cc" kind="function"><name>Main</name></member>
+  </compound>
+  <compound refid="class_media_tek_documents_1_1model_1_1_public" kind="class"><name>MediaTekDocuments::model::Public</name>
+    <member refid="class_media_tek_documents_1_1model_1_1_public_1a6f6ef38740a9f918bd6e828a5ab0e1ed" kind="function"><name>Public</name></member>
+  </compound>
+  <compound refid="class_media_tek_documents_1_1model_1_1_rayon" kind="class"><name>MediaTekDocuments::model::Rayon</name>
+    <member refid="class_media_tek_documents_1_1model_1_1_rayon_1abd18274198e8e98219213fe3e9793dc5" kind="function"><name>Rayon</name></member>
+  </compound>
+  <compound refid="class_media_tek_documents_1_1_properties_1_1_resources" kind="class"><name>MediaTekDocuments::Properties::Resources</name>
+    <member refid="class_media_tek_documents_1_1_properties_1_1_resources_1a9d13cb8894dbd2ed60778fcbd429d49f" kind="variable"><name>resourceMan</name></member>
+    <member refid="class_media_tek_documents_1_1_properties_1_1_resources_1a7e36cf03cc1f8acc5fbe6bb8f610bdc1" kind="variable"><name>resourceCulture</name></member>
+    <member refid="class_media_tek_documents_1_1_properties_1_1_resources_1ad15bdb930f633c164a03249e425fc521" kind="property"><name>ResourceManager</name></member>
+    <member refid="class_media_tek_documents_1_1_properties_1_1_resources_1a99f8246d24578e790579667f8f9c2341" kind="property"><name>Culture</name></member>
+    <member refid="class_media_tek_documents_1_1_properties_1_1_resources_1af0108930037910ce912f1c4b6254e12c" kind="function"><name>Resources</name></member>
+  </compound>
+  <compound refid="class_media_tek_documents_1_1model_1_1_revue" kind="class"><name>MediaTekDocuments::model::Revue</name>
+    <member refid="class_media_tek_documents_1_1model_1_1_revue_1a21b586c701761a897d07ee7ae0f0bcf4" kind="property"><name>Periodicite</name></member>
+    <member refid="class_media_tek_documents_1_1model_1_1_revue_1a33950905753e6fb1380d9aa332e73917" kind="property"><name>DelaiMiseADispo</name></member>
+    <member refid="class_media_tek_documents_1_1model_1_1_revue_1a06b370061a9678cfd27344d51ef5d65c" kind="function"><name>Revue</name></member>
+  </compound>
+  <compound refid="class_media_tek_documents_1_1model_1_1_service" kind="class"><name>MediaTekDocuments::model::Service</name>
+    <member refid="class_media_tek_documents_1_1model_1_1_service_1a8a4ac37a8e724ba47d696785f3d59ce8" kind="property"><name>Id</name></member>
+    <member refid="class_media_tek_documents_1_1model_1_1_service_1a26d6dec1f39a7dadbe7d76f229aee8ea" kind="property"><name>Libelle</name></member>
+    <member refid="class_media_tek_documents_1_1model_1_1_service_1a3531c8e6873cb2c531f592d543b15e12" kind="function"><name>Service</name></member>
+  </compound>
+  <compound refid="class_media_tek_documents_1_1_properties_1_1_settings" kind="class"><name>MediaTekDocuments::Properties::Settings</name>
+    <member refid="class_media_tek_documents_1_1_properties_1_1_settings_1aebfd9755aace3c8156e80bcfc82e826d" kind="variable"><name>defaultInstance</name></member>
+    <member refid="class_media_tek_documents_1_1_properties_1_1_settings_1a44ad9858eb332dd91a966e4c2a18c9b9" kind="property"><name>Default</name></member>
+    <member refid="class_media_tek_documents_1_1_properties_1_1_settings_1aef2ed410e22af7c8e86d0f63f94e743b" kind="property"><name>mediatek86ConnectionString</name></member>
+  </compound>
+  <compound refid="class_media_tek_documents_1_1model_1_1_suivi" kind="class"><name>MediaTekDocuments::model::Suivi</name>
+    <member refid="class_media_tek_documents_1_1model_1_1_suivi_1a509208f0cd509937db9ddbacb49f8f88" kind="property"><name>Id</name></member>
+    <member refid="class_media_tek_documents_1_1model_1_1_suivi_1a5473a466935ed6a040408190e2c757d2" kind="property"><name>Libelle</name></member>
+    <member refid="class_media_tek_documents_1_1model_1_1_suivi_1aca4501f53fde42cb4c855f4d7126cfd3" kind="function"><name>Suivi</name></member>
+  </compound>
+  <compound refid="class_media_tek_documents_1_1model_1_1_utilisateur" kind="class"><name>MediaTekDocuments::model::Utilisateur</name>
+    <member refid="class_media_tek_documents_1_1model_1_1_utilisateur_1a6be7649c30c8268db5af08c9bfebe4b7" kind="property"><name>Login</name></member>
+    <member refid="class_media_tek_documents_1_1model_1_1_utilisateur_1a157180f664809a12f4b148a83a2a44da" kind="property"><name>Password</name></member>
+    <member refid="class_media_tek_documents_1_1model_1_1_utilisateur_1af899efb8d89c0c6593ead2a52f931d17" kind="property"><name>IdService</name></member>
+    <member refid="class_media_tek_documents_1_1model_1_1_utilisateur_1a705edee0d41873826a8cc024e48ff160" kind="property"><name>Libelle</name></member>
+    <member refid="class_media_tek_documents_1_1model_1_1_utilisateur_1a404f8e79d4d7bb1fd3946b49ed899dc8" kind="function"><name>Utilisateur</name></member>
+  </compound>
+  <compound refid="namespaceglobal" kind="namespace"><name>global</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_configuration" kind="namespace"><name>global::SystemConfiguration</name>
+  </compound>
+  <compound refid="namespace_media_tek_documents" kind="namespace"><name>MediaTekDocuments</name>
+  </compound>
+  <compound refid="namespace_media_tek_documents_1_1controller" kind="namespace"><name>MediaTekDocuments::controller</name>
+  </compound>
+  <compound refid="namespace_media_tek_documents_1_1dal" kind="namespace"><name>MediaTekDocuments::dal</name>
+  </compound>
+  <compound refid="namespace_media_tek_documents_1_1manager" kind="namespace"><name>MediaTekDocuments::manager</name>
+  </compound>
+  <compound refid="namespace_media_tek_documents_1_1model" kind="namespace"><name>MediaTekDocuments::model</name>
+  </compound>
+  <compound refid="namespace_media_tek_documents_1_1_properties" kind="namespace"><name>MediaTekDocuments::Properties</name>
+  </compound>
+  <compound refid="namespace_media_tek_documents_1_1view" kind="namespace"><name>MediaTekDocuments::view</name>
+  </compound>
+  <compound refid="namespace_newtonsoft_1_1_json" kind="namespace"><name>Newtonsoft::Json</name>
+  </compound>
+  <compound refid="namespace_newtonsoft_1_1_json_1_1_converters" kind="namespace"><name>Newtonsoft::Json::Converters</name>
+  </compound>
+  <compound refid="namespace_newtonsoft_1_1_json_1_1_linq" kind="namespace"><name>Newtonsoft::Json::Linq</name>
+  </compound>
+  <compound refid="namespace_serilog" kind="namespace"><name>Serilog</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_component_model" kind="namespace"><name>System::ComponentModel</name>
+  </compound>
+  <compound refid="namespace_system_1_1_configuration" kind="namespace"><name>System::Configuration</name>
+  </compound>
+  <compound refid="namespace_system_1_1_data" kind="namespace"><name>System::Data</name>
+  </compound>
+  <compound refid="namespace_system_1_1_drawing" kind="namespace"><name>System::Drawing</name>
+  </compound>
+  <compound refid="namespace_system_1_1_i_o" kind="namespace"><name>System::IO</name>
+  </compound>
+  <compound refid="namespace_system_1_1_linq" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="namespace_system_1_1_net" kind="namespace"><name>System::Net</name>
+  </compound>
+  <compound refid="namespace_system_1_1_net_1_1_http" kind="namespace"><name>System::Net::Http</name>
+  </compound>
+  <compound refid="namespace_system_1_1_reflection" kind="namespace"><name>System::Reflection</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_compiler_services" kind="namespace"><name>System::Runtime::CompilerServices</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_interop_services" kind="namespace"><name>System::Runtime::InteropServices</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text" kind="namespace"><name>System::Text</name>
+  </compound>
+  <compound refid="namespace_system_1_1_threading_1_1_tasks" kind="namespace"><name>System::Threading::Tasks</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_forms" kind="namespace"><name>System::Windows::Forms</name>
+  </compound>
+  <compound refid="_frm_authentification_controller_8cs" kind="file"><name>FrmAuthentificationController.cs</name>
+  </compound>
+  <compound refid="_frm_mediatek_controller_8cs" kind="file"><name>FrmMediatekController.cs</name>
+  </compound>
+  <compound refid="_access_8cs" kind="file"><name>Access.cs</name>
+  </compound>
+  <compound refid="_api_rest_8cs" kind="file"><name>ApiRest.cs</name>
+  </compound>
+  <compound refid="_abonnement_8cs" kind="file"><name>Abonnement.cs</name>
+  </compound>
+  <compound refid="_categorie_8cs" kind="file"><name>Categorie.cs</name>
+  </compound>
+  <compound refid="_commande_8cs" kind="file"><name>Commande.cs</name>
+  </compound>
+  <compound refid="_commande_document_8cs" kind="file"><name>CommandeDocument.cs</name>
+  </compound>
+  <compound refid="_document_8cs" kind="file"><name>Document.cs</name>
+  </compound>
+  <compound refid="_dvd_8cs" kind="file"><name>Dvd.cs</name>
+  </compound>
+  <compound refid="_etat_8cs" kind="file"><name>Etat.cs</name>
+  </compound>
+  <compound refid="_exemplaire_8cs" kind="file"><name>Exemplaire.cs</name>
+  </compound>
+  <compound refid="_genre_8cs" kind="file"><name>Genre.cs</name>
+  </compound>
+  <compound refid="_livre_8cs" kind="file"><name>Livre.cs</name>
+  </compound>
+  <compound refid="_livre_dvd_8cs" kind="file"><name>LivreDvd.cs</name>
+  </compound>
+  <compound refid="_public_8cs" kind="file"><name>Public.cs</name>
+  </compound>
+  <compound refid="_rayon_8cs" kind="file"><name>Rayon.cs</name>
+  </compound>
+  <compound refid="_revue_8cs" kind="file"><name>Revue.cs</name>
+  </compound>
+  <compound refid="_service_8cs" kind="file"><name>Service.cs</name>
+  </compound>
+  <compound refid="_suivi_8cs" kind="file"><name>Suivi.cs</name>
+  </compound>
+  <compound refid="_utilisateur_8cs" kind="file"><name>Utilisateur.cs</name>
+  </compound>
+  <compound refid="_8_n_e_t_framework_00_version_0av4_87_82_8_assembly_attributes_8cs" kind="file"><name>.NETFramework,Version=v4.7.2.AssemblyAttributes.cs</name>
+  </compound>
+  <compound refid="_program_8cs" kind="file"><name>Program.cs</name>
+  </compound>
+  <compound refid="_assembly_info_8cs" kind="file"><name>AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_resources_8_designer_8cs" kind="file"><name>Resources.Designer.cs</name>
+  </compound>
+  <compound refid="_settings_8_designer_8cs" kind="file"><name>Settings.Designer.cs</name>
+  </compound>
+  <compound refid="_frm_authentification_8cs" kind="file"><name>FrmAuthentification.cs</name>
+  </compound>
+  <compound refid="_frm_authentification_8_designer_8cs" kind="file"><name>FrmAuthentification.Designer.cs</name>
+  </compound>
+  <compound refid="_frm_mediatek_8cs" kind="file"><name>FrmMediatek.cs</name>
+  </compound>
+  <compound refid="_frm_mediatek_8_designer_8cs" kind="file"><name>FrmMediatek.Designer.cs</name>
+  </compound>
+  <compound refid="dir_d3bff1ab3a40b4e5d0775c67ace1b0da" kind="dir"><name>controller</name>
+  </compound>
+  <compound refid="dir_3c927018d33f8f9ad50ec470f4ebe1be" kind="dir"><name>dal</name>
+  </compound>
+  <compound refid="dir_a71c3b2ad23b9ff58220dd012d201987" kind="dir"><name>obj/Debug</name>
+  </compound>
+  <compound refid="dir_f4fde8e27670e448c9f2b9269bfa4d83" kind="dir"><name>manager</name>
+  </compound>
+  <compound refid="dir_3f14f6767c31cb4a1d22c13c18cc6fc3" kind="dir"><name>model</name>
+  </compound>
+  <compound refid="dir_43724e81dd40e09f32417973865cdd64" kind="dir"><name>obj</name>
+  </compound>
+  <compound refid="dir_d051c76eebdc544d9c3d734575641c72" kind="dir"><name>Properties</name>
+  </compound>
+  <compound refid="dir_b2f003339c516cc00c8cadcafbe82f13" kind="dir"><name>view</name>
+  </compound>
+</doxygenindex>

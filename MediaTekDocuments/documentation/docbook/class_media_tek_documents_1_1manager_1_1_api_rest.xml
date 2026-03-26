@@ -1,0 +1,224 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_media_tek_documents_1_1manager_1_1_api_rest" xml:lang="fr">
+<title>Référence de la classe MediaTekDocuments.manager.ApiRest</title>
+<indexterm><primary>MediaTekDocuments.manager.ApiRest</primary></indexterm>
+<para>
+
+<para>Classe indépendante d&apos;accès à une api rest avec éventuellement une &quot;basic authorization&quot;. </para>
+ 
+</para>
+<simplesect>
+    <title>Fonctions membres publiques    </title>
+        <itemizedlist>
+            <listitem><para>JObject <link linkend="_class_media_tek_documents_1_1manager_1_1_api_rest_1a24ec9968854932c87e9422b57778396b">RecupDistant</link> (string methode, string message, String parametres)</para>
+
+<para>Envoi une demande à l&apos;API et récupère la réponse. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Fonctions membres publiques statiques    </title>
+        <itemizedlist>
+            <listitem><para>static <link linkend="_class_media_tek_documents_1_1manager_1_1_api_rest_1a0d8b369ef525d796ec57b16f18e765a6">ApiRest</link> <link linkend="_class_media_tek_documents_1_1manager_1_1_api_rest_1ade84494b4ed3528da480bd5a3c553105">GetInstance</link> (String uriApi, String authenticationString)</para>
+
+<para>Crée une instance unique de la classe. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Fonctions membres privées    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_media_tek_documents_1_1manager_1_1_api_rest_1a0d8b369ef525d796ec57b16f18e765a6">ApiRest</link> (String uriApi, String authenticationString=&quot;&quot;)</para>
+
+<para>Constructeur privé pour préparer la connexion (éventuellement sécurisée). </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Attributs privés    </title>
+        <itemizedlist>
+            <listitem><para>readonly HttpClient <link linkend="_class_media_tek_documents_1_1manager_1_1_api_rest_1a56b2eeec29782076f17a3c278a542132">httpClient</link></para>
+
+<para>Objet de connexion à l&apos;api. </para>
+</listitem>
+            <listitem><para>HttpResponseMessage <link linkend="_class_media_tek_documents_1_1manager_1_1_api_rest_1a6c1a557b0c275f6a02bc3107a9706b3c">httpResponse</link></para>
+
+<para>Canal http pour l&apos;envoi du message et la récupération de la réponse. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Attributs privés statiques    </title>
+        <itemizedlist>
+            <listitem><para>static <link linkend="_class_media_tek_documents_1_1manager_1_1_api_rest_1a0d8b369ef525d796ec57b16f18e765a6">ApiRest</link> <link linkend="_class_media_tek_documents_1_1manager_1_1_api_rest_1a16c8f1c937ce5b69ef7f0cb2aecd8877">instance</link> = null</para>
+
+<para>unique instance de la classe </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Description détaillée</title>
+
+<para>Classe indépendante d&apos;accès à une api rest avec éventuellement une &quot;basic authorization&quot;. </para>
+</section>
+<section>
+<title>Documentation des constructeurs et destructeur</title>
+<anchor xml:id="_class_media_tek_documents_1_1manager_1_1_api_rest_1a0d8b369ef525d796ec57b16f18e765a6"/><section>
+    <title>ApiRest()</title>
+<indexterm><primary>ApiRest</primary><secondary>MediaTekDocuments.manager.ApiRest</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.manager.ApiRest</primary><secondary>ApiRest</secondary></indexterm>
+<para><computeroutput>MediaTekDocuments.manager.ApiRest.ApiRest (String uriApi, String authenticationString = <computeroutput>&quot;&quot;</computeroutput>
+)<computeroutput>[private]</computeroutput></computeroutput></para><para>
+
+<para>Constructeur privé pour préparer la connexion (éventuellement sécurisée). </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>uriApi</entry><entry>
+<para>adresse de l&apos;api</para>
+</entry>
+                            </row>
+                            <row>
+<entry>authenticationString</entry><entry>
+<para>chaîne d&apos;authentification</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+</section>
+<section>
+<title>Documentation des fonctions membres</title>
+<anchor xml:id="_class_media_tek_documents_1_1manager_1_1_api_rest_1ade84494b4ed3528da480bd5a3c553105"/><section>
+    <title>GetInstance()</title>
+<indexterm><primary>GetInstance</primary><secondary>MediaTekDocuments.manager.ApiRest</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.manager.ApiRest</primary><secondary>GetInstance</secondary></indexterm>
+<para><computeroutput><link linkend="_class_media_tek_documents_1_1manager_1_1_api_rest_1a0d8b369ef525d796ec57b16f18e765a6">ApiRest</link> MediaTekDocuments.manager.ApiRest.GetInstance (String uriApi, String authenticationString)<computeroutput>[static]</computeroutput></computeroutput></para><para>
+
+<para>Crée une instance unique de la classe. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>uriApi</entry><entry>
+<para>adresse de l&apos;api</para>
+</entry>
+                            </row>
+                            <row>
+<entry>authenticationString</entry><entry>
+<para>chaîne d&apos;authentificatio (login:pwd)</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Renvoie</title>
+
+<para></para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1manager_1_1_api_rest_1a24ec9968854932c87e9422b57778396b"/><section>
+    <title>RecupDistant()</title>
+<indexterm><primary>RecupDistant</primary><secondary>MediaTekDocuments.manager.ApiRest</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.manager.ApiRest</primary><secondary>RecupDistant</secondary></indexterm>
+<para><computeroutput>JObject MediaTekDocuments.manager.ApiRest.RecupDistant (string methode, string message, String parametres)</computeroutput></para><para>
+
+<para>Envoi une demande à l&apos;API et récupère la réponse. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>methode</entry><entry>
+<para>verbe http (GET, POST, PUT, DELETE)</para>
+</entry>
+                            </row>
+                            <row>
+<entry>message</entry><entry>
+<para>message à envoyer dans l&apos;URL</para>
+</entry>
+                            </row>
+                            <row>
+<entry>parametres</entry><entry>
+<para>contenu de variables à mettre dans body</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Renvoie</title>
+
+<para>liste d&apos;objets (select) ou liste vide (ok) ou null si erreur</para>
+</formalpara>
+</para>
+</section>
+</section>
+<section>
+<title>Documentation des données membres</title>
+<anchor xml:id="_class_media_tek_documents_1_1manager_1_1_api_rest_1a56b2eeec29782076f17a3c278a542132"/><section>
+    <title>httpClient</title>
+<indexterm><primary>httpClient</primary><secondary>MediaTekDocuments.manager.ApiRest</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.manager.ApiRest</primary><secondary>httpClient</secondary></indexterm>
+<para><computeroutput>readonly HttpClient MediaTekDocuments.manager.ApiRest.httpClient<computeroutput>[private]</computeroutput></computeroutput></para><para>
+
+<para>Objet de connexion à l&apos;api. </para>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1manager_1_1_api_rest_1a6c1a557b0c275f6a02bc3107a9706b3c"/><section>
+    <title>httpResponse</title>
+<indexterm><primary>httpResponse</primary><secondary>MediaTekDocuments.manager.ApiRest</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.manager.ApiRest</primary><secondary>httpResponse</secondary></indexterm>
+<para><computeroutput>HttpResponseMessage MediaTekDocuments.manager.ApiRest.httpResponse<computeroutput>[private]</computeroutput></computeroutput></para><para>
+
+<para>Canal http pour l&apos;envoi du message et la récupération de la réponse. </para>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_documents_1_1manager_1_1_api_rest_1a16c8f1c937ce5b69ef7f0cb2aecd8877"/><section>
+    <title>instance</title>
+<indexterm><primary>instance</primary><secondary>MediaTekDocuments.manager.ApiRest</secondary></indexterm>
+<indexterm><primary>MediaTekDocuments.manager.ApiRest</primary><secondary>instance</secondary></indexterm>
+<para><computeroutput><link linkend="_class_media_tek_documents_1_1manager_1_1_api_rest_1a0d8b369ef525d796ec57b16f18e765a6">ApiRest</link> MediaTekDocuments.manager.ApiRest.instance = null<computeroutput>[static]</computeroutput>, <computeroutput>[private]</computeroutput></computeroutput></para><para>
+
+<para>unique instance de la classe </para>
+</para>
+</section>
+<para>
+La documentation de cette classe a été générée à partir du fichier suivant :</para>
+manager/<link linkend="__api_rest_8cs">ApiRest.cs</link></section>
+</section>
