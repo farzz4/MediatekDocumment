@@ -430,7 +430,7 @@ namespace MediaTekDocuments.view
             this.tabOngletsApplication.Location = new System.Drawing.Point(0, 0);
             this.tabOngletsApplication.Name = "tabOngletsApplication";
             this.tabOngletsApplication.SelectedIndex = 0;
-            this.tabOngletsApplication.Size = new System.Drawing.Size(866, 1000);
+            this.tabOngletsApplication.Size = new System.Drawing.Size(866, 945);
             this.tabOngletsApplication.TabIndex = 0;
             // 
             // tabLivres
@@ -441,7 +441,7 @@ namespace MediaTekDocuments.view
             this.tabLivres.Controls.Add(this.grpLivresRecherche);
             this.tabLivres.Location = new System.Drawing.Point(4, 22);
             this.tabLivres.Name = "tabLivres";
-            this.tabLivres.Size = new System.Drawing.Size(858, 974);
+            this.tabLivres.Size = new System.Drawing.Size(858, 919);
             this.tabLivres.TabIndex = 2;
             this.tabLivres.Text = "Livres";
             this.tabLivres.UseVisualStyleBackColor = true;
@@ -1086,7 +1086,7 @@ namespace MediaTekDocuments.view
             this.tabDvd.Controls.Add(this.grpDvdRecherche);
             this.tabDvd.Location = new System.Drawing.Point(4, 22);
             this.tabDvd.Name = "tabDvd";
-            this.tabDvd.Size = new System.Drawing.Size(858, 974);
+            this.tabDvd.Size = new System.Drawing.Size(858, 919);
             this.tabDvd.TabIndex = 3;
             this.tabDvd.Text = "DVD";
             this.tabDvd.UseVisualStyleBackColor = true;
@@ -4025,10 +4025,10 @@ namespace MediaTekDocuments.view
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.AutoScrollMinSize = new System.Drawing.Size(0, 1000);
+            this.AutoScrollMinSize = new System.Drawing.Size(0, 945);
             this.ClientSize = new System.Drawing.Size(883, 749);
             this.Controls.Add(this.tabOngletsApplication);
-            this.MinimumSize = new System.Drawing.Size(16, 736);
+            this.MinimumSize = new System.Drawing.Size(16, 732);
             this.Name = "FrmMediatek";
             this.Text = "Gestion des documents de la médiathèque";
             this.Load += new System.EventHandler(this.FrmMediatek_Load);

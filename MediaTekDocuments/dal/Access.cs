@@ -21,7 +21,7 @@ namespace MediaTekDocuments.dal
         /// <summary>
         /// adresse de l'API
         /// </summary>
-        private static readonly string uriApi = "http://localhost/rest3/";
+        private static readonly string uriApi = "https://api.mediatek.host/";
         /// <summary>
         /// nom de connexion à la bdd
         /// </summary>
@@ -279,7 +279,7 @@ namespace MediaTekDocuments.dal
         /// <returns>Objet utilisateur</returns>
         public Utilisateur GetUtilisateur(string login, string password)
         {
-            String jsonLoginUser = convertToJson("id", login);
+            String jsonLoginUser = convertToJson("login", login);
             List<Utilisateur> liste = TraitementRecup<Utilisateur>(GET, "utilisateur/" + jsonLoginUser, null);
             if (liste == null || liste.Count == 0)
             {
