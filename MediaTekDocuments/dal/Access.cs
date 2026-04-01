@@ -16,9 +16,9 @@ namespace MediaTekDocuments.dal
     public class Access
     {
         /// <summary>
-        /// adresse de l'API
+        /// adresse de l'API<
         /// </summary>
-        private static readonly string uriApi = "http://localhost/rest45/";
+        private static readonly string uriApi = "https://api.mediatek.host/"
         /// <summary>
         /// instance unique de la classe
         /// </summary>

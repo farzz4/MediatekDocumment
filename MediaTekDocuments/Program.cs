@@ -23,7 +23,7 @@ namespace MediaTekDocuments
                 Utilisateur utilisateur = frmAuthentification.utilisateurConnecte;
 
                 // service Culture : pas d'accès
-                if (utilisateur.IdService == "00003")
+                if (utilisateur.IdService == "3")
                 {
                     MessageBox.Show("Vous n'avez pas les droits suffisants pour accéder à cette application.", "Accès refusé");
                     return;
